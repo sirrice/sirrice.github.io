@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<style>
+/*--------------------- Layout and Typography ----------------------------*/
+body {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #252519;
+  margin: 0; padding: 10px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  color: #261a3b;
+}
+  a:visited {
+    color: #261a3b;
+  }
+p {
+  margin: 0 0 15px 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 40px 0 15px 0;
+}
+h2, h3, h4, h5, h6 {
+    margin-top: 0;
+  }
+#container {
+  position: relative;
+}
+#background {
+  position: fixed;
+  /*top: 0; left: 580px; right: 0; bottom: 0;*/
+  background: #f5f5ff;
+  border-left: 1px solid #e5e5ee;
+  z-index: -1;
+}
+#jump_to, #jump_page {
+  background: white;
+  -webkit-box-shadow: 0 0 25px #777; -moz-box-shadow: 0 0 25px #777;
+  -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomleft: 5px;
+  font: 10px Arial;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: right;
+}
+#jump_to, #jump_wrapper {
+  position: fixed;
+  right: 0; top: 0;
+  padding: 5px 10px;
+}
+  #jump_wrapper {
+    padding: 0;
+    display: none;
+  }
+    #jump_to:hover #jump_wrapper {
+      display: block;
+    }
+    #jump_page {
+      padding: 5px 0 3px;
+      margin: 0 0 25px 25px;
+    }
+      #jump_page .source {
+        display: block;
+        padding: 5px 10px;
+        text-decoration: none;
+        border-top: 1px solid #eee;
+      }
+        #jump_page .source:hover {
+          background: #f5f5ff;
+        }
+        #jump_page .source:first-child {
+        }
+table td {
+  border: 0;
+  outline: 0;
+}
+  div.docs, td.docs, th.docs {
+    padding: 10px 25px 1px 50px;
+    vertical-align: top;
+    text-align: left;
+    width: 90%;
+    border-bottom: 1px solid #e5e5ee;
+    border-top: 1px solid #e5e5ee;
+  }
+    .docs pre {
+      margin: 15px 0 15px;
+      padding-left: 15px;
+    }
+    .docs p tt, .docs p code {
+      background: #f8f8ff;
+      border: 1px solid #dedede;
+      font-size: 12px;
+      padding: 0 0.2em;
+    }
+    /*.octowrap {
+      position: relative;
+    }*/
+      .octothorpe {
+        font: 12px Arial;
+        text-decoration: none;
+        color: #454545;
+        position: absolute;
+        top: 3px; left: -20px;
+        padding: 1px 2px;
+        opacity: 0;
+        -webkit-transition: opacity 0.2s linear;
+      }
+        div.docs:hover, td.docs:hover .octothorpe {
+          opacity: 1;
+        }
+  div.code, td.code, th.code {
+    padding: 14px 15px 16px 100px;
+    width: 100%;
+    vertical-align: top;
+    background: #f5f5ff;
+  }
+.code pre, .docs p code {
+  font-size: 12px;
+}
+    pre, tt, code {
+      line-height: 18px;
+      font-family: Monaco, Consolas, "Lucida Console", monospace;
+      margin: 0; padding: 0;
+    }
+pre {
+  margin:1em 0;
+  margin-left:-10px;
+  margin-right: -10px;
+  font-size:12px;
+  background-color:#eee;
+  border:1px solid #ddd;
+  padding:10px;
+  line-height:1.5em;
+  color:#333;
+  overflow:auto;
+  -webkit-box-shadow:rgba(0,0,0,0.07) 0 1px 2px inset;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;border-radius:3px;
+}
+pre code {
+  padding:0px;
+  font-size:12px;
+  background-color:#eee;
+  border:none;
+}
+code {
+  font-size:12px;
+  background-color:#f8f8ff;
+  color:#333;
+  padding:0 .2em;
+  border:1px solid #dedede;
+}
+
+
+
+/*---------------------- Syntax Highlighting -----------------------------*/
+td.linenos { background-color: #f0f0f0; padding-right: 10px; }
+span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
+body .hll { background-color: #ffffcc }
+body .c { color: #408080; font-style: italic }  /* Comment */
+body .err { border: 1px solid #FF0000 }         /* Error */
+body .k { color: #954121 }                      /* Keyword */
+body .o { color: #666666 }                      /* Operator */
+body .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+body .cp { color: #BC7A00 }                     /* Comment.Preproc */
+body .c1 { color: #408080; font-style: italic } /* Comment.Single */
+body .cs { color: #408080; font-style: italic } /* Comment.Special */
+body .gd { color: #A00000 }                     /* Generic.Deleted */
+body .ge { font-style: italic }                 /* Generic.Emph */
+body .gr { color: #FF0000 }                     /* Generic.Error */
+body .gh { color: #000080; font-weight: bold }  /* Generic.Heading */
+body .gi { color: #00A000 }                     /* Generic.Inserted */
+body .go { color: #808080 }                     /* Generic.Output */
+body .gp { color: #000080; font-weight: bold }  /* Generic.Prompt */
+body .gs { font-weight: bold }                  /* Generic.Strong */
+body .gu { color: #800080; font-weight: bold }  /* Generic.Subheading */
+body .gt { color: #0040D0 }                     /* Generic.Traceback */
+body .kc { color: #954121 }                     /* Keyword.Constant */
+body .kd { color: #954121; font-weight: bold }  /* Keyword.Declaration */
+body .kn { color: #954121; font-weight: bold }  /* Keyword.Namespace */
+body .kp { color: #954121 }                     /* Keyword.Pseudo */
+body .kr { color: #954121; font-weight: bold }  /* Keyword.Reserved */
+body .kt { color: #B00040 }                     /* Keyword.Type */
+body .m { color: #666666 }                      /* Literal.Number */
+body .s { color: #219161 }                      /* Literal.String */
+body .na { color: #7D9029 }                     /* Name.Attribute */
+body .nb { color: #954121 }                     /* Name.Builtin */
+body .nc { color: #0000FF; font-weight: bold }  /* Name.Class */
+body .no { color: #880000 }                     /* Name.Constant */
+body .nd { color: #AA22FF }                     /* Name.Decorator */
+body .ni { color: #999999; font-weight: bold }  /* Name.Entity */
+body .ne { color: #D2413A; font-weight: bold }  /* Name.Exception */
+body .nf { color: #0000FF }                     /* Name.Function */
+body .nl { color: #A0A000 }                     /* Name.Label */
+body .nn { color: #0000FF; font-weight: bold }  /* Name.Namespace */
+body .nt { color: #954121; font-weight: bold }  /* Name.Tag */
+body .nv { color: #19469D }                     /* Name.Variable */
+body .ow { color: #AA22FF; font-weight: bold }  /* Operator.Word */
+body .w { color: #bbbbbb }                      /* Text.Whitespace */
+body .mf { color: #666666 }                     /* Literal.Number.Float */
+body .mh { color: #666666 }                     /* Literal.Number.Hex */
+body .mi { color: #666666 }                     /* Literal.Number.Integer */
+body .mo { color: #666666 }                     /* Literal.Number.Oct */
+body .sb { color: #219161 }                     /* Literal.String.Backtick */
+body .sc { color: #219161 }                     /* Literal.String.Char */
+body .sd { color: #219161; font-style: italic } /* Literal.String.Doc */
+body .s2 { color: #219161 }                     /* Literal.String.Double */
+body .se { color: #BB6622; font-weight: bold }  /* Literal.String.Escape */
+body .sh { color: #219161 }                     /* Literal.String.Heredoc */
+body .si { color: #BB6688; font-weight: bold }  /* Literal.String.Interpol */
+body .sx { color: #954121 }                     /* Literal.String.Other */
+body .sr { color: #BB6688 }                     /* Literal.String.Regex */
+body .s1 { color: #219161 }                     /* Literal.String.Single */
+body .ss { color: #19469D }                     /* Literal.String.Symbol */
+body .bp { color: #954121 }                     /* Name.Builtin.Pseudo */
+body .vc { color: #19469D }                     /* Name.Variable.Class */
+body .vg { color: #19469D }                     /* Name.Variable.Global */
+body .vi { color: #19469D }                     /* Name.Variable.Instance */
+body .il { color: #666666 }                     /* Literal.Number.Integer.Long */
+
+</style>
+<title>Influential Cult Leader Dies at 85.</title>
+
+</head>
+<body>
+<h1>Influential Cult Leader Dies at 85.</h1>
+
+<p>Senior Eugene Wu, the influential leader and founder of the Cult of Fast(eat)ing Buddhists, who re-introduced extreme oral hedonism to the world, died on Sunday in the Oregon Mountains.  He was 85.</p>
+
+<p>His death was announced by a small group of devout followers, which included ex-Governor Arnold Patrick of Nevada.  "Senior Wu died peacefully with a faint smile across his lips", the ex-Governor said, "despite his upset stomach from consuming poisonous blueberries the night before."</p>
+
+<p>The Cult of Fast(eat)ing Buddhists is a world-wide religion that espouses the virtues of eating quickly and plentifully -- to the point of over-consumption.   Eugene Wu founded the Cult in the summer of 2022, as a response to widespread crop failure across South America and Asia.  "Provide for your future you by providing for the now you", is one of the Five Pillars of Reason that form the foundations of the Cult's philosophy.</p>
+
+<p>Senior is the title affectionately bestowed to the Cult leader.</p>
+
+<p>By 2035, the Cult had overtaken the Catholic Church in both political influence and adoption across North America, Europe, and Australia.  Prominent followers include current British Prime Minister, Theodore Reisling, the President of the
+United States, Pinot Patrick, and the world speed-eating champion Merlot  Tomazuki.</p>
+
+<p>In 2030, the American Obesity Association, American Cardiovascular Association, and Society of Obese Americans filed several lawsuits against Senior Wu due to the numerous health problems that the Cult's teachings entailed.  Since the Cult's introduction, obesity rates have increased 10-fold.  However, in a controversial move, the Supreme Court unanimously sided with Senior Wu.</p>
+
+<p>"Advocating for expression through the natural act of gorging one's self is an inalienable right", Chief Justice Sardinsky announced, pausing to pick at a chicken wing.   Several Justices, including Sardinsky, later joined the Cult.</p>
+
+<p>In 2050, Senior Wu introduced Wu's Public Vomitorium, a chain of buffet bath houses with vomit tubes located every five feet.  The bath houses serve an international selection of fast foods, and have become a popular family and teenager experience.  Nearly 70 percent of American households frequent a bath house at least once a week.</p>
+
+<p>Several weeks before his death, Senior Wu abruptly announced "it is time to fast", before leading an elite group of devout Fastists, including ex-Governor Patrick, deep into the Oregon Mountains.  Their goal was to "consume in nature's abundance".</p>
+
+<p>Unfortunately, the group had trouble finding edibles.  The day before his death, the famished group picked and consumed berries that gave Senior Wu severe food poisoning.  During the night, Senior Wu died in a pool of his vomit.  Ex-Governor Patrick found his body in the morning.</p>
+
+<p>Upon learning of his death, food-ology expert, Dr. Anatoly Turkrish said,
+"[Senior Wu] showed the world a new way of viewing food, and elevated food consumption to ecstatic heights.  He will be missed, but his legacy will live on in our collective bowels."</p>
+</body>
+</html>

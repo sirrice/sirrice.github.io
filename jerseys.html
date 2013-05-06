@@ -1,0 +1,91 @@
+<html>  
+<head>
+  <title>grim beaver designs</title>
+  <script src="./include/jquery.js"></script>
+  <script language="javascript">
+    $(window).load(function() {
+      loadThumbs();
+    });
+
+    function mkThumb(i, txt) {
+      var tr = $("<div style='display: block; clear: both;'></div>");
+      var td1 = $("<div style='float: left; vertical-align: top;'>" + txt + "</div>");
+      var td = $("<div style='float: left;'></div>");
+      var img = $("<img src='./images/jerseys/grimbeaver/design"+i+".png' width=84 height=100></img>");
+
+      td.append(img);
+      tr.append(td1);
+      tr.append(td);
+      
+      tr.mouseover(function() {
+        var fimg = $("<img src='./images/jerseys/grimbeaver/design"+i+".png' ></img>");
+        $("#full").empty();
+        $("#full").append(fimg);
+      });
+      tr.mouseout(function() {
+        //$("#full").empty();
+        //$("#full").append($("<p>Hover over the thumbnails for the full picture</p>"));
+      });
+      return tr;
+    }
+    
+    function loadThumbs() {
+      var ths = $("#thumbs");
+      //for( var i = 1; i <= 10; i++) {
+      ths.append(mkThumb(3, "Dark"));
+      ths.append(mkThumb(12, "Dark Back"));
+      //ths.append(mkThumb(5, "Light"));           
+      ths.append(mkThumb(13, "Light"));      
+      ths.append(mkThumb(10, "Light Back"));
+      ths.append(mkThumb(11, "Shorts."));
+      
+      //}
+    }
+
+  </script>
+  
+  <style>
+    body{
+      font-family:  helvetica, verdana;
+    }
+  </style>
+  
+</head>
+<body style="overflow: scroll;">
+<div style="width: 100%">
+ <!--<div id="thumbs" style="float: left;  width: 100px; height: 100%; overflow-y: scroll; vertial-align: top;"></div>-->
+ <div id="" style="float: left; margin-left: 15px; vertical-align: top;">
+    <!--<p >Hover over the thumbnails for the full picture</p>-->
+    <!--<div id="full" ></div>-->
+    <h1>Dark Front</h1>    
+    <ul>
+     <li>Font is 1.5 inches tall, centered on the chest area</li>
+     <li>Font name is called Vineritc</li>
+     <li>The image design left and right sides cropped to fit the shirt</li>
+     <li>Image sized to span from half inch from bottom of shirt to an inch below armpits</li>
+    </ul>
+      <img src="./images/jerseys/grimbeaver/design3.png"/><br/>
+    <h1>Dark Back</h1>    
+    <ul>
+     <li>"mit ultimate" 9 inches wide</li>
+     <li>Numbers 7 or 8 inches tall, in standard jersey number font (similar to shorts numbers)</li>
+    </ul>
+      <img src="./images/jerseys/grimbeaver/design12.png"/><br/>
+    <h1>Light Front</h1>    
+    <ul>
+     <li>design 6 inches wide.  Centered on chest</li>
+    </ul>
+      <img src="./images/jerseys/grimbeaver/design13.png"/><br/>
+    <h1>Dark Back</h1>    
+    <ul>
+     <li>"mit ultimate" 9 inches wide.</li>
+     <li>Numbers 7 or 8 inches tall, in standard jersey number font (similar to shorts numbers)</li>
+    </ul>
+      <img src="./images/jerseys/grimbeaver/design10.png"/><br/>
+    <h1>Shorts</h1>    
+      <img src="./images/jerseys/grimbeaver/design11.png"/><br/>
+
+  </div>
+  </div>
+</body>
+</html>
