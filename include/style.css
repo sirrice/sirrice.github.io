@@ -135,6 +135,11 @@ table.row td {
   padding-left: 1em;
 }
 
+.section ol li i {
+  display: block;
+  font-weight: bold;
+}
+
 
 
 #coverimage {
