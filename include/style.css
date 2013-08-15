@@ -4,7 +4,7 @@
 
 html{
 background: white;
-font-family: open sans, helvetica, arial;
+font-family: open sans, georgia, helvetica, arial;
 }
 
 body{
@@ -96,16 +96,11 @@ table.row td {
 
 .nav a {
 	margin-right: 5px;
-	color: black;
-  color: whitesmoke;
-  color: white;
   color; rgb(29, 117, 185);
   text-decoration: none;
 }
 
 .nav a:visited {
-	color: #333;
-  color: rgb(195, 217, 250);
   color: rgb(127, 173, 241);
 }
 
