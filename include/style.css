@@ -135,6 +135,35 @@ table.row td {
   font-weight: bold;
 }
 
+.section img {
+  border: 1px solid #efefef;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.section .item {
+  padding: 1em;
+  clear:both;
+}
+.section .item .screenshot{
+  float:left;
+  padding-left: 2em;
+}
+.section .item .text{
+  float:left;
+  padding: 10px;
+}
+.section .item .conf {
+  font-weight: bold;
+}
+.section .item .title {
+}
+.section .item .authors {
+  clear: both;
+}
+.section .item .links a {
+  float:left;
+  margin-right: 1em;
+}
+
 
 
 #coverimage {
