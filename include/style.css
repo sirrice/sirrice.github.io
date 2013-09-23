@@ -190,7 +190,7 @@ table.row td {
     background-image:url(../images/banana_bye.png);
 }
 
-#ggscreen { width: 100%; }
+#ggscreen { width: 400px; }
 
 #mypic {
 	width: 100px;
