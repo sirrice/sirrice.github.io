@@ -53,7 +53,7 @@
   <a href="http://partnews.brownbag.me/2012/02/29/interview-matt-stempeck-wants-to-change-the-world-with-tech/">@mstem</a>.
    I dream of living a <a href="./obit.html">wild and crazy life</a>.
 </p>
-<p>
+<p id="contacts">
   <a href="mailto:eugenewu@mit.edu">email</a>
   <a href="https://twitter.com/sirrice">@sirrice</a>
 </p>
@@ -141,7 +141,7 @@ possible.
 <p>
 See <a href="http://scripts.mit.edu/~eugenewu/wp/archives/327">article for motivation</a>
 </p>
-
+</div>
 
 <div id="publications"></div>
 
@@ -214,13 +214,15 @@ and <a href="http://www.rizvi.org/">shariq rizvi</a></p>
 
 <h1>Some Interesting Links</h1>
 <div class="section">
-<a href="http://www.ted.com/">TED talks</a><br/>
-<a href="http://seemikedraw.wordpress.com/">See mike draw</a><br/>
-<a href="http://www.edwardtufte.com">Edward Tufte</a><br/>
-<a href="http://www.datejs.com/">Datejs, robust javascript date parser</a><br/>
-<a href="http://www.telescopictext.com/">I made tea</a><br/>
-<a href="http://pants.sirrice.webfactional.com/">pornp.</a><br/>
-<!--<a href="http://www.datamob.com/">datamob</a>-->
+<ul>
+<li><a href="http://www.ted.com/">TED talks</a></li>
+<li><a href="http://seemikedraw.wordpress.com/">See mike draw</a></li>
+<li><a href="http://www.edwardtufte.com">Edward Tufte</a></li>
+<li><a href="http://www.datejs.com/">Datejs, robust javascript date parser</a></li>
+<li><a href="http://www.telescopictext.com/">I made tea</a></li>
+<li><a href="http://pants.sirrice.webfactional.com/">pornp.</a></li>
+<li><a href="http://www.datamob.com/">datamob</a></li>
+</ul>
 </div>
 
 
@@ -246,7 +248,7 @@ and <a href="http://www.rizvi.org/">shariq rizvi</a></p>
 <li>
   {{authors}}
   <a href="{{#if url }}{{url}}{{else}}#{{/if}}">
-    <i>{{title}}</i>
+    <div>{{title}}</div>
   </a>
   {{conference}}
   {{#each links}}<a href="{{url}}">{{text}}</a>{{/each}}

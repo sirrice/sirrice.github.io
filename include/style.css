@@ -32,9 +32,19 @@ a, a:visited {
 	color: #357097;
   text-decoration: none;
 }
+a:hover {
+  color: rgb(17, 125, 209);
+}
 
 ul, ol { list-style-position: outside; }
-ul { list-style-type: circle; }
+ul { 
+  list-style-type: none; 
+}
+ul li {
+  border-left: 2px solid #eee;
+  padding-left: 20px;
+  margin-left: -20px;
+}
 ol { }
 li { margin-bottom: 0.8em }
 
@@ -175,8 +185,21 @@ table.row td {
   margin-right: 1em;
 }
 
+#contacts a {
+  margin-right: 1em;
+  background: rgb(40, 118, 170);
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 1px 2px 3px rgba(53, 112, 151, 0.75);  
+}
 
-
+#contacts a:hover {
+  background: rgb(17, 125, 209);
+  box-shadow: 1px 2px 3px rgba(132, 187, 223, 0.75);
+}
 #coverimage {
   background-image:url('../images/gregory-large.jpg');
   background-position: 50 -140;
