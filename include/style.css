@@ -195,6 +195,11 @@ table.row td.thumb {
   border: 1px solid #efefef;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
+
+.section img.screenshot {
+  width: 400px;
+}
+
 .section .item {
   padding: 1em;
   clear:both;
@@ -218,6 +223,11 @@ table.row td.thumb {
 .section .item .links a {
   float:left;
   margin-right: 1em;
+}
+
+#publications .authors {
+  font-size: smaller;
+  color: #999;
 }
 
 #contacts a {
@@ -324,8 +334,8 @@ table.row td.thumb {
 
 @media  (max-width:900px) {
     body {
-        width: 500px;
-        font-size: 12pt;
+      width: 500px;
+      font-size: 12pt;
     }
     table {
       font-size: 12pt;
@@ -339,6 +349,13 @@ table.row td.thumb {
       padding: 0px;
       margin-top: 1em;
     }
+    h1 {
+      font-size: 1.5em;
+      border: none;
+      margin-top: 2em;
+      margin-bottom: 1em;
+      text-align: center;
+    }
     li { margin-bottom: 0px; }
     .main.section {
       padding-left: .5em;
@@ -349,6 +366,19 @@ table.row td.thumb {
       margin-bottom: 5px;
     }
 
+    .section img.screenshot {
+      width: 100%;
+    }
+
+    ul, ol {
+      width: 100%;
+      list-style-type: none;
+      padding: 0px;
+      margin: 0px;
+    }
+    ul li, ol li {
+      margin-bottom: 1em;
+    }
 
     .header nav {
       padding-left: 1.5em;
@@ -356,6 +386,7 @@ table.row td.thumb {
     .thumb { display: none; }
     #coverimage {
       height: 200px;
+      width: 100%;
       background-position: 30 -70;
       background-size: 470px;
     }

@@ -17,9 +17,9 @@
   </div>
 </div>
 
-<h1 style="margin-top: 10px; width:100%; padding:none;">
+<div style="margin-top: 10px; width:100%; padding:none;">
   <div title="Hi, my name is Gregory" id="coverimage"></div>
-</h1>
+</div>
 <div class="main">
 
 
@@ -95,7 +95,7 @@
   System to generate sensible explanations to outliers analytic queries.
 </p>
 <p>
-  <img id="scorpionscreen" src="./images/scorpion.png" width=500 />
+  <img class="screenshot" id="scorpionscreen" src="./images/scorpion.png" />
 </p>
 
 <h2><a href="#">Provenance + Declarative Visualization</a></h2>
@@ -108,7 +108,7 @@ Inspired by Wilkinson's Grammar of Graphics and Wickham's ggplot2 for R.</p>
 <p>
   <a href="https://github.com/sirrice/gg/">source on github</a>
 <p>
-  <img id="ggscreen" src="https://raw.github.com/sirrice/gg/master/docs/imgs/screenshot.png" width=400 />
+  <img class="screenshot" id="ggscreen" src="https://raw.github.com/sirrice/gg/master/docs/imgs/screenshot.png" />
 </p>
 
 
@@ -121,7 +121,7 @@ A history of databases through keyword trends in VLDB publication titles
 </p>
 <p>
   <a href="http://web.mit.edu/~eugenewu/Public/vldb/">
-  <img id="vldb-trends" src="./images/vldb-trends.png" width=500 />
+  <img class="screenshot" id="vldb-trends" src="./images/vldb-trends.png"  />
   </a>
 </p>
 
@@ -239,10 +239,9 @@ eugene wu
 <ol>
 {{#each papers}} {{#with this}}
 <li>
-  {{authors}}
-  <a href="{{#if url }}{{url}}{{else}}#{{/if}}">
-    <div>{{title}}</div>
-  </a>
+
+  <a href="{{#if url }}{{url}}{{else}}#{{/if}}"><div>{{title}}</div></a>
+  <div class="authors">{{authors}}</div>
   {{conference}}
   {{#each links}}<a href="{{url}}">{{text}}</a>{{/each}}
 </li>

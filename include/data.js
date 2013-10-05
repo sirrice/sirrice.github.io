@@ -59,7 +59,7 @@ var papers = {
     authors: "  Eugene Wu, Samuel Madden, Michael Stonebraker",
     title: "SubZero: a Fine-Grained Lineage System for Scientific Databases",
     url: "./files/papers/subzero-icde13.pdf",
-    conference: "ICDE 2013 <i>Invited as one of the best papers of the conference!</i>",
+    conference: "ICDE 2013 (Invited as one of the best papers of the conference!)",
     links: []
    },
    {
