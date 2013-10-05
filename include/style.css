@@ -122,12 +122,23 @@ table.row td {
   margin-top: 1em;
 }
 
+
 .main .section {
   padding-left: 1em;
 }
 
+.main .section .header {
+  text-align: center;
+  font-family: georgia;
+  width: 70%;
+  font-size: 23pt;
+  color: #aeaeae;
+  margin: 1.1em;
+}
+
 .main .section p {
   padding-left: 1em;
+  width: 80%;
 }
 
 .section ol li i {
@@ -187,7 +198,10 @@ table.row td {
     height: 100px;
     background-size:cover;
     background-position: -10 0;
-    background-image:url(../images/banana_bye.png);
+    background-image:url(../images/banana_hi.png);
+}
+#banana:hover {
+  background-image:url(../images/banana_bye.png);
 }
 
 #ggscreen { width: 400px; }

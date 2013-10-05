@@ -1,0 +1,123 @@
+<html>
+	<head>
+	  <title>ewuuu</title>
+		<link rel="stylesheet" type="text/css" href="./include/style.css" />
+		<script src="./include/jquery.js"></script>
+		<script src="./include/date.js"></script>
+		<script src="./include/timeline.js"></script>
+		<script src="./include/main.js"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3762902-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+	</head>
+
+<body>
+    <!-- stathat counter -->
+    <img src="http://api.stathat.com/c?ukey=MTgwMSA0EiO1NX8CRnqrEaRlwtwM&key=X8I-hoz2227sOaQLSVtzfyBSYUJo&count=13" style="display:none;" width="1" height="1"/>
+
+<div class="header">
+	<div class="nav">
+		<a href="http://www.mit.edu/~eugenewu/index.html" style="font-weight: bold; margin-right: 10px">
+			Eugene Wu
+		</a>
+		<a href="http://scripts.mit.edu/~eugenewu/wp/">Doodles+Blog</a>
+	</div>
+</div>
+
+<!--
+<h1 style="margin-top: 10px; width:100%; padding:none;">
+  <div title="Hi, my name is Gregory" id="coverimage"></div>
+</h1>
+-->
+<div class="main">
+
+<h1>DBWipes: better and deeper tools for interactive analytics</h1>
+<div class="section">
+<p class="header">
+As datasets and analyses become larger more complex, even making sense of query results becomes very difficult.
+</p>
+
+<p>
+  DBWipes is a collection of projects to make data analysis interactive and powerful.
+</div>
+
+<h2>Practical Provenance</h2>
+<a name="provenance"></a>
+<div class="section">
+</div>
+
+<h2>Declarative Visualization</h2>
+<a name="gg"></a>
+<div class="section">
+</div>
+
+<h2>Scorpion</h2>
+<a name="scorpion"></a>
+<div class="section">
+<p>
+Consider a simple analytic query that computes a company's total
+expenses by month, and shows that last month's expenses was
+unexpectedly high.  The analyst will naturally want to understand
+why -- perhaps the company has put more resources into a new customer
+demographic, or a department is overspending.  
+
+<p>Currently, the analyst 
+must manually split the input data along different dimensions (e.g.,
+dept, customer age), and hope that re-running the query will cause
+changes.  If there is more than one outlier, or many dimensions in
+the dataset, this ad-hoc process quickly becomes untenable. 
+
+<p>
+Scorpion is an interactive system to answer these "why" questions.
+The analysts simply selects outlier and normal results and the
+system constructs predicates that potentially explain the outliers.
+To find such predicates, we develop a notion of influence
+of a predicate on the outputs, and design efficient algorithms 
+to find the most influential predicates
+</p>
+
+
+<p><img width=400 src="./images/scorpion.png"/></p>
+
+<h3>Publications</h3>
+
+<div class="item">
+  <div class="screenshot"><img src="./images/scorpion_paper.png" width=200/></div>
+  <div class="text">
+    <div class="title">
+      <a href="./files/papers/scorpion-vldb13.pdf">
+        Scorpion: Explaining Away Outliers in Aggregate Queries
+      </a>
+    </div>
+    <div class="authors">Eugene Wu, Sam Madden</div>
+    <div class="links">
+      <span class="conf">VLDB 2013</span>
+      <a href="./files/talks/scorpion_vldb13.pdf">Talk</a>
+    
+    </div>
+  </div>
+  <div style="clear: both"></div>
+
+</div>
+
+</div>
+
+
+</div>
+
+<div class="footer">
+&copy;2008 Eugene Wu
+<br/>
+<img src="http://www.mit.edu/~eugenewu/images/doodles/signature.png" />
+</div>
+
+
+
+</body>
+</html>
