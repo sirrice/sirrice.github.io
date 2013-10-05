@@ -299,9 +299,9 @@ table.row td.thumb {
   float:left;
   display: inline;
   margin: 5px;
-  padding: 10px;
-  border: 1px solid #efefef;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);  
+  padding: 15px;
+  border: 1px solid rgba(239, 239, 239, 0.86);
+  box-shadow: 0 1px 3px rgba(160, 202, 219, 0.24); 
 }
 .gallery div.image:hover {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);    
