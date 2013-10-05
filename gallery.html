@@ -1,0 +1,106 @@
+<html>
+  <head>
+    <title>ewuuu</title>
+    <link rel="stylesheet" type="text/css" href="./include/style.css" />
+    <script src="./include/jquery.js"></script>
+    <script src="./include/handlebars.js"></script>
+    <script src="./include/data.js"></script>
+  </head>
+
+<body>
+  
+<div class="header">
+  <div class="nav">
+    <a href="http://www.mit.edu/~eugenewu/index.html" >Eugene Wu</a>
+    <a href="http://scripts.mit.edu/~eugenewu/wp/">Doodles+Blog</a>
+    <a href="http://www.mit.edu/~eugenewu/gallery.html">Gallery</a>    
+<!--    
+    <a href="http://www.mit.edu/~eugenewu/timeline.html">Timeline</a>
+    <a href="http://www.mit.edu/~eugenewu/summarize.html">Summarize</a>
+    <a href="http://scripts.mit.edu/~eugenewu/dw/dw.php">Drawing War</a>
+    <a href="http://scripts.mit.edu/~eugenewu/imageviewer/index.php">Gallery Creater</a>
+-->
+  </div>
+</div>
+
+<h1 style="margin-top: 10px; width:100%; padding:none;">
+  <div title="Hi, my name is Gregory" id="coverimage"></div>
+</h1>
+<div class="main">
+
+
+
+
+
+
+<h1>I Enjoy</h1>
+<div class="section">
+<table class='row' style="width: 90%"><tr>
+<td class="thumb">
+    <div title="Pants or No Pants!?" id="banana"></div>
+</td>
+<td>
+  <p>  I design t-shirts, posters, logos and random doodles!</p>
+
+</td> </tr> </table>
+</div>
+
+
+
+
+<h1>Ultimate Jerseys</h1>
+<div class="gallery" id="ultimate"></div>
+
+<h1>CSAIL Shirts</h1>
+<div class="gallery" id="csail"></div>
+
+<h1>Other Shirts</h1>
+<div class="gallery" id="misc"></div>
+
+<h1>Posters</h1>
+<div class="gallery" id="posters"></div>
+
+<div class="footer"><div id="signature"></div>eugene wu</div>
+
+<script id="shirt-template" type="text/x-handlebars-template">
+
+<div class="section">
+  {{#each this}}
+    <a href="./images/gallery/{{this}}" target="_shirt">
+      <div class="image" 
+      style="background-image: url(./images/gallery/{{this}})"></div>
+    </a>
+  {{/each}}
+</div>
+<div style="clear:both"/>
+</script>
+
+<script>
+$(function() {
+  renderGallery("#shirt-template", "#ultimate", ultimate);
+  renderGallery("#shirt-template", "#csail", shirts);  
+  renderGallery("#shirt-template", "#misc", misc);    
+  renderGallery("#shirt-template", "#posters", posters);    
+})
+</script>
+
+
+
+
+
+<!------------ STATS -------------->
+<img src="http://api.stathat.com/c?ukey=MTgwMSA0EiO1NX8CRnqrEaRlwtwM&key=X8I-hoz2227sOaQLSVtzfyBSYUJo&count=13" style="display:none;" width="1" height="1"/>
+        
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3762902-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!----------- END STATS ------------>
+
+</body>
+</html>

@@ -1,5 +1,33 @@
-@import url(http://fonts.googleapis.com/css?family=Lato|Noto+Serif|Magra);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,700);
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Magra';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Magra'), url(http://themes.googleusercontent.com/static/fonts/magra/v1/9Un71ABfeNOHeQITcqWzew.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Serif'), local('NotoSerif'), url(http://themes.googleusercontent.com/static/fonts/notoserif/v1/eCpfeMZI7q4jLksXVRWPQy3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTYnF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzInF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
+}
 
 
 html{
@@ -17,8 +45,8 @@ body{
   font-size: 12pt;
 }
 table {
-    font-size: 12pt;
-    border-collapse: 0px;
+  font-size: 12pt;
+  border-collapse: 0px;
 }
 table td {
   padding: 0px;
@@ -33,7 +61,7 @@ a, a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: rgb(17, 125, 209);
+  color: rgb(12, 94, 148);
 }
 
 ul, ol { list-style-position: outside; }
@@ -79,6 +107,9 @@ table.row { }
 table.row td {
     padding: 10px;
 }
+table.row td.thumb {
+  width: 150px;
+}
 
 
 
@@ -95,8 +126,6 @@ table.row td {
   background: white;
 	padding: 5px;
   padding-bottom: 0px;
-  color: whitesmoke;
-  color: white;
   color: bluesteel;
 }
 
@@ -105,20 +134,20 @@ table.row td {
 }
 
 .nav a {
-	margin-right: 5px;
-  color; rgb(29, 117, 185);
+	margin-right: 2em;
+  color: rgb(127, 173, 241);  
   text-decoration: none;
 }
 
-.nav a:visited {
-  color: rgb(127, 173, 241);
+.nav a:first {
+  color: #357097;
 }
 
 .footer {
 	margin-top: 20px;
   padding-top: 20px;
 	font-size: 9pt;
-	color: black;
+	color: rgb(53, 49, 49);
 	text-align: center;
 	padding: 3px;
 	position: relative;
@@ -126,6 +155,11 @@ table.row td {
 	background: white;
 }
 
+.hidden {
+  position: absolute;
+  left: -100000;
+  top: -100000;
+}
 
 .main {
 	margin: 10px;
@@ -187,17 +221,20 @@ table.row td {
 
 #contacts a {
   margin-right: 1em;
+  font-size:10pt;
+  font-family: Lato;
+  font-weight: normal;
   background: rgb(40, 118, 170);
   color: white;
   border-radius: 4px;
-  padding: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
   box-shadow: 1px 2px 3px rgba(53, 112, 151, 0.75);  
 }
 
 #contacts a:hover {
-  background: rgb(17, 125, 209);
+  background: rgb(12, 94, 148);
   box-shadow: 1px 2px 3px rgba(132, 187, 223, 0.75);
 }
 #coverimage {
@@ -217,10 +254,10 @@ table.row td {
     background-image:url(../images/gregory.jpg);
 }
 #banana {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-size:cover;
-    background-position: -10 0;
+    background-position: 5 -10;
     background-image:url(../images/banana_hi.png);
 }
 #banana:hover {
@@ -230,16 +267,44 @@ table.row td {
 #ggscreen { width: 400px; }
 
 #mypic {
-	width: 100px;
-	height: 100px;
-	background-image:url(../images/me.jpg);
+  width: 150px;
+  height: 150px;
+  background-image: url(../images/me.jpg);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: 25;
 }
 
 #mypic:hover {
 	background-image:url(../images/me_awake.png);
 }
 
+#signature {
+  background-image:url(../images/signature.png);
+  width:30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  background-position-x: center;  
+}
 
+.gallery div.image {
+  width:200px;
+  height: 200px;
+  background-size:contain;
+  background-repeat: no-repeat;
+  float:left;
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #efefef;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);  
+}
+.gallery div.image:hover {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);    
+}
 
 @media  (max-width:1300px) {
     body {
