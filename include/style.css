@@ -82,7 +82,7 @@ h1{
 	font-weight: bold;
 	border-bottom: 1px solid #c7c7c7;
 	font-size: 1.2em;
-  color: rgb(165, 165, 165)
+  color: rgb(100, 100, 100);
 }
 
 h2{
@@ -91,6 +91,7 @@ h2{
 	margin-bottom: 0.5ex;
 	font-size: 1em;
 	font-weight: 600;
+  color: rgb(165, 165, 165)  
 }
 
 h3{
@@ -99,6 +100,7 @@ h3{
 	margin-bottom: 0.5ex;
 	font-size: 1em;
 	font-weight: 400;
+  color: rgb(165, 165, 165)  
 }
 
 table {
