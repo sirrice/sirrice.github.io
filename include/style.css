@@ -253,7 +253,7 @@ table.row td.thumb {
 }
 #coverimage {
   background-image:url('../images/gregory-large.jpg');
-  background-position: 50 -140;
+  background-position: 50 0;
   background-size: 800;
   display: block;
   width: 100%;
@@ -329,7 +329,7 @@ table.row td.thumb {
         font-size: 12pt;
     }
     #coverimage {
-      background-position: 0 -100;
+      background-position: 0 0;
       background-size: 680px;
     }
 }
@@ -390,7 +390,7 @@ table.row td.thumb {
     #coverimage {
       height: 200px;
       width: 100%;
-      background-position: 30 -70;
+      background-position: 30 0;
       background-size: 470px;
     }
 }
