@@ -253,9 +253,9 @@ table.row td.thumb {
 }
 #coverimage {
   background-image:url('../images/gregory-large.jpg');
-  background-image:url('../images/mebig.jpg');
+  /*background-image:url('../images/mebig.jpg');*/
   background-position: 50 0;
-  background-position: 0 0;
+  /*background-position: 0 0;*/
   background-size: cover;
   display: block;
   width: 100%;
