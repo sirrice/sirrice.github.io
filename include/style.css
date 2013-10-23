@@ -280,7 +280,13 @@ table.row td.thumb {
   background-image:url(../images/banana_bye.png);
 }
 
-#ggscreen { width: 400px; }
+#ggscreen { 
+  width: 400px; 
+  height: 600px;
+  background-image: url(https://raw.github.com/sirrice/gg/master/docs/imgs/screenshot.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 #mypic {
   width: 150px;
