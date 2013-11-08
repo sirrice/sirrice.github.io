@@ -233,6 +233,14 @@ table.row td.thumb {
   color: #999;
 }
 
+#toggle {
+  font-size: 10pt;
+}
+
+#contacts li {
+  border: none;
+}
+
 #contacts a {
   margin-right: 1em;
   font-size:10pt;
@@ -262,6 +270,25 @@ table.row td.thumb {
   height: 250px;
   clear: both;
 }
+
+#coverimageme {
+  background-image:url('../images/mebig.jpg');
+  background-position: 0 0;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: 250px;
+  clear: both;
+}
+
+#mephoto {
+    width: 150px;
+    height: 150px;
+    background-size:cover;
+    background-position: 5 -10;
+    background-image:url(../images/mesquare.png);
+}
+
 #gregory {
     width: 100px;
     height: 100px;

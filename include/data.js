@@ -33,6 +33,46 @@ var renderGallery = function (templateid, targetid, data) {
 }
 
 
+var jobpapers = { 
+  papers: [
+   {
+    authors: "  Eugene Wu, Samuel Madden",
+    title: "Scorpion: Explaining Away Outliers in Aggregate Queries",
+    url: "./files/papers/scorpion-vldb13.pdf",
+    conference: "VLDB 2013 (Invited as one of the best papers of the conference!)",
+    links: []
+   },
+   {
+    authors: "  Eugene Wu, Samuel Madden, Michael Stonebraker",
+    title: "SubZero: a Fine-Grained Lineage System for Scientific Databases",
+    url: "./files/papers/subzero-icde13.pdf",
+    conference: "ICDE 2013 (Invited as one of the best papers of the conference!)",
+    links: []
+   },
+   {
+    authors: "Eugene Wu, Carlo Curino, Sam Madden",
+    title: "No Bits Left Behind",
+    url: "./files/papers/bits-cidr11.pdf",
+    conference: "CIDR 2011",
+    links: []
+   },
+   {
+    authors: "  Adam Marcus, Eugene Wu, Sam Madden, Robert Miller",
+    title: "Crowdsourced Databases: Query Processing with People",
+    url: "./files/papers/qurk-cidr11.pdf",
+    conference: "CIDR 2011",
+    links: []
+   },
+   {
+    authors: "Eugene Wu, Yanlei Diao, Shariq Rizvi",
+    title: "High-performance complex event processing over streams",
+    url: "./files/papers/sase-sigmod06.pdf",
+    conference: "SIGMOD 2006",
+    links: []
+   }
+  ]
+};
+
 
 
 var papers = { 
@@ -50,7 +90,7 @@ var papers = {
    },
    {
     authors: "  Eugene Wu, Samuel Madden",
-    title: "Scorpion: Explaining Away Outliers in Aggregate Queries (preprint)",
+    title: "Scorpion: Explaining Away Outliers in Aggregate Queries",
     url: "./files/papers/scorpion-vldb13.pdf",
     conference: "VLDB 2013",
     links: [ {url: "./files/talks/scorpion_vldb13.pdf", text: "Slides (pdf)"}]
