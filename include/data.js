@@ -57,6 +57,13 @@ var jobpapers = {
     links: []
    },
    {
+    authors: "Eugene Wu, Yanlei Diao, Shariq Rizvi",
+    title: "High-performance complex event processing over streams",
+    url: "./files/papers/sase-sigmod06.pdf",
+    conference: "SIGMOD 2006",
+    links: []
+   },
+   {
     authors: "  Adam Marcus, Eugene Wu, Sam Madden, Robert Miller",
     title: "Crowdsourced Databases: Query Processing with People",
     url: "./files/papers/qurk-cidr11.pdf",
@@ -64,13 +71,12 @@ var jobpapers = {
     links: []
    },
    {
-    authors: "Eugene Wu, Yanlei Diao, Shariq Rizvi",
-    title: "High-performance complex event processing over streams",
-    url: "./files/papers/sase-sigmod06.pdf",
-    conference: "SIGMOD 2006",
+    authors: "  Adam Marcus, Eugene Wu, David Karger, Samuel Madden, Robert Miller",
+    title: "Human-powered Sorts and Joins",
+    url: "./files/papers/qurk-vldb2012.pdf",
+    conference: "VLDB 2012",
     links: []
-   }
-  ]
+   }  ]
 };
 
 
