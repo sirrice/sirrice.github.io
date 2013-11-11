@@ -39,14 +39,14 @@ var jobpapers = {
     authors: "  Eugene Wu, Samuel Madden",
     title: "Scorpion: Explaining Away Outliers in Aggregate Queries",
     url: "./files/papers/scorpion-vldb13.pdf",
-    conference: "VLDB 2013 (Invited as one of the best papers of the conference!)",
+    conference: "VLDB 2013 (Selected as one of the best papers of the conference!)",
     links: []
    },
    {
     authors: "  Eugene Wu, Samuel Madden, Michael Stonebraker",
     title: "SubZero: a Fine-Grained Lineage System for Scientific Databases",
     url: "./files/papers/subzero-icde13.pdf",
-    conference: "ICDE 2013 (Invited as one of the best papers of the conference!)",
+    conference: "ICDE 2013 (Selected as one of the best papers of the conference!)",
     links: []
    },
    {
@@ -98,14 +98,14 @@ var papers = {
     authors: "  Eugene Wu, Samuel Madden",
     title: "Scorpion: Explaining Away Outliers in Aggregate Queries",
     url: "./files/papers/scorpion-vldb13.pdf",
-    conference: "VLDB 2013",
+    conference: "VLDB 2013 (Selected as one of the best papers of the conference!)",
     links: [ {url: "./files/talks/scorpion_vldb13.pdf", text: "Slides (pdf)"}]
    },
    {
     authors: "  Eugene Wu, Samuel Madden, Michael Stonebraker",
     title: "SubZero: a Fine-Grained Lineage System for Scientific Databases",
     url: "./files/papers/subzero-icde13.pdf",
-    conference: "ICDE 2013 (Invited as one of the best papers of the conference!)",
+    conference: "ICDE 2013 (Selected as one of the best papers of the conference!)",
     links: []
    },
    {
