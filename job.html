@@ -128,7 +128,8 @@ ga('send', 'pageview');
       var o = {};
       for (var i=0; i < data.length; i ++) {
         pair = data[i].split(':');
-        o[pair[0].trim()] = pair[1].trim();
+        if (pair.length > 1)
+          o[pair[0].trim()] = pair[1].trim();
       }
 
       return o;
