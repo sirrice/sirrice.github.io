@@ -1,6 +1,8 @@
 <html>
   <head>
-    <title>ewuuu</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>does eugene have a job yet?</title>
     <link rel="stylesheet" type="text/css" href="./include/style.css" />
     <script src="./include/jquery.js"></script>
     <script src="./include/handlebars.js"></script>
@@ -114,15 +116,26 @@ ga('send', 'pageview');
   window.analytics.page();
 </script>
 <script>
-  $(function() {
-  $.get('http://api.hostip.info/get_html.php', function(data, status) {
-    var arr = data.split('\n');
+function myIP() {
+    if (window.XMLHttpRequest) xmlhttp = new XMLHttpRequest();
+    else xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+
+    xmlhttp.open("GET","http://api.hostip.info/get_html.php",false);
+    xmlhttp.send();
+
+    var hostipInfo = xmlhttp.responseText.split("\n");
     var pair = null;
     var o = {};
-    for (var i = 0; i < arr.length; i++) {
-      pair = arr[i].split(':');
-      o[pair[0].trim()] = pair[1].trim()
+    for (i=0; hostipInfo.length >= i; i++) {
+      pair = hostipInfo[i].split(':');
+      o[pair[0].trim()] = pair[1].trim();
     }
+
+    return o;
+}
+
+  $(function() {
+    var o = myIP();
     console.log(o);
     analytics.identify(null, o)
     analytics.page('Job page');
