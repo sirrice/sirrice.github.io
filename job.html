@@ -116,23 +116,23 @@ ga('send', 'pageview');
   window.analytics.page();
 </script>
 <script>
-function myIP() {
-    if (window.XMLHttpRequest) xmlhttp = new XMLHttpRequest();
-    else xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+  function myIP() {
+      if (window.XMLHttpRequest) xmlhttp = new XMLHttpRequest();
+      else xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
 
-    xmlhttp.open("GET","http://api.hostip.info/get_html.php",false);
-    xmlhttp.send();
+      xmlhttp.open("GET","http://api.hostip.info/get_html.php",false);
+      xmlhttp.send();
 
-    var hostipInfo = xmlhttp.responseText.split("\n");
-    var pair = null;
-    var o = {};
-    for (i=0; hostipInfo.length >= i; i++) {
-      pair = hostipInfo[i].split(':');
-      o[pair[0].trim()] = pair[1].trim();
-    }
+      var data = xmlhttp.responseText.split("\n");
+      var pair = null;
+      var o = {};
+      for (var i=0; i < data.length; i ++) {
+        pair = data[i].split(':');
+        o[pair[0].trim()] = pair[1].trim();
+      }
 
-    return o;
-}
+      return o;
+  }
 
   $(function() {
     var o = myIP();
@@ -141,9 +141,6 @@ function myIP() {
     analytics.page('Job page');
     analytics.track('Loaded', {url: window.location.toString()});
     console.log("segment.io tracked")
-     
-  });
-
   });
 </script>
 <!----------- END STATS ------------>
