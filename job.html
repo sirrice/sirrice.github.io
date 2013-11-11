@@ -30,9 +30,9 @@
   <td>
 
     <ul id="contacts">
-      <li><a href="./files/job/cv.pdf">CV</a>
-      <li><a href="./files/job/research.pdf">Research Statement</a>
-      <li><a href="./files/job/teaching.pdf">Teaching Statement</a>  
+      <li><a onclick="analytics.track('cv', {});" href="./files/job/cv.pdf">CV</a>
+      <li><a onclick="analytics.track('researchstmt', {});" href="./files/job/research.pdf">Research Statement</a>
+      <li><a onclick="analytics.track('teachingstmt', {});" href="./files/job/teaching.pdf">Teaching Statement</a>  
     </ul>
   </td>
 </tr></table>
@@ -79,6 +79,7 @@ $(function() {
 
 $("#toggle").click(function() {
   var el = $("#toggle");
+  analytics.track('pubs', { all: el.attr('all') });
   if (el.attr('all') == "no") {
     el.attr('all', 'yes');
     render("#pub-template", "#publications", papers);
@@ -105,6 +106,16 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-3762902-6', 'sirrice.github.io');
 ga('send', 'pageview');
 
+</script>
+
+<script type="text/javascript">
+  window.analytics||(window.analytics=[]),window.analytics.methods=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group","on","once","off"],window.analytics.factory=function(a){return function(){var t=Array.prototype.slice.call(arguments);return t.unshift(a),window.analytics.push(t),window.analytics}};for(var i=0;i<analytics.methods.length;i++){var method=analytics.methods[i];analytics[method]=analytics.factory(method)}window.analytics.load=function(a){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"===document.location.protocol?"https://":"http://")+"localhost/analytics.js/v1/"+a+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)},window.analytics.SNIPPET_VERSION="2.0.4",
+  window.analytics.load("g1mz8x67dr"),
+  window.analytics.page();
+</script>
+<script>
+  analytics.page('Job page');
+  analytics.track('Loaded', {});
 </script>
 <!----------- END STATS ------------>
 
