@@ -285,7 +285,7 @@ table.row td.thumb {
     width: 150px;
     height: 150px;
     background-size:cover;
-    background-position: 5 -10;
+    /*background-position: 5 -10;*/
     background-image:url(../images/mesquare.png);
 }
 
