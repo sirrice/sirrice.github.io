@@ -72,7 +72,7 @@ var render = function(data) {
 
 
 
-d3.csv("d3gallerydata.csv", function(d) {
+d3.csv("./include/d3gallerydata.csv", function(d) {
   return d;
 }, function(err, rows) {
   render(rows);
