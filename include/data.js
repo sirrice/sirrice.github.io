@@ -35,7 +35,7 @@ var renderGallery = function (templateid, targetid, data) {
 
 var jobpapers = { 
   papers: [
-   {
+    {
     authors: "  Eugene Wu, Samuel Madden",
     title: "Scorpion: Explaining Away Outliers in Aggregate Queries",
     url: "./files/papers/scorpion-vldb13.pdf",
@@ -83,6 +83,13 @@ var jobpapers = {
 
 var papers = { 
   papers: [
+    {
+      authors: "Eugene Wu, Leilani Battle, Samuel Madden",
+      title: "The Case for Data Visualization Management Systems",
+      url: "./files/papers/ermac-vldb14.pdf",
+      conference: "VLDB 2014",
+      links: []
+    },
    { 
     authors: "Eugene Wu, Adam Marcus and Sam Madden",
     title: "Data In Context: Aiding News Consumers while Taming Dataspaces",
