@@ -6,20 +6,9 @@
 		<script src="./include/date.js"></script>
 		<script src="./include/timeline.js"></script>
 		<script src="./include/main.js"></script>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-3762902-2");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
 	</head>
 
 <body>
-    <!-- stathat counter -->
-    <img src="http://api.stathat.com/c?ukey=MTgwMSA0EiO1NX8CRnqrEaRlwtwM&key=X8I-hoz2227sOaQLSVtzfyBSYUJo&count=13" style="display:none;" width="1" height="1"/>
 
 <div class="header">
 	<div class="nav">
@@ -37,29 +26,63 @@ pageTracker._trackPageview();
 -->
 <div class="main">
 
-<h1>DBWipes: better and deeper tools for interactive analytics</h1>
+<div class="section">
+</div>
+
+
+
+<h1>Asking Questions About Query Results</h1>
 <div class="section">
 <p class="header">
 As datasets and analyses become larger more complex, even making sense of query results becomes very difficult.
 </p>
 
+<p> 
+  This page describes a collection of projects to make data analysis interactive and powerful.
+</p>
+</div>
+
+<h1>DBWipes</h1>
+<a name="dbwipes"></a>
+<div class="section">
+
+<p><img width=400 src="./images/dbwipes.png"/></p>
+
 <p>
-  DBWipes is a collection of projects to make data analysis interactive and powerful.
+DBWipes is a lightweight interactive visualization tool that lets
+users run aggregation queries over a database and interactively
+filter the dataset along different dimensions.  Users can execute
+SQL GROUP-BY queries through a simple form interface, and render
+the results as a scatterplot.  DBWipes renders a histogram of each
+attribute that users use to select and filter subsets of the
+attribute's values.  Using this tool, users can easily compare the
+results of an aggregation query over different subsets of the data.
+</p>
+
+<p>
+DBWipes currently connects to a PostgreSQL backend, which 
+executes the queries that are issued by the interface.
+</p>
+
+
+
+<h2>Get DBWipes</h2>
+<a name="installdbwipes"></a>
+<p>
+DBWipes is a python web-application can be installed using <b>pip</b>:
+  <code> pip install dbwipes </code>
+<a href="https://github.com/sirrice/dbwipes">Check out the github page</a> for
+code and usage instructions
+</p>
+
+
 </div>
 
-<h2>Practical Provenance</h2>
-<a name="provenance"></a>
-<div class="section">
-</div>
-
-<h2>Declarative Visualization</h2>
-<a name="gg"></a>
-<div class="section">
-</div>
-
-<h2>Scorpion</h2>
+<h1>Scorpion</h1>
 <a name="scorpion"></a>
 <div class="section">
+<p><img width=400 src="./images/scorpion.png"/></p>
+
 <p>
 Consider a simple analytic query that computes a company's total
 expenses by month, and shows that last month's expenses was
@@ -72,22 +95,79 @@ must manually split the input data along different dimensions (e.g.,
 dept, customer age), and hope that re-running the query will cause
 changes.  If there is more than one outlier, or many dimensions in
 the dataset, this ad-hoc process quickly becomes untenable. 
+</p>
 
 <p>
-Scorpion is an interactive system to answer these "why" questions.
-The analysts simply selects outlier and normal results and the
-system constructs predicates that potentially explain the outliers.
-To find such predicates, we develop a notion of influence
-of a predicate on the outputs, and design efficient algorithms 
-to find the most influential predicates
+Scorpion is a library that helps answer these "why" questions.
+The user simply selects examples of outlier and normal results and Scorpion
+will look for subsets of the input table that potentially explains
+the outliers and finds a combination of attribute values (predicate) that describes that subset.
+To find such predicates, we develop a score for how much <i>influence</i>
+a predicate on the outliers, and design efficient algorithms 
+to find predicates with lots of influence.
 </p>
  
+<h2>Get Scorpion</h2>
+<a name="installscorpion"></a>
+<p>
+Scorpion is a python library that can be installed using <b>pip</b>:
+  <code> pip install scorpion </code>
+</p>
+<p>
+After Scorpion is installed, DBWipes will be able to use the library to interactively
+explain outliers in its visualization.
+</p>
+<p>
+<a href="https://github.com/sirrice/scorpion">Check out the github page</a> for
+code and usage instructions.  
+</p>
 
-<p><img width=400 src="./images/scorpion.png"/></p>
 
-<h3>Publications</h3>
 
-<div id="publications">
+</div>
+
+
+<h1>User Study</h1>
+<a name="userstudy"></a>
+<div class="section">
+<p>
+We are currently running a user study of DBWipes and Scorpion.  The study is a
+live DBWipes installation and includes a walk-through tutorial of the system, including
+the Scorpion plugin.
+<p>
+If you would like to participate in the study and try DBWipes and Scorpion
+on some data analysis tasks, please click the following button.  Please note that
+we will log your interactions with the system to gather aggregated statistics.
+</p>
+<p class="btn">
+<a href="http://istc3.csail.mit.edu:8888/study" target="_new">Participate in Study</a>
+</p>
+</div>
+
+
+
+<h1>Publications</h1>
+
+<div class="section" id="publications">
+
+<div class="item">
+  <div class="screenshot"><img src="./images/ermac_paper.png" width=200/></div>
+  <div class="text">
+    <div class="title">
+      <a href="./files/papers/ermac-vldb14.pdf">
+        The Case for Data Visualization Management Systems
+      </a>
+    </div>
+    <div class="authors">Eugene Wu, Leilani Battle, Sam Madden</div>
+    <div class="links">
+      <span class="conf">VLDB 2014</span>
+    </div>
+  </div>
+  <div style="clear: both"></div>
+</div>
+
+
+
 <div class="item">
   <div class="screenshot"><img src="./images/scorpion_paper.png" width=200/></div>
   <div class="text">
@@ -104,9 +184,10 @@ to find the most influential predicates
     </div>
   </div>
   <div style="clear: both"></div>
+</div>
 
-</div>
-</div>
+
+</div><!-- /publications -->
 
 </div>
 
@@ -114,12 +195,29 @@ to find the most influential predicates
 </div>
 
 <div class="footer">
-&copy;2008 Eugene Wu
+&copy;2014 Eugene Wu
 <br/>
-<img src="http://www.mit.edu/~eugenewu/images/doodles/signature.png" />
+<img src="./images/signature.png" />
 </div>
 
 
 
 </body>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3762902-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
 </html>
+
+
+
+
