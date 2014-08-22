@@ -263,6 +263,7 @@ var shirts = [
 ];
 
 var misc = [  
+  "gexperiments.jpg",
   "cameraculture.png",
   "caveman.png",
   "turtle.png",
