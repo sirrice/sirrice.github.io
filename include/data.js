@@ -36,6 +36,13 @@ var renderGallery = function (templateid, targetid, data) {
 var jobpapers = { 
   papers: [
     {
+    authors: "Leilani Battle, Edward Benson, Aditya Parameswaran, Eugene Wu",
+    title: "Indexing Cost Sensitive Prediction",
+    url: "./files/papers/csp-techreport.pdf",
+    conference: "Technical Report (in submission)",
+    links: []
+   },
+    {
     authors: "  Eugene Wu, Samuel Madden",
     title: "Scorpion: Explaining Away Outliers in Aggregate Queries",
     url: "./files/papers/scorpion-vldb13.pdf",
@@ -83,6 +90,13 @@ var jobpapers = {
 
 var papers = { 
   papers: [
+    {
+      authors: "Leilani Battle, Edward Benson, Aditya Parameswaran, Eugene Wu",
+      title: "Indexing Cost Sensitive Prediction",
+      url: "./files/papers/csp-techreport.pdf",
+      conference: "Technical Report (in submission)",
+      links: []
+    },
     {
       authors: "Eugene Wu, Leilani Battle, Samuel Madden",
       title: "The Case for Data Visualization Management Systems",
