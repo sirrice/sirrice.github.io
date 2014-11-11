@@ -116,6 +116,14 @@ table.row td {
 table.row td.thumb {
   width: 175px;
 }
+table.row td.topic {
+  color: #555;
+  width: 9em;
+  font-size: 14pt;
+  font-weight: bold;
+  vertical-align: top;
+  text-align: right;
+}
 
 
 
@@ -268,6 +276,13 @@ table.row td.thumb {
 .section .important {
   font-weight: bold;
   color: rgb(201, 27, 77);
+  text-align: center;
+  margin-left: auto;
+  margin-rigt: auto;
+  display: block;
+  font-size: 16pt;
+  border: 1px solid rgb(201, 27, 77);
+  padding: 1em;
 }
 
 #publications .paper {
