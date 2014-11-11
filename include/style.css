@@ -78,17 +78,17 @@ li { margin-bottom: 0.8em }
 
 h1{
 	position: relative;
-	margin-top: 5ex;
+	margin-top: 3ex;
 	font-weight: bold;
 	border-bottom: 1px solid #c7c7c7;
 	font-size: 1.2em;
   color: rgb(100, 100, 100);
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 
 h2{
 	position: relative;
-	margin-top: 5ex;
+	margin-top: 2.5ex;
 	margin-bottom: 0.5ex;
 	font-size: 1em;
 	font-weight: 600;
