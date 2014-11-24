@@ -463,6 +463,8 @@ table.row td.topic {
     table.row td {
       padding-left: 0px;
       padding: 0px;
+      padding-top: 1em;
+      padding-bottom: 1em;
     }
     h1, h2, h3 {
       margin: 5px;
