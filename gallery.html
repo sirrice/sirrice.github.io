@@ -2,9 +2,6 @@
   <head>
     <title>ewuuu</title>
     <link rel="stylesheet" type="text/css" href="./include/style.css" />
-    <script src="./include/jquery.js"></script>
-    <script src="./include/handlebars.js"></script>
-    <script src="./include/data.js"></script>
   </head>
 
 <body>
@@ -12,7 +9,7 @@
 <div class="header">
   <div class="nav">
     <a href="./index.html" >Eugene Wu</a>
-    <a href="./projects.html">All Projects</a>
+    <a href="./projects.html">Projects</a>
     <a href="./applying.html">Applying</a>
     <a href="./gallery.html">Gallery</a>        
   </div>
@@ -43,7 +40,7 @@
   </p>
   <p>
   This page shows a selection of commissioned and non-commissioned
-  shirts.
+  art.
   </p>
 
 </td> </tr> </table>
@@ -52,22 +49,85 @@
 
 
 
-<h1>Ultimate Jerseys</h1>
-<div class="gallery" id="ultimate"></div>
+<h1>Shirts</h1>
+  <h2>Ultimate Jerseys</h1>
+  <p>
+    I started <i>really</i> doodling thanks to opportunities to design jerseys for ultimate
+    teams I've ben involved in
+  </p>
+  <div class="gallery" id="ultimate"></div>
 
-<h1>CSAIL Shirts</h1>
-<div class="gallery" id="csail"></div>
+  <h2>CSAIL Shirts</h2>
+  <p>
+    Turns out free shirts are all the rage in grad school, and it gave me 
+    a good chance to design a bunch
+  </p>
+  <div class="gallery" id="csail"></div>
 
-<h1>Other Shirts</h1>
-<div class="gallery" id="misc"></div>
+  <h2>Other</h2>
+  <p>
+    Some other shirts I've designed for Google events, research groups, or self interest.
+  </p>
+  <div class="gallery" id="misc"></div>
+
 
 <h1>Posters</h1>
-<div class="gallery" id="posters"></div>
+  <div class="gallery" id="posters"></div>
+
+
+<h1>Misc</h1>
+  <h2>Layer Ping Pong</h2>
+  <div class="section">
+    <p>
+      <a href="http://caretdashcaret.wordpress.com">CaretDashCaret</a> 
+      and I played a sketch-based version of 
+      <a href="http://www.layertennis.com">Layertennis</a>
+      where the two of us volley art back and forth.  The esteemed
+      <a href="http://www.kalecrusaders.com">Mere</a><a href="http://www.marcua.net">cua</a>
+      provided real-time commentary.  
+    </p>
+    <p>
+      <a href="./layerpp.html">Check out the results here!</a>
+    </p>
+    <div class="gallery" id="layerpp"></div>
+  </div>
+  <h2>Classic Rap Albums</h2>
+  <div class="section">
+    <p>
+      One month, I decided to draw some class rap albums that I really like.
+    </p>
+    <div class="gallery" id="rap"></div>
+  </div>
+  <h2>Slam Dunkin'</h2>
+  <div class="section">
+    <p>
+      Paint.NET is the most amazing MS Windows-based drawing app, and has a 
+      fill features that makes "cloud-like" textures.  I tried it out on a series of slam dunks.
+    </p>
+    <div class="gallery" id="slamdunks"></div>
+  </div>
+  <h2>Kale Crusaders</h2>
+  <div class="section">
+    <p>
+      <a href="http://www.kalecrusaders.com">Kale Crusaders</a> is a really cool blog
+      that provides a marketing voice for underrepresented vegetable and vegetarian/vegan ingredients.
+      I've made some guest posts in the past for projects I support. In particular, satsuma oranges, which are
+      the most awesome fruit of all time.
+    </p>
+    <div class="gallery" id="kc"></div>
+  </div>
+  <h2>Wild Things</h2>
+  <div class="section">
+    <div class="gallery" id="wildthings"></div>
+  </div>
+
+
+
+
 
 <div class="footer"><div id="signature"></div>eugene wu</div>
 
 <script id="shirt-template" type="text/x-handlebars-template">
-
 <div class="section">
   {{#each this}}
     <a href="./images/gallery/{{this}}" target="_shirt">
@@ -79,12 +139,23 @@
 <div style="clear:both"/>
 </script>
 
+
+<script src="./include/jquery.js"></script>
+<script src="./include/handlebars.js"></script>
+<script src="./include/data.js"></script>
+
+
 <script>
 $(function() {
   renderGallery("#shirt-template", "#ultimate", ultimate);
   renderGallery("#shirt-template", "#csail", shirts);  
   renderGallery("#shirt-template", "#misc", misc);    
   renderGallery("#shirt-template", "#posters", posters);    
+  renderGallery("#shirt-template", "#layerpp", layerpp);    
+  renderGallery("#shirt-template", "#rap", rap);    
+  renderGallery("#shirt-template", "#kc", kc);    
+  renderGallery("#shirt-template", "#wildthings", wildthings);    
+  renderGallery("#shirt-template", "#slamdunks", slamdunks);    
 })
 </script>
 

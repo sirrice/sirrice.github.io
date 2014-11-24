@@ -273,7 +273,9 @@ var shirts = [
   "ahab.png",
   "bearninja.png",
   "dinospace.png",
-  "penguin.png"
+  "penguin.png",
+  "skynet.png",
+  "hal.png"
 ];
 
 var misc = [  
@@ -297,6 +299,33 @@ var ultimate = [
   "rambo.png",  
   "mixednuts.png",
   "mixedfront.png",
+]
 
+var layerpp = [
+  "volley1.png",
+  "volley4.png"
+];
 
+var rap = [
+  "alleyez.png",
+  "readytodie.png",
+  "violentbydesign.png"
+];
+
+var kc = [
+  "orange.gif",
+  "satsuma.gif",
+  "noochtella.png"
+]
+
+var wildthings = [
+  "wildthings_sleep.png",
+  "wildthings_cartoon.png"
+]
+
+var slamdunks = [
+  "slamdunk.png",
+  "slamdunk2.png",
+  "slamdunk3.png",
+  "slamdunk5.png",
 ]
