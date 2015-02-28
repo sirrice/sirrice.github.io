@@ -4,6 +4,7 @@
     <link rel="stylesheet" type="text/css" href="./include/style.css" />
     <script src="./include/jquery.js"></script>
     <script src="./include/handlebars.js"></script>
+    <script src="./include/underscore.js"></script>
     <script src="//static.cloudstitch.io/cloudstitch.js"></script>
   </head>
 <body>
@@ -27,129 +28,16 @@
 
 
 
-
-
-
-<h1>whois</h1>
-<div class="section">
-<table class='row'><tr>
-<td class="thumb">
-  <div title="hello world" id="mypic"></div>
-</td>
-<td>
-
-<p id="address">
-  Eugene Wu<br/>
-  Assistant Professor<br/>
-  <span class="small">
-    <a href="http://www.cs.columbia.edu/">Computer Science</a><br/>
-    <a href="http://www.columbia.edu">Columbia University in the City of New York</a>
-  </span>
-</p>
-<p id="contacts">
-  <a href="mailto:eugenewu@mit.edu">email</a>
-  <a href="https://twitter.com/sirrice">@sirrice</a>
-  <a href="http://github.com/sirrice">github</a>  
-</p>
-</td>
-</tr>
-<tr> <td colspan=2>
-<p>
-<!--<span class="important" style="font-size: bigger">
-  <a href="./applying.html">I am actively recruiting students for Fall 2015</a>
-</span>-->
-</p>
-</td></tr></table>
-
-</div>
-
-
-<h1>Bio</h1>
-<div class="section">
-<p>
-Eugene Wu is broadly interested in technologies that help users play with
-their data.  His goal is for users at all technical
-levels to effectively and quickly make sense of their information.
-He is interested in solutions that ultimately improve the interface between
-users and data, and techniques borrows from fields such as data management, 
-systems, crowd sourcing, visualization, and HCI.
-</p>
-
-<p>
-Eugene will be visiting <a href="http://www.cs.berkeley.edu">UC Berkeley</a> 
-in the first half of 2015 and starting at <a href="http://www.cs.columbia.edu">Columbia University</a> 
-in Fall of 2015. 
-</p>
-
-
-<p style="color: #888;">
-  Eugene Wu recieved his Ph.D. from  <a href="http://www.csail.mit.edu/">CSAIL</a>
-  at <a href="http://www.mit.edu">MIT</a>, 
-  advised by the esteemed <a href="http://db.lcs.mit.edu/madden/">Sam Madden</a>.
-  in the <a href="http://db.csail.mit.edu/">database</a> group.
-  A <a href="http://partnews.brownbag.me/2012/02/29/better-know-a-classmate-eugene-wu/">biography</a> by
-  <a href="http://partnews.brownbag.me/2012/02/29/interview-matt-stempeck-wants-to-change-the-world-with-tech/">@mstem</a>.
-  An <a href="./obit.html">obituary</a>.
-</p>
-
-</div>
-
-<h1>Current Research Areas</h1>
-<div class="section">
-
-<h2><a href="#">Data Visualization Management Systems</a></h2>
-<p>
-  <img class="logo" id="dvmslogo" src="./images/dvms.png" />
-</p>
-<p>
-A Data Visualization Management System (DVMS) integrates
-visualizations and databases, by compiling a declarative visualization
-language into an end-to-end relational operator pipeline that renders
-the visualization and is amenable to database-style optimizations.
-Thus the DVMS can be both <i>expressive</i> via the
-visualization language, and <i>performant</i>
-by leveraging traditional and visualization-specific
-optimizations to scale interactive visualizations to massive
-datasets.
-</p>
-
-
-<h2><a href="./dbwipes.html">Data Exploration and Explanation</a></h2>
-<p>
-  Visualizations are excellent for exposing surprising patterns
-  and outliers in data, however existing tools have no way to
-  help explain those patterns and outliers.  We are exploring 
-  systems to generate sensible explanations for outliers in 
-  analytics visualizations.
-</p>
-<p>
-  <img class="screenshot" id="scorpionscreen" src="./images/scorpion.png" />
-</p>
-</div>
-
-
-
-
-
 <h1>
   <span id="pubtitle">Selected Publications</span> 
   <a all="no" id="toggle" style="cursor:pointer;" >show all</a>
 </h1>
 <div class="section">
-<div id="publications"></div>
-</div>
-
-
-<h1>
-  <span id="pubtitle">CloudStitch Publications</span> 
-  <a all="no" id="toggle" style="cursor:pointer;" >show all</a>
-</h1>
-<div class="section">
   <div id="publications">
     <div widget="sirrice/publications"></div>
-    <div id="pub-widget"> </div>
   </div>
 </div>
+
 
 
 
@@ -205,24 +93,8 @@ eugene wu
 
 <script src="./include/data.js"></script>
 
-
-<script id="pub-template" type="text/x-handlebars-template">
-<ol>
-{{#each papers}} {{#with this}}
-<li class="paper">
-  <a href="{{#if url }}{{url}}{{else}}#{{/if}}"><div>{{title}}</div></a>
-  <div class="authors">{{authors}}</div>
-  {{conference}}
-  {{#each links}}<a href="{{url}}">{{text}}</a>{{/each}}
-</li>
-{{/with}}
-{{/each}}
-</ol>
-</script>
-
 <script>
 $(function() {
-//  render("#pub-template", "#publications", jobpapers);
 })
 
 $("#toggle").click(function() {
