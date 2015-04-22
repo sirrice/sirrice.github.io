@@ -213,6 +213,18 @@ table.row td.topic {
   font-family: consolas, console;
 }
 
+.main .section p a {
+  font-weight: normal;
+  color: rgb(20, 108, 219);
+  font-size: smaller;
+}
+.main .section p a:hover {
+  background: rgb(20,108, 219);
+  color: white;
+}
+
+
+
 .section ol li i {
   display: block;
   font-weight: bold;
@@ -408,6 +420,9 @@ table.row td.topic {
 #mypic:hover {
 	/*background-image:url(../images/me_awake.png);
   background-image: url(../images/me.jpg);*/
+  background-image:url(../images/eugene.png);
+  background-size: 85px;
+  background-position: 40;
 }
 
 #signature {
