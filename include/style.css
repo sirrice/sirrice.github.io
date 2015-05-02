@@ -34,6 +34,7 @@ a:hover {
   background: rgb(12, 94, 148);
 }
 
+
 ul, ol { list-style-position: outside; }
 ul { 
   list-style-type: none; 
