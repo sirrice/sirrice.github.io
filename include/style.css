@@ -30,7 +30,8 @@ a, a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: rgb(12, 94, 148);
+  color: whitesmoke;
+  background: rgb(12, 94, 148);
 }
 
 ul, ol { list-style-position: outside; }
@@ -277,6 +278,7 @@ table.row td.topic {
 #publications .paper {
   list-style-type: none;
 }
+
 #publications .authors {
   font-size: smaller;
   color: #999;
