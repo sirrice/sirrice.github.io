@@ -208,7 +208,8 @@ table.row td.topic {
 
 .section img.screenshot {
   /*width: 400px;*/
-  height: 150px;
+  height: 100px;
+  padding: 10px;
 }
 .section img.logo {
   height: 100px;
