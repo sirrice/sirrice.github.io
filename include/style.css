@@ -22,6 +22,10 @@ table td {
 }
 
 
+i {
+  color: #666;
+  background:#f3fafa;
+}
 
 a, a:visited {
   font-weight: 700;
