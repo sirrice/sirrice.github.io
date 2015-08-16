@@ -265,6 +265,7 @@ table.row td.topic {
 .section .important {
   font-weight: bold;
   color: rgb(201, 27, 77);
+  background: white;
   text-align: center;
   margin-left: auto;
   margin-rigt: auto;
@@ -274,13 +275,17 @@ table.row td.topic {
   padding: 1em;
 }
 .section .important a{
-  color: inherit;
+  color: rgb(201, 27, 77);
 }
 .section .important:hover {
   background: rgb(201, 27, 77);
   color: white;
-
 }
+.section .important:hover a{
+  background: rgb(201, 27, 77);
+  color: white;
+}
+
 
 #publications .paper {
   list-style-type: none;
