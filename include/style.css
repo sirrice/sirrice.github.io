@@ -274,14 +274,14 @@ table.row td.topic {
   border: 1px solid rgb(201, 27, 77);
   padding: 1em;
 }
-.section .important a{
+.section .important a, .section .important p a{
   color: rgb(201, 27, 77);
 }
 .section .important:hover {
   background: rgb(201, 27, 77);
   color: white;
 }
-.section .important:hover a{
+.section .important:hover a, .section .important:hover a:hover{
   background: rgb(201, 27, 77);
   color: white;
 }
