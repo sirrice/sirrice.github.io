@@ -274,7 +274,7 @@ table.row td.topic {
   border: 1px solid rgb(201, 27, 77);
   padding: 1em;
 }
-.section .important a, .section .important p a{
+.section .important a, .section .important p a, .apply{
   color: rgb(201, 27, 77);
 }
 .section .important:hover {
