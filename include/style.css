@@ -283,6 +283,7 @@ table.row td.topic {
 .section .important:hover {
   background: white;
   color: rgb(201, 27, 77);
+  pointer: cursor;
 }
 .section .important:hover a, .section .important:hover a:hover{
   background: rgb(201, 27, 77);
