@@ -275,15 +275,18 @@ table.row td.topic {
   padding: 1em;
 }
 .section .important a, .section .important p a, .apply{
-  color: rgb(201, 27, 77);
-}
-.section .important:hover {
   background: rgb(201, 27, 77);
   color: white;
+}
+.section .important:hover {
+  background: white;
+  color: rgb(201, 27, 77);
 }
 .section .important:hover a, .section .important:hover a:hover{
   background: rgb(201, 27, 77);
   color: white;
+  background: white;
+  color: rgb(201, 27, 77);
 }
 
 
