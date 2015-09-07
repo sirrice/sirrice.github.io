@@ -157,11 +157,11 @@ table.row td.topic {
 }
 
 
-.main .section {
+.section {
   padding-left: 1em;
 }
 
-.main .section .header {
+.section .header {
   text-align: center;
   font-family: georgia;
   width: 70%;
@@ -170,12 +170,12 @@ table.row td.topic {
   margin: 1.1em;
 }
 
-.main .section p {
+.section p {
   padding-left: 1em;
   width: 90%;
 }
 
-.main .section code {
+.section code {
   display: block;
   width: 60%;
   margin-top: 1em;
@@ -188,12 +188,12 @@ table.row td.topic {
   font-family: consolas, console;
 }
 
-.main .section p a {
+.section p a {
   font-weight: normal;
   color: rgb(20, 108, 219);
   font-size: smaller;
 }
-.main .section p a:hover {
+.section p a:hover {
   background: rgb(20,108, 219);
   color: white;
 }
