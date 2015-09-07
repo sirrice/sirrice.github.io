@@ -266,6 +266,8 @@ table.row td.topic {
   font-weight: bold;
   color: rgb(201, 27, 77);
   background: white;
+  background: rgb(201, 27, 77);
+  color: white;
   text-align: center;
   margin-left: auto;
   margin-rigt: auto;
