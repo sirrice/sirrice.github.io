@@ -396,6 +396,7 @@ table.row td.topic {
   height: 175px;
   background-image: url(../images/me.jpg);
   background-image:url(../images/mesquare.png);
+  background-image:url(../images/me_faculty.png);
   background-size: 175px;
   background-repeat: no-repeat;
   background-position: 0;
@@ -407,6 +408,14 @@ table.row td.topic {
   background-image:url(../images/eugene.png);
   background-size: 85px;
   background-position: 40; 
+
+  /*
+  background-image:url(../images/me_faculty2.png);
+  background-size: 175px;
+  background-repeat: no-repeat;
+  background-position: 0;
+  */
+
 }
 
 #signature {
