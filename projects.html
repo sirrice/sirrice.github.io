@@ -173,12 +173,13 @@ A history of databases through keyword trends in VLDB publication titles
 </p>
 <p>
   <code>
-    from pygg import *
+    <div>from pygg import *</div>
+    <br/>
 
-    # Example using diamonds dataset (comes with ggplot2)
-    p = ggplot('diamonds', aes('carat', y='price'))
-    g = geom_point() + facet_wrap(None, "color")
-    ggsave("test1.pdf", p+g, data=None)
+    <div># Example using diamonds dataset (comes with ggplot2)</div>
+    <div>p = ggplot('diamonds', aes('carat', y='price'))</div>
+    <div>g = geom_point() + facet_wrap(None, "color")</div>
+    <div>ggsave("test1.pdf", p+g, data=None)</div>
   </code>
 </p>
 

@@ -185,7 +185,7 @@ table.row td.topic {
   padding: 1em;
   border: 1px solid whitesmoke;
   background: #ededed;
-  font-family: consolas, console;
+  font-family: 'Source Code Pro', consolas, console, courier;
 }
 
 .section p a {
@@ -524,6 +524,7 @@ table.row td.topic {
 
 
 
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,300);
 @font-face {
   font-family: 'Lato';
   font-style: normal;
