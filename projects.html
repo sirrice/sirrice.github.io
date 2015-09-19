@@ -167,6 +167,23 @@ A history of databases through keyword trends in VLDB publication titles
   </a>
 </p>
 
+<h2><a href="http://www.github.com/sirrice/pygg">Python ggplot2 syntax</a></h2>
+<p>
+  A python wrapper around ggplot2 that provides nearly the same syntax, but in python.
+</p>
+<p>
+  <code>
+    from pygg import *
+
+    # Example using diamonds dataset (comes with ggplot2)
+    p = ggplot('diamonds', aes('carat', y='price'))
+    g = geom_point() + facet_wrap(None, "color")
+    ggsave("test1.pdf", p+g, data=None)
+  </code>
+</p>
+
+
+
 </div>
 
 
