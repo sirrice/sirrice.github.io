@@ -177,7 +177,7 @@ table.row td.topic {
 
 .section code {
   display: block;
-  width: 80%;
+  width: 90%;
   margin-top: 1em;
   margin-bottom: 1em;
   margin-left: auto;
@@ -524,7 +524,6 @@ table.row td.topic {
 
 
 
-@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,300);
 @font-face {
   font-family: 'Lato';
   font-style: normal;
