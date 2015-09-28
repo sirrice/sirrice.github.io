@@ -297,6 +297,17 @@ table.row td.topic {
   color: #999;
 }
 
+#publications span.show-selected, #publications span.show-all {
+  cursor: pointer;
+}
+
+#publications span.show-selected:hover, #publications span.show-all:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+
 #toggle {
   font-size: 10pt;
 }
