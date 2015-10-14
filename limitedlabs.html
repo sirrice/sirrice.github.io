@@ -42,7 +42,12 @@ a {
 }
 @media screen and (max-width: 860px) {
   .graphic h1 {
-    display: none;
+    font-size: 20pt;
+  }
+}
+@media screen and (max-width: 500px) {
+  .graphic h1 {
+    font-size: 14pt;
   }
 }
 .graphic h1 #text {
@@ -64,30 +69,21 @@ a {
   margin: 0 auto;
   position: relative;
 }
-.graphic .illustration .full-img {
+.graphic .illustration img {
+  padding-top: 45pt;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
-}
-.graphic .illustration .full-img img {
   width: 100%;
+  height: auto;
 }
 .graphic .illustration .animated {
-  display: none;
+  display: block;
 }
 .graphic .illustration a.easteregg {
   display: none;
 }
 @media screen and (min-width: 993px) {
-  .graphic .illustration a.easteregg {
-    display: block;
-    position: absolute;
-    width: 30px;
-    height: 19px;
-    top: 285px;
-    left: 870px;
-  }
-  .graphic .illustration .full {
-    display: none;
-  }
   .graphic .illustration .animated {
     display: block;
     position: relative;
