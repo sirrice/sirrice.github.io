@@ -2,10 +2,9 @@
 <!doctype html>
 <html>
 <head>
-    <title>Unlimited Labs</title>
+    <title>Limited Labs</title>
+    <script src="include/jquery.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://use.typekit.net/fig2iwz.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <style>
 /* Colors */
@@ -428,10 +427,10 @@ a {
   font-size: 3.8em;
   line-height: 0.8em;
 }
-.main .content form {
+.main .content .form {
   margin-top: 30px;
 }
-.main .content form input {
+.main .content .form input {
   border: none;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -445,7 +444,7 @@ a {
   color: #FFFFFF;
   float: left;
 }
-.main .content form button {
+.main .content .form button {
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   background: #279CC5;
@@ -1209,18 +1208,29 @@ a {
           At Limited Labs, we&rsquo;re designing technology to build a faster, more productive future of work. We don't have a blog, because Robots don't need blogs.</p>
             <p>We're coming out with our first product soon. Sign up for our newsletter to be cradled in our arms.</p>
 
-            <form action="https://forms.hubspot.com/uploads/form/v2/553918/841be723-7fe1-4bd4-a7a0-f5e1c94addd8" method="post" accept-charset="UTF-8" enctype="multipart/form-data">
+            <div class="form" >
                 <input type="email" name="email" placeholder="you@example.com" required>
                 <button type="submit" class="button">GO</button>
-            </form>
+            </div>
         </div>
         <div class="footer" style="height: 20pt; color: white;">
             <div class="left"><a href="https://www.youtube.com/watch?v=cpGbzYlnz7c">Gangsta's paradise</a></div>
             <div class="address">101 InyoFace St.<br>New York, NY</div>
         </div>
     </div>
-    <script src="type.js"></script>
 </body>
 </html>
+<script>
+  $("button").click(function() {
+    alert("just kidding, we have your info already");
+  });
+</script>
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+
+
+    <!--
+    <script src="https://use.typekit.net/fig2iwz.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script src="type.js"></script>
+    -->
