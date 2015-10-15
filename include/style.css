@@ -116,7 +116,6 @@ table.row td.topic {
 	padding: 5px;
   padding-bottom: 0px;
   color: bluesteel;
-
 }
 
 .nav {
@@ -161,7 +160,7 @@ table.row td.topic {
   padding-left: 1em;
 }
 
-.section .header {
+.section .header, .section .smallheader {
   text-align: center;
   font-family: georgia;
   width: 70%;
@@ -169,6 +168,12 @@ table.row td.topic {
   color: #aeaeae;
   margin: 1.1em;
 }
+
+.section .smallheader {
+  font-size: 18pt;
+}
+
+
 
 .section p {
   padding-left: 1em;
