@@ -1,42 +1,41 @@
 <html>
    <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
     <title>ewuuu</title>
     <link rel="stylesheet" type="text/css" href="./include/style.css" />
     <script src="./include/jquery.js"></script>
     <script src="./include/handlebars.js"></script>
+    <script src="./include/data.js"></script>
+    <script src="./include/underscore.js"></script>
+    <script src="//static.cloudstitch.io/cloudstitch.js"></script>
   </head>
 <body>
   
-<div class="header">
+<div class="navbar">
   <div class="nav">
+    
     <a href="./index.html" >Eugene Wu</a>
     <a href="./projects.html">Projects</a>
-    <!--<a href="./ideas.html">Ideas</a>        -->
     <a href="./applying.html">Applying</a>
     <a href="./gallery.html">Gallery</a>        
+    
   </div>
 </div>
 
 
-<!--
-<div style="margin-top: 10px; width:100%; padding:none;">
-  <div title="Hi, my name is Gregory" id="coverimage"></div>
-</div>
--->
+
 <div class="main">
 
-
-
-
-<h1>Current and Past Projects</h1>
-<div class="section">
+  
+<div class="post">
+  <h1>Current and Past Projects</h1>
 
 <h2><a href="./dvms.html">Data Visualization Management Systems</a></h2>
-<p>
-  <img class="logo" id="dvmslogo" src="./images/dvms.png" />
-</p>
-<p>
-A Data Visualization Management System (DVMS) integrates
+
+<p><img class="logo" id="dvmslogo" src="./images/dvms.png" /></p>
+
+<p>A Data Visualization Management System (DVMS) integrates
 visualizations and databases, by compiling a declarative visualization
 language into an end-to-end relational operator pipeline that renders
 the visualization and is amenable to database-style optimizations.
@@ -44,101 +43,89 @@ Thus the DVMS can be both <i>expressive</i> via the
 visualization language, and <i>performant</i>
 by leveraging traditional and visualization-specific
 optimizations to scale interactive visualizations to massive
-datasets.
-</p>
-
+datasets.</p>
 
 <h2><a href="./dbwipes.html">Data Exploration and Explanation</a></h2>
-<p>
-  Visualizations are excellent for exposing surprising patterns
-  and outliers in data, however existing tools have no way to
-  help explain those patterns and outliers.  We are exploring 
-  systems to generate sensible explanations for outliers in 
-  analytics visualizations.
-</p>
-<p>
-  <img class="screenshot" id="scorpionscreen" src="./images/scorpion.png" />
-</p>
 
+<p>Visualizations are excellent for exposing surprising patterns
+and outliers in data, however existing tools have no way to
+help explain those patterns and outliers.  We are exploring 
+systems to generate sensible explanations for outliers in 
+analytics visualizations.</p>
 
-<h2><a href="https://github.com/sirrice/dbtruck">Data Import and Cleaning</a></h2>
-<p>
-A tool to import your data into whatever data store you want, 
-as painlessly as possible.  
-</p>
-<p>
-See <a href="http://scripts.mit.edu/~eugenewu/wp/archives/327">article for motivation</a>
-</p>
+<p><img class="screenshot" id="scorpionscreen" src="./images/scorpion.png" /></p>
 
+<h2><a href="http://www.sampleclean.org">Data Cleaning Systems</a></h2>
 
+<p>Analysts report spending upwards of 80% of their time on problems in data cleaning including extraction, formatting, handling missing values, and entity resolution. 
+The SampleClean project explores scalable techniques for data cleaning, crowd sourced data cleaning, and statistical inference on dirty data.</p>
 
-<h2><a href="http://db.csail.mit.edu/qurk/">Qurk</a></h2>
+<p><img class="screenshot" id="samplecleanscreen" src="./images/sampleclean.png" /></p>
+
+<h2><a href="https://github.com/sirrice/dbtruck">Data Import</a></h2>
+
+<p>A tool to import your data into whatever data store you want, 
+as painlessly as possible.  </p>
+
+<p>See <a href="http://scripts.mit.edu/~eugenewu/wp/archives/327">article for motivation</a></p>
+
+<h1><a href="http://db.csail.mit.edu/qurk/">Qurk</a> and Crowd-sourcing</h1>
+
 <p>A look at optimizing human computation through a database lens.  Qurk is a
 database prototype that enables users to write queries that compute results from
 both machines and humans.  With <a href="http://people.csail.mit.edu/marcua/">adam marcus</a>.</p>
 
-
 <h2>WebTables</h2>
+
 <p>A look into the properties of structured data at the internet scale. With
 <a href="http://web.eecs.umich.edu/~michjc/">michael cafarella</a>, <a href="http://yz.mit.edu/">yang zhang</a>,
 <a href="http://www.cs.washington.edu/homes/nodira/Nodira_Khoussainova.html">nodira k.</a>,
-<a href="http://www.cise.ufl.edu/~daisyw/">daisy wang</a> and <a href="http://www.cs.washington.edu/homes/alon/">alon halevy</a>.</p>
-
+<a href="http://www.cise.ufl.edu/~daisyw/">daisy wang</a> and <a href="http://www.cs.washington.edu/homes/alon/">alon halevy</a>.</p></p>
 
 <h2><a href="http://sase.cs.umass.edu/">SASE</a></h2>
+
 <p>System for declaratively filtering and correlating streams
 of events from sensor and rfid devices.  Extends
 <a href="http://yfilter.cs.umass.edu/">YFilter's</a> core
-query processing engine.  With <a href="http://people.cs.umass.edu/~yanlei/">yanlei diao</a> and <a href="http://people.cs.umass.edu/~dpg/">daniel gyllstrom</a></p>
+query processing engine.  With <a href="http://people.cs.umass.edu/~yanlei/">yanlei diao</a> and <a href="http://people.cs.umass.edu/~dpg/">daniel gyllstrom</a>.</p>
 
-<h2>
-  <a href="http://hifi.cs.berkeley.edu/home/events/bears_05.html">
-  HiFi @ Berkeley</a>
-</h2>
+<h2><a href="http://hifi.cs.berkeley.edu/home/events/bears_05.html">HiFi@Berkeley</a></h2>
+
 <p>A Cascading Stream Architecture for Large-Scale Receptor-Based Networks.  With the
 <a href="http://db.cs.berkeley.edu/">berkeley db group</a> and notably <a href="http://www.funkymonkeyland.net/">shawn jeffrey</a>
 and <a href="http://www.rizvi.org/">shariq rizvi</a></p>
 
 <h2>Waapsi</h2>
+
 <p>An experimental course scheduling system.  Tries to make the
 user experience not suck by using JS.  This was around the time google
 calendar came out.  With <a href="https://twitter.com/#!/sukhchander">sukhchander khanna</a></p>
 
-</div>
+<h2>Relational Grammar of Graphics</h2>
 
-<!--
-<h2><a href="#">Data Visualization Management Systems</a></h2>
-<p>
-  Implementation of a declarative javascript-based visualization system with provenance support integrated out-of-the-box.  
-<p>
-Inspired by Wilkinson's Grammar of Graphics and Wickham's ggplot2 for R.</p>
+<p>Exploration of translation from grammar of graphics to a relational query plan with simple provenance support integrated out-of-the-box.  </p>
 
-</p>
-<p>
-  <a href="https://github.com/sirrice/gg/">source on github</a>
-<p>
-  <div class='screenshot' id="ggscreen"></div>
-</p>
--->
+<p><a href="https://github.com/sirrice/gg/">source on github</a></p>
 
+<div class='screenshot' id="ggscreen"></div>
 
 <h1>Educational</h1>
-<div class='section'>
 
 <h2><a href="http://db.csail.mit.edu/6.885/">Big data course@MIT</a></h2>
-<p>
- I co-developed the "big data" course at MIT.  The class surveys techniques and systems for ingesting, efficiently processing, analyzing, and visualizing large data sets. Topics will include data cleaning, data integration, scalable systems (relational databases, NoSQL, Hadoop, etc.), analytics (data cubes, scalable statistics and machine learning), and scalable visualization of large data sets. </p>
-<p>The goal is for students to gain working experience of the topics and systems that are covered.
-</p>
 
-<h2><a href="http://dataiap.github.com/">Introduction to Data Literacy</a></h2>
+<p>I co-developed the "big data" course at MIT.  The class surveys techniques and systems for ingesting, efficiently processing, analyzing, and visualizing large data sets. Topics will include data cleaning, data integration, scalable systems (relational databases, NoSQL, Hadoop, etc.), analytics (data cubes, scalable statistics and machine learning), and scalable visualization of large data sets.</p>
+
+<p>The goal is for students to gain working experience of the topics and systems that are covered.</p>
+
+<h2>[introduction to Data Literacy](http://dataiap.github.com/</h2>
+
 <p>I co-taught a heavily lab-based IAP class called <a href="http://dataiap.github.com/">Introduction to Data Literacy</a>
-    that introduces students to many basic data cleaning, analysis, and visualization techniques.  The
-   course was added to <a href="http://ocw.mit.edu/resources/res-6-009-how-to-process-analyze-and-visualize-data-january-iap-2012/index.htm">OCW</a>.
-   With my buddy <a href="http://people.csail.mit.edu/marcua/">adam marcus</a>.
-</p>
+that introduces students to many basic data cleaning, analysis, and visualization techniques.  The
+course was added to <a href="http://ocw.mit.edu/resources/res-6-009-how-to-process-analyze-and-visualize-data-january-iap-2012/index.htm">OCW</a>.
+With my buddy <a href="http://people.csail.mit.edu/marcua/">adam marcus</a>.</p>
 
-<h2><a href="http://meet.mit.edu">MEET</a></h2>
+<h2><a href="http://meet.mit.edu">MEET</a> -- Middle Eastern Education through Technology</h2>
+
 <p>MEET strives to bridge the gap between future Israeli and Palestinian
 leaders by immersing them together for 3 full years of fun and education.  MIT
 business and technical instructors work in the Middle East for a month-long
@@ -146,72 +133,45 @@ intensive session during the summer.  I was one of four Year 3 technical
 instructors in 2010, and helped head the curriculum team for the past 3
 years</p>
 
-
-
-</div>
-
-
-
-
-
 <h1>Fun</h1>
-<div class='section'>
 
-<h2><a href="http://web.mit.edu/~eugenewu/Public/vldb/">VLDB conference trends</a></h2>
-<p>
-A history of databases through keyword trends in VLDB publication titles
-</p>
-<p>
-  <a href="http://web.mit.edu/~eugenewu/Public/vldb/">
+<h2><a href="http://web.mit.edu/~eugenewu/Public/vldb/">VLDB conference trends</a></h2></h2>
+
+<p>A history of databases through keyword trends in VLDB publication titles</p>
+
+<p><a href="http://web.mit.edu/~eugenewu/Public/vldb/">
   <img class="screenshot" id="vldb-trends" src="./images/vldb-trends.png"  />
-  </a>
-</p>
+  </a></p>
 
 <h2><a href="http://www.github.com/sirrice/pygg">Python ggplot2 syntax</a></h2>
-<p>
-  A python wrapper around ggplot2 that provides nearly the same syntax, but in python.
-</p>
-<p>
-  <code>
-    from pygg import *<br/>
-    <br/>
-    # Example using diamonds dataset (comes with ggplot2)<br/>
-    p = ggplot('diamonds', aes('carat', y='price'))<br/>
-    g = geom_point() + facet_wrap(None, "color")<br/>
-    ggsave("test1.pdf", p+g, data=None)<br/>
-  </code>
-</p>
 
+<p>A python wrapper around ggplot2 that provides nearly the same syntax, but in python.</p>
 
+<pre><code>  from pygg import *
 
-</div>
-
-
-
+  # Example using diamonds dataset (comes with ggplot2)
+  p = ggplot('diamonds', aes('carat', y='price'))
+  g = geom_point() + facet_wrap(None, "color")
+  ggsave("test1.pdf", p+g, data=None)
+</code></pre>
 
 <h1>Past Jobs</h1>
-<div class="section">
+
 <ul>
-  <li>Google Internship in Webtables research project.  <small>Spring 2007 - Winter 2008</small></li>
-  <li>UC Berkeley Database Teaching Assistant.  <small>Fall 2006</small></li>
-  <li>Yahoo Internship in RDF Databases.  <small>Summer 2006.</small></li>
-  <li>Microsoft Internship in Exchange Server. <small>Summer 2005.</small></li>
-  <li>IBM Extreme Blue. <small>Spring 2005.</small></li>
+<li>Google Internship in Webtables research project.  <small>Spring 2007 - Winter 2008</small></li></li>
+<li>UC Berkeley Database Teaching Assistant.  <small>Fall 2006</small></li></li>
+<li>Yahoo Internship in RDF Databases.  <small>Summer 2006.</small></li></li>
+<li>Microsoft Internship in Exchange Server. <small>Summer 2005.</small></li></li>
+<li>IBM Extreme Blue. <small>Spring 2005.</small></li></li>
 </ul>
+
+<p><link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:300' rel='stylesheet' type='text/css'></p>
 </div>
 
 
-
-
 </div>
 
-<div class="footer">
-<div id="signature"></div>
-eugene wu
-</div>
-
-<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:300' rel='stylesheet' type='text/css'>
-
+<div class="footer"><div id="signature"></div>eugene wu</div>
 
 <!------------ STATS -------------->
 <script>
@@ -227,4 +187,3 @@ eugene wu
 <!----------- END STATS ------------>
 
 </body>
-</html>

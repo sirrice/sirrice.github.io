@@ -1,43 +1,12 @@
-<html>
-   <head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta content="utf-8" http-equiv="encoding">
-    <title>ewuuu</title>
-    <link rel="stylesheet" type="text/css" href="./include/style.css" />
-    <script src="./include/jquery.js"></script>
-    <script src="./include/handlebars.js"></script>
-    <script src="./include/data.js"></script>
-    <script src="./include/underscore.js"></script>
-    <script src="//static.cloudstitch.io/cloudstitch.js"></script>
-  </head>
-<body>
-  
-<div class="navbar">
-  <div class="nav">
-    
-    <a href="./index.html" >Eugene Wu</a>
-    <a href="./projects.html">Projects</a>
-    <a href="./applying.html">Applying</a>
-    <a href="./gallery.html">Gallery</a>        
-    
-  </div>
-</div>
 
+# What?
 
+Some ideas
 
-<div class="main">
+# <a href="#structuredcomm">Oct 14, 2015</a>
 
-  
-<div class="post">
-  <h1>What?</h1>
-
-<p>Some ideas</p>
-
-<h1><a href="#structuredcomm">Oct 14, 2015</a></h1>
-
-<h2>Sayre's law</h2>
-
-<p><a name="sayre"></a></p>
+## Sayre's law
+<a name="sayre"></a>
 
 <p class="smallheader">
   "In any dispute the intensity of feeling is inversely proportional to the value of the issues at stake... 
@@ -47,7 +16,8 @@
   - Charles Philip Issawi
 </p>
 
-<p>Is this because the tools and clarity of measurement are inversely proportional to the stakes?  All academics are intimately familiar with the lust of publication but how many understand the ramifications of world economics from the core of their beings?</p>
+Is this because the tools and clarity of measurement are inversely proportional to the stakes?  All academics are intimately familiar with the lust of publication but how many understand the ramifications of world economics from the core of their beings?
+ 
 
 <!--
 # <a href="#structuredcomm">Jun 2, 2015</a>
@@ -78,24 +48,5 @@ Certainly, there are a number of challenges to make this work:
 * entity resolution and normalization
 * IBM and I.B.M
 -->
-</div>
 
 
-</div>
-
-<div class="footer"><div id="signature"></div>eugene wu</div>
-
-<!------------ STATS -------------->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-3762902-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
-<!----------- END STATS ------------>
-
-</body>
