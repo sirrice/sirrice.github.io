@@ -73,10 +73,20 @@ systems, crowd sourcing, visualization, and HCI.
 
 
 
-# Teaching
+# <span id="pubtitle">Selected Publications</span> 
 
+<div class="section">
+  <div id="publications">
+    <div widget="sirrice/publications">
+    Loading Publications
+    </div>
+  </div>
+  <div style="font-size: 9pt">
+    Powered by <a href="http://www.cloudstitch.io/">cloudstitch</a>.  
+    <a href="http://www.cloudstitch.io/sirrice/publications/">clonethis</a>
+  </div>
+</div>
 
-## [Introduction to Databases](http://www.cs.columbia.edu/~coms4111/) Fall 2015
 
 
 
@@ -120,19 +130,12 @@ The SampleClean project explores scalable techniques for data cleaning, crowd so
 
 
 
-# <span id="pubtitle">Selected Publications</span> 
 
-<div class="section">
-  <div id="publications">
-    <div widget="sirrice/publications">
-    Loading Publications
-    </div>
-  </div>
-  <div style="font-size: 9pt">
-    Powered by <a href="http://www.cloudstitch.io/">cloudstitch</a>.  
-    <a href="http://www.cloudstitch.io/sirrice/publications/">clonethis</a>
-  </div>
-</div>
+
+# Teaching
+
+## [Introduction to Databases](http://www.cs.columbia.edu/~coms4111/) Fall 2015
+
 
 
 # Service
