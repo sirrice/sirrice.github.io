@@ -140,6 +140,13 @@ A python wrapper around ggplot2 that provides nearly the same syntax, but in pyt
       g = geom_point() + facet_wrap(None, "color")
       ggsave("test1.pdf", p+g, data=None)
 
+## [bibcleaner](https://github.com/sirrice/bibcleaner)
+
+GUI interface to normalize and clean up entries in bibtex files to reduce the references section and make the bibtex more managable.
+
+  <a href="https://github.com/sirrice/bibcleaner">
+  <img class="screenshot" id="bibcleaner-img" src="https://github.com/sirrice/bibcleaner/blob/master/screenshot.png" />
+  </a>
 
 
 # Past Jobs
