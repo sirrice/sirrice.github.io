@@ -145,7 +145,7 @@ A python wrapper around ggplot2 that provides nearly the same syntax, but in pyt
 GUI interface to normalize and clean up entries in bibtex files to reduce the references section and make the bibtex more managable.
 
   <a href="https://github.com/sirrice/bibcleaner">
-  <img class="screenshot" id="bibcleaner-img" src="https://github.com/sirrice/bibcleaner/blob/master/screenshot.png" />
+  <img class="screenshot" id="bibcleaner-img" src="https://raw.githubusercontent.com/sirrice/bibcleaner/master/screenshot.png"/>
   </a>
 
 
