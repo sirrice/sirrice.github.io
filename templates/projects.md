@@ -121,11 +121,11 @@ years
 
 # Fun
 
-## <a href="http://web.mit.edu/~eugenewu/Public/vldb/">VLDB conference trends</a></h2>
+## <a href="./vldbtrends/">VLDB conference trends</a></h2>
 
 A history of databases through keyword trends in VLDB publication titles
 
-  <a href="http://web.mit.edu/~eugenewu/Public/vldb/">
+  <a href="./vldbtrends/">
   <img class="screenshot" id="vldb-trends" src="./images/vldb-trends.png"  />
   </a>
 

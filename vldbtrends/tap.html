@@ -1,0 +1,238 @@
+
+<html>
+<head>
+	<script src="./js/jquery.js"></script>
+	<script src="./js/jquery-ui.js"></script>
+	<script src="./js/sparklines.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"/>	
+	
+
+	<style>
+	@import url(http://fonts.googleapis.com/css?family=Carme);
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+	body { font-family: open sans; margin-left: 50px; width: 950px;
+	margin-right: auto; margin-left: auto; }
+	div.container {}
+	.word {font-family: Open Sans; font-size: 10pt; text-align: right;}
+	td {text-align: right;}
+	.spark { height: 70px; margin: 5px;}
+	table {float:left; margin-right: 20px; }
+	p {font-size: 12pt; width: 700px; margin: 15px; margin-bottom: 3ex; font-family: open sans;}
+	h1 {margin-top: 30px; font-family: open sans;}
+  h2 { color: rgb(151, 158, 170); font-size: 15pt; }
+	.count {font-size: 10pt;}
+	table.topk {margin: 20px; width: 120px}
+	.year {font-weight: bold;}
+	b {color: steelblue; font-weight: bold;}
+	.footer {display: block; clear:both; text-align: center; font-size: 10pt; margin-top: 5em;}
+  .row { margin-top: 2em; }
+	</style>
+</head>
+<body>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>designs</div>
+       <div class='word'>file</div>
+       <div class='word'>abstraction</div>
+       <div class='word'>paper</div>
+       <div class='word'>invited</div>
+       <div class='word'>codasyl</div>
+       <div class='word'>specifications</div>
+       <div class='word'>conceptual</div>
+       <div class='word'>interface</div>
+       <div class='word'>office</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/tap_7.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>object</div>
+       <div class='word'>model</div>
+       <div class='word'>oriented</div>
+       <div class='word'>transaction</div>
+       <div class='word'>language</div>
+       <div class='word'>rules</div>
+       <div class='word'>activity</div>
+       <div class='word'>panel</div>
+       <div class='word'>methods</div>
+       <div class='word'>extended</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/tap_1.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>parallel</div>
+       <div class='word'>server</div>
+       <div class='word'>heterogeneity</div>
+       <div class='word'>materialization</div>
+       <div class='word'>level</div>
+       <div class='word'>warehousing</div>
+       <div class='word'>associative</div>
+       <div class='word'>load</div>
+       <div class='word'>multidimensional</div>
+       <div class='word'>universal</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/tap_3.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>service</div>
+       <div class='word'>cached</div>
+       <div class='word'>technology</div>
+       <div class='word'>warehouse</div>
+       <div class='word'>internet</div>
+       <div class='word'>olap</div>
+       <div class='word'>site</div>
+       <div class='word'>business</div>
+       <div class='word'>space</div>
+       <div class='word'>maintenance</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/tap_6.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>data</div>
+       <div class='word'>queries</div>
+       <div class='word'>database</div>
+       <div class='word'>systems</div>
+       <div class='word'>efficient</div>
+       <div class='word'>web</div>
+       <div class='word'>based</div>
+       <div class='word'>search</div>
+       <div class='word'>processing</div>
+       <div class='word'>management</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/tap_2.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>xml</div>
+       <div class='word'>streams</div>
+       <div class='word'>engineering</div>
+       <div class='word'>xquery</div>
+       <div class='word'>peer</div>
+       <div class='word'>dimensional</div>
+       <div class='word'>oracle</div>
+       <div class='word'>cube</div>
+       <div class='word'>automatic</div>
+       <div class='word'>platforms</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/tap_5.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>scalability</div>
+       <div class='word'>match</div>
+       <div class='word'>uncertain</div>
+       <div class='word'>probabilistic</div>
+       <div class='word'>similarity</div>
+       <div class='word'>analysis</div>
+       <div class='word'>top</div>
+       <div class='word'>awareness</div>
+       <div class='word'>pattern</div>
+       <div class='word'>mapping</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/tap_0.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>graphs</div>
+       <div class='word'>mapreduce</div>
+       <div class='word'>social</div>
+       <div class='word'>cloud</div>
+       <div class='word'>fast</div>
+       <div class='word'>results</div>
+       <div class='word'>distance</div>
+       <div class='word'>analytic</div>
+       <div class='word'>partitioning</div>
+       <div class='word'>differential</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/tap_4-1.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>scale</div>
+       <div class='word'>crowd</div>
+       <div class='word'>labeling</div>
+       <div class='word'>points</div>
+       <div class='word'>frequent</div>
+       <div class='word'>discovering</div>
+       <div class='word'>rdf</div>
+       <div class='word'>comparison</div>
+       <div class='word'>gpus</div>
+       <div class='word'>diversification</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/tap_4-0.png'/>
+    </div>
+  </div>
+  
+
+
+
+<div class='footer'><a href="http://www.sirrice.com/">eugene wu</a> &copy; 2011</div>
+
+
+</body>
+</html>

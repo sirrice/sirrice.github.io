@@ -68,4 +68,4 @@ if __name__ == "__main__":
     ], rules=[
         ('.*.md', render_post),
     ])
-    site.render(use_reloader=True)
+    site.render(use_reloader=False)
