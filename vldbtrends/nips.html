@@ -1,0 +1,238 @@
+
+<html>
+<head>
+	<script src="./js/jquery.js"></script>
+	<script src="./js/jquery-ui.js"></script>
+	<script src="./js/sparklines.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"/>	
+	
+
+	<style>
+	@import url(http://fonts.googleapis.com/css?family=Carme);
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+	body { font-family: open sans; margin-left: 50px; width: 950px;
+	margin-right: auto; margin-left: auto; }
+	div.container {}
+	.word {font-family: Open Sans; font-size: 10pt; text-align: right;}
+	td {text-align: right;}
+	.spark { height: 70px; margin: 5px;}
+	table {float:left; margin-right: 20px; }
+	p {font-size: 12pt; width: 700px; margin: 15px; margin-bottom: 3ex; font-family: open sans;}
+	h1 {margin-top: 30px; font-family: open sans;}
+  h2 { color: rgb(151, 158, 170); font-size: 15pt; }
+	.count {font-size: 10pt;}
+	table.topk {margin: 20px; width: 120px}
+	.year {font-weight: bold;}
+	b {color: steelblue; font-weight: bold;}
+	.footer {display: block; clear:both; text-align: center; font-size: 10pt; margin-top: 5em;}
+  .row { margin-top: 2em; }
+	</style>
+</head>
+<body>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>recognition</div>
+       <div class='word'>object</div>
+       <div class='word'>model</div>
+       <div class='word'>speech</div>
+       <div class='word'>control</div>
+       <div class='word'>associative</div>
+       <div class='word'>connectionist</div>
+       <div class='word'>analog</div>
+       <div class='word'>parallel</div>
+       <div class='word'>oriented</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/nips_5.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>machine</div>
+       <div class='word'>reinforcement</div>
+       <div class='word'>relational</div>
+       <div class='word'>service</div>
+       <div class='word'>information</div>
+       <div class='word'>caching</div>
+       <div class='word'>access</div>
+       <div class='word'>technology</div>
+       <div class='word'>cells</div>
+       <div class='word'>architecture</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/nips_7.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>query</div>
+       <div class='word'>xml</div>
+       <div class='word'>efficiently</div>
+       <div class='word'>stream</div>
+       <div class='word'>bounds</div>
+       <div class='word'>discriminate</div>
+       <div class='word'>views</div>
+       <div class='word'>field</div>
+       <div class='word'>schema</div>
+       <div class='word'>pattern</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/nips_8.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>databases</div>
+       <div class='word'>management</div>
+       <div class='word'>neurons</div>
+       <div class='word'>computational</div>
+       <div class='word'>algorithm</div>
+       <div class='word'>approaches</div>
+       <div class='word'>support</div>
+       <div class='word'>performance</div>
+       <div class='word'>spatial</div>
+       <div class='word'>design</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/nips_2.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>bayesian</div>
+       <div class='word'>analysis</div>
+       <div class='word'>multi</div>
+       <div class='word'>sparse</div>
+       <div class='word'>inference</div>
+       <div class='word'>functional</div>
+       <div class='word'>regression</div>
+       <div class='word'>dynamic</div>
+       <div class='word'>regular</div>
+       <div class='word'>adaptive</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/nips_0.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>kernel</div>
+       <div class='word'>processing</div>
+       <div class='word'>imaging</div>
+       <div class='word'>networks</div>
+       <div class='word'>labeled</div>
+       <div class='word'>distributed</div>
+       <div class='word'>coding</div>
+       <div class='word'>detection</div>
+       <div class='word'>time</div>
+       <div class='word'>complexity</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/nips_1.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>optimal</div>
+       <div class='word'>estimation</div>
+       <div class='word'>neural</div>
+       <div class='word'>sampling</div>
+       <div class='word'>ranking</div>
+       <div class='word'>graphs</div>
+       <div class='word'>mapreduce</div>
+       <div class='word'>variations</div>
+       <div class='word'>bandit</div>
+       <div class='word'>search</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/nips_3.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>data</div>
+       <div class='word'>system</div>
+       <div class='word'>clustering</div>
+       <div class='word'>based</div>
+       <div class='word'>web</div>
+       <div class='word'>optimizing</div>
+       <div class='word'>spike</div>
+       <div class='word'>indexing</div>
+       <div class='word'>approach</div>
+       <div class='word'>joins</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/nips_4.png'/>
+    </div>
+  </div>
+  
+  <div class='row'>
+    <div class='col span3'>
+      <p></p>
+    </div>
+    <div class='col span2'>
+       <div class='word'>learns</div>
+       <div class='word'>models</div>
+       <div class='word'>algorithms</div>
+       <div class='word'>structured</div>
+       <div class='word'>gaussian</div>
+       <div class='word'>general</div>
+       <div class='word'>efficient</div>
+       <div class='word'>approximation</div>
+       <div class='word'>searches</div>
+       <div class='word'>features</div>
+      
+    </div>
+    <div class='col span6'>
+      <img src='./plots/nips_6.png'/>
+    </div>
+  </div>
+  
+
+
+
+<div class='footer'><a href="http://www.sirrice.com/">eugene wu</a> &copy; 2011</div>
+
+
+</body>
+</html>
