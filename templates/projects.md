@@ -121,6 +121,17 @@ years
 
 # Fun
 
+
+## [Latex Snapshots](http://www.github.com/sirrice/latexsnapshots)
+
+Point `latexsnapshots` to your git repo, and it will go through the commits and identify those that change your tex files in a significant way, and regenerate the pdf files. It will also take thumbnails of those pdfs, and show them in a web UI.
+
+
+  <a href="http://www.github.com/sirrice/latexsnapshots">
+    <img class="screenshot" id="latexsnapshots-img" src="https://raw.githubusercontent.com/sirrice/latexsnapshots/master/latexsnapshots/static/screenshot.png"  />
+  </a>
+
+
 ## <a href="./vldbtrends/">VLDB conference trends</a></h2>
 
 A history of databases through keyword trends in VLDB publication titles
