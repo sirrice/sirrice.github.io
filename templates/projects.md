@@ -124,7 +124,7 @@ years
 
 ## [Latex Snapshots](http://www.github.com/sirrice/latexsnapshots)
 
-Point `latexsnapshots` to your git repo, and it will go through the commits and identify those that change your tex files in a significant way, and regenerate the pdf files. It will also take thumbnails of those pdfs, and show them in a web UI.
+Point **latexsnapshots** to your git repo, and it will go through the commits and identify those that change your tex files in a significant way, and regenerate the pdf files. It will also take thumbnails of those pdfs, and show them in a web UI.
 
 
   <a href="http://www.github.com/sirrice/latexsnapshots">
