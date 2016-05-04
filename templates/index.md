@@ -148,7 +148,7 @@ I am lucky to be working, and have worked, with many remarkable students.
 
 ## Undergrads
 
-* Hamed Nilforoshan
+* [Hamed Nilforoshan](http://hamedn.com/)
 * Rahul Khanna
 * James Sands
 
