@@ -174,7 +174,8 @@ I am lucky to be working, and have worked, with many remarkable students.
 
 # Teaching
 
-## [Introduction to Databases](http://www.cs.columbia.edu/~coms4111/) Fall 2015
+* [Big Data Systems](http://columbia.github.io/systems-bigdata-class/) Spring 2016
+* [Introduction to Databases](http://www.cs.columbia.edu/~coms4111/) Fall 2015
 
 
 
