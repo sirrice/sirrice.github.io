@@ -47,13 +47,9 @@ ul, ol { list-style-position: outside; }
 ul { 
   list-style-type: none; 
 }
-ul li {
-  /*border-left: 2px solid #eee;*/
-  padding-left: 20px;
-  margin-left: -20px;
-}
+ul li { }
 ol { }
-li { margin-bottom: 0.8em }
+li { margin-bottom: 0.4em }
 
 h1{
 	position: relative;
