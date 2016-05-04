@@ -140,6 +140,39 @@ The SampleClean project explores scalable techniques for data cleaning, crowd so
 
 
 
+# Students
+
+I am lucky to be working, and have worked, with many remarkable students.
+
+## PhD
+
+* [Fotis Psallidas](http://www.cs.columbia.edu/~fotis/)
+* [Xiaolan Wang](https://people.cs.umass.edu/~xlwang/) (UMaas Amherst, advised by Alexandra Meliou)
+  * QFix: explaining database errors using query histories
+* [Yifan Wu](http://www.cs.berkeley.edu/~yifanwu/) (UC Berkeley, Joe Hellerstein)
+  * Consistency in **De**clarative **V**isual **I**nteractive **L**anguages (DeVIL)
+* [Sanjay Krishnan](https://www.ocf.berkeley.edu/~sanjayk/) (UC Berkeley, advised by Michael Franklin, Ken Goldberg)
+  * Data cleaning and machine learning
+* [Daniel Haas](http://www.cs.berkeley.edu/~dhaas/) (UC Berkeley, advised by Michael Franklin)
+  * Making crowds _fast_
+* [Lilong Jiang](http://web.cse.ohio-state.edu/~jianglil/) (Ohio State, advised by Arnab Nandi)
+  * Human graphical perception 
+
+## Masters
+
+* Daniel Alabi (starting PhD at Harvard)
+  * Using human perceptual models to make visualizations faster
+* Zhengjie Miao
+  * Predictiong user interactions to make visualizations fasters and better
+
+## Undergrads
+
+* Hamed Nilforoshan
+* Rahul Khanna
+* James Sands
+
+
+
 # Teaching
 
 ## [Introduction to Databases](http://www.cs.columbia.edu/~coms4111/) Fall 2015
