@@ -148,7 +148,7 @@ I am lucky to be working, and have worked, with many remarkable students.
 
 * [Fotis Psallidas](http://www.cs.columbia.edu/~fotis/)
 * [Xiaolan Wang](https://people.cs.umass.edu/~xlwang/) (UMaas Amherst, advised by Alexandra Meliou)
-  * QFix: explaining database errors using query histories
+  `QFix: explaining database errors using query histories`
 * [Yifan Wu](http://www.cs.berkeley.edu/~yifanwu/) (UC Berkeley, Joe Hellerstein)
   * Consistency in **De**clarative **V**isual **I**nteractive **L**anguages (DeVIL)
 * [Sanjay Krishnan](https://www.ocf.berkeley.edu/~sanjayk/) (UC Berkeley, advised by Michael Franklin, Ken Goldberg)
