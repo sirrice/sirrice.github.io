@@ -22,7 +22,7 @@
         $("img").height(Math.max($("img").height() - 50, 100))
       });
       $("#bigger").click(function() {
-        $("img").height(Math.min($("img").height() + 50, 350))
+        $("img").height($("img").height() + 50); //Math.min($("img").height() + 50, 350))
       });
 
     </script>
