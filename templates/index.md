@@ -182,6 +182,7 @@ I am lucky to be working, and have worked, with many remarkable students.
 # Service
 
 * 2017 [VLDB](http://www.vldb.org/2017/) PC
+* 2016 [InfoVis](http://ieeevis.org/) Reviewer
 * 2016 [HILDA](http://hilda.io/2016/) PC
 * 2016 [NEDBDay](http://mitdbg.github.io/nedbday/2016) Co-Chair
 * 2016 [SIGMOD](http://sigmod2016.org/) travel award committee
