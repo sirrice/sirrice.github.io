@@ -226,6 +226,10 @@ img {
   box-shadow: none;
 }
 
+#cudbg {
+  position:absolute; top:0px; left:0px; padding:0px; border: none; box-shadow: none; width: 100px;
+}
+
 .item {
   padding: 1em;
   clear:both;
@@ -506,6 +510,11 @@ img {
     .main {
       padding-left: .5em;
     }
+    #cudbg {
+      display: none;
+    }
+
+
     .main.p {
       padding-left: .5em;
       margin-top: 5px;
