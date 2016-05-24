@@ -74,7 +74,7 @@ systems, crowd sourcing, visualization, and HCI.
 
 # Recent News
 
-* [Talk](http://sirrice.github.io/files/2016-05-mit-bigdata.pdf) about what provenance is and how it relates to our projects.  MIT BigData Workshop 2016
+* [Talk](http://sirrice.github.io/files/talks/2016-05-mit-bigdata.pdf) about what provenance is and how it relates to our projects.  MIT BigData Workshop 2016
 * Four papers accepted at SIGMOD's [Hilda](http://www.hilda.io) workshop!
 * QueryFix explanation demo accepted to SIGMOD 2016!
 * CLAMShell paper for _drastically_ speeding up crowds accepted to VLDB 2016!
