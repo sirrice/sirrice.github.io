@@ -5,13 +5,14 @@ font-family: open sans, georgia, helvetica, arial;
 }
 
 body{
-	width: 900px;
+	min-width: 900px;
+  width: 80%;
 	margin: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	background: #FAFAFA;
   background: white;
-  font-size: 14pt;
+  font-size: 13pt;
 }
 table {
   font-size: 12pt;
@@ -95,7 +96,7 @@ table.row td.thumb {
 table.row td.topic {
   color: #555;
   width: 9em;
-  font-size: 14pt;
+  font-size: 13pt;
   font-weight: bold;
   vertical-align: top;
   text-align: right;
@@ -163,13 +164,13 @@ table.row td.topic {
   text-align: center;
   font-family: georgia;
   width: 70%;
-  font-size: 23pt;
+  font-size: 20pt;
   color: #aeaeae;
   margin: 1.1em;
 }
 
 .smallheader {
-  font-size: 18pt;
+  font-size: 15pt;
 }
 
 
@@ -279,7 +280,7 @@ img {
   margin-left: auto;
   margin-rigt: auto;
   display: block;
-  font-size: 16pt;
+  font-size: 15pt;
   border: 1px solid rgb(201, 27, 77);
   padding: 1em;
 }

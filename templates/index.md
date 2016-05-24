@@ -33,8 +33,7 @@
   <p>
   <span class="important" style="font-size: bigger">
     <a href="./applying.html" class="apply">
-      If you are interested in the future of declarative interactive data visualization systems, <br/>
-      or scalable tools that facilitate data analysis and exploration, <br/>
+      Interested in the future of declarative data vis, analysis, and exploration?
       apply for research and PostDoc positions!</a>
   </span>
   </p>
@@ -73,12 +72,18 @@ systems, crowd sourcing, visualization, and HCI.
 
 
 
+# Recent News
+
+* Talk about what provenance is and how it relates to our projects.  MIT BigData Workshop 2016
+* Four papers accepted at SIGMOD's [Hilda](http://www.hilda.io) workshop!
+* QueryFix explanation demo accepted to SIGMOD 2016!
+* CLAMShell paper for _drastically_ speeding up crowds accepted to VLDB 2016!
+
 
 # Current Research Areas
 
 ## [Data Visualization Management Systems](./dvms.html)
 
-<img class="logo" id="dvmslogo" src="./images/dvms.png" />
 
 A Data Visualization Management System (DVMS) integrates
 visualizations and databases, by compiling a declarative visualization
@@ -90,6 +95,7 @@ by leveraging traditional and visualization-specific
 optimizations to scale interactive visualizations to massive
 datasets.
 
+<img class="logo" id="dvmslogo" src="./images/dvms.png" />
 
 ## [Query Explanation](./qfix.html)
 
@@ -115,7 +121,7 @@ analytics visualizations.
 ## [Data Cleaning Systems](http://www.sampleclean.org)
 
 Analysts report spending upwards of 80% of their time on problems in data cleaning including extraction, formatting, handling missing values, and entity resolution. 
-The SampleClean project explores scalable techniques for data cleaning, crowd sourced data cleaning, and statistical inference on dirty data.
+How can knowing the application you want to _actually_ run help speed up the cleaning process?
 
 <img class="screenshot" id="samplecleanscreen" src="./images/sampleclean.png" />
 
