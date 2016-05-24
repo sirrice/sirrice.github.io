@@ -30,17 +30,18 @@
   </td>
   </tr>
   <tr> <td colspan=2>
-  <p>
-  <span class="important" style="font-size: bigger">
-    <a href="./applying.html" class="apply">
-      Interested in the future of declarative data vis, analysis, and exploration?
-      apply for research and PostDoc positions!</a>
-  </span>
-  </p>
-  </td></tr></table>
 
 </div>
 
+# Applying
+
+<span style="font-weight: bold; color: rgb(201, 27, 77); width: 100%; padding: 10px;">
+  We are currently hiring great graduate and post-doctoral researchers.
+</span>
+  
+
+* [Prospective PhD and PostDocs](./applying.html)
+* [Prospective Interns, UGrad, Masters Students](https://docs.google.com/forms/d/1-s1SwcpY0WBnRrzlrQfSrcxSCeOAymOHfU-sHroUXfU/viewform)
 
 # Bio
 

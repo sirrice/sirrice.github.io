@@ -354,6 +354,35 @@ img {
   background: rgb(12, 94, 148);
   box-shadow: 1px 2px 3px rgba(132, 187, 223, 0.75);
 }
+
+.pills {
+  margin-top: 1em;
+}
+
+
+.pills a {
+  font-weight: bold;
+  color: rgb(201, 27, 77);
+  background: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15pt;
+  border: 1px solid rgb(201, 27, 77);
+  padding: 1em;
+  box-shadow: none;
+  margin-top: 1.5em;
+
+  font-size: 15pt;
+  color: rgb(201, 27, 77);
+  background: white;
+}
+
+.pills a:hover {
+  background: rgb(201, 27, 77);
+  color: white;
+}
+
 #coverimage {
   background-image:url('../images/gregory-large.jpg');
   /*background-image:url('../images/mebig.jpg');*/
