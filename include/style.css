@@ -512,6 +512,7 @@ img {
 @media  (max-width:900px) {
     body {
       width: 500px;
+      min-width: inherit;
       font-size: 12pt;
     }
     table {
@@ -524,7 +525,7 @@ img {
       padding-bottom: 1em;
     }
     h1, h2, h3 {
-      margin: 5px;
+      margin: 0px; /*5px;*/
       padding: 0px;
       margin-top: 1em;
     }
@@ -535,6 +536,9 @@ img {
       margin-bottom: 1em;
       text-align: center;
       margin-left: -.1em;
+    }
+    h2 {
+      font-size: 1.2em;
     }
     li { margin-bottom: 0px; }
     .main {
@@ -553,6 +557,7 @@ img {
     }
 
     img.screenshot {
+      display: none;
       /*width: 100%;*/
     }
 

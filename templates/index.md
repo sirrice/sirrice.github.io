@@ -35,7 +35,7 @@
 
 # Applying
 
-<span style="font-weight: bold; color: rgb(201, 27, 77); width: 100%; padding: 10px;">
+<span style="font-weight: bold; color: rgb(201, 27, 77); width: 100%; padding-top: 10px; padding-bottom: 10px">
   We are currently hiring great graduate and post-doctoral researchers.
 </span>
   
@@ -96,7 +96,7 @@ by leveraging traditional and visualization-specific
 optimizations to scale interactive visualizations to massive
 datasets.
 
-<img class="logo" id="dvmslogo" src="./images/dvms.png" />
+<img class="screenshot" id="dvmslogo" src="./images/dvms.png" />
 
 ## [Query Explanation](./qfix.html)
 
@@ -183,6 +183,8 @@ I am lucky to be working, and have worked, with many remarkable students.
 
 * [Big Data Systems](http://columbia.github.io/systems-bigdata-class/) Spring 2016
 * [Introduction to Databases](http://www.cs.columbia.edu/~coms4111/) Fall 2015
+* [From Ascii to Answers](http://db.csail.mit.edu/6.885/) at MIT 
+* [Data IAP](dataiap.github.io) at MIT
 
 
 
