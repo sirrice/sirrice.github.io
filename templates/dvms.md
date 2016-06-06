@@ -91,6 +91,42 @@ seek to answer a critical question: *how can these models inform approximation d
 <div class="section" id="publications">
 
 <div class="item">
+  <div class="screenshot"><img src="./images/previews/preview_devil-hilda16.png" width=200/></div>
+  <div class="text">
+    <div class="title">
+      <a href="./files/papers/devil-hilda16.pdf"> 
+        A DeVIL-ish Approach to Inconsistency in Interactive Visualizations
+      </a>
+    </div>
+    <div class="authors">Yifan Wu, Joseph Hellerstein, Eugene Wu</div>
+    <div class="links">
+      <span class="conf">Hilda 2016</span>
+    </div>
+  </div>
+  <div style="clear: both"></div>
+</div>
+
+
+
+<div class="item">
+  <div class="screenshot"><img src="./images/previews/preview_pfunk-hilda16.png" width=200/></div>
+  <div class="text">
+    <div class="title">
+      <a href="./files/papers/pfunk-hilda16.pdf"> 
+       PFunk-H: Approximate Query Processing using Perceptual Models 
+      </a>
+    </div>
+    <div class="authors">Daniel Alabi, Eugene Wu</div>
+    <div class="links">
+      <span class="conf">Hilda 2016</span>
+    </div>
+  </div>
+  <div style="clear: both"></div>
+</div>
+
+
+
+<div class="item">
   <div class="screenshot"><img src="./images/infovis_animate_paper.png" width=200/></div>
   <div class="text">
     <div class="title">
@@ -105,6 +141,24 @@ seek to answer a critical question: *how can these models inform approximation d
   </div>
   <div style="clear: both"></div>
 </div>
+
+
+<div class="item">
+  <div class="screenshot"><img src="./images/previews/preview_intervis-dsia15.png" width=200/></div>
+  <div class="text">
+    <div class="title">
+      <a href="./files/papers/intervis-dsia15.pdf">
+      Towards Perception-aware Interactive Data Visualization Systems
+      </a>
+    </div>
+    <div class="authors">Eugene Wu, Arnab Nandi</div>
+    <div class="links">
+      <span class="conf">DSIA 2016</span>
+    </div>
+  </div>
+  <div style="clear: both"></div>
+</div>
+
 
 
 <div class="item">

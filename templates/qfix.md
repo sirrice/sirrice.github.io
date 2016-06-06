@@ -40,7 +40,7 @@ repair the incorrect queries that it finds.
 <div class="section" id="publications">
 
 <div class="item">
-  <div class="screenshot"><img src="./images/qfix_demo_paper.png" width=200/></div>
+  <div class="screenshot"><img src="./images/previews/preview_qfix-sigmod16.png" width=200/></div>
   <div class="text">
     <div class="title">
       <a href="./files/papers/qfix-sigmod16.pdf">

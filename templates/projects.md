@@ -17,6 +17,14 @@ by leveraging traditional and visualization-specific
 optimizations to scale interactive visualizations to massive
 datasets.
 
+## [Query Explanation](./qfix.html)
+
+Instead of explaining and fixing data using data, which is a bit circuitous,
+we seek to both explain and repair incorrect data values by using the actual
+queries that modified the database.
+
+<img class="screenshot" id="qfixscreen" src="./images/qfix.png" />
+
 
 ## [Data Exploration and Explanation](./dbwipes.html)
 
