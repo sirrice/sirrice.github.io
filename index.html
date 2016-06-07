@@ -8,7 +8,8 @@
     <script src="./include/handlebars.js"></script>
     <script src="./include/data.js"></script>
     <script src="./include/underscore.js"></script>
-    <script src="//static.cloudstitch.io/cloudstitch.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.13/webcomponents-lite.min.js"></script> 
+    <link rel="import" href="https://components.cloudstitch.com/components/cloudstitch-handlebars/cloudstitch-handlebars.vulcanized.html"/>
   </head>
 <body>
 
@@ -205,13 +206,11 @@ How can knowing the application you want to <em>actually</em> run help speed up 
 
 <div class="section">
   <div id="publications">
-    <div widget="sirrice/publications">
-    Loading Publications
-    </div>
+    <cloudstitch-handlebars user="sirrice" app="wu-publications"></cloudstitch-handlebars>
   </div>
   <div style="font-size: 9pt">
     Powered by <a href="http://www.cloudstitch.io/">cloudstitch</a>.  
-    <a href="http://www.cloudstitch.io/sirrice/publications/">clonethis</a>
+    <a href="https://www.cloudstitch.com/academic/eugene-wu-publications">clonethis</a>
   </div>
 </div>
 

@@ -165,13 +165,11 @@ I am lucky to be working, and have worked, with many remarkable students.
 
 <div class="section">
   <div id="publications">
-    <div widget="sirrice/publications">
-    Loading Publications
-    </div>
+    <cloudstitch-handlebars user="sirrice" app="wu-publications"></cloudstitch-handlebars>
   </div>
   <div style="font-size: 9pt">
     Powered by <a href="http://www.cloudstitch.io/">cloudstitch</a>.  
-    <a href="http://www.cloudstitch.io/sirrice/publications/">clonethis</a>
+    <a href="https://www.cloudstitch.com/academic/eugene-wu-publications">clonethis</a>
   </div>
 </div>
 
