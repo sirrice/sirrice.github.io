@@ -14,7 +14,7 @@
     Eugene Wu<br/>
     Assistant Professor<br/>
     <span class="small">
-      OH: Weds 4-5PM<br/>
+      <!--OH: Weds 4-5PM<br/>-->
       <!--7LW1A CEPSR-->
       <a href="./images/map.png">421 Mudd in the DSI space, 500 W 120th St</a><br/>
       <a href="http://cudbg.github.io/">Database Group</a><br/>
