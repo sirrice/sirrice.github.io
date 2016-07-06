@@ -144,6 +144,7 @@ I am lucky to be working, and have worked, with many remarkable students.
   * Data cleaning and machine learning
 * [Daniel Haas](http://www.cs.berkeley.edu/~dhaas/) <small>(UC Berkeley, advised by Michael Franklin)</small>
   * Making crowds _fast_
+* [Laura Retting](http://exascale.info/members/laura-rettig/) <small>(Fribourg University, advised by Philippe Cudre-Mauroux)</small>
 * [Lilong Jiang](http://web.cse.ohio-state.edu/~jianglil/) <small>(Ohio State, advised by Arnab Nandi)</small>
   * Human graphical perception
 
@@ -159,6 +160,7 @@ I am lucky to be working, and have worked, with many remarkable students.
 * [Hamed Nilforoshan](http://hamedn.com/)
 * Rahul Khanna
 * James Sands
+* HaoCi Zhang <small>(Tsinghua University)</small>
 
 
 
