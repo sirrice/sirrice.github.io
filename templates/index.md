@@ -36,7 +36,7 @@
 # Applying
 
 <span style="font-weight: bold; color: rgb(201, 27, 77); width: 100%; padding-top: 10px; padding-bottom: 10px">
-  We are currently hiring great graduate and post-doctoral researchers.
+  We are currently hiring great graduate and post-doctoral researchers.  If you are interested, DO NOT EMAIL ME DIRECTLY.  Click on the following links first.
 </span>
   
 
