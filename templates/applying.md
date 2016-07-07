@@ -78,7 +78,11 @@ Prospective Ph.D students apply to the computer science department
 at large, and faculty members review the applications and nomiate
 applicants for admission.  For this reason, it is helpful to 
 <a href="mailto:ew2493@columbia.edu">let me know</a> you have applied
-if you are interested in working with me.
+if you are interested in working with me.  
+
+However, **I will not provide feedback about your application through email**.
+If you want a sense of what qualities I am looking for, 
+[read this form](https://docs.google.com/forms/d/1-s1SwcpY0WBnRrzlrQfSrcxSCeOAymOHfU-sHroUXfU/viewform).
 
 All applications should be submitted through <a href="https://mice.cs.columbia.edu/recruit/">the electronic system</a>
 by **December 15** for the Fall semester, and **October 1** for the Spring semester.
