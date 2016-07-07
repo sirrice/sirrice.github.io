@@ -1,6 +1,17 @@
 
 # Ph.D. Applicants
 
+## Short Instructions
+
+Unfortunately, I cannot respond to every email I receive.
+To help manage the process, use the following instructions to contact me.
+
+* If you are currently a Columbia University PhD or Undergraduate student, email me directly.
+* If you are interested in the PhD program, please [read this section](#admissions)
+* Otherwise, if you are interested in working in my group
+[fill out this form](https://docs.google.com/forms/d/1-s1SwcpY0WBnRrzlrQfSrcxSCeOAymOHfU-sHroUXfU/viewform).
+I guarantee I will read all responses, but cannot guarantee a reply.
+
 ## My Goal
 
   My goal is to help my students practice and refine their abilities
@@ -60,13 +71,13 @@
   Finally, I will strive to work and generate ideas with you as a colleague.  So
   describe some cool research problems* that you would find awesome to work on!
 
-## The Columbia Admissions Process
+## The Columbia Admissions Process <a name="admissions"></a>
 
 Computer Science at Columbia uses a centralized admissions process.
 Prospective Ph.D students apply to the computer science department
 at large, and faculty members review the applications and nomiate
 applicants for admission.  For this reason, it is helpful to 
-<a href="mailto:eugenewu@mit.edu">let me know</a> you have applied
+<a href="mailto:ew2493@columbia.edu">let me know</a> you have applied
 if you are interested in working with me.
 
 All applications should be submitted through <a href="https://mice.cs.columbia.edu/recruit/">the electronic system</a>
