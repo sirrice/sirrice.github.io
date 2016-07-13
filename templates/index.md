@@ -75,6 +75,7 @@ systems, crowd sourcing, visualization, and HCI.
 
 # Recent News
 
+* Our ActiveClean full paper was acceped to [VLDB 2016](http://vldb2016.persistent.com/)!  Come see our presentation in Dehli, India.  Look forward to our code release later this summer!
 * Our [ActiveClean](/files/papers/activeclean-sigmod16demo.pdf) submission won Best Demo at SIGMOD 2016!  Many thanks to our collaborators Sanjay, Jiannan, Mike, and Ken!
 * [Talk](http://sirrice.github.io/files/talks/2016-05-mit-bigdata.pdf) about what provenance is and how it relates to our projects.  MIT BigData Workshop 2016
 * Congrats to Niranjan, Arnab, Yifan, Daniel Haas, Sanjay, and Daniel Alabi for getting **four** papers accepted at SIGMOD's [Hilda](http://www.hilda.io) workshop!
