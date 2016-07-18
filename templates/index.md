@@ -121,7 +121,7 @@ analytics visualizations.
 <img class="screenshot" id="scorpionscreen" src="./images/scorpion.png" />
 
 
-## [Data Cleaning Systems](http://www.sampleclean.org)
+## [Data Cleaning for Data Science](http://www.sampleclean.org)
 
 Analysts report spending upwards of 80% of their time on problems in data cleaning including extraction, formatting, handling missing values, and entity resolution. 
 How can knowing the application you want to _actually_ run help speed up the cleaning process?
