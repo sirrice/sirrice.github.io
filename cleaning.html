@@ -1,0 +1,174 @@
+<html>
+   <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>ewuuu</title>
+    <link rel="stylesheet" type="text/css" href="./include/style.css" />
+    <script src="./include/jquery.js"></script>
+    <script src="./include/handlebars.js"></script>
+    <script src="./include/data.js"></script>
+    <script src="./include/underscore.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.13/webcomponents-lite.min.js"></script> 
+    <link rel="import" href="https://components.cloudstitch.com/components/cloudstitch-handlebars/cloudstitch-handlebars.vulcanized.html"/>
+  </head>
+<body>
+
+<img src="./images/cudbg.png" id="cudbg"/>
+  
+<div class="navbar">
+  <div class="nav">
+    
+    <a href="./index.html" >Eugene Wu</a>
+    <a href="./lab.html">Wu Lab</a>
+    <a href="./applying.html">Applying</a>
+    <a href="./gallery.html">Gallery</a>        
+    
+  </div>
+</div>
+
+
+
+<div class="main">
+
+  
+<div class="post">
+  <p class="header">
+Cleaning for Data Science
+</p>
+
+<p class="header">
+<small>Modern data science applications rely heavily on machine learning models.   We seek to understand and optimize data cleaning in this new setting.</small>
+</p>
+
+<!--
+
+
+md5-f7b05d99dd48851ead7a079238e29ae9
+
+
+-->
+
+<h1>ActiveClean <a name="activeclean"></a></h1>
+
+<p>Databases can be corrupted with various errors such as missing, incorrect,
+or inconsistent values. Increasingly, modern data analysis
+pipelines involve Machine Learning, and the effects of dirty data
+can be difficult to debug. Dirty data is often sparse, and naive sampling
+solutions are not suited for high-dimensional models. </p>
+
+<p><img src="./images/activeclean-fig1.png" alt="Active Clean" /></p>
+
+<p>The above figure shows how data cleaning can <em>degrade</em> the machine learning model.  </p>
+
+<ul>
+<li><strong>(a)</strong> shows how systematic corruption of data (from circles to crosses) can lead to a shifted, incorrect model.  The dirty records are labeled 1-5 and the cleaned records labeled 1'-5'.</li>
+<li><strong>(b)</strong> shows how cleaning two dirty records (4, 5) and combining the cleaned results (4', 5') with the dirty records (1, 2, 3) results in a <em>worse</em> model than no cleaning.</li>
+<li><strong>(c)</strong> shows how only using the cleaned records (4', 5') can also result in a worse model due to sampling error.</li>
+</ul>
+
+<p>ActiveClean is an iterative cleaning framework that can <em>correctly</em> retrain the machine learning model 
+when data is cleaned, and provides a set of optimizations to select the best data to be cleaned.
+In this way, you only need to clean a small subset of the data in order to produce a model similar
+to if the full dataset were cleaned.</p>
+
+<h2>Install It</h2>
+
+<p>ActiveClean is a lightweight python framework can be installed using <b>pip</b>:</p>
+
+<pre><code>  pip install activeclean
+</code></pre>
+
+<p><a href="https://github.com/">Check out the github page</a> for code and usage instructions</p>
+
+<h1>Data Cleaning Benchmark <a name="benchmark"></a></h1>
+
+<p>TBA</p>
+
+<h1>Publications</h1>
+
+<div class="section" id="publications">
+
+<div class="item">
+  <div class="screenshot"><img src="./images/previews/preview_activeclean-vldb16.png" width=200/></div>
+  <div class="text">
+    <div class="title">
+      <a href="./files/papers/activeclean-vldb16.pdf">
+        ActiveClean: Interactive Data Cleaning For Statistical Modeling
+      </a>
+    </div>
+    <div class="authors">Sanjay Krishnan, Jiannan Wang, Eugene Wu, Michael J. Franklin, Ken Goldberg</div>
+    <div class="links">
+      <span class="conf">VLDB 2016</span>
+    </div>
+  </div>
+  <div style="clear: both"></div>
+</div>
+
+<div class="item">
+  <div class="screenshot"><img src="./images/previews/preview_activeclean-sigmod16demo.png" width=200/></div>
+  <div class="text">
+    <div class="title">
+      <a href="./files/papers/activeclean-sigmod16demo.pdf">
+        ActiveClean: An Interactive Data Cleaning 
+        Framework For Modern Machine Learning (Demo)
+      </a>
+    </div>
+    <div class="authors">Sanjay Krishnan, Michael J. Franklin, Ken Goldberg, Jiannan Wang, Eugene Wu</div>
+    <div class="links">
+      <span class="conf">SIGMOD 2016</span>
+      <span><a class="button" href="http://automation.berkeley.edu/activecleandemo">See the award-winning Demo</a>
+      </span>
+    </div>
+  </div>
+  <div style="clear: both"></div>
+</div>
+
+<div class="item">
+  <div class="screenshot"><img src="./images/previews/preview_cleaning-hilda16.png" width=200/></div>
+  <div class="text">
+    <div class="title">
+      <a href="./files/papers/cleaning-hilda16.pdf">
+        Towards Reliable Interactive Data Cleaning: A User Survey and Recommendations
+      </a>
+    </div>
+    <div class="authors">Sanjay Krishnan, Daniel Haas, Michael J. Franklin, Eugene Wu</div>
+    <div class="links">
+      <span class="conf">HILDA 2016</span>
+    </div>
+  </div>
+  <div style="clear: both"></div>
+</div>
+
+<p></div><!-- /publications --></p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3762902-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</div>
+
+
+</div>
+
+<div class="footer"><div id="signature"></div>eugene wu</div>
+
+<!------------ STATS -------------->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3762902-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!----------- END STATS ------------>
+
+</body>
