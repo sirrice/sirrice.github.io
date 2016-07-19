@@ -336,7 +336,7 @@ img {
   border: none;
 }
 
-#contacts a {
+#contacts a, a.button {
   margin-bottom: 10px;
   margin-right: 1em;
   font-size:10pt;
