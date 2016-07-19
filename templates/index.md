@@ -130,40 +130,6 @@ How can knowing the application you want to _actually_ run help speed up the cle
 
 
 
-# Students
-
-I am lucky to be working, and have worked, with many remarkable students.
-
-## PhD
-
-* [Fotis Psallidas](http://www.cs.columbia.edu/~fotis/)
-* [Xiaolan Wang](https://people.cs.umass.edu/~xlwang/) <small>(UMaas Amherst, advised by Alexandra Meliou)</small>
-  * QFix: explaining database errors using query histories
-* [Yifan Wu](http://www.cs.berkeley.edu/~yifanwu/) <small>(UC Berkeley, Joe Hellerstein)</small>
-  * Consistency in **De**clarative **V**isual **I**nteractive **L**anguages (DeVIL)
-* [Sanjay Krishnan](https://www.ocf.berkeley.edu/~sanjayk/) <small>(UC Berkeley, advised by Michael Franklin, Ken Goldberg)</small>
-  * Data cleaning and machine learning
-* [Daniel Haas](http://www.cs.berkeley.edu/~dhaas/) <small>(UC Berkeley, advised by Michael Franklin)</small>
-  * Making crowds _fast_
-* [Laura Rettig](http://exascale.info/members/laura-rettig/) <small>(Fribourg University, advised by Philippe Cudre-Mauroux)</small>
-* [Lilong Jiang](http://web.cse.ohio-state.edu/~jianglil/) <small>(Ohio State, advised by Arnab Nandi)</small>
-  * Human graphical perception
-
-## Masters
-
-* [Daniel Alabi](http://alabidan.me/) <small>(starting PhD at Harvard)</small>
-  * Using human perceptual models to make visualizations faster
-* [Zhengjie Miao](http://www.miaozhengjie.com/about/)
-  * Predictiong user interactions to make visualizations fasters and better
-
-## Undergrads
-
-* [Hamed Nilforoshan](http://hamedn.com/)
-* Rahul Khanna
-* James Sands
-* HaoCi Zhang <small>(Tsinghua University)</small>
-
-
 
 # <span id="pubtitle">Selected Publications</span> 
 

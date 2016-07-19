@@ -1,7 +1,39 @@
 
-# Current and Past Projects
+<p class="header" style="font-size: 30pt">
+The Wu Lab
+<br/>
+<small>
+Accelerating the Democratization of Data
+</small>
+</p>
+
+Our lab focuses on building tools and algorithms to facilitate the democratization of data 
+and enable everyone to easily interact with, explore, analyze and understand their data.
+To achieve this goal we focus on three core problems: 
+**interactive data cleaning and preparation tools** so that the data is clean enough for analysis; 
+**data exploration and *explanation* tools** so users can identify patterns in the data and understand *why* those patterns exist; 
+and **interactive visualization systems** to bridge the gap between database systems, which are currently tailored for data processing, and visualization systems, which are tailored to visualization.
 
 
+<p id="contacts">
+  <a href="#reading">Reading Group</a>
+  <a href="#projects">Current Projects</a>
+  <a href="#funprojects">Fun</a>
+  <a href="#students">Students</a>
+</p>
+
+
+# Reading Group <a name="reading"></a>
+
+Our paper reading group regularly meets at **3:30-5PM Wednesdays** in **417 MUDD**.  
+We spend part of the time discussing the technical ideas in the paper, and part of the time dissecting how the introduction is written. 
+Everyone is welcome to attend!
+
+[Click here to see our reading list and notes](https://quip.com/Rv0rANRyWmeK)
+
+
+
+# Current Projects <a name="projects"></a>
 
 ## [Data Visualization Management Systems](./dvms.html)
 
@@ -45,6 +77,91 @@ The SampleClean project explores scalable techniques for data cleaning, crowd so
 <img class="screenshot" id="samplecleanscreen" src="./images/sampleclean.png" />
 
 
+
+# Fun <a name="funprojects"></a>
+
+
+## [Latex Snapshots](http://www.github.com/sirrice/latexsnapshots)
+
+Point **latexsnapshots** to your git repo, and it will go through the commits and identify those that change your tex files in a significant way, and regenerate the pdf files. It will also take thumbnails of those pdfs, and show them in a web UI.
+
+
+  <a href="http://www.github.com/sirrice/latexsnapshots">
+    <img class="screenshot" id="latexsnapshots-img" src="https://raw.githubusercontent.com/sirrice/latexsnapshots/master/latexsnapshots/static/screenshot.png"  />
+  </a>
+
+
+## <a href="./vldbtrends/">VLDB conference trends</a></h2>
+
+A history of databases through keyword trends in VLDB publication titles
+
+  <a href="./vldbtrends/">
+  <img class="screenshot" id="vldb-trends" src="./images/vldb-trends.png"  />
+  </a>
+
+## [Python ggplot2 syntax](http://www.github.com/sirrice/pygg)
+
+A python wrapper around ggplot2 that provides nearly the same syntax, but in python.
+
+      from pygg import *
+
+      # Example using diamonds dataset (comes with ggplot2)
+      p = ggplot('diamonds', aes('carat', y='price'))
+      g = geom_point() + facet_wrap(None, "color")
+      ggsave("test1.pdf", p+g, data=None)
+
+## [bibcleaner](https://github.com/sirrice/bibcleaner)
+
+GUI interface to normalize and clean up entries in bibtex files to reduce the references section and make the bibtex more managable.
+
+  <a href="https://github.com/sirrice/bibcleaner">
+  <img class="screenshot" id="bibcleaner-img" src="https://raw.githubusercontent.com/sirrice/bibcleaner/master/screenshot.png"/>
+  </a>
+
+
+
+
+
+# Students <a name="students"></a>
+
+I am lucky to be working, and have worked, with many remarkable students.
+
+## PhD
+
+* [Fotis Psallidas](http://www.cs.columbia.edu/~fotis/)
+* [Xiaolan Wang](https://people.cs.umass.edu/~xlwang/) <small>(UMaas Amherst, advised by Alexandra Meliou)</small>
+  * QFix: explaining database errors using query histories
+* [Yifan Wu](http://www.cs.berkeley.edu/~yifanwu/) <small>(UC Berkeley, Joe Hellerstein)</small>
+  * Consistency in **De**clarative **V**isual **I**nteractive **L**anguages (DeVIL)
+* [Sanjay Krishnan](https://www.ocf.berkeley.edu/~sanjayk/) <small>(UC Berkeley, advised by Michael Franklin, Ken Goldberg)</small>
+  * Data cleaning and machine learning
+* [Daniel Haas](http://www.cs.berkeley.edu/~dhaas/) <small>(UC Berkeley, advised by Michael Franklin)</small>
+  * Making crowds _fast_
+* [Laura Rettig](http://exascale.info/members/laura-rettig/) <small>(Fribourg University, advised by Philippe Cudre-Mauroux)</small>
+* [Lilong Jiang](http://web.cse.ohio-state.edu/~jianglil/) <small>(Ohio State, advised by Arnab Nandi)</small>
+  * Human graphical perception
+
+## Masters
+
+* [Daniel Alabi](http://alabidan.me/) <small>(starting PhD at Harvard)</small>
+  * Using human perceptual models to make visualizations faster
+* [Zhengjie Miao](http://www.miaozhengjie.com/about/)
+  * Predictiong user interactions to make visualizations fasters and better
+
+## Undergrads
+
+* [Hamed Nilforoshan](http://hamedn.com/)
+* Rahul Khanna
+* James Sands
+* HaoCi Zhang <small>(Tsinghua University)</small>
+
+
+
+
+
+
+# Older Projects <a name="olderprojects"></a>
+
 ## [Data Import](https://github.com/sirrice/dbtruck)
 
 A tool to import your data into whatever data store you want, 
@@ -54,7 +171,7 @@ See <a href="http://scripts.mit.edu/~eugenewu/wp/archives/327">article for motiv
 
 
 
-# [Qurk](http://db.csail.mit.edu/qurk/) and Crowd-sourcing
+## [Qurk](http://db.csail.mit.edu/qurk/) and Crowd-sourcing
 
 A look at optimizing human computation through a database lens.  Qurk is a
 database prototype that enables users to write queries that compute results from
@@ -107,7 +224,7 @@ I co-developed the "big data" course at MIT.  The class surveys techniques and s
 
 The goal is for students to gain working experience of the topics and systems that are covered.
 
-## [introduction to Data Literacy](http://dataiap.github.com/
+## [Introduction to Data Literacy](http://dataiap.github.com/)
 
 I co-taught a heavily lab-based IAP class called <a href="http://dataiap.github.com/">Introduction to Data Literacy</a>
 that introduces students to many basic data cleaning, analysis, and visualization techniques.  The
@@ -127,47 +244,8 @@ years
 
 
 
-# Fun
 
-
-## [Latex Snapshots](http://www.github.com/sirrice/latexsnapshots)
-
-Point **latexsnapshots** to your git repo, and it will go through the commits and identify those that change your tex files in a significant way, and regenerate the pdf files. It will also take thumbnails of those pdfs, and show them in a web UI.
-
-
-  <a href="http://www.github.com/sirrice/latexsnapshots">
-    <img class="screenshot" id="latexsnapshots-img" src="https://raw.githubusercontent.com/sirrice/latexsnapshots/master/latexsnapshots/static/screenshot.png"  />
-  </a>
-
-
-## <a href="./vldbtrends/">VLDB conference trends</a></h2>
-
-A history of databases through keyword trends in VLDB publication titles
-
-  <a href="./vldbtrends/">
-  <img class="screenshot" id="vldb-trends" src="./images/vldb-trends.png"  />
-  </a>
-
-## [Python ggplot2 syntax](http://www.github.com/sirrice/pygg)
-
-A python wrapper around ggplot2 that provides nearly the same syntax, but in python.
-
-      from pygg import *
-
-      # Example using diamonds dataset (comes with ggplot2)
-      p = ggplot('diamonds', aes('carat', y='price'))
-      g = geom_point() + facet_wrap(None, "color")
-      ggsave("test1.pdf", p+g, data=None)
-
-## [bibcleaner](https://github.com/sirrice/bibcleaner)
-
-GUI interface to normalize and clean up entries in bibtex files to reduce the references section and make the bibtex more managable.
-
-  <a href="https://github.com/sirrice/bibcleaner">
-  <img class="screenshot" id="bibcleaner-img" src="https://raw.githubusercontent.com/sirrice/bibcleaner/master/screenshot.png"/>
-  </a>
-
-
+<!--
 # Past Jobs
 
 * Google Internship in Webtables research project.  <small>Spring 2007 - Winter 2008</small></li>
@@ -175,6 +253,8 @@ GUI interface to normalize and clean up entries in bibtex files to reduce the re
 * Yahoo Internship in RDF Databases.  <small>Summer 2006.</small></li>
 * Microsoft Internship in Exchange Server. <small>Summer 2005.</small></li>
 * IBM Extreme Blue. <small>Spring 2005.</small></li>
+
+-->
 
 
 <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:300' rel='stylesheet' type='text/css'>
