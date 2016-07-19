@@ -7,6 +7,7 @@ font-family: open sans, georgia, helvetica, arial;
 body{
 	min-width: 850px;
   width: 80%;
+  max-width: 1200px;
 	margin: 10px;
 	margin-left: auto;
 	margin-right: auto;
@@ -156,6 +157,7 @@ table.row td.topic {
 	margin: 10px;
   margin-top: 2em;
   padding-left:1em;
+  width: 80%;
 }
 
 
@@ -242,6 +244,7 @@ img {
 .item .text{
   float:left;
   padding: 10px;
+  width: 550px;
 }
  .item .conf {
   font-weight: bold;
