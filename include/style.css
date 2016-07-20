@@ -82,6 +82,19 @@ h3{
   color: rgb(135, 135, 135)  
 }
 
+
+.fig {
+}
+
+.subfig{
+  width: 20%;
+  min-width: 215px;
+  float: left;
+}
+.subfig img {
+  width: 200px;
+}
+
 table {
 /*    font-size: 10pt; */
 }

@@ -1,61 +1,29 @@
-<html>
-   <head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta content="utf-8" http-equiv="encoding">
-    <title>ewuuu</title>
-    <link rel="stylesheet" type="text/css" href="./include/style.css" />
-    <script src="./include/jquery.js"></script>
-    <script src="./include/handlebars.js"></script>
-    <script src="./include/data.js"></script>
-    <script src="./include/underscore.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.13/webcomponents-lite.min.js"></script> 
-    <link rel="import" href="https://components.cloudstitch.com/components/cloudstitch-handlebars/cloudstitch-handlebars.vulcanized.html"/>
-  </head>
-<body>
-
-<img src="./images/cudbg.png" id="cudbg"/>
-  
-<div class="navbar">
-  <div class="nav">
-    
-    <a href="./index.html" >Eugene Wu</a>
-    <a href="./lab.html">Wu Lab</a>
-    <a href="./applying.html">Applying</a>
-    <a href="./gallery.html">Gallery</a>        
-    
-  </div>
-</div>
 
 
-
-<div class="main">
-
-  
-<div class="post">
-  <p class="header" style="font-size: 30pt">
+<p class="header" style="font-size: 30pt">
 Cleaning for Data Science
 </p>
-
 <p class="header">
 <small>Modern data science applications rely heavily on machine learning models.   We seek to understand and optimize data cleaning in this new setting.</small>
 </p>
 
+
 <!--
-
-
-md5-f795e7b8637d4e3e141cc4afd6d10896
-
-
+<p id="contacts">
+  <a href="#activeclean">ActiveCLean</a>
+  <a href="#benchmark">Data Cleaning Benchmark</a>
+</p>
 -->
 
-<h1>ActiveClean <a name="activeclean"></a></h1>
+# ActiveClean <a name="activeclean"></a>
 
-<p>Databases can be corrupted with various errors such as missing, incorrect,
+Databases can be corrupted with various errors such as missing, incorrect,
 or inconsistent values. Increasingly, modern data analysis
 pipelines involve Machine Learning, and the effects of dirty data
 can be difficult to debug. Dirty data is often sparse, and naive sampling
 solutions are not suited for high-dimensional models. 
-The following figures show how data cleaning can <em>degrade</em> the machine learning model.  </p>
+The following figures show how data cleaning can _degrade_ the machine learning model.  
+
 
 <div>
   <div class="subfig">
@@ -85,25 +53,29 @@ The following figures show how data cleaning can <em>degrade</em> the machine le
   <div style="clear:both; height: 2px;"></div>
 </div>
 
-<p>ActiveClean is an iterative cleaning framework that can <em>correctly</em> retrain the machine learning model 
+
+
+
+ActiveClean is an iterative cleaning framework that can *correctly* retrain the machine learning model 
 when data is cleaned, and provides a set of optimizations to select the best data to be cleaned.
 In this way, you only need to clean a small subset of the data in order to produce a model similar
-to if the full dataset were cleaned.</p>
+to if the full dataset were cleaned.
 
-<h2>Install It</h2>
 
-<p>ActiveClean is a lightweight python framework can be installed using <b>pip</b>:</p>
+## Install It
 
-<pre><code>  pip install activeclean
-</code></pre>
+ActiveClean is a lightweight python framework can be installed using <b>pip</b>:
 
-<p><a href="https://github.com/">Check out the github page</a> for code and usage instructions</p>
+      pip install activeclean
 
-<h1>Data Cleaning Benchmark <a name="benchmark"></a></h1>
+[Check out the github page](https://github.com/) for code and usage instructions
 
-<p>TBA</p>
 
-<h1>Publications</h1>
+# Data Cleaning Benchmark <a name="benchmark"></a>
+
+TBA
+
+# Publications
 
 <div class="section" id="publications">
 
@@ -158,36 +130,31 @@ to if the full dataset were cleaned.</p>
   <div style="clear: both"></div>
 </div>
 
-<p></div><!-- /publications --></p>
+
+
+
+</div><!-- /publications -->
+
+
+
+
+
+
+
 
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
-
 <script type="text/javascript">
 var pageTracker = _gat._getTracker("UA-3762902-2");
 pageTracker._initData();
 pageTracker._trackPageview();
 </script>
-</div>
 
 
-</div>
 
-<div class="footer"><div id="signature"></div>eugene wu</div>
 
-<!------------ STATS -------------->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-3762902-2', 'auto');
-  ga('send', 'pageview');
 
-</script>
-<!----------- END STATS ------------>
 
-</body>
