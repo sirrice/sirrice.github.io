@@ -147,6 +147,7 @@ I am lucky to be working, and have worked, with many remarkable students.
   * Using human perceptual models to make visualizations faster
 * [Zhengjie Miao](http://www.miaozhengjie.com/about/)
   * Predictiong user interactions to make visualizations fasters and better
+* Sharan Suryanarayanan
 
 ## Undergrads
 
