@@ -69,10 +69,10 @@ analytics visualizations.
 <img class="screenshot" id="scorpionscreen" src="./images/scorpion.png" />
 
 
-## [Data Cleaning Systems](http://www.sampleclean.org)
+## [Data Cleaning for Data Science](./cleaning.html)
 
 Analysts report spending upwards of 80% of their time on problems in data cleaning including extraction, formatting, handling missing values, and entity resolution. 
-The SampleClean project explores scalable techniques for data cleaning, crowd sourced data cleaning, and statistical inference on dirty data.
+How can knowing the application you want to _actually_ run help speed up the cleaning process?
 
 <img class="screenshot" id="samplecleanscreen" src="./images/sampleclean.png" />
 
