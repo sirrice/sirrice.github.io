@@ -94,6 +94,9 @@ h3{
 .subfig img {
   width: 200px;
 }
+.subfig p {
+  text-align: center;
+}
 
 table {
 /*    font-size: 10pt; */
