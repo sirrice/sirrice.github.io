@@ -18,7 +18,7 @@
       <!--7LW1A CEPSR-->
       <a href="./images/map.png">421 Mudd in the DSI space, 500 W 120th St</a><br/>
       <a href="http://cudbg.github.io/">Database Group</a><br/>
-      <a href="http://www.cs.columbia.edu/">Computer Science</a><br/>
+      <a href="http://www.cs.columbia.edu/">Computer Science</a> and <a href="http://datascience.columbia.edu/">Data Science Institute</a><br/>
       <a href="http://www.columbia.edu">Columbia University in the City of New York</a>
     </span>
   </p>
