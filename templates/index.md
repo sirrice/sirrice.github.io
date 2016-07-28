@@ -60,7 +60,7 @@ systems, crowd sourcing, visualization, and HCI.
   advised by the esteemed [Sam Madden](http://db.lcs.mit.edu/madden/) and 
   [Michael Stonebraker](https://en.wikipedia.org/wiki/Michael_Stonebraker),
   in the [database](http://db.csail.mit.edu/) group.
-  He spent the first half of 2015 at <a href="http://www.cs.berkeley.edu">UC Berkeley</a> 
+  He spent the first half of 2015 at <a href="http://www.cs.berkeley.edu">UC Berkeley's</a> <a href="https://amplab.cs.berkeley.edu">AMPLab</a>
   before starting at <a href="http://www.cs.columbia.edu">Columbia University</a> in Fall 2015.
   <a href="http://www.cs.columbia.edu/2015/wu-profile/">Formal</a> and
   <a href="http://partnews.brownbag.me/2012/02/29/better-know-a-classmate-eugene-wu/">less formal</a> (by
