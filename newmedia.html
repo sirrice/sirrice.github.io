@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="./include/jquery.js"></script>
+  <script src="./include/handlebars.js"></script>
+  <script src="./include/data.js"></script>
+  <script src="./include/underscore.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title></title>
+  <style>
+    body {
+      font-family: Monaco, "Lucida Console", monospace;
+    }
+    h1 {
+    font-size: 16pt;
+    }
+    h2 {
+    font-size: 14pt;
+    }
+    p {
+      font-size: 10pt;
+      color: #888;
+    }
+    .col .content {
+      padding: 1em;
+    }
+    ul { 
+      list-style-type: none; 
+      padding-left: 0px;
+    }
+    ul li{
+      border-left: 3px solid whitesmoke;
+      padding-left: 1em;
+    }
+    ul li p {
+      font-size: smaller;
+    }
+    .schedule ul li {
+      margin-top: 1em;
+    }
+
+    span.date {
+      font-size: smaller;
+      color: grey;
+    }
+  </style>
+
+
+</head>
+<body>
+
+  <div class="row">
+    <div class="col col-md-3">
+      <div class="content">
+        <h1>New Media City</h1>
+        <p>Mission.  Around four themes related to Media, Technology, and New York City's vibrant tech culture.</p>
+
+        <h2>Location</h2>
+        <p>
+        Columbia University
+        </p>
+
+        <h2>Format</h2>
+        <p>
+        First hour is a series of talks, panels, or demos.  Second hour is a mixer.  Refreshments provided.
+        </p>
+
+      </div>
+      
+    </div>
+    <div class="col col-md-2">
+      <div class="content schedule">
+        <h1>Schedule</h1>
+        <ul id="schedule">
+          <li>
+            <div>
+              <span class="title">Startups</span>
+              <span class="date">Sep 28, 6PM</span>
+            </div>
+            <p>
+            Description
+            </p>
+          </li>
+          <li>
+            <div>
+              <span class="title">Branding</span>
+              <span class="date">TBA</span>
+            </div>
+            <p></p>
+          </li>
+          <li>
+            <div>
+              <span class="title">Media Delivery</span>
+              <span class="date">TBA</span>
+            </div>
+            <p></p>
+          </li>
+          <li>
+            <div>
+              <span class="title">Civic Data</span>
+              <span class="date">TBA</span>
+            </div>
+            <p></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col col-md-7">
+      <div class="content" id="content">
+
+
+        <div id="event1">
+          <h1 class="title">
+            <span class="title">Startups</span>
+            <span class="date">Sep 28, 6PM</span>
+          </h1>
+          <p class="desc">
+          Description
+          </p>
+          <h1>Speakers</h1>
+          <ul class="speakers">
+            <li>
+              Evan Jones
+              <p>Description</p>
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+</body>
+</html>
