@@ -96,7 +96,8 @@ h3{
 }
 .subfig p {
   text-align: center;
-  font-size: smaller;
+  font-family: "Computer Modern", serif;
+  color: grey;
 }
 
 table {
@@ -637,4 +638,8 @@ img {
   src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzInF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: "Computer Modern";
+    src: url('./fonts/computermodern/cmunrm.otf');
+  }
 

@@ -176,6 +176,7 @@ How can knowing the application you want to _actually_ run help speed up the cle
 * [Some vis inspiration](./d3gallery.html)
 * [Tufte](http://www.edwardtufte.com)
 * [I made tea](http://www.telescopictext.com/)
+* [layer ping pong](http://eugenewu.net/layerpp.html)
 * [pornp](http://www.pantsornopants.com)
 * [Be](http://en.wikipedia.org/wiki/Adventure_Time)[st](https://en.m.wikipedia.org/wiki/Archer_(TV_series))
   [shows](http://www.adultswim.com/videos/rick-and-morty/pilot/)
