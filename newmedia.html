@@ -55,6 +55,21 @@
       font-size: smaller;
       color: grey;
     }
+
+    .event {
+      margin-bottom: 5em;
+    }
+    .event p.desc {
+      margin-left: 1em;
+    }
+    .speakers a {
+      text-decoration: none;
+      border: none;
+    }
+    .speakers a:hover {
+      text-decoration: none;
+    }
+
   </style>
 
 
@@ -62,6 +77,7 @@
 <body>
 
   <div class="row">
+
     <div class="col col-md-3">
       <div class="content">
         <h1>Center for Humans+Data+Media</h1>
@@ -88,7 +104,10 @@
       </div>
       
     </div>
-    <div class="col col-md-2">
+
+    <div class="col col-md-1" style=""> </div>
+
+    <div class="col col-md-2" style="display:none;">
       <div class="content schedule">
         <h1>Schedule</h1>
         <ul id="schedule">
@@ -126,11 +145,11 @@
       </div>
     </div>
 
-    <div class="col col-md-7">
+    <div class="col col-md-8">
       <div class="content" id="content">
 
 
-        <div id="event1">
+        <div id="event1" class="event">
           <h1 class="title">
             <span class="title">Startups</span>
             <span class="date">Sep 28, 7PM</span>
@@ -138,21 +157,53 @@
           <p class="desc">
           Description
           </p>
-          <h1>Speakers</h1>
+          <h2>Speakers</h2>
           <ul class="speakers">
             <li>
-              Evan Jones
+              <a href="http://www.evanjones.ca/">Evan Jones</a>
               <p>Description</p>
             </li>
             <li>
-              B12.io
+              <a href="http://www.b12.io">B12.io</a>
               <p>Description</p>
             </li>
             <li></li>
             <li></li>
           </ul>
+        </div><!--/event1-->
+
+        <div id="event2" class="event">
+          <h1 class="title">
+            <span class="title">Branding and Design</span>
+            <span class="date">TBA</span>
+          </h1>
+          <p class="desc"> </p>
+          <h2>Speakers</h2>
         </div>
-      </div>
+
+        <div id="event3" class="event">
+          <h1 class="title">
+            <span class="title">Delivering Media</span>
+            <span class="date">TBA</span>
+          </h1>
+          <p class="desc"> </p>
+          <h2>Speakers</h2>
+        </div>
+
+        <div id="event4" class="event">
+          <h1 class="title">
+            <span class="title">Civic Oriented Data</span>
+            <span class="date">TBA</span>
+          </h1>
+          <p class="desc"> </p>
+          <h2>Speakers</h2>
+        </div>
+
+      </div><!--/content-->
+
+
+
+ 
 
     </div>
   </div>
