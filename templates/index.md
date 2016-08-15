@@ -16,6 +16,7 @@
     <span class="small">
       <!--OH: Weds 4-5PM<br/>-->
       <!--7LW1A CEPSR-->
+      Co-Chair of Center of New Media in the Data Science Institute<br/>
       <a href="./images/map.png">421 Mudd in the DSI space, 500 W 120th St</a><br/>
       <a href="http://cudbg.github.io/">Database Group</a><br/>
       <a href="http://www.cs.columbia.edu/">Computer Science</a> and <a href="http://datascience.columbia.edu/">Data Science Institute</a><br/>
@@ -75,6 +76,7 @@ systems, crowd sourcing, visualization, and HCI.
 
 # Recent News
 
+* Our [NSF proposal](https://nsfdeclarativevis.github.io/NSFDeclarativeVis/) with [jmh](http://db.cs.berkeley.edu/jmh/) and [jheer](http://homes.cs.washington.edu/~jheer/) on bringing declarative database ideas to interactive visualizations was funded!  The [DVMS](./dvms.html) train continues to roll.
 * Our ActiveClean full paper was acceped to [VLDB 2016](http://vldb2016.persistent.com/)!  Come see our presentation in Dehli, India.  Look forward to our code release later this summer!
 * Our [ActiveClean](/files/papers/activeclean-sigmod16demo.pdf) submission won Best Demo at SIGMOD 2016!  Many thanks to our collaborators Sanjay, Jiannan, Mike, and Ken!
 * [Talk](http://sirrice.github.io/files/talks/2016-05-mit-bigdata.pdf) about what provenance is and how it relates to our projects.  MIT BigData Workshop 2016
