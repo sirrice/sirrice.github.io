@@ -40,14 +40,6 @@ Cleaning for Data Science
 <small>Modern data science applications rely heavily on machine learning models.   We seek to understand and optimize data cleaning in this new setting.</small>
 </p>
 
-<!--
-
-
-md5-30b5dc7d9cca24299dcca065c79804df
-
-
--->
-
 <h1>ActiveClean <a name="activeclean"></a></h1>
 
 <p>Databases can be corrupted with various errors such as missing, incorrect,
@@ -90,18 +82,20 @@ when data is cleaned, and provides a set of optimizations to select the best dat
 In this way, you only need to clean a small subset of the data in order to produce a model similar
 to if the full dataset were cleaned.</p>
 
-<h2>Install It</h2>
+<h1>Code</h1>
 
-<p>ActiveClean is a lightweight python framework can be installed using <b>pip</b>:</p>
+<p>The ActiveClean codebase is written in Python and includes the core ActiveClean algorithm, a data cleaning
+benchmark, and (in the future), an dirty data detector:</p>
 
-<pre><code>  pip install activeclean
+<p>The <a href="https://github.com/sjyk/datacleaning-benchmark">Data Cleaning Benchmark</a> automatically injects data errors into your datasets to test the robustness
+of your machine learning models to data errors.  It can be installed using <strong>pip</strong>:</p>
+
+<pre><code>      pip install cleaningbenchmark
 </code></pre>
 
-<p><a href="https://github.com/">Check out the github page</a> for code and usage instructions</p>
+<p>The ActiveClean algorithm will be released at the end of the summer</p>
 
-<h1>Data Cleaning Benchmark <a name="benchmark"></a></h1>
-
-<p>TBA</p>
+<p>The ActiveClean detection tool will be released in the fall.</p>
 
 <h1>Publications</h1>
 
@@ -160,11 +154,22 @@ to if the full dataset were cleaned.</p>
 
 <p></div><!-- /publications --></p>
 
+<h1>News</h1>
+
+<ul>
+<li><a href="http://datascience.columbia.edu/data-cleaning-tool-building-better-prediction-models">A Data-Cleaning Tool for Building Better Prediction Models</a></li>
+</ul>
+
+<h1>Contact</h1>
+
+<p>Please contact <a href="https://www.ocf.berkeley.edu/~sanjayk/">Sanjay Krishnan</a> or <a href="https://www.eugenewu.net">Eugene Wu</a> with any questions.  We'd love to learn about your data cleaning pipeline and technical issues related to data cleaning for machine learning!</p>
+
 <h1>Collaborators</h1>
 
-<p>In collaboration with <a href="https://amplab.cs.berkeley.edu">AMPLab</a> at University of California, Berkeley.</p>
+<p>ActiveClean is a collaboration between the <a href="http://eugenewu.net/lab.html">WuLab</a> at Columbia University, the <a href="https://amplab.cs.berkeley.edu">AMPLab</a> at University of California, Berkeley, and <a href="https://www.sfu.ca/computing/people/faculty/jiannanwang.html">Jiannan Wang</a> at Simon Fraser University.</p>
 
-<p><a href="http://amplab.cs.berkeley.edu"><img src="https://amplab.cs.berkeley.edu/wp-content/themes/amp/assets/images/amplab_logo.png" width=200></img></a></p>
+<p><a href="http://eugenewu.net"><img src="./images/cudbg.png" height=46.3 id=""/></a>
+<a href="http://amplab.cs.berkeley.edu"><img src="https://amplab.cs.berkeley.edu/wp-content/themes/amp/assets/images/amplab_logo.png" width=200></img></a></p>
 
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

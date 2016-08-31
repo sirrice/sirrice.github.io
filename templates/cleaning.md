@@ -8,12 +8,6 @@ Cleaning for Data Science
 </p>
 
 
-<!--
-<p id="contacts">
-  <a href="#activeclean">ActiveCLean</a>
-  <a href="#benchmark">Data Cleaning Benchmark</a>
-</p>
--->
 
 # ActiveClean <a name="activeclean"></a>
 
@@ -62,18 +56,21 @@ In this way, you only need to clean a small subset of the data in order to produ
 to if the full dataset were cleaned.
 
 
-## Install It
+# Code
 
-ActiveClean is a lightweight python framework can be installed using <b>pip</b>:
+The ActiveClean codebase is written in Python and includes the core ActiveClean algorithm, a data cleaning
+benchmark, and (in the future), an dirty data detector:
 
-      pip install activeclean
+The [Data Cleaning Benchmark](https://github.com/sjyk/datacleaning-benchmark) automatically injects data errors into your datasets to test the robustness
+of your machine learning models to data errors.  It can be installed using **pip**:
 
-[Check out the github page](https://github.com/) for code and usage instructions
+          pip install cleaningbenchmark
 
 
-# Data Cleaning Benchmark <a name="benchmark"></a>
+The ActiveClean algorithm will be released at the end of the summer
 
-TBA
+The ActiveClean detection tool will be released in the fall.
+
 
 # Publications
 
@@ -136,12 +133,19 @@ TBA
 </div><!-- /publications -->
 
 
+# News
 
+* [A Data-Cleaning Tool for Building Better Prediction Models](http://datascience.columbia.edu/data-cleaning-tool-building-better-prediction-models)
+
+# Contact
+
+Please contact [Sanjay Krishnan](https://www.ocf.berkeley.edu/~sanjayk/) or [Eugene Wu](https://www.eugenewu.net) with any questions.  We'd love to learn about your data cleaning pipeline and technical issues related to data cleaning for machine learning!
 
 # Collaborators
 
-In collaboration with [AMPLab](https://amplab.cs.berkeley.edu) at University of California, Berkeley.
+ActiveClean is a collaboration between the [WuLab](http://eugenewu.net/lab.html) at Columbia University, the [AMPLab](https://amplab.cs.berkeley.edu) at University of California, Berkeley, and [Jiannan Wang](https://www.sfu.ca/computing/people/faculty/jiannanwang.html) at Simon Fraser University.
 
+<a href="http://eugenewu.net"><img src="./images/cudbg.png" height=46.3 id=""/></a>
 <a href="http://amplab.cs.berkeley.edu"><img src="https://amplab.cs.berkeley.edu/wp-content/themes/amp/assets/images/amplab_logo.png" width=200></img></a>
 
 
