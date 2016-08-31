@@ -141,6 +141,7 @@ I'll periodically update the following list of links that point to useful articl
 ## Applying to CS Graduate Programs
 
 * <a href="http://transientneha.blogspot.com/2015/02/what-to-ask-when-applying-to-grad.html">What to Ask When You're Applying to Grad School</a> -neha</li>
+* [An alternative CS graduate schools ranking tool](http://csrankings.org/): lets you rank by areas and criteria you care about.
 
 
 ## Ph.D. Advice
