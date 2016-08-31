@@ -69,7 +69,7 @@ analytics visualizations.
 <img class="screenshot" id="scorpionscreen" src="./images/scorpion.png" />
 
 
-## [Data Cleaning for Data Science](./cleaning.html)
+## [Data Cleaning for Data Science](https://activeclean.github.io)
 
 Analysts report spending upwards of 80% of their time on problems in data cleaning including extraction, formatting, handling missing values, and entity resolution. 
 How can knowing the application you want to _actually_ run help speed up the cleaning process?
