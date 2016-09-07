@@ -152,6 +152,7 @@ How can knowing the application you want to _actually_ run help speed up the cle
 
 # Teaching
 
+* [Introduction to Databases](http://www.cs.columbia.edu/~coms4111/) Fall 2016
 * [Big Data Systems](http://columbia.github.io/systems-bigdata-class/) Spring 2016
 * [Introduction to Databases](http://www.cs.columbia.edu/~coms4111/) Fall 2015
 * [From Ascii to Answers](http://db.csail.mit.edu/6.885/) at MIT 
@@ -161,6 +162,7 @@ How can knowing the application you want to _actually_ run help speed up the cle
 
 # Service
 
+* 2017 [SIGMOD](http://sigmod2017.org/) PC
 * 2017 [VLDB](http://www.vldb.org/2017/) PC
 * 2016 [InfoVis](http://ieeevis.org/) Reviewer
 * 2016 [HILDA](http://hilda.io/2016/) PC
