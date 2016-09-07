@@ -71,6 +71,7 @@ The ActiveClean algorithm will be released at the end of the summer
 
 The ActiveClean detection tool will be released in the fall.
 
+Everything is MIT Licensed
 
 # Publications
 

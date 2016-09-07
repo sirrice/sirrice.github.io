@@ -6,16 +6,23 @@
   <script src="./include/handlebars.js"></script>
   <script src="./include/data.js"></script>
   <script src="./include/underscore.js"></script>
+
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <title></title>
   <style>
     body {
-      font-family: Monaco, "Lucida Console", monospace;
+      font-family: Adobe Garamond Pro, Monaco, "Lucida Console", monospace;
     }
     h1 {
-    font-size: 16pt;
+      font-family: Europa;
+      font-size: 24pt;
+    }
+    h1 small {
+      color: black; 
+      font-size: 18pt;
     }
     h2 {
+      font-family: Europa;
     font-size: 14pt;
     }
     a {
@@ -55,6 +62,7 @@
     span.date {
       font-size: smaller;
       color: grey;
+      display:block;
     }
 
     .event {
@@ -63,12 +71,28 @@
     .event p.desc {
       margin-left: 1em;
     }
+
     .speakers a {
       text-decoration: none;
       border: none;
     }
     .speakers a:hover {
       text-decoration: none;
+    }
+    ul.speakers li {
+      list-style: none;
+      margin: 25px;
+      margin-bottom: 25px;
+      padding: 0px;
+      border-left: none;
+    }
+    .speakers img {
+      height: 150px;
+      width: auto;
+      max-width: 150px;
+    }
+    .speakers {
+      font-size: 15pt;
     }
 
   </style>
@@ -78,10 +102,9 @@
 <body>
 
   <div class="row">
-    <div class="col col-md-12" style="padding-left: 5em">
-        <h1 style="display: inline">(Data+Media):<small style="color: black; font-size: 12pt;">Humans in the Loop</small></h1>
-      <span class="pull-xs-left"><img src="./images/newmedia/columbia.png" style="height: 40px; margin: 10px;" alt=""></span>
-      <span class="pull-xs-right"><img src="./images/newmedia/dsi.png"  style=" height: 30px; margin: 10px; margin-bottom: 15px;" class="pull-xs-right"></img></span>
+    <div class="col col-md-12"><!-- style="padding-left: 5em">-->
+        <div style="font-family: Europa, source-sans-pro, sans-serif; margin-top: 12pt; margin-bottom: 12pt; font-size: 40pt; text-align: center;">(Data+Media):<small >Humans in the Loop</small></div>
+
     </div>
       <div class="clearfix"></div>
   </div>
@@ -91,25 +114,52 @@
 
     <div class="col col-md-4">
       <div class="content" style="padding-left: 5em">
+        <h1>Speaker Series</h1>
         <p>
-        New York City is the most creative city in the world.  
-        This <a href="http://datascience.columbia.edu/new-media">center</a> focuses on how technology
-        can help humans both create, consume, and understand creative, artistic, and civic expression
-        across all forms of media.
+        New York City is the most creative city in the world.
+        Increasingly, human creativity is enhanced by data-intensive algorithms and technologies.
+        This "human-in-the-loop" process massively accelerates the speed and scale that content is created, delivered, and consumed by
+        automating repetitive and costly tasks, while magnifying human expertise when it is needed.
         </p>
-        <p>
-        <small>Part of the <a href="http://datascience.columbia.edu">Data Science Institute</a> at <a href="http://www.columbia.edu">Columbia University</a>.  </small>
 
-
-        <h2>Location</h2>
         <p>
-        Columbia University
+        <b style="text-weight: bold;">(Data+Media): Humans in the Loop</b> is a speaker series that focuses on how technology is 
+        helping humans both create, consume, and understand creative, artistic, and civic expression across all forms of media.
+        Each event brings together industry and academic experts to share cutting edge technology as well as research and engineering challenges in this area.
+        The goal of these events is to foster and spark collaborations between Columbia researchers and the broader community.
         </p>
 
         <h2>Format</h2>
         <p>
-        First hour is a series of talks, panels, or demos.  Second hour is a mixer.  Refreshments provided.
+        Events are hosted throughout the 2016 fall and 2017 spring semesters.
         </p>
+
+        <p>
+        The first 1-1.5 hours is a series of short talks, panels, or demos, followed by a mixer with refreshments provided.
+        </p>
+
+        <p>
+        We invite the wider NYC academic and industry community to attend and participate!
+        </p>
+
+
+        <h2>About the Center</h2>
+
+        <p>
+        This series is hosted by the <a href="http://datascience.columbia.edu/new-media">Center for New Media</a>.
+        <a href="http://datascience.columbia.edu/new-media">The center</a> includes researchers from the fields of Architecture, the Humanities, the Social Sciences, Education, Journalism, Engineering, and Computer Science.
+        </p>
+
+        <p>
+        <small>Part of the <a href="http://datascience.columbia.edu">Data Science Institute</a> at <a href="http://www.columbia.edu">Columbia University</a>.  </small>
+
+
+
+        <h2>Affiliations</h2>
+
+        <span ><img src="./images/newmedia/columbia.png" style="height: 40px; margin: 10px;" alt=""></span>
+        <span ><img src="./images/newmedia/dsi.png"  style=" height: 30px; margin: 10px; margin-bottom: 15px;"></img></span>
+
 
       </div>
       
@@ -122,27 +172,42 @@
 
         <div id="event1" class="event">
           <h1 class="title">
-            <span class="title">Technology Problems at Human-oriented Startups</span>
+            <span class="title">Human-oriented Technology in Data-Intensive Startups</span>
             <span class="date">Sep 28, 7PM</span>
           </h1>
           <p class="desc">
-          Description
           </p>
-          <h2>Speakers</h2>
-          <ul class="speakers">
-            <li>
-              <a href="http://www.evanjones.ca/">Evan Jones</a>
-              <p>BlueCore</p>
+
+          <ul class=" speakers">
+            <li class="row person">
+                <div class="col-xs-2">
+                  <img src="./images/newmedia/speaker_evan.jpeg"/>
+                </div>
+                <div class="col-xs-10">
+                  <a href="http://www.evanjones.ca/">Evan Jones</a>
+                  <p>BlueCore</p>
+                </div>
             </li>
-            <li>
-              <a href="http://www.b12.io">Adam Marcus</a>
-              <p>B12</p>
+            <li class="row person">
+              <div class="col-xs-2">
+                <img src="./images/newmedia/speaker_adammarcus.jpg"/>
+              </div>
+              <div class="col-xs-10">
+                <a href="http://www.b12.io">Adam Marcus</a>
+                <p>B12</p>
+              </div>
             </li>
-            <li>
-              <a href="http://www.b12.io">Justin DeBrabant</a>
-              <p>ActionIQ</p>
+            <li class="row person">
+              <div class="col-xs-2">
+                <img src="./images/newmedia/speaker_debrabant.jpeg"/>
+              </div>
+              <div class="col-xs-10">
+                <a href="http://www.actioniq.io">Justin DeBrabant</a>
+                <p>ActionIQ</p>
+              </div>
             </li>
           </ul>
+        <div class="clearfix"></div>
         </div><!--/event1-->
 
         <div id="event2" class="event">
@@ -183,3 +248,6 @@
   
 </body>
 </html>
+
+<script src="https://use.typekit.net/mnd0jng.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
