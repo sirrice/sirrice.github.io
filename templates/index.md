@@ -16,7 +16,7 @@
     <span class="small">
       <!--OH: Weds 4-5PM<br/>-->
       <!--7LW1A CEPSR-->
-      Co-Chair of Center of New Media in the Data Science Institute<br/>
+      Co-Chair of <a href="http://datascienceinstitute.github.io">Center of New Media</a> in the Data Science Institute<br/>
       <a href="./images/map.png">421 Mudd in the DSI space, 500 W 120th St</a><br/>
       <a href="http://cudbg.github.io/">Database Group</a><br/>
       <a href="http://www.cs.columbia.edu/">Computer Science</a> and <a href="http://datascience.columbia.edu/">Data Science Institute</a><br/>
