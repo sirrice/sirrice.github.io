@@ -163,6 +163,9 @@ How can knowing the application you want to _actually_ run help speed up the cle
 
 # Service
 
+* 2017 [ICDE](http://icde2017.sdsc.edu/) Area Chair
+* 2017 [WWW](http://sigmod2017.org/) PC
+* 2017 [SIGMOD](http://sigmod2017.org/) Demo PC
 * 2017 [SIGMOD](http://sigmod2017.org/) PC
 * 2017 [VLDB](http://www.vldb.org/2017/) PC
 * 2016 [InfoVis](http://ieeevis.org/) Reviewer
