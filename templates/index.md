@@ -51,7 +51,7 @@ Eugene Wu is broadly interested in technologies that help users play with
 their data.  His goal is for users at all technical
 levels to effectively and quickly make sense of their information.
 He is interested in solutions that ultimately improve the interface between
-users and data, and techniques borrows from fields such as data management, 
+users and data, and techniques borrowed from fields such as data management, 
 systems, crowd sourcing, visualization, and HCI.
 
 
