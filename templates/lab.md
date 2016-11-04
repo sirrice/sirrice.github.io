@@ -155,6 +155,7 @@ I am lucky to be working, and have worked, with many remarkable students.
 * Rahul Khanna
 * James Sands
 * HaoCi Zhang <small>(Tsinghua University)</small>
+* Kevin Lin
 
 
 
