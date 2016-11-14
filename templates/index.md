@@ -76,6 +76,7 @@ systems, crowd sourcing, visualization, and HCI.
 
 # Recent News
 
+* Our QueryFix full paper was acceped to [SIGMOD 2017](http://sigmod2017.org/)!  Come see our presentation in Raleigh, NC!
 * Our first [(Data+Media):Humans in the Loop](https://datascienceinstitute.github.io/) speaker series event is Sep 28, 7-9PM!  Everyone welcome.
 * There is a nice article about ActiveClean on the DSI website: [A Data-Cleaning Tool for Building Better Prediction Models](http://datascience.columbia.edu/data-cleaning-tool-building-better-prediction-models)
 * Our [NSF proposal](https://nsfdeclarativevis.github.io/NSFDeclarativeVis/) with [jmh](http://db.cs.berkeley.edu/jmh/) and [jheer](http://homes.cs.washington.edu/~jheer/) on bringing declarative database ideas to interactive visualizations was funded!  The [DVMS](./dvms.html) train continues to roll.
