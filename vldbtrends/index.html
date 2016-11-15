@@ -1,336 +1,229 @@
-
 <html>
-<head>
-	<script src="./js/jquery.js"></script>
-	<script src="./js/jquery-ui.js"></script>
-	<script src="./js/sparklines.js"></script>
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"/>	
-	
-
-	<style>
-	@import url(http://fonts.googleapis.com/css?family=Carme);
-	@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
-	body { font-family: open sans; margin-left: 50px; width: 950px;
-	margin-right: auto; margin-left: auto; }
-	div.container {}
-	.word {font-family: Open Sans; font-size: 10pt; text-align: right;}
-	td {text-align: right;}
-	.spark { height: 70px; margin: 5px;}
-	table {float:left; margin-right: 20px; }
-	p {font-size: 12pt; width: 700px; margin: 15px; margin-bottom: 3ex; font-family: open sans;}
-	h1 {margin-top: 30px; font-family: open sans;}
-  h2 { color: rgb(151, 158, 170); font-size: 13pt; }
-	.count {font-size: 10pt;}
-	table.topk {margin: 20px; width: 120px}
-	.year {font-weight: bold;}
-	b {color: steelblue; font-weight: bold;}
-	.footer {display: block; clear:both; text-align: center; font-size: 10pt; margin-top: 5em;}
-  .row { margin-top: 2.5em; }
-	</style>
-</head>
+   <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>ewuuu</title>
+    <link rel="stylesheet" type="text/css" href="./include/style.css" />
+    <script src="./include/jquery.js"></script>
+    <script src="./include/handlebars.js"></script>
+    <script src="./include/data.js"></script>
+    <script src="./include/underscore.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.13/webcomponents-lite.min.js"></script> 
+    <link rel="import" href="https://components.cloudstitch.com/components/cloudstitch-handlebars/cloudstitch-handlebars.vulcanized.html"/>
+  </head>
 <body>
-  <h1>Keyword Analysis of Very Large Databases</h1>
-  <p>
-  This is an analysis and commentary of the keywords in VLDB paper
-  titles since 1975.  The word vectors are clustered by shape and highlight
-  the rise and fall of many topics in our area.
 
-  <p>
-  Each light line is the count per year for a keyword.  
-  <br/>The dark line is the mean of the light lines.
+<img src="./images/cudbg.png" id="cudbg"/>
+  
+<div class="navbar">
+  <div class="nav">
+    
+    <a href="./index.html" >Eugene Wu</a>
+    <a href="./lab.html">Wu Lab</a>
+    <a href="./applying.html">Applying</a>
+    <a href="./gallery.html">Gallery</a>        
+    
+  </div>
+</div>
+
+
+
+<div class="main">
+
+  
+<div class="post">
+  <h1>whois</h1>
+
+<div class="section">
+<table class='row'><tr>
+
+  <td class="thumb">
+    <div title="hello world" id="mypic"></div>
+  </td>
+  <td>
+
+  <p id="address">
+    Eugene Wu<br/>
+    Assistant Professor<br/>
+    <span class="small">
+      <!--OH: Weds 4-5PM<br/>-->
+      <!--7LW1A CEPSR-->
+      Co-Chair of <a href="http://datascienceinstitute.github.io">Center of New Media</a> in the Data Science Institute<br/>
+      <a href="./images/map.png">421 Mudd in the DSI space, 500 W 120th St</a><br/>
+      <a href="http://cudbg.github.io/">Database Group</a><br/>
+      <a href="http://www.cs.columbia.edu/">Computer Science</a> and <a href="http://datascience.columbia.edu/">Data Science Institute</a><br/>
+      <a href="http://www.columbia.edu">Columbia University in the City of New York</a>
+    </span>
   </p>
-
-  <p>
-  The analysis and data are <a href="https://github.com/sirrice/vldbtrends">all on GitHub</a>.
-  <br/>
-  <a href="./vldb2012.html">See the old analysis </a>.
+  <p id="contacts">
+    <a href="mailto:ewu@cs.columbia.edu">email</a>
+    <a href="https://twitter.com/sirrice">@sirrice</a>
+    <a href="http://github.com/sirrice">github</a>  
   </p>
-  
-  <div class='row'>
-    <div class='col span3'>
-      <h2>The Birth (1980s)</h2>
-      <div>Our field's birth was the impending downfall of <b>Codasyl</b>.
-        During this time, researchers were <b>designing the abstractions,
-          specifications and interfaces</b> 
-        that laid the groundwork for a nascent field.
-      </div>
-    </div>
-    <div class='col span2'>
-       <div class='word'>designs</div>
-       <div class='word'>file</div>
-       <div class='word'>abstraction</div>
-       <div class='word'>paper</div>
-       <div class='word'>invited</div>
-       <div class='word'>codasyl</div>
-       <div class='word'>specifications</div>
-       <div class='word'>conceptual</div>
-       <div class='word'>interface</div>
-       <div class='word'>office</div>
-      
-    </div>
-    <div class='col span6'>
-      <img src='./plots/plot2.png'/>
-    </div>
-  </div>
-  
-  <div class='row'>
-    <div class='col span3'>
-      <h2>Growing Pains (1990)</h2>
-      <div>
-        Early on, we were still trying to understand the right
-        <b>model</b> for data representation (Spoiler: not <b>object
-        oriented</b>).  This also introduced
-        classic topics like
-        <b>rule based optimization</b>, <b>transactions</b>,
-        and Query vs SQL question.
-      </div>
-    </div>
-    <div class='col span2'>
-       <div class='word'>object</div>
-       <div class='word'>model</div>
-       <div class='word'>oriented</div>
-       <div class='word'>transaction</div>
-       <div class='word'>language</div>
-       <div class='word'>rules</div>
-       <div class='word'>activity</div>
-       <div class='word'>panel</div>
-       <div class='word'>methods</div>
-       <div class='word'>extended</div>
-      
-    </div>
-    <div class='col span6'>
-      <img src='./plots/plot5.png'/>
-    </div>
-  </div>
-  
-  <div class='row'>
-    <div class='col span3'>
-      <h2>Big Iron (1995)</h2>
-      <div>
-        Moving forward, databases have been adopted by major organizations
-        that want <i>performance</i>.  This is the era of <b>warehouses</b>
-        containing <b>multidimensional</b> data.  
-        Computers are cheap enough that Dewitt et. al can think about
-        <b>parallel execution</b> across multiple <b>servers</b>.
-      </div>
-    </div>
-    <div class='col span2'>
-       <div class='word'>parallel</div>
-       <div class='word'>server</div>
-       <div class='word'>heterogeneity</div>
-       <div class='word'>materialization</div>
-       <div class='word'>level</div>
-       <div class='word'>warehousing</div>
-       <div class='word'>associative</div>
-       <div class='word'>load</div>
-       <div class='word'>multidimensional</div>
-       <div class='word'>universal</div>
-      
-    </div>
-    <div class='col span6'>
-      <img src='./plots/plot1.png'/>
-    </div>
-  </div>
-  
-  <div class='row'>
-    <div class='col span3'>
-      <h2>All Business (1995)</h2>
-      <div>
-        <b>Warehousing</b> continues into the early 2000s and it's 
-        <b>business</b> time for technologies like <b>OLAP</b>.
-        We have more than one server so <b>maintenance</b> and 
-        <b>client server caching</b> is an issue.
-        The <b>Internet</b> hits the scene and will fundamentally change
-        database's future.
-      </div>
-    </div>
-    <div class='col span2'>
-       <div class='word'>service</div>
-       <div class='word'>cached</div>
-       <div class='word'>technology</div>
-       <div class='word'>warehouse</div>
-       <div class='word'>internet</div>
-       <div class='word'>olap</div>
-       <div class='word'>site</div>
-       <div class='word'>business</div>
-       <div class='word'>space</div>
-       <div class='word'>maintenance</div>
-      
-    </div>
-    <div class='col span6'>
-      <img src='./plots/plot4.png'/>
-    </div>
-  </div>
-  
-  <div class='row'>
-    <div class='col span3'>
-      <h2>Stable Topics</h2>
-      <div>
-        This cluster is a mish-mash of classic and stable
-        topics like <b>databases, data management, queries and systems</b>, 
-        but introduces <b>searching</b> over your data.
-      </div>
-    </div>
-    <div class='col span2'>
-       <div class='word'>data</div>
-       <div class='word'>queries</div>
-       <div class='word'>database</div>
-       <div class='word'>systems</div>
-       <div class='word'>efficient</div>
-       <div class='word'>web</div>
-       <div class='word'>based</div>
-       <div class='word'>search</div>
-       <div class='word'>processing</div>
-       <div class='word'>management</div>
-      
-    </div>
-    <div class='col span6'>
-      <img src='./plots/plot7.png'/>
-    </div>
-  </div>
-  
-  <div class='row'>
-    <div class='col span3'>
-      <h2>Sensors+Web (2000)</h2>
-      <div>
-        Databases are fundamentally a business tool, and 
-        businesses love <b>XML, XQuery</b> and <b><i>Oracle</i></b>.
-         This era also brought
-         forward <b>Surajit's automated database tuning</b>, 
-         <b>stream processing like STREAM, TelegraphCQ, and Borealis</b>,
-         and <b>peer-to-peer systems like Gnutella, Chord and others</b>.
-         This 
-         author worked on his first stream processing paper
-         during this time.
-      </div>
-    </div>
-    <div class='col span2'>
-       <div class='word'>xml</div>
-       <div class='word'>streams</div>
-       <div class='word'>engineering</div>
-       <div class='word'>xquery</div>
-       <div class='word'>peer</div>
-       <div class='word'>dimensional</div>
-       <div class='word'>oracle</div>
-       <div class='word'>cube</div>
-       <div class='word'>automatic</div>
-       <div class='word'>platforms</div>
-      
-    </div>
-    <div class='col span6'>
-      <img src='./plots/plot6.png'/>
-    </div>
-  </div>
-  
-  <div class='row'>
-    <div class='col span3'>
-      <h2>Integration (2007)</h2>
-      <div style="margin-bottom: 10px">
-        The internet and humans means dirty data.  TRIO hoped to use
-        <b>uncertain, probabilistic</b> methods to deal 
-        with these issues.  
-      </div>
-      <div>
-        We also see data mining techniques like
-        <b>pattern matching, top-k, and similarity</b>.
-        <b>Scalability</b> hints at the next "revolution".
-        
-      </div>
-    </div>
-    <div class='col span2'>
-       <div class='word'>scalability</div>
-       <div class='word'>match</div>
-       <div class='word'>uncertain</div>
-       <div class='word'>probabilistic</div>
-       <div class='word'>similarity</div>
-       <div class='word'>analysis</div>
-       <div class='word'>top</div>
-       <div class='word'>awareness</div>
-       <div class='word'>pattern</div>
-       <div class='word'>mapping</div>
-      
-    </div>
-    <div class='col span6'>
-      <img src='./plots/plot0.png'/>
-    </div>
-  </div>
-  
-  <div class='row'>
-    <div class='col span3'>
-      <h2>Cloud (2010)</h2>
-      <div style="margin-bottom: 10px">
-        SoCC was founded to deal with the <b>cloud</b> (+<b>mapreduce</b>).
-        <b>Partitioning</b> is a classic trick to make things go <b>fast</b>.
-        <b>Differential privacy</b> is looked at as a way of securing data
-        in the cloud.
-      </div>
-        
-        <div>We finally have the infrastructure and <b>social</b> data
-        to work on real graph problems --
-        many of the best paper awards in this time focused 
-        on <b>graphs</b>.
+  </td>
+  </tr>
+  <tr> <td colspan=2>
 
-      </div>
-    </div>
-    <div class='col span2'>
-       <div class='word'>graphs</div>
-       <div class='word'>mapreduce</div>
-       <div class='word'>social</div>
-       <div class='word'>cloud</div>
-       <div class='word'>fast</div>
-       <div class='word'>results</div>
-       <div class='word'>distance</div>
-       <div class='word'>analytic</div>
-       <div class='word'>partitioning</div>
-       <div class='word'>differential</div>
-      
-    </div>
-    <div class='col span6'>
-      <img src='./plots/plot3-0.png'/>
-    </div>
+</div>
+
+<h1>Applying</h1>
+
+<p><span style="font-weight: bold; color: rgb(201, 27, 77); width: 100%; padding-top: 10px; padding-bottom: 10px">
+  We are currently hiring great graduate and post-doctoral researchers.  If you are interested, DO NOT EMAIL ME DIRECTLY.  Click on the following links first.
+</span></p>
+
+<ul>
+<li><a href="./applying.html">Prospective PhD and PostDocs</a></li>
+<li><a href="https://docs.google.com/forms/d/1-s1SwcpY0WBnRrzlrQfSrcxSCeOAymOHfU-sHroUXfU/viewform">Prospective Interns, UGrad, Masters Students</a></li>
+</ul>
+
+<h1>Bio</h1>
+
+<p>Eugene Wu is broadly interested in technologies that help users play with
+their data.  His goal is for users at all technical
+levels to effectively and quickly make sense of their information.
+He is interested in solutions that ultimately improve the interface between
+users and data, and techniques borrowed from fields such as data management, 
+systems, crowd sourcing, visualization, and HCI.</p>
+
+<p><span style="color: #888;">
+  Eugene Wu recieved his Ph.D. from  <a href="http://www.csail.mit.edu">CSAIL</a>
+  at <a href="http://www.mit.edu">MIT</a>,
+  advised by the esteemed <a href="http://db.lcs.mit.edu/madden/">Sam Madden</a> and 
+  <a href="https://en.wikipedia.org/wiki/Michael_Stonebraker">Michael Stonebraker</a>,
+  in the <a href="http://db.csail.mit.edu/">database</a> group.
+  He spent the first half of 2015 at <a href="http://www.cs.berkeley.edu">UC Berkeley's</a> <a href="https://amplab.cs.berkeley.edu">AMPLab</a>
+  before starting at <a href="http://www.cs.columbia.edu">Columbia University</a> in Fall 2015.
+  <a href="http://www.cs.columbia.edu/2015/wu-profile/">Formal</a> and
+  <a href="http://partnews.brownbag.me/2012/02/29/better-know-a-classmate-eugene-wu/">less formal</a> (by
+  <a href="http://partnews.brownbag.me/2012/02/29/interview-matt-stempeck-wants-to-change-the-world-with-tech/">@mstem</a>) biographies.
+  An <a href="./obit.html">obituary</a>.</p>
+
+<p>He is supported by <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1527765&amp;HistoricalAwards=false">NSF 1527765</a>.
+</span></p>
+
+<h1>Recent News</h1>
+
+<ul>
+<li>Our <a href="/files/papers/qfix-sigmod17.pdf">QueryFix</a> full paper was acceped to <a href="http://sigmod2017.org/">SIGMOD 2017</a>!  Come see our presentation in Raleigh, NC!</li>
+<li>Our first <a href="https://datascienceinstitute.github.io/">(Data+Media):Humans in the Loop</a> speaker series event is Sep 28, 7-9PM!  Everyone welcome.</li>
+<li>There is a nice article about ActiveClean on the DSI website: <a href="http://datascience.columbia.edu/data-cleaning-tool-building-better-prediction-models">A Data-Cleaning Tool for Building Better Prediction Models</a></li>
+<li>Our <a href="https://nsfdeclarativevis.github.io/NSFDeclarativeVis/">NSF proposal</a> with <a href="http://db.cs.berkeley.edu/jmh/">jmh</a> and <a href="http://homes.cs.washington.edu/~jheer/">jheer</a> on bringing declarative database ideas to interactive visualizations was funded!  The <a href="./dvms.html">DVMS</a> train continues to roll.</li>
+<li>Our ActiveClean full paper was acceped to <a href="http://vldb2016.persistent.com/">VLDB 2016</a>!  Come see our presentation in Dehli, India.  Look forward to our code release later this summer!</li>
+<li>Our <a href="/files/papers/activeclean-sigmod16demo.pdf">ActiveClean</a> submission won Best Demo at SIGMOD 2016!  Many thanks to our collaborators Sanjay, Jiannan, Mike, and Ken!</li>
+<li><a href="http://sirrice.github.io/files/talks/2016-05-mit-bigdata.pdf">Talk</a> about what provenance is and how it relates to our projects.  MIT BigData Workshop 2016</li>
+<li>Congrats to Niranjan, Arnab, Yifan, Daniel Haas, Sanjay, and Daniel Alabi for getting <strong>four</strong> papers accepted at SIGMOD's <a href="http://www.hilda.io">Hilda</a> workshop!</li>
+<li>QueryFix explanation demo with Xiaolan and Alexandra accepted to SIGMOD 2016!</li>
+<li>CLAMShell paper with Daniel Haas for <em>drastically</em> speeding up crowds accepted to VLDB 2016!</li>
+</ul>
+
+<h1>Current Research Areas</h1>
+
+<h2><a href="./dvms.html">Data Visualization Management Systems</a></h2>
+
+<p>A Data Visualization Management System (DVMS) integrates
+visualizations and databases, by compiling a declarative visualization
+language into an end-to-end relational operator pipeline that renders
+the visualization and is amenable to database-style optimizations.
+Thus the DVMS can be both <i>expressive</i> via the
+visualization language, and <i>performant</i>
+by leveraging traditional and visualization-specific
+optimizations to scale interactive visualizations to massive
+datasets.</p>
+
+<p><img class="screenshot" id="dvmslogo" src="./images/dvms.png" /></p>
+
+<h2><a href="./qfix.html">Query Explanation</a></h2>
+
+<p>Instead of explaining and fixing data using data, which is a bit circuitous,
+we seek to both explain and repair incorrect data values by using the actual
+queries that modified the database.</p>
+
+<p><img class="screenshot" id="qfixscreen" src="./images/qfix.png" /></p>
+
+<h2><a href="./dbwipes.html">Data Exploration and Explanation</a></h2>
+
+<p>Visualizations are excellent for exposing surprising patterns
+and outliers in data, however existing tools have no way to
+help explain those patterns and outliers.  We are exploring 
+systems to generate sensible explanations for outliers in 
+analytics visualizations.</p>
+
+<p><img class="screenshot" id="scorpionscreen" src="./images/scorpion.png" /></p>
+
+<h2><a href="https://activeclean.github.io">Data Cleaning for Data Science</a></h2>
+
+<p>Analysts report spending upwards of 80% of their time on problems in data cleaning including extraction, formatting, handling missing values, and entity resolution. 
+How can knowing the application you want to <em>actually</em> run help speed up the cleaning process?</p>
+
+<p><img class="screenshot" id="samplecleanscreen" src="./images/previews/preview_activeclean-vldb16.png" /></p>
+
+<h1><span id="pubtitle">Selected Publications</span></h1>
+
+<div class="section">
+  <div id="publications">
+    <cloudstitch-handlebars user="sirrice" app="wu-publications"></cloudstitch-handlebars>
   </div>
-  
-  <div class='row'>
-    <div class='col span3'>
-      <h2>The Future</h2>
-      <div>
-        As a young researcher, what's the bandwagon to jump on?
-        The upward trending terms hint at several topics.
-        Performance and <b>scaling</b> with new hardware like <b>GPUs</b>
-        is one direction. Data analysis, such as <b>frequent
-          itemset mining</b>, <b>diversifying results</b> and in
-        general helping users
-        <b>discover</b> interesting results is hugely important in the 
-        <b>bigdata</b> world.
-      </div>
-      <div style="margin-top: 10px">
-        Or work on the <b>crowd</b>! That still has a few years in its 
-        life.
-      </div>
-    </div>
-    <div class='col span2'>
-       <div class='word'>scale</div>
-       <div class='word'>crowd</div>
-       <div class='word'>labeling</div>
-       <div class='word'>points</div>
-       <div class='word'>frequent</div>
-       <div class='word'>discovering</div>
-       <div class='word'>rdf</div>
-       <div class='word'>comparison</div>
-       <div class='word'>gpus</div>
-       <div class='word'>diversification</div>
-      
-    </div>
-    <div class='col span6'>
-      <img src='./plots/plot3-1.png'/>
-    </div>
+  <div style="font-size: 9pt">
+    Powered by <a href="http://www.cloudstitch.io/">cloudstitch</a>.  
+    <a href="https://www.cloudstitch.com/academic/eugene-wu-publications">clonethis</a>
   </div>
-  
+</div>
+
+<h1>Teaching</h1>
+
+<ul>
+<li><a href="http://www.cs.columbia.edu/~coms4111/">Introduction to Databases</a> Fall 2016</li>
+<li><a href="http://columbia.github.io/systems-bigdata-class/">Big Data Systems</a> Spring 2016</li>
+<li><a href="http://www.cs.columbia.edu/~coms4111/">Introduction to Databases</a> Fall 2015</li>
+<li><a href="http://db.csail.mit.edu/6.885/">From Ascii to Answers</a> at MIT </li>
+<li><a href="dataiap.github.io">Data IAP</a> at MIT</li>
+</ul>
+
+<h1>Service</h1>
+
+<ul>
+<li>2017: <a href="http://icde2017.sdsc.edu/">ICDE</a> Area Chair; <a href="http://sigmod2017.org/">WWW</a> PC; <a href="http://sigmod2017.org/">SIGMOD</a> Demo PC; <a href="http://sigmod2017.org/">SIGMOD</a> PC; <a href="http://www.vldb.org/2017/">VLDB</a> PC; <a href="http://hilda.io/2017/">HILDA</a> PC</li>
+<li>2016 <a href="http://ieeevis.org/">InfoVis</a> Reviewer</li>
+<li>2016 <a href="http://hilda.io/2016/">HILDA</a> PC</li>
+<li>2016 <a href="http://mitdbg.github.io/nedbday/2016">NEDBDay</a> Co-Chair</li>
+<li>2016 <a href="http://sigmod2016.org/">SIGMOD</a> travel award committee</li>
+<li>2015 <a href="http://sigmod2015.org/">SIGMOD</a> travel award committee</li>
+<li>2014 <a href="https://sites.google.com/site/data4u2014/">DATA4U</a> PC</li>
+</ul>
+
+<h1>Some Interesting Links</h1>
+
+<ul>
+<li><a href="./d3gallery.html">Some vis inspiration</a></li>
+<li><a href="http://www.edwardtufte.com">Tufte</a></li>
+<li><a href="http://www.telescopictext.com/">I made tea</a></li>
+<li><a href="http://eugenewu.net/layerpp.html">layer ping pong</a></li>
+<li><a href="http://www.pantsornopants.com">pornp</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Adventure_Time">Be</a><a href="https://en.m.wikipedia.org/wiki/Archer_(TV_series)">st</a>
+<a href="http://www.adultswim.com/videos/rick-and-morty/pilot/">shows</a>
+<a href="http://en.wikipedia.org/wiki/Teen_Titans_(TV_series)">ever?</a></li>
+<li><a href="http://juliakuo.com/my-work/concert-posters/">ar</a><a href="http://helllllen.org/">ti</a><a href="http://magicalgametime.com">st</a>
+<a href="http://www.tomgauld.com/">he</a><a href="http://www.danmccarthy.org/">ro</a><a href="http://sunbakerey.tumblr.com/">s</a></li>
+</ul>
+</div>
 
 
+</div>
 
-<div class='footer'><a href="http://www.sirrice.com/">eugene wu</a> &copy; 2013</div>
+<div class="footer"><div id="signature"></div>eugene wu</div>
 
+<!------------ STATS -------------->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3762902-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!----------- END STATS ------------>
 
 </body>
-</html>
