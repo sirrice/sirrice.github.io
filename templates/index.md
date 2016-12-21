@@ -77,6 +77,7 @@ systems, crowd sourcing, visualization, and HCI.
 
 # Recent News
 
+* Our [CIDR paper](cidrdb.org/cidr2017/) on [Combining Design and Performance in aData Visualization Management System](https://www.dropbox.com/s/0rdjsv7m7wbhmlk/cidr17-camera.pdf?dl=0) was accepted!
 * Our [QueryFix](/files/papers/qfix-sigmod17.pdf) full paper was acceped to [SIGMOD 2017](http://sigmod2017.org/)!  Come see our presentation in Raleigh, NC!
 * Our first [(Data+Media):Humans in the Loop](https://datascienceinstitute.github.io/) speaker series event is Sep 28, 7-9PM!  Everyone welcome.
 * There is a nice article about ActiveClean on the DSI website: [A Data-Cleaning Tool for Building Better Prediction Models](http://datascience.columbia.edu/data-cleaning-tool-building-better-prediction-models)
@@ -155,6 +156,8 @@ How can knowing the application you want to _actually_ run help speed up the cle
 
 # Teaching
 
+* [Computer Systems for Big Data](http://columbia.github.io/systems-bigdata-class/) Spring 2017
+* [6998.002 Interactive Data Exploration Systems](https://columbiaviz.github.io/) Spring 2017
 * [Introduction to Databases](http://www.cs.columbia.edu/~coms4111/) Fall 2016
 * [Big Data Systems](http://columbia.github.io/systems-bigdata-class/) Spring 2016
 * [Introduction to Databases](http://www.cs.columbia.edu/~coms4111/) Fall 2015
