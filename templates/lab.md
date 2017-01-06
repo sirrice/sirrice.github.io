@@ -1,4 +1,5 @@
 
+
 <p class="header" style="font-size: 30pt">
 The Wu Lab
 <br/>
@@ -7,6 +8,7 @@ Accelerating the Democratization of Data
 </small>
 </p>
 
+
 Our lab focuses on building tools and algorithms to facilitate the democratization of data 
 and enable everyone to easily interact with, explore, analyze and understand their data.
 To achieve this goal we focus on three core problems: 
@@ -14,13 +16,21 @@ To achieve this goal we focus on three core problems:
 **data exploration and *explanation* tools** so users can identify patterns in the data and understand *why* those patterns exist; 
 and **interactive visualization systems** to bridge the gap between database systems, which are currently tailored for data processing, and visualization systems, which are tailored to visualization.
 
-
 <p id="contacts">
   <a href="#reading">Reading Group</a>
   <a href="#projects">Current Projects</a>
   <a href="#funprojects">Fun</a>
   <a href="#students">Students</a>
 </p>
+
+# The Group
+
+<div style="text-align: center;">
+	<img src="./images/wulab16.jpg" style="width:60%; " />
+	<small>Summer 2016</small>
+</div>
+
+
 
 
 # Reading Group <a name="reading"></a>
