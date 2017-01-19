@@ -156,7 +156,7 @@ How can knowing the application you want to _actually_ run help speed up the cle
 
 # Teaching
 
-* [Computer Systems for Big Data](http://columbia.github.io/systems-bigdata-class/) Spring 2017
+* [Computer Systems for Big Data](http://w4121.github.io/) Spring 2017
 * [6998.002 Interactive Data Exploration Systems](https://columbiaviz.github.io/) Spring 2017
 * [Introduction to Databases](http://www.cs.columbia.edu/~coms4111/) Fall 2016
 * [Big Data Systems](http://columbia.github.io/systems-bigdata-class/) Spring 2016
