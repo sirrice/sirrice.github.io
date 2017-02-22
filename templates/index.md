@@ -168,10 +168,7 @@ How can knowing the application you want to _actually_ run help speed up the cle
 # Service
 
 * 2017: [ICDE](http://icde2017.sdsc.edu/) Area Chair; [WWW](http://sigmod2017.org/) PC; [SIGMOD](http://sigmod2017.org/) Demo PC; [SIGMOD](http://sigmod2017.org/) PC; [VLDB](http://www.vldb.org/2017/) PC; [HILDA](http://hilda.io/2017/) PC; [SSDBM](http://ssdbm2017.eecs.northwestern.edu/) PC; [HCOMP](http://www.humancomputation.com/2017/) PC
-* 2016 [InfoVis](http://ieeevis.org/) Reviewer
-* 2016 [HILDA](http://hilda.io/2016/) PC
-* 2016 [NEDBDay](http://mitdbg.github.io/nedbday/2016) Co-Chair
-* 2016 [SIGMOD](http://sigmod2016.org/) travel award committee
+* 2016: [InfoVis](http://ieeevis.org/) Reviewer;  [HILDA](http://hilda.io/2016/) PC;  [NEDBDay](http://mitdbg.github.io/nedbday/2016) Co-Chair;  [SIGMOD](http://sigmod2016.org/) travel award committee
 * 2015 [SIGMOD](http://sigmod2015.org/) travel award committee
 * 2014 [DATA4U](https://sites.google.com/site/data4u2014/) PC
 
