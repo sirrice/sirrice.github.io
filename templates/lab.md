@@ -136,6 +136,11 @@ GUI interface to normalize and clean up entries in bibtex files to reduce the re
 
 I am lucky to be working, and have worked, with many remarkable students.
 
+## PostDocs
+
+* [Thibault Sellam](http://homepages.cwi.nl/~sellam/)
+
+
 ## PhD
 
 * [Fotis Psallidas](http://www.cs.columbia.edu/~fotis/)
@@ -153,6 +158,7 @@ I am lucky to be working, and have worked, with many remarkable students.
 
 ## Masters
 
+* [Tejas Dharamsi](https://twitter.com/dharamsitejas)
 * [Daniel Alabi](http://alabidan.me/) <small>(starting PhD at Harvard)</small>
   * Using human perceptual models to make visualizations faster
 * [Zhengjie Miao](http://www.miaozhengjie.com/about/)
@@ -162,10 +168,12 @@ I am lucky to be working, and have worked, with many remarkable students.
 ## Undergrads
 
 * [Hamed Nilforoshan](http://hamedn.com/)
-* Rahul Khanna
+* Naina Sahrawat
+* Kevin Lin
+* Larry Xu
 * James Sands
 * HaoCi Zhang <small>(Tsinghua University)</small>
-* Kevin Lin
+* Rahul Khanna
 
 
 
