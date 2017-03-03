@@ -33,6 +33,7 @@ and **interactive visualization systems** to bridge the gap between database sys
 
 
 
+<!--
 # Reading Group <a name="reading"></a>
 
 Our paper reading group regularly meets at **3:30-5PM Wednesdays** in **417 MUDD**.  
@@ -40,6 +41,7 @@ We spend part of the time discussing the technical ideas in the paper, and part 
 Everyone is welcome to attend!
 
 [Click here to see our reading list and notes](https://quip.com/Rv0rANRyWmeK)
+-->
 
 
 
