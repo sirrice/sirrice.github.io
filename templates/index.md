@@ -27,6 +27,7 @@
     <a href="mailto:ewu@cs.columbia.edu">email</a>
     <a href="https://twitter.com/sirrice">@sirrice</a>
     <a href="http://github.com/sirrice">github</a>  
+    <a href="/files/job/cv.pdf">cv</a>
   </p>
   </td>
   </tr>
