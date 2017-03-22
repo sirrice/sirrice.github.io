@@ -77,7 +77,7 @@ systems, crowd sourcing, visualization, and HCI.
 
 # Recent News
 
-* Hamed's paper on  [Segment-Predict-Explain for Automatic Writing Feedback](https://www.dropbox.com/s/tzoi7pxm73iqfe3/dialectic-ci17.pdf?dl=0) was accepted to [Collective Intelligence](http://collectiveintelligenceconference.org/)!  Stay tuned for the full paper!
+* Hamed's paper on  [Segment-Predict-Explain for Automatic Writing Feedback](https://www.dropbox.com/s/52knots6len7ykt/dialectic-ci17.pdf?dl=0) was accepted to [Collective Intelligence](http://collectiveintelligenceconference.org/)!  Stay tuned for the full paper!
 * Our [CIDR paper](cidrdb.org/cidr2017/) on [Combining Design and Performance in a Data Visualization Management System](https://www.dropbox.com/s/0rdjsv7m7wbhmlk/cidr17-camera.pdf?dl=0) was accepted!
 * Our [QueryFix](/files/papers/qfix-sigmod17.pdf) full paper was acceped to [SIGMOD 2017](http://sigmod2017.org/)!  Come see our presentation in Raleigh, NC!
 * Our first [(Data+Media):Humans in the Loop](https://datascienceinstitute.github.io/) speaker series event is Sep 28, 7-9PM!  Everyone welcome.
