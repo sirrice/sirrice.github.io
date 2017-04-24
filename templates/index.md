@@ -108,7 +108,7 @@ datasets.
 
 <img class="screenshot" id="dvmslogo" src="./images/dvms.png" />
 
-## [Query Explanation](./qfix.html)
+## [Query Explanation](http://queryfix.github.io)
 
 Instead of explaining and fixing data using data, which is a bit circuitous,
 we seek to both explain and repair incorrect data values by using the actual
