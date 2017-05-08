@@ -70,7 +70,7 @@ systems, crowd sourcing, visualization, and HCI.
   An <a href="./obit.html">obituary</a>.
 
 
-  He is supported by [NSF 1527765](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1527765&HistoricalAwards=false).
+  He is supported by [NSF 1527765](http://perceptvis.github.io/) and [NSF 1564049](https://nsfdeclarativevis.github.io/NSFDeclarativeVis/).
 </span>
 
 
