@@ -77,6 +77,7 @@ systems, crowd sourcing, visualization, and HCI.
 
 # Recent News
 
+* A [nice article](https://www.cs.columbia.edu/2017/query-logs-put-to-new-uses-in-data-analysis-democratizing-interfaces-and-tracking-sources-of-errors/) about our HILDA and SIGMOD papers.  See you in Chicago!
 * Hamed's paper on  [Segment-Predict-Explain for Automatic Writing Feedback](https://www.dropbox.com/s/52knots6len7ykt/dialectic-ci17.pdf?dl=0) was accepted to [Collective Intelligence](http://collectiveintelligenceconference.org/)!  Stay tuned for the full paper!
 * Our [CIDR paper](cidrdb.org/cidr2017/) on [Combining Design and Performance in a Data Visualization Management System](https://www.dropbox.com/s/0rdjsv7m7wbhmlk/cidr17-camera.pdf?dl=0) was accepted!
 * Our [QueryFix](/files/papers/qfix-sigmod17.pdf) full paper was acceped to [SIGMOD 2017](http://sigmod2017.org/)!  Come see our presentation in Raleigh, NC!
