@@ -77,6 +77,7 @@ systems, crowd sourcing, visualization, and HCI.
 
 # Recent News
 
+* Check out our two 2017 HILDA papers! [PALM: Machine Learning Explanations For Iterative Debugging](https://www.dropbox.com/s/x8g0zljv7bmfpuo/palm-hilda17.pdf?dl=0) and [Precision Interfaces](https://www.dropbox.com/s/s44w2d5er8a4j9w/precisioninterface-hilda17.pdf?dl=0)!
 * A super simple, end-to-end implementation of ActiveClean is available [at this dropbox folder](https://www.dropbox.com/sh/r2vv252m5lnqpmm/AAAMj0WRaZX9EKH_8dLOHQpIa?dl=0)
 * A [nice article](https://www.cs.columbia.edu/2017/query-logs-put-to-new-uses-in-data-analysis-democratizing-interfaces-and-tracking-sources-of-errors/) about our HILDA and SIGMOD papers.  See you in Chicago!
 * Hamed's paper on  [Segment-Predict-Explain for Automatic Writing Feedback](https://www.dropbox.com/s/52knots6len7ykt/dialectic-ci17.pdf?dl=0) was accepted to [Collective Intelligence](http://collectiveintelligenceconference.org/)!  Stay tuned for the full paper!
