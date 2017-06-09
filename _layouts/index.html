@@ -1,0 +1,43 @@
+<html>
+   <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>{{title}}</title>
+  </head>
+<body>
+
+  <!--<img src="{{ "/files/images/cudbg.png" | relative_url }}" id="cudbg"/>-->
+
+{% include header.html %}
+<br/>
+{% include body.html %}
+{% include footer.html %}
+
+
+</body>
+
+
+{% include includes.html %}
+
+<script>
+
+  function addStyle(str) {
+    var sheet = document.createElement('style')
+    sheet.innerHTML = str; 
+    document.body.appendChild(sheet);
+    return sheet;
+  };
+
+  var colors = ["1054B2", "FF5E4A", "3187FF", "04B21A", "D952FF", "16B277", "FF3D3B", "CC2239", "365DCC"];
+  var hue = Math.floor(Math.random() * 200) + 100; // hue = 201;
+  var hue = Math.floor(Math.random() * 300);
+  var color = "hsla(" + hue + ", 73%, 52%, 0.7)";
+  var color = "#" + colors[Math.floor(Math.random()*colors.length)];
+  //addStyle(".header { border-color: " + color + " };");
+
+  //color = "hsla(" + hue + ", 80%, 45%, 1)";
+      console.log(color)
+  addStyle("h4,a { color: " + color + " };");
+
+</script>
+
