@@ -1,6 +1,6 @@
 <html>
 	<head>
-	<script src="./include/jquery.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 	<title>Layer Ping Pong</title>
 	<script>
 		var minidx = 1, maxidx = 10;
@@ -9,7 +9,7 @@
 		
 		function loadShip(direction) {
 			idx = Math.max(minidx, Math.min(maxidx, idx + direction));
-			$("#ship").attr("src", "./images/layerpp/volley" + idx + ".png");
+			$("#ship").attr("src", "./files/images/layerpp/volley" + idx + ".png");
 			$("#ship").attr("height", "300");
 			
 			$("#prev").css("color", (idx == minidx)? "#999" : "black");
@@ -47,7 +47,7 @@
 			<div class="name"><span style="font-size: 32pt">Layer Ping Pong</span><br/>Throwdown in November</div>
 			<div class="buttons"><a id="prev" href="#">prev</a><a id="next" href="#">next</a></div>
 		</div>
-		<div id="frame"><img id="ship" src="./images/layerpp/volley1.png"></img></div>
+		<div id="frame"><img id="ship" src="./files/images/layerpp/volley1.png"></img></div>
 		<div class="textcontainer" id="allstories">
 
 <div id="story">
