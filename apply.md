@@ -11,7 +11,7 @@ The following lists the abilities that I believe are particularly valuable:
 
 <div class="row skills">
 <div class="col-md-3 offset-md-1 stitle">
-Critical & logical thinking
+Critical & <br/>logical thinking
 </div>
 <div class="col-md-8">
 An important component of research is the ability to make logical arguments and back those arguments with evidence.  This will be your most important asset.
@@ -20,7 +20,7 @@ An important component of research is the ability to make logical arguments and 
 
 <div class="row skills">
 <div class="col-md-3 offset-md-1 stitle">
-Technical knowledge
+Technical <br/>knowledge
 </div>
 <div class="col-md-8">
 Most computer scientists materialize their ideas through software systems 
