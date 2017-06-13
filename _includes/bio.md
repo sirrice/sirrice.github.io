@@ -7,8 +7,8 @@ systems, crowd sourcing, visualization, and HCI.
 Eugene Wu recieved his Ph.D. from  [MIT](http://www.csail.mit.edu),
 B.S. from [Cal](http://www.cs.berkeley.edu),
 and was a Postdoc in the [AMPLab](https://amplab.cs.berkeley.edu).
-[Formal bio](http://www.cs.columbia.edu/2015/wu-profile/),
-[less formal bio](http://partnews.brownbag.me/2012/02/29/better-know-a-classmate-eugene-wu/), 
+[A profile](http://www.cs.columbia.edu/2015/wu-profile/),
+[informal bio](http://partnews.brownbag.me/2012/02/29/better-know-a-classmate-eugene-wu/), 
 [obit](./obit.html).
 
 
