@@ -185,9 +185,19 @@ li {
 
 
 @media  (max-width:900px) {
+  html,body {
+    font-size: 15pt;
+  }
+  h1 {
+    font-size: 20pt;
+  }
   h4 {
     margin-top: 2em;
-    font-size: 14pt;
+    font-size: 20pt;
+    margin-bottom: 1em;
+  }
+  .stitle {
+    font-size: 20pt;
   }
   .header div {
   }
