@@ -31,6 +31,10 @@ North East DB Day ([2016](http://mitdbg.github.io/nedbday/2016))
  
 **Reviewer**   SIGMOD, VLDB, CIDR, WWW, ICDE, InfoVis, UIST, CHI, TKDE
 
+#### 2014 Job Materials
+
+[Research](./files/job/research.pdf)   [Teaching](./files/job/teaching.pdf)  [Diversity](./files/job/diversity.pdf) 
+
 
 #### Side Projects
 

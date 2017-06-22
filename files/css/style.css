@@ -19,7 +19,8 @@ h4 {
   color: gray;
   font-weight: 300;
   letter-spacing: 1.5px;
-  font-family: Raleway;
+  /*font-family: Raleway;*/
+  font-family: serif;
   margin-bottom: .75em;
 }
 
@@ -51,8 +52,8 @@ h4.eugene {
   letter-spacing: 2.5px;
   text-justify: distribute;
   font-weight: 600;
-  font-family: 'Playfair Display', serif;
-  font-family: 'Josefin Slab', serif;
+  /*font-family: 'Josefin Slab', serif;*/
+  font-family: serif;
 
 }
 
@@ -67,6 +68,7 @@ h4.eugene {
     font-style: italic;
     letter-spacing: 1px;
     font-family: Raleway;
+    font-family: serif;
 		display: block;
 }
 
@@ -204,10 +206,5 @@ li {
 }
 
 
-
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:600|Playfair+Display:600');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
-@import url('https://fonts.googleapis.com/css?family=Raleway:600');
 
 
