@@ -21,7 +21,7 @@ North East DB Day ([2016](http://mitdbg.github.io/nedbday/2016))
 
 **Area Chair**   ICDE ([2017](http://icde2017.sdsc.edu/))   
 
-**Program Committee**   WWW ([2017](http://sigmod2017.org/)),
+**Program Committee**   WWW ([2017](http://www.www2017.com.au/)),
  SIGMOD ([2017](http://sigmod2017.org/)),
  VLDB ([2017](http://www.vldb.org/2017/)),
  HILDA ([2017](http://hilda.io/2017/), [2016](http://hilda.io/2016/)),
