@@ -6,19 +6,6 @@
   </head>
 <body>
 
-  <!--<img src="{{ "/files/images/cudbg.png" | relative_url }}" id="cudbg"/>-->
-
-{% include header.html %}
-<br/>
-{% include body.html %}
-{% include footer.html %}
-
-
-</body>
-
-
-{% include includes.html %}
-
 <script>
 
   function addStyle(str) {
@@ -36,8 +23,22 @@
   //addStyle(".header { border-color: " + color + " };");
 
   //color = "hsla(" + hue + ", 80%, 45%, 1)";
-      console.log(color)
   addStyle("h4,a { color: " + color + " };");
 
 </script>
+
+
+  <!--<img src="{{ "/files/images/cudbg.png" | relative_url }}" id="cudbg"/>-->
+
+{% include header.html %}
+<br/>
+{% include body.html %}
+{% include footer.html %}
+
+
+</body>
+
+
+{% include includes.html %}
+
 
