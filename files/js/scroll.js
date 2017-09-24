@@ -48,6 +48,7 @@ document.onscroll = (function() {
      .style("top", "1em")
      .style("left", "0px")
      .style("height", "100%")
-     .style("width", "20px");
+     .style("width", "20px")
+     .style("z-index", "100");
   return onscroll;
 })();

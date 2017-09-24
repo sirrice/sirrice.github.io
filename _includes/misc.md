@@ -33,7 +33,7 @@ North East DB Day ([2016](http://mitdbg.github.io/nedbday/2016))
 
 #### 2014 Job Materials
 
-[Old CV](./files/job/cv.pdf) [Research](./files/job/research.pdf)   [Teaching](./files/job/teaching.pdf)  [Diversity](./files/job/diversity.pdf) 
+[Old CV](./files/job/cv-old.pdf) [Research](./files/job/research.pdf)   [Teaching](./files/job/teaching.pdf)  [Diversity](./files/job/diversity.pdf) 
 
 
 #### Side Projects
