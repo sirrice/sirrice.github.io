@@ -4,6 +4,7 @@ layout: index
 
 
 
+* Check out our DSIA paper [Load-n-go](https://www.dropbox.com/s/2n1a4l0k63x9o4x/loadngo-dsia17.pdf?dl=0), InfoVIS poster on [entropy measure for visualization](https://www.dropbox.com/s/5ed977dwelnd5c9/glance-infovisposter17.pdf?dl=0), and DECISIVE paper on [bayesian models of cognition for interactive visualization](https://www.dropbox.com/s/tede3vonedgd49k/bayesianvis-decisive17.pdf?dl=0).
 * Check out our two 2017 HILDA papers! [PALM: Machine Learning Explanations For Iterative Debugging](https://www.dropbox.com/s/x8g0zljv7bmfpuo/palm-hilda17.pdf?dl=0) and [Precision Interfaces](https://www.dropbox.com/s/s44w2d5er8a4j9w/precisioninterface-hilda17.pdf?dl=0)!
 * A super simple, end-to-end implementation of ActiveClean is available [at this dropbox folder](https://www.dropbox.com/sh/r2vv252m5lnqpmm/AAAMj0WRaZX9EKH_8dLOHQpIa?dl=0)
 * A [nice article](https://www.cs.columbia.edu/2017/query-logs-put-to-new-uses-in-data-analysis-democratizing-interfaces-and-tracking-sources-of-errors/) about our HILDA and SIGMOD papers.  See you in Chicago!
