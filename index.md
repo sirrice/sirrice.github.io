@@ -4,6 +4,7 @@ layout: index
 
 
 
+* Visited and spoke at DB groups at Wisconsin-Madison, University of Chicago, and UIUC.  Slides: [1 per page](https://www.dropbox.com/s/l487siez783qxo0/2017-10-midwest-1pp.pdf?dl=0), and [6 per page](https://www.dropbox.com/s/yauhvxdkv0kna7h/2017-10-midwest-6pp.pdf?dl=0).
 * Check out our DSIA paper [Load-n-go](https://www.dropbox.com/s/2n1a4l0k63x9o4x/loadngo-dsia17.pdf?dl=0), InfoVIS poster on [entropy measure for visualization](https://www.dropbox.com/s/5ed977dwelnd5c9/glance-infovisposter17.pdf?dl=0), and DECISIVE paper on [bayesian models of cognition for interactive visualization](https://www.dropbox.com/s/tede3vonedgd49k/bayesianvis-decisive17.pdf?dl=0).
 * Check out our two 2017 HILDA papers! [PALM: Machine Learning Explanations For Iterative Debugging](https://www.dropbox.com/s/x8g0zljv7bmfpuo/palm-hilda17.pdf?dl=0) and [Precision Interfaces](https://www.dropbox.com/s/s44w2d5er8a4j9w/precisioninterface-hilda17.pdf?dl=0)!
 * A super simple, end-to-end implementation of ActiveClean is available [at this dropbox folder](https://www.dropbox.com/sh/r2vv252m5lnqpmm/AAAMj0WRaZX9EKH_8dLOHQpIa?dl=0)
@@ -16,9 +17,12 @@ layout: index
 * Our [NSF proposal](https://nsfdeclarativevis.github.io/NSFDeclarativeVis/) with [jmh](http://db.cs.berkeley.edu/jmh/) and [jheer](http://homes.cs.washington.edu/~jheer/) on bringing declarative database ideas to interactive visualizations was funded!  The [DVMS](./dvms.html) train continues to roll.
 * Our ActiveClean full paper was acceped to [VLDB 2016](http://vldb2016.persistent.com/)!  Come see our presentation in Dehli, India.  Look forward to our code release later this summer!
 * Our [ActiveClean](/files/papers/activeclean-sigmod16demo.pdf) submission won Best Demo at SIGMOD 2016!  Many thanks to our collaborators Sanjay, Jiannan, Mike, and Ken!
+
+<!--
 * [Talk](http://sirrice.github.io/files/talks/2016-05-mit-bigdata.pdf) about what provenance is and how it relates to our projects.  MIT BigData Workshop 2016
 * Congrats to Niranjan, Arnab, Yifan, Daniel Haas, Sanjay, and Daniel Alabi for getting **four** papers accepted at SIGMOD's [Hilda](http://www.hilda.io) workshop!
 * QueryFix explanation demo with Xiaolan and Alexandra accepted to SIGMOD 2016!
 * CLAMShell paper with Daniel Haas for _drastically_ speeding up crowds accepted to VLDB 2016!
+-->
 
 
