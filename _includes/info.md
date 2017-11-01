@@ -5,7 +5,7 @@
 Twitter: [@sirrice](https://twitter.com/sirrice)   
 Github: [sirrice](http://github.com/sirrice), [cudbg](http://github.com/cudbg)   
 OH: --   
-[CV](www.eugenewu.net/files/job/cv.pdf)  
+[CV]({{ "/files/job/cv.pdf" | relative_url}})  
 
 
 Co-Chair: <a href="http://datascienceinstitute.github.io">Data, Media & Society</a><br/>
