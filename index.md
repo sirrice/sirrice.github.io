@@ -4,6 +4,7 @@ layout: index
 
 
 
+* [Webpage](http://eugenewu.net/ninjas.html) track papers named after Mortal Kombat ninjas
 * Visited and spoke at DB groups at Wisconsin-Madison, University of Chicago, and UIUC.  Slides: [1 per page](https://www.dropbox.com/s/l487siez783qxo0/2017-10-midwest-1pp.pdf?dl=0), and [6 per page](https://www.dropbox.com/s/yauhvxdkv0kna7h/2017-10-midwest-6pp.pdf?dl=0).
 * Check out our DSIA paper [Load-n-go](https://www.dropbox.com/s/2n1a4l0k63x9o4x/loadngo-dsia17.pdf?dl=0), InfoVIS poster on [entropy measure for visualization](https://www.dropbox.com/s/5ed977dwelnd5c9/glance-infovisposter17.pdf?dl=0), and DECISIVE paper on [bayesian models of cognition for interactive visualization](https://www.dropbox.com/s/tede3vonedgd49k/bayesianvis-decisive17.pdf?dl=0).
 * Check out our two 2017 HILDA papers! [PALM: Machine Learning Explanations For Iterative Debugging](https://www.dropbox.com/s/x8g0zljv7bmfpuo/palm-hilda17.pdf?dl=0) and [Precision Interfaces](https://www.dropbox.com/s/s44w2d5er8a4j9w/precisioninterface-hilda17.pdf?dl=0)!

@@ -50,6 +50,8 @@ North East DB Day ([2016](http://mitdbg.github.io/nedbday/2016))
 
 [I sometimes doodle]({{ "./gallery.html" | relative_url}})
 
+[Mortal Kombat Papers]({{ "./ninjas.html" | relative_url}})
+
 #### Some Interesting Links
 
 * [Some vis inspiration](./d3gallery.html)
