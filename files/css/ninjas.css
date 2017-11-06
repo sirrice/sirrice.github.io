@@ -1,0 +1,67 @@
+body {
+  padding-top: 2em;
+  font-family: arial;
+  font-family: 'Open Sans';
+  text-align: center;
+  background-color: #f8f8f5;
+}
+h1 {
+  text-align: center;
+  font-size: 45pt;
+}
+.ninjas {
+  padding: 0px;
+  margin-bottom: 2ex;
+  width: 80%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.ninjas span.ninja {
+  float: left;
+  width: 150px;
+  margin: 5px;
+  position: relative;
+}
+.ninja .img {
+  width: 150px;
+  height: 150px;
+  display: inline;
+  background-size: cover;
+}
+img {
+  border: 1px solid white;
+}
+.published img:hover {
+  border: 1px solid grey;
+}
+span.notpublished .img {
+  opacity: .2;
+}
+
+span.ninja .namebox {
+  /*text-shadow: 0 1px 3px rgba(0,0,0,0.6);*/
+  width: 100%;
+  font-size: 10px;
+  text-align: center;
+}
+span.ninja .namebox .name {
+  font-size: 17px;
+  margin-left: 10px;
+  font-weight: 700;
+  color:black;
+}
+span.ninja .namebox a {
+  text-decoration: none;
+}
+span.ninja .namebox a:visited {
+  font-color: black;
+}
+
+span.ninja span {
+  display: block;
+  text-transform: uppercase;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}

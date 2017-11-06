@@ -1,0 +1,39 @@
+#
+# Add an item for yourself in this list, or replace one of the Eugene Wus
+# The image file should be 
+#   * square, 
+#   * at least 200x200px and 
+#   * placed in /files/images/people/
+# Set alum to 1 if have graduated
+#
+ninjas:
+  - img: ermac.png
+    name: Ermac
+    url:  https://www.dropbox.com/s/os7q186fu2wajom/ermac%20-%20vldb14.pdf?dl=0
+    desc: Published
+  - img: scorpion.png
+    name: Scorpion
+    url: https://www.dropbox.com/s/1v6dcb16r840sdo/scorpion-vldb13.pdf?dl=0 
+    desc: Published
+  - img: smoke.png
+    name: Smoke
+    desc: In Submission
+  - img: subzero.png
+    name: SubZero
+    url: https://www.dropbox.com/s/sycjws71jrynodg/subzero-icde13.pdf?dl=0
+    desc: Published
+  - img: khameleon.png
+    name: Khameleon
+    desc: In Submission
+  - img: jade.png
+    name: Jade
+  - img: kitana.png
+    name: Kitana
+  - img: mileena.png
+    name: Mileena
+  - img: noobsaibot.png
+    name: Noob Saibot
+  - img: rain.png
+    name: Rain
+  - img: reptile.png
+    name: Reptile

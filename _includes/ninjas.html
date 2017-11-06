@@ -1,0 +1,35 @@
+<h1>Ninja Countdown</h1>
+<p>
+Which Mortal Kombat ninja characters have been assigned papers?
+</p>
+<br/>
+<br/>
+
+
+<div class="ninjas">
+  {% for ninja in {{include.ninjas}} %}
+    {% assign img = {{ninja.img}} %}
+    {% assign url = {{ninja.url}} %}
+    {% assign desc = {{ninja.desc}} %}
+    {% assign class = "published" %}
+    {% if url == nil and desc == nil %} {% assign class = "notpublished" %} {% endif %}
+
+    <span class="ninja {{class}}">
+      {%if ninja.url %} <a href="{{ninja.url}}"> {% endif %}
+      <img class="img" 
+           src="./files/images/ninjas/{{ img }}"></img>
+      {%if ninja.url %} </a> {% endif %}
+
+      <div class="namebox">
+        {% if ninja.url %}
+          <a class="name" href="{{ninja.url}}#">{{ninja.name}}</a>
+        {% else %}
+          <div class="name">{{ninja.name}}</div>
+        {% endif %}
+        <span>{{ninja.desc}}</span>
+      </div>
+    </span>
+  {% endfor %}
+</div>
+
+<link rel="stylesheet" type="text/css" href="./files/css/ninjas.css" />
