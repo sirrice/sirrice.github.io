@@ -10,18 +10,18 @@ ninjas:
   - img: ermac.png
     name: Ermac
     url:  https://www.dropbox.com/s/os7q186fu2wajom/ermac%20-%20vldb14.pdf?dl=0
-    desc: Published
+    desc: FLAWLESS VICTORY
   - img: scorpion.png
     name: Scorpion
     url: https://www.dropbox.com/s/1v6dcb16r840sdo/scorpion-vldb13.pdf?dl=0 
-    desc: Published
+    desc: FLAWLESS VICTORY
   - img: smoke.png
     name: Smoke
     desc: In Submission
   - img: subzero.png
     name: SubZero
     url: https://www.dropbox.com/s/sycjws71jrynodg/subzero-icde13.pdf?dl=0
-    desc: Published
+    desc: FLAWLESS VICTORY
   - img: khameleon.png
     name: Khameleon
     desc: In Submission
