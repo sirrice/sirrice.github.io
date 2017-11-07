@@ -1,10 +1,12 @@
 ---
 layout: index
+tags: 
 ---
 
 
 
 * [Webpage](http://eugenewu.net/ninjas.html) track papers named after Mortal Kombat ninjas
+* ActiveCLean was covered by [The Morning Paper!](https://blog.acolyer.org/2017/10/04/activeclean-interactive-data-cleaning-for-statistical-modeling/)
 * Visited and spoke at DB groups at Wisconsin-Madison, University of Chicago, and UIUC.  Slides: [1 per page](https://www.dropbox.com/s/l487siez783qxo0/2017-10-midwest-1pp.pdf?dl=0), and [6 per page](https://www.dropbox.com/s/yauhvxdkv0kna7h/2017-10-midwest-6pp.pdf?dl=0).
 * Check out our DSIA paper [Load-n-go](https://www.dropbox.com/s/2n1a4l0k63x9o4x/loadngo-dsia17.pdf?dl=0), InfoVIS poster on [entropy measure for visualization](https://www.dropbox.com/s/5ed977dwelnd5c9/glance-infovisposter17.pdf?dl=0), and DECISIVE paper on [bayesian models of cognition for interactive visualization](https://www.dropbox.com/s/tede3vonedgd49k/bayesianvis-decisive17.pdf?dl=0).
 * Check out our two 2017 HILDA papers! [PALM: Machine Learning Explanations For Iterative Debugging](https://www.dropbox.com/s/x8g0zljv7bmfpuo/palm-hilda17.pdf?dl=0) and [Precision Interfaces](https://www.dropbox.com/s/s44w2d5er8a4j9w/precisioninterface-hilda17.pdf?dl=0)!
@@ -13,13 +15,13 @@ layout: index
 * Hamed's paper on  [Segment-Predict-Explain for Automatic Writing Feedback](https://www.dropbox.com/s/52knots6len7ykt/dialectic-ci17.pdf?dl=0) was accepted to [Collective Intelligence](http://collectiveintelligenceconference.org/)!  Stay tuned for the full paper!
 * Our [CIDR paper](http://www.cidrdb.org/cidr2017/) on [Combining Design and Performance in a Data Visualization Management System](https://www.dropbox.com/s/0rdjsv7m7wbhmlk/cidr17-camera.pdf?dl=0) was accepted!
 * Our [QueryFix](/files/papers/qfix-sigmod17.pdf) full paper was acceped to [SIGMOD 2017](http://sigmod2017.org/)!  Come see our presentation in Raleigh, NC!
-* Our first [(Data+Media):Humans in the Loop](https://datascienceinstitute.github.io/) speaker series event is Sep 28, 7-9PM!  Everyone welcome.
 * There is a nice article about ActiveClean on the DSI website: [A Data-Cleaning Tool for Building Better Prediction Models](http://datascience.columbia.edu/data-cleaning-tool-building-better-prediction-models)
 * Our [NSF proposal](https://nsfdeclarativevis.github.io/NSFDeclarativeVis/) with [jmh](http://db.cs.berkeley.edu/jmh/) and [jheer](http://homes.cs.washington.edu/~jheer/) on bringing declarative database ideas to interactive visualizations was funded!  The [DVMS](./dvms.html) train continues to roll.
 * Our ActiveClean full paper was acceped to [VLDB 2016](http://vldb2016.persistent.com/)!  Come see our presentation in Dehli, India.  Look forward to our code release later this summer!
 * Our [ActiveClean](/files/papers/activeclean-sigmod16demo.pdf) submission won Best Demo at SIGMOD 2016!  Many thanks to our collaborators Sanjay, Jiannan, Mike, and Ken!
 
 <!--
+* Our first [(Data+Media):Humans in the Loop](https://datascienceinstitute.github.io/) speaker series event is Sep 28, 7-9PM!  Everyone welcome.
 * [Talk](http://sirrice.github.io/files/talks/2016-05-mit-bigdata.pdf) about what provenance is and how it relates to our projects.  MIT BigData Workshop 2016
 * Congrats to Niranjan, Arnab, Yifan, Daniel Haas, Sanjay, and Daniel Alabi for getting **four** papers accepted at SIGMOD's [Hilda](http://www.hilda.io) workshop!
 * QueryFix explanation demo with Xiaolan and Alexandra accepted to SIGMOD 2016!

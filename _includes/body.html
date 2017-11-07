@@ -9,14 +9,9 @@
         </div>
       </div>
       <div class="col-md-6">
-        <h4>Publications</h4>
-        <div id="publications sidebar">
-          <cloudstitch-handlebars user="sirrice" app="wu-publications"></cloudstitch-handlebars>
-        </div>
-        <div style="font-size: 9pt">
-          Powered by <a href="http://www.cloudstitch.io/">cloudstitch</a>.  
-          <a href="https://www.cloudstitch.com/academic/eugene-wu-publications">clonethis</a>
-        </div>
+        <h4><span id="pubs-title">Selected Publications</span>
+          <small id="pubs-toggle">(<span>Show All</span>)</small></h4>
+        {% include pubs.html  %}
 
       </div>
       <div class="col-md-3">

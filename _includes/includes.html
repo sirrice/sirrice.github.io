@@ -25,3 +25,20 @@
 
 </script>
 
+
+
+<script>
+// publications
+$("#pubs-toggle").click(function() {
+  $(".selected-false").toggle();
+  var btn = $("#pubs-toggle span");
+  if (btn.text() == "Show All") {
+    btn.text("Show Selected");
+    $("#pubs-title").text("All Publications")
+  } else {
+    btn.text("Show All");
+    $("#pubs-title").text("Selected Publications")
+  }
+})
+$(".selected-false").hide();
+</script>

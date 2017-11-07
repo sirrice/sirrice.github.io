@@ -88,6 +88,24 @@ li {
   position:absolute; top:0px; left:0px; padding:0px; border: none; box-shadow: none; width: 100px;
 }
 
+
+small#pubs-toggle {
+  font-size: 70%;
+  font-family: "Open Sans";
+}
+small#pubs-toggle span{
+  background: none;
+  font-size: smaller;
+  border: none;
+  border-bottom: 1px solid white;
+}
+small#pubs-toggle span:hover {
+  border-bottom: 1px solid grey;
+  cursor: pointer;
+}
+
+
+
 #coverimage {
   background-image:url('../images/gregory-large.jpg');
   /*background-image:url('../images/mebig.jpg');*/
