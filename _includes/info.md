@@ -4,7 +4,7 @@
 [421 Mudd, 500 W 120th St]({{ "/files/images/map.png" | relative_url }})   
 Twitter: [@sirrice](https://twitter.com/sirrice)   
 Github: [sirrice](http://github.com/sirrice), [cudbg](http://github.com/cudbg)   
-Teaching: [Database Topics in Research & Practice](https://columbiadb.github.io/index)
+Teaching: [Database Topics in Research & Practice](https://columbiadb.github.io/index)  
 OH: --   
 [CV]({{ "/files/job/cv.pdf" | relative_url}})  
 
