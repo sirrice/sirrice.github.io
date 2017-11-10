@@ -204,20 +204,20 @@ small#pubs-toggle span:hover {
 
 
 
-@media  (max-width:900px) {
+@media  (max-width:990px) {
   html,body {
-    font-size: 18pt;
+    font-size: 20pt;
   }
   h1 {
-    font-size: 20pt;
+    font-size: 22pt;
   }
   h4 {
     margin-top: 2em;
-    font-size: 20pt;
+    font-size: 22pt;
     margin-bottom: 1em;
   }
   .stitle {
-    font-size: 20pt;
+    font-size: 22pt;
   }
   .header div {
   }
