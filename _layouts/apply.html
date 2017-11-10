@@ -11,7 +11,7 @@ Unfortunately, I cannot respond to every email I receive.
 To help manage the process, use the following instructions to contact me.
 
 * If you are currently a Columbia University PhD student, email me directly.
-* If you are interested in the PhD program, please [read this section](#admissions).  It is a good idea to [fill out this form](https://docs.google.com/forms/d/1-s1SwcpY0WBnRrzlrQfSrcxSCeOAymOHfU-sHroUXfU/viewform).
+* If you are interested in the PhD program, please read the section below on admissions.  It is a good idea to [fill out this form](https://docs.google.com/forms/d/1-s1SwcpY0WBnRrzlrQfSrcxSCeOAymOHfU-sHroUXfU/viewform).
 * Otherwise, please [fill out this form](https://docs.google.com/forms/d/1-s1SwcpY0WBnRrzlrQfSrcxSCeOAymOHfU-sHroUXfU/viewform).  I guarantee I will read all responses, but cannot guarantee a reply.  
 
 Did you take a look at [our projects](https://cudbg.github.io/lab/)?
@@ -105,37 +105,37 @@ I'll periodically update the following list of links that point to useful articl
   {% endcapture %}
 
 <div class="row">
-  <div class="col-md-2 offset-md-2 stitle"></div>
-  <div class="col-md-8"><h1>Applying to the Lab</h1></div>
+  <div class="col-md-3 offset-md-4 stitle"></div>
+  <div class="col-md-6"><h1>Applying to the Lab</h1></div>
 </div>
 
 <div class="row">
-  <div class="col-md-2 offset-md-2 stitle">Short Instructions</div>
-  <div class="col-md-8"> {{ short | markdownify }} </div>
+  <div class="col-md-3 offset-md-4 stitle">Short Instructions</div>
+  <div class="col-md-6"> {{ short | markdownify }} </div>
 </div>
 <div class="row">
-  <div class="col-md-2 offset-md-2 stitle">My Goal</div>
-  <div class="col-md-8"> {{ content  }} </div>
-</div>
-
-<div class="row">
-  <div class="col-md-2 offset-md-2 stitle">Columbia Admissions</div>
-  <div class="col-md-8"> {{ admissions | markdownify }} </div>
+  <div class="col-md-3 offset-md-4 stitle">My Goal</div>
+  <div class="col-md-6"> {{ content  }} </div>
 </div>
 
 <div class="row">
-  <div class="col-md-2 offset-md-2 stitle">Letters</div>
-  <div class="col-md-8"> {{ letters | markdownify }} </div>
+  <div class="col-md-3 offset-md-4 stitle">Columbia Admissions</div>
+  <div class="col-md-6"> {{ admissions | markdownify }} </div>
 </div>
 
 <div class="row">
-  <div class="col-md-2 offset-md-2 stitle">Software Development</div>
-  <div class="col-md-8"> {{ coding | markdownify }} </div>
+  <div class="col-md-3 offset-md-4 stitle">Letters</div>
+  <div class="col-md-6"> {{ letters | markdownify }} </div>
 </div>
 
 <div class="row">
-  <div class="col-md-2 offset-md-2 stitle">Helpful Reading</div>
-  <div class="col-md-8"> {{ reading | markdownify }} </div>
+  <div class="col-md-3 offset-md-4 stitle">Software Development</div>
+  <div class="col-md-6"> {{ coding | markdownify }} </div>
+</div>
+
+<div class="row">
+  <div class="col-md-3 offset-md-4 stitle">Helpful Reading</div>
+  <div class="col-md-6"> {{ reading | markdownify }} </div>
 </div>
 
 
@@ -148,6 +148,9 @@ I'll periodically update the following list of links that point to useful articl
 
 {% include includes.html %}
 <style>
+  body {
+    font-size: 14pt;
+  }
   .row {
     margin-top: 3em;
   }
