@@ -115,6 +115,7 @@
   tags:
   - vis
   title: A DeVIL-ish Approach to Inconsistency in Interactive Visualizations
+  selected: true
   url: http://sirrice.github.io/files/papers/devil-hilda16.pdf
 - authors: Daniel Alabi, Eugene Wu
   conf: Hilda 2016
