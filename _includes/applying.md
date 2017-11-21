@@ -1,5 +1,5 @@
 <span class="applyheading">
-  We are hiring!  See Below.
+  We are hiring interns, PhD candidates, and others for 2018!  See Below.
 </span>
   
 
