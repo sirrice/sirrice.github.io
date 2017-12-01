@@ -14,7 +14,7 @@ and was a postdoc in the [AMPLab](https://amplab.cs.berkeley.edu).
 
 <!--by [@mstem](http://partnews.brownbag.me/2012/02/29/interview-matt-stempeck-wants-to-change-the-world-with-tech/),-->
 
-[Click here to see WuLab's projects!](http://cudbg.github.io/lab)
+[See the WuLab website](http://cudbg.github.io/lab)
 
 
 <!--advised by the esteemed [Sam Madden](http://db.lcs.mit.edu/madden/) and 
