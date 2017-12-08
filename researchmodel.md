@@ -5,7 +5,7 @@ tagline:
 
 # Bayesian Model of Research and the PhD
 
-Grad school and research is a complicated process.  There are some phrases that get tossed around, such as "good work", "great work", "least publishable unit", "she's smart", etc.  Also, it can be difficult to parse through "vigorous scientific debate".  In general, it can be easy to get confused, lose sight of progress, start thinking questions such as "what's the point?", and be unhappy.    Besides, what does "do good work" even mean?
+Grad school and research is a complicated process.  There are some phrases that get tossed around, such as _good work_, _great work_, _least publishable unit_, _she's smart_, etc.  Also, it can be difficult to parse through _vigorous scientific debate_.  In general, it can be easy to get confused, lose sight of progress, start thinking questions such as _what's the point?_, and be unhappy.    Besides, what does _do good work_ even mean?
 
 This document proposes _a_ model to reason about the role of papers (as a unit of accomplishment) in the bigger context.
 
@@ -47,7 +47,7 @@ This is too general, so let's decompose it into elements under your control and 
 
         P(good | you)
 
-Presumably, you are in a research program because you believe “doing research” is the best way to maximize this probability:
+Presumably, you are in a research program because you believe _doing research_ is the best way to maximize this probability:
 
         P(good | you) = P(good | research) P(research | you) 
                         + 
@@ -57,7 +57,7 @@ With the strong assumption that:
 
         P(good | research) >> P(good | nonresearch)
 
-For some people, it turns out this assumption is not true, and it is better to leave research and do “real work”.
+For some people, it turns out this assumption is not true, and it is better to leave research and do _real work_.
 Typically it is more due to `P(good | nonresearch) >> P(good | research)` than `P(research | you)→0` as some would imply.
 
 Arguably, there are many many avenues where this is the case---joining a non-profit, finding an arbitrage opportunity, social entrepreneurship, teaching, etc.  That's totally cool.
@@ -66,7 +66,7 @@ For the purposes here, you have chosen research, so let's assume `P(nonresearch 
 
         P(good | research) P(research | you)
 
-Let's assume take “the paper” as a proxy for a unit of research.  That's clearly a vast vast oversimplification, but let's go with that for now — you are a paper generator.  You could generate *sound* papers, or *unsound and incorrect* papers.
+Let's assume take _the paper_ as a proxy for a unit of research.  That's clearly a vast vast oversimplification, but let's go with that for now — you are a paper generator.  You could generate *sound* papers, or *unsound and incorrect* papers.
 
         P(good | paper) P(paper | you) = P(good | sound) P(sound | you) + P(good | unsound) P(unsound | you)
 
@@ -95,7 +95,7 @@ Positive Impact is split into the following 2 categories.
 
 #### Correctness: is the paper believable?
 
-`P(evidence | you)` is called “conducting research correctly” and should be close to 1.  
+`P(evidence | you)` is called _conducting research correctly_ and should be close to 1.  
 
 `P(paper | evidence, assumptions)` defines whether the evidence is good enough to prove the claim.  This is called experimental design and it should be 1.
 
@@ -103,7 +103,7 @@ The PhD certifies that these probabilities are reasonably close to 1.
 
 #### Impact: does the paper matter?
 
-`P(good | paper)` defines the belief about whether or not the work is worthy of pursuing in order to improve the world.  This is driven by taste (e.g., what “good” means to you).  People can agree to disagree, but ideally “good” is positive.
+`P(good | paper)` defines the belief about whether or not the work is worthy of pursuing in order to improve the world.  This is driven by taste (e.g., what _good_ means to you).  People can agree to disagree, but ideally _good_ is positive.
 
 `P(assumptions)` defines the scope of the work's applicability.  Understanding the market, trends, talking to practitioners increases the probability of picking a problem where the assumptions hold.
 
@@ -125,7 +125,7 @@ Ideas
 
 * Identifying an idea where `P(good | paper) → 1` is very very hard
 * This *must be nurtured and encouraged.*  
-* Accept that “good” can have many definitions.  Some arguments for the liberal arts degree is to pick meaningful definitions of “good”. 
+* Accept that “good” can have many definitions.  Some arguments for the liberal arts degree is to pick meaningful definitions of _good_. 
 
 Vision 
 
