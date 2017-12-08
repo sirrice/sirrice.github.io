@@ -5,7 +5,7 @@ tagline:
 
 # Bayesian Model of Research and the PhD
 
-Grad school and research is a complicated process.  There are some phrases that get tossed around, such as “good work”, “great work”, “least publishable unit”, “she's smart”, etc.  Also, it can be difficult to parse through “vigorous scientific debate”.  In general, it can be easy to get confused, lose sight of progress, start thinking questions such as "what's the point?", and be unhappy.  
+Grad school and research is a complicated process.  There are some phrases that get tossed around, such as “good work”, “great work”, “least publishable unit”, “she's smart”, etc.  Also, it can be difficult to parse through “vigorous scientific debate”.  In general, it can be easy to get confused, lose sight of progress, start thinking questions such as "what's the point?", and be unhappy.    Besides, what does "do good work" even mean?
 
 This document proposes _a_ model to reason about the role of papers (as a unit of accomplishment) in the bigger context.
 
@@ -124,8 +124,8 @@ The PhD certifies
 Ideas
 
 * Identifying an idea where `P(good | paper) → 1` is very very hard
-* Striving for this *must be nurtured and encouraged.*  
-* Accept that “good” can have many definitions.  The argument for a liberal arts degree is to pick meaningful definitions of “good”
+* This *must be nurtured and encouraged.*  
+* Accept that “good” can have many definitions.  Some arguments for the liberal arts degree is to pick meaningful definitions of “good”. 
 
 Vision 
 
@@ -133,5 +133,8 @@ Vision
 * Following the crowd means that `P(assumption) = 1`.  If this is the case, one hopes that P(evidence | you) >> P(evidence | other researchers)
 
 **Good PhD programs and Advisors nurture ideas and vision.**
+
+
+What are your thoughts?  Is there a better model?
 
 
