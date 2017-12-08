@@ -29,9 +29,9 @@ and that
 
 This section sets up the context of the model.  For the good stuff, [jump to The Model](#themodel)
 
-### What's the goal?
+### The Goal
 
-Let's start by agreeing that the broad goal is to maximize the probability of some goodness measure in the world.  
+Let us start by agreeing that the broad goal is to maximize the probability of some goodness measure in the world.  
 
         P(good)
 
@@ -43,7 +43,7 @@ This could be really anything and is a personal decision.  It could be:
         P(health)   
         P(wealth)
 
-This is too general, so let's decompose it into elements under your control and in the context of research.  First, the focus is on `you`:
+This is too general, so let us decompose it into elements under your control and in the context of research.  First, the focus is on `you`:
 
         P(good | you)
 
@@ -60,13 +60,13 @@ With the strong assumption that:
 For some people, it turns out this assumption is not true, and it is better to leave research and do _real work_.
 Typically it is more due to `P(good | nonresearch) >> P(good | research)` than `P(research | you)→0` as some would imply.
 
-Arguably, there are many many avenues where this is the case---joining a non-profit, finding an arbitrage opportunity, social entrepreneurship, teaching, etc.  That's totally cool.
+Arguably, there are many many avenues where this is the case---joining a non-profit, finding an arbitrage opportunity, social entrepreneurship, teaching, etc.  That is totally cool.
 
-For the purposes here, you have chosen research, so let's assume `P(nonresearch | you) → 0`:
+For the purposes here, you have chosen research, so let us assume `P(nonresearch | you) → 0`:
 
         P(good | research) P(research | you)
 
-Let's assume take _the paper_ as a proxy for a unit of research.  That's clearly a vast vast oversimplification, but let's go with that for now — you are a paper generator.  You could generate *sound* papers, or *unsound and incorrect* papers.
+Let us assume take _the paper_ as a proxy for a unit of research.  That us clearly a vast vast oversimplification, but let us go with that for now — you are a paper generator.  You could generate *sound* papers, or *unsound and incorrect* papers.
 
         P(good | paper) P(paper | you) = P(good | sound) P(sound | you) + P(good | unsound) P(unsound | you)
 
@@ -74,7 +74,7 @@ We generally assume that sound technical work is better.  In otherwords, that
 
        P(good | unsound) → 0.  
 
-This is pretty reasonable, however one might say that `P(fame | unsound)` is a different story, because `P(unsound | you)` is arguably easier.  We also hope that in the long term, aspects such as shame get in the way of fame.  To simplify our life, let's strive for sound work:
+This is pretty reasonable, however one might say that `P(fame | unsound)` is a different story, because `P(unsound | you)` is arguably easier.  We also hope that in the long term, aspects such as shame get in the way of fame.  To simplify our life, let us strive for sound work:
 
        paper = sound paper
 
@@ -87,7 +87,7 @@ Let positive impact be defined as the level of goodness if you did the research 
 
        P(Positive Impact) = P(good | paper) P(paper) - P(good | no paper)
 
-A paper's claims and implied value hinges on 1) evidence to support the claims and 2) assumptions:
+The claims in a paper and the implied value hinges on 1) evidence to support the claims and 2) assumptions:
 
                           = P(good | paper) P(paper | evidence, assumptions) P(evidence | you) P(assumptions)
 
@@ -105,7 +105,7 @@ The PhD certifies that these probabilities are reasonably close to 1.
 
 `P(good | paper)` defines the belief about whether or not the work is worthy of pursuing in order to improve the world.  This is driven by taste (e.g., what _good_ means to you).  People can agree to disagree, but ideally _good_ is positive.
 
-`P(assumptions)` defines the scope of the work's applicability.  Understanding the market, trends, talking to practitioners increases the probability of picking a problem where the assumptions hold.
+`P(assumptions)` defines the scope of the applicability.  Understanding the market, trends, talking to practitioners increases the probability of picking a problem where the assumptions hold.
 
 ## Takeaways
 
