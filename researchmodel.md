@@ -5,7 +5,7 @@ tagline:
 
 # Bayesian Model of Research and the PhD
 
-Grad school and research is a complicated process.  There are some phrases that get tossed around, such as “good work”, “great work”, “least publishable unit”, “she's smart”, etc.  Also, it can be difficult to parse through “vigorous scientific debate”.  In general, it can be easy to get confused, lose sight of progress, start thinking questions such as "what's the point?", and be unhappy.    Besides, what does "do good work" even mean?
+Grad school and research is a complicated process.  There are some phrases that get tossed around, such as "good work", "great work", "least publishable unit", "she's smart", etc.  Also, it can be difficult to parse through "vigorous scientific debate".  In general, it can be easy to get confused, lose sight of progress, start thinking questions such as "what's the point?", and be unhappy.    Besides, what does "do good work" even mean?
 
 This document proposes _a_ model to reason about the role of papers (as a unit of accomplishment) in the bigger context.
 
