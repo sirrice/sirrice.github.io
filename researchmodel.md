@@ -16,7 +16,7 @@ This document proposes _a_ model to reason about the role of papers (as a unit o
 
         P(happy) = P(happy | cat) + P(happy | !cat)
 
-and that
+        and that
 
         1 = P(happy) + P(not happy)
 
@@ -66,7 +66,7 @@ For the purposes here, you have chosen research, so let us assume `P(nonresearch
 
         P(good | research) P(research | you)
 
-Let us assume take _the paper_ as a proxy for a unit of research.  That us clearly a vast vast oversimplification, but let us go with that for now — you are a paper generator.  You could generate *sound* papers, or *unsound and incorrect* papers.
+Let us take _the paper_ as proxy for a unit of research.  That is clearly a vast oversimplification, but let us go with that for now — you are a paper generator.  You could generate *sound* papers, or *unsound and incorrect* papers.
 
         P(good | paper) P(paper | you) = P(good | sound) P(sound | you) + P(good | unsound) P(unsound | you)
 
