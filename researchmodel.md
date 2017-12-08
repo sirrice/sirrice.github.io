@@ -58,11 +58,11 @@ With the strong assumption that:
         P(good | research) >> P(good | nonresearch)
 
 For some people, it turns out this assumption is not true, and it is better to leave research and do _real work_.
-Typically it is more due to `P(good | nonresearch) >> P(good | research)` than `P(research | you)→0` as some would imply.
+Typically it is more due to `P(good | nonresearch) >> P(good | research)` than `P(research | you) -> 0` as some would imply.
 
-Arguably, there are many many avenues where this is the case---joining a non-profit, finding an arbitrage opportunity, social entrepreneurship, teaching, etc.  That is totally cool.
+Arguably, there are many many avenues where this is the case: joining a non-profit, finding an arbitrage opportunity, social entrepreneurship, teaching, etc.  That is totally cool.
 
-For the purposes here, you have chosen research, so let us assume `P(nonresearch | you) → 0`:
+For the purposes here, you have chosen research, so let us assume `P(nonresearch | you) -> 0`:
 
         P(good | research) P(research | you)
 
@@ -72,7 +72,7 @@ Let us assume take _the paper_ as a proxy for a unit of research.  That us clear
 
 We generally assume that sound technical work is better.  In otherwords, that 
 
-       P(good | unsound) → 0.  
+       P(good | unsound) -> 0.  
 
 This is pretty reasonable, however one might say that `P(fame | unsound)` is a different story, because `P(unsound | you)` is arguably easier.  We also hope that in the long term, aspects such as shame get in the way of fame.  To simplify our life, let us strive for sound work:
 
@@ -113,17 +113,17 @@ Does this model actually help us reason about research and grad school?
 
 Least publishable units (LPUs) are papers where 
 
-* `P(assumptions) → 0` or 
-* `P(good | paper) → 0`
+* `P(assumptions) -> 0` or 
+* `P(good | paper) -> 0`
 
 The PhD certifies
 
-* `P(evidence | you) > 0` and to maximize `P(paper | evidence) → 1`
+* `P(evidence | you) > 0` and to maximize `P(paper | evidence) -> 1`
 * Critiques that take apart these components are helpful for growth
 
 Ideas
 
-* Identifying an idea where `P(good | paper) → 1` is very very hard
+* Identifying an idea where `P(good | paper) -> 1` is very very hard
 * This *must be nurtured and encouraged.*  
 * Accept that _good_ can have many definitions.  Some arguments for the liberal arts degree is to pick meaningful definitions of _good_. 
 
