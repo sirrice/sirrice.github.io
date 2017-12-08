@@ -129,8 +129,8 @@ Ideas
 
 Vision 
 
-* Having vision means: `P(assumption | future) >> P(assumption | now)`
-* Following the crowd means that `P(assumption) = 1`.  If this is the case, one hopes that P(evidence | you) >> P(evidence | other researchers)
+* Having vision means: `P(assumption | future) >> P(assumption | now)`  
+* Following the crowd means that `P(assumption) = 1`.  If this is the case, one hopes that `P(evidence | you) >> P(evidence | other researchers)`
 
 **Good PhD programs and Advisors nurture ideas and vision.**
 
