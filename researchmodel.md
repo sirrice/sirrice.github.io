@@ -125,7 +125,7 @@ Ideas
 
 * Identifying an idea where `P(good | paper) → 1` is very very hard
 * This *must be nurtured and encouraged.*  
-* Accept that “good” can have many definitions.  Some arguments for the liberal arts degree is to pick meaningful definitions of _good_. 
+* Accept that _good_ can have many definitions.  Some arguments for the liberal arts degree is to pick meaningful definitions of _good_. 
 
 Vision 
 
