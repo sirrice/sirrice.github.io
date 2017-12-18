@@ -6,6 +6,7 @@ tags:
 
 
 
+* Our undergrad [Hamed Nilforoshan](http://hamedn.com/) won the [Snap Research Scholarship](https://snapresearchscholarship.splashthat.com/)!!
 * [Mining Precision Interfaces from Query Logs](https://arxiv.org/abs/1712.00078) is our work on scalably generating analysis interfaces.
 * [BoostClean](https://arxiv.org/abs/1711.01299) continues our work towards automated human-in-the-loop data cleaning for data science!
 * [Webpage to track](http://eugenewu.net/ninjas.html) Mortal Kombat ninjas that we have declared flawless victory over.
