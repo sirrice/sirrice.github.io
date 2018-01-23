@@ -19,6 +19,14 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
+- authors: Fotis Psallidas, Eugene Wu
+  title: 'Smoke: Fine-grained Lineage at Interactive Speeds'
+  conf: VLDB 2018 Preprint
+  url: https://arxiv.org/abs/1801.07237
+  selected: true
+  tags:
+  - db
+  - vis
 - authors: Haoci Zhang, Thibault Sellam, Eugene Wu 
   title: 'Mining Precision Interfaces From Query Logs'
   conf: Tech Report
