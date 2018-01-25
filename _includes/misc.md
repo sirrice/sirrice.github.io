@@ -50,9 +50,9 @@ North East DB Day ([2016](http://mitdbg.github.io/nedbday/2016))
 
 [dbtruck](https://github.com/sirrice/dbtruck) imports your data into postgres you want, as painlessly as possible.
 
-[I sometimes doodle]({{ "./gallery.html" | relative_url}})
+[I sometimes doodle](./gallery.html)
 
-[Mortal Kombat Papers]({{ "./ninjas.html" | relative_url}})
+[Mortal Kombat Papers](./ninjas.html)
 
 #### Some Interesting Links
 
