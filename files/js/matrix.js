@@ -80,7 +80,7 @@ var matrixify = (function() {
       run();
       setTimeout(doit, wait);
      } else {
-       document.cookie = "visited=true";
+       document.cookie = "visited=true;max-age=315360000";
        revert();
      }
   }
