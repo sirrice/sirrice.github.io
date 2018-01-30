@@ -90,6 +90,7 @@ var matrixify = (function() {
   doit.reset = function() {
     wait = 1;
     rate = 1.01;
+    start = null;
   }
   doit.reset = revert;
   doit.measureCharWidths = measureCharWidths;
