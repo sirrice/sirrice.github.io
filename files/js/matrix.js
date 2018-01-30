@@ -71,12 +71,14 @@ var matrixify = (function() {
 
 
 
-  var wait = 1;
+  var wait = .1;
   var rate = 1.01;
+  var start = null;
   function doit() {
-    if (wait < 400) {
+    start = start || Date.now();
+    if (wait < 400 && (Date.now() - start) < 1400) {
       wait *= rate;
-      rate *= 1.034;
+      rate *= 1.07;
       run();
       setTimeout(doit, wait);
      } else {
