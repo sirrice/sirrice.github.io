@@ -6,7 +6,7 @@ tags:
 
 
 
-* Released a blog post wrt thinking about research in [probabilistic and optimization terms](http://researchsetup.github.io/researchmodel)
+* Released a [probabilistic model of research](http://researchsetup.github.io/researchmodel)
 * New VLDB 18 paper:  [Fine-grained data lineage at SMOKIN' fast speeds](https://arxiv.org/abs/1801.07237)!!  Fast enough and low enough overhead to power real-time interactive applications!    
 * Our undergrad [Hamed Nilforoshan](http://hamedn.com/) won the [Snap Research Scholarship](https://snapresearchscholarship.splashthat.com/)!!
 * [Mining Precision Interfaces from Query Logs](https://arxiv.org/abs/1712.00078) is our work on scalably generating analysis interfaces.
