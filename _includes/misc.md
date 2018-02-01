@@ -50,6 +50,8 @@ North East DB Day ([2016](http://mitdbg.github.io/nedbday/2016))
 
 [dbtruck](https://github.com/sirrice/dbtruck) imports your data into postgres you want, as painlessly as possible.
 
+[researchsetup](http://researchsetup.github.io) is a set of recommendations to bootstrap your research.
+
 [I sometimes doodle](./gallery.html)
 
 [Mortal Kombat Papers](./ninjas.html)
