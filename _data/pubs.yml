@@ -24,6 +24,8 @@
   conf: Blog Post
   url: http://researchsetup.github.io/researchmodel
   selected: true
+  tags:
+  - db
 - authors: Fotis Psallidas, Eugene Wu
   title: 'Smoke: Fine-grained Lineage at Interactive Speeds'
   conf: VLDB 2018 Preprint
