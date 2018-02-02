@@ -21,9 +21,10 @@
 #
 - authors: Eugene Wu
   title: 'A “Probabilistic” Model of Research'
-  conf: Blog Post
+  conf: Blog Post 2018
   url: http://researchsetup.github.io/researchmodel
   selected: true
+  year: 2018
   tags:
   - db
 - authors: Fotis Psallidas, Eugene Wu
@@ -36,7 +37,7 @@
   - vis
 - authors: Haoci Zhang, Thibault Sellam, Eugene Wu 
   title: 'Mining Precision Interfaces From Query Logs'
-  conf: Tech Report
+  conf: Tech Report 2017
   url: https://arxiv.org/abs/1712.00078
   selected: true
   tags:
@@ -44,7 +45,7 @@
   - pi
 - authors: Sanjay Krishnan, Michael J. Franklin, Ken Goldberg, Eugene Wu
   title: 'BoostClean: Automated Error Detection and Repair for Machine Learning'
-  conf: Tech Report
+  conf: Tech Report 2017
   url: https://arxiv.org/abs/1711.01299
   tags:
   - clean
