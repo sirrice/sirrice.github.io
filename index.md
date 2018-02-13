@@ -6,6 +6,7 @@ tags:
 
 
 
+* Excited for [Thibault Sellam](http://sellam.me) to present [our vision of bringing software engineering concepts to understanding neural networks](https://www.dropbox.com/s/7r8abwnpcmg1k1k/dnn-sysml18.pdf?dl=0)!
 * Won the [Amazon Faculty Research Award](http://www.cs.columbia.edu/2018/with-amazon-research-award-eugene-wu-will-add-interactivity-and-adversarial-generation-to-entity-matching/)!
 * Released a [probabilistic model of research](http://researchsetup.github.io/researchmodel)
 * New VLDB 18 paper:  [Fine-grained data lineage at SMOKIN' fast speeds](https://arxiv.org/abs/1801.07237)!!  Fast enough and low enough overhead to power real-time interactive applications!    
