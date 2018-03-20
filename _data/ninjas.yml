@@ -17,7 +17,8 @@ ninjas:
     desc: FLAWLESS VICTORY
   - img: smoke.png
     name: Smoke
-    desc: In Submission
+    desc: FLAWLESS VICTORY
+    url: https://www.dropbox.com/s/qbdym668aasser7/smoke-vldb18-cameraready.pdf?dl=0
   - img: subzero.png
     name: SubZero
     url: https://www.dropbox.com/s/sycjws71jrynodg/subzero-icde13.pdf?dl=0
