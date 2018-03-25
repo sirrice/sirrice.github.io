@@ -1,5 +1,5 @@
 <span class="applyheading">
-  We are recruiting interns, PhD candidates, and others for 2018!  See Below.  I am unlikely to respond to emails.
+  If you are interested in joining, see below.  I am unlikely to respond to directy emails.
 </span>
   
 
