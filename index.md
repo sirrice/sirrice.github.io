@@ -6,6 +6,9 @@ tags:
 
 
 
+* Fotis will present the deep connections between [Provenance and Interactive Interfaces](https://www.dropbox.com/s/fkp5hk1gp4lrg9h/smoke-hilda18.pdf?dl=0) at HILDA 2018, and a [demo of Smoke](https://www.dropbox.com/s/io5hpu5rn4tl9m5/smoke-sigmod18demo-cr.pdf?dl=0) at SIGMOD 2018!
+* Thibault Sellam will demo our work with HaoCi and Viraj on [automatically generating multi-modal exploration interfaces from query logs](https://www.dropbox.com/s/allg68rpgvbntqy/precisioninterface-sigmoddemo18.pdf?dl=0) at SIGMOD 2018!
+* [Hamed Nilforoshan](http://hamedn.com/) will present his [Writing Feedback Generation](https://www.dropbox.com/s/38cb4rz7vl2ni9g/dialectic-icwsm18-cr.pdf?dl=0) work at ICWSM 2018 in Stanford!
 * Thankful to win the [Google Research Faculty Fellowship](http://www.cs.columbia.edu/2018/peter-allen-and-eugene-wu-selected-for-google-faculty-research-awards/)!
 * Excited for [Thibault Sellam](http://sellam.me) to present [our vision of bringing software engineering concepts to understanding neural networks](https://www.dropbox.com/s/7r8abwnpcmg1k1k/dnn-sysml18.pdf?dl=0)!
 * Won the [Amazon Faculty Research Award](http://www.cs.columbia.edu/2018/with-amazon-research-award-eugene-wu-will-add-interactivity-and-adversarial-generation-to-entity-matching/)!
@@ -15,6 +18,8 @@ tags:
 * [Mining Precision Interfaces from Query Logs](https://arxiv.org/abs/1712.00078) is our work on scalably generating analysis interfaces.
 * [BoostClean](https://arxiv.org/abs/1711.01299) continues our work towards automated human-in-the-loop data cleaning for data science!
 * [Webpage to track](http://eugenewu.net/ninjas.html) Mortal Kombat ninjas that we have declared flawless victory over.
+
+<!--
 * ActiveClean was covered by [The Morning Paper!](https://blog.acolyer.org/2017/10/04/activeclean-interactive-data-cleaning-for-statistical-modeling/)
 * Visited and spoke at DB groups at Wisconsin-Madison, University of Chicago, and UIUC.  Slides: [1 per page](https://www.dropbox.com/s/l487siez783qxo0/2017-10-midwest-1pp.pdf?dl=0), and [6 per page](https://www.dropbox.com/s/yauhvxdkv0kna7h/2017-10-midwest-6pp.pdf?dl=0).
 * Check out our DSIA paper [Load-n-go](https://www.dropbox.com/s/2n1a4l0k63x9o4x/loadngo-dsia17.pdf?dl=0), InfoVIS poster on [entropy measure for visualization](https://www.dropbox.com/s/5ed977dwelnd5c9/glance-infovisposter17.pdf?dl=0), and DECISIVE paper on [bayesian models of cognition for interactive visualization](https://www.dropbox.com/s/tede3vonedgd49k/bayesianvis-decisive17.pdf?dl=0).
@@ -23,8 +28,6 @@ tags:
 * Hamed's paper on  [Segment-Predict-Explain for Automatic Writing Feedback](https://www.dropbox.com/s/52knots6len7ykt/dialectic-ci17.pdf?dl=0) was accepted to [Collective Intelligence](http://collectiveintelligenceconference.org/)!  Stay tuned for the full paper!
 * Our [CIDR paper](http://www.cidrdb.org/cidr2017/) on [Combining Design and Performance in a Data Visualization Management System](https://www.dropbox.com/s/0rdjsv7m7wbhmlk/cidr17-camera.pdf?dl=0) was accepted!
 * Our [QueryFix](/files/papers/qfix-sigmod17.pdf) full paper was acceped to [SIGMOD 2017](http://sigmod2017.org/)!  Come see our presentation in Raleigh, NC!
-
-<!--
 * There is a nice article about ActiveClean on the DSI website: [A Data-Cleaning Tool for Building Better Prediction Models](http://datascience.columbia.edu/data-cleaning-tool-building-better-prediction-models)
 * Our [NSF proposal](https://nsfdeclarativevis.github.io/NSFDeclarativeVis/) with [jmh](http://db.cs.berkeley.edu/jmh/) and [jheer](http://homes.cs.washington.edu/~jheer/) on bringing declarative database ideas to interactive visualizations was funded!  The [DVMS](./dvms.html) train continues to roll.
 * Our [ActiveClean](/files/papers/activeclean-sigmod16demo.pdf) submission won Best Demo at SIGMOD 2016!  Many thanks to our collaborators Sanjay, Jiannan, Mike, and Ken!
