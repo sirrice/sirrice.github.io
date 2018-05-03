@@ -161,6 +161,7 @@ small#pubs-toggle span:hover {
 
 #mypic:hover {
   background-image:url(../images/eugene.png);
+  background-image:url(../images/wulab_small.png);
   background-size: 155px;
   background-position: 35; 
   /*
