@@ -5,6 +5,7 @@ Fotis Psallidas, Thibault Sellam
 
 #### Teaching
 
+* [Intro to DB](http://w4111.github.io) F18
 * [Big Data Systems](http://w4121.github.io/) S18
 * [Database Topics in Research & Practice](https://columbiadb.github.io/index) S18
 * [Big Data Systems](http://w4121.github.io/) S17
