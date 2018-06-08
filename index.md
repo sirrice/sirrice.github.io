@@ -6,6 +6,7 @@ tags:
 
 
 
+* Create a [Blog for the WuLab](https://medium.com/thewulab) to describe the research that we do and the assistant professor experience.
 * Fotis will present the deep connections between [Provenance and Interactive Interfaces](https://www.dropbox.com/s/fkp5hk1gp4lrg9h/smoke-hilda18.pdf?dl=0) at HILDA 2018, and a [demo of Smoke](https://www.dropbox.com/s/io5hpu5rn4tl9m5/smoke-sigmod18demo-cr.pdf?dl=0) at SIGMOD 2018!
 * Thibault Sellam will demo our work with HaoCi and Viraj on [automatically generating multi-modal exploration interfaces from query logs](https://www.dropbox.com/s/allg68rpgvbntqy/precisioninterface-sigmoddemo18.pdf?dl=0) at SIGMOD 2018!
 * [Hamed Nilforoshan](http://hamedn.com/) will present his [Writing Feedback Generation](https://www.dropbox.com/s/38cb4rz7vl2ni9g/dialectic-icwsm18-cr.pdf?dl=0) work at ICWSM 2018 in Stanford!
