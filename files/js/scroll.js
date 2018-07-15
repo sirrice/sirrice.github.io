@@ -39,7 +39,7 @@ document.onscroll = (function() {
       .attr("height", 2)
       .attr("x", function(d) { return Math.min(maxwidth, maxwidth * d.dy / maxh);})
       .attr("width", 2)
-      .style("fill", window.color);
+      .classed("scrolldot", true);
   };
 
   // setup master div

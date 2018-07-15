@@ -7,7 +7,7 @@ function addStyle(str) {
 function setColor(idx) {
   var color = "#" + colors[idx % colors.length];
   window.color = color;
-  addStyle("h4,a { color: " + color + " };");
+  addStyle("h4,a,.scrolldot { color: " + color + "; fill: " + color + "; };");
 }
 window.setColor = setColor;
 
