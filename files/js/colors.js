@@ -15,7 +15,18 @@ var colors = ["1054B2", "f77950", "3187FF", "1bb92f", "c66ae0", "FF3D3B", "e6143
 var hue = Math.floor(Math.random() * 200) + 100; // hue = 201;
 var hue = Math.floor(Math.random() * 300);
 var color = "hsla(" + hue + ", 73%, 52%, 0.7)";
-setColor(Math.floor(Math.random()*colors.length))
+setColor(Math.floor(Math.random()*colors.length));
 
+var goCray = false;
+function randColor() {
+  if (goCray) {
+    setColor(Math.floor(Math.random()*colors.length));
+    setTimeout(randColor, 50);
+  }
+};
 
-
+function toggleCray() {
+  goCray = !goCray;
+  $("#goCrayBtn").toggleClass("on", goCray);
+  randColor();
+}

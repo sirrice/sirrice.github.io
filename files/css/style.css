@@ -52,7 +52,6 @@ h4.eugene {
   letter-spacing: 2.5px;
   text-justify: distribute;
   font-weight: 600;
-  /*font-family: 'Josefin Slab', serif;*/
   font-family: serif;
 
 }
@@ -171,6 +170,26 @@ small#pubs-toggle span:hover {
   background-position: 0;
   */
 
+}
+
+#goCrayBtn {
+  height: 15px;
+  width: 30px;
+  position:fixed;  
+  font-family: courier; 
+  top: 5px; 
+  left: 5px;
+  cursor: pointer;
+  background-image:url(../images/switch.png);
+  background-size: contain;
+}
+#goCrayBtn.on {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }
 
 #signature {

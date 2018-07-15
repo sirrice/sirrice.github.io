@@ -45,7 +45,7 @@ document.onscroll = (function() {
   // setup master div
   var svg = d3.select("body").append("svg");
   svg.style("position", "fixed")
-     .style("top", "1em")
+     .style("top", "35px")
      .style("left", "0px")
      .style("height", "100%")
      .style("width", "20px")
