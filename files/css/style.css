@@ -103,7 +103,9 @@ small#pubs-toggle span:hover {
   cursor: pointer;
 }
 
-
+.scrolldot {
+  fill: grey;
+}
 
 #coverimage {
   background-image:url('../images/gregory-large.jpg');
