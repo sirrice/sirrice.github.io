@@ -6,6 +6,7 @@ tags:
 
 
 
+* Extremely honored to win the 2018 VLDB 10-Year Test-of-Time Award for [WebTables: exploring the power of tables on the web](https://www.dropbox.com/s/59gn40y2vwzfd6p/webtables-vldb08.pdf?dl=0).  Has it really been 10 years?
 * Our [At a Glance: Pixel Approximate Entropy](https://www.dropbox.com/s/9jipqhq1yqgn5yt/glance-infovis18-camera.pdf?dl=0) paper that proposes a quantitative measure of perceptual chart complexity has been accepted to InfoVIS 2018!  Congrats Gabriel Ryan and Abby Mosca!
 * Created a [Blog for the WuLab](https://medium.com/thewulab) to describe the research that we do and the assistant professor experience.
 * Fotis will present the deep connections between [Provenance and Interactive Interfaces](https://www.dropbox.com/s/fkp5hk1gp4lrg9h/smoke-hilda18.pdf?dl=0) at HILDA 2018, and a [demo of Smoke](https://www.dropbox.com/s/io5hpu5rn4tl9m5/smoke-sigmod18demo-cr.pdf?dl=0) at SIGMOD 2018!
