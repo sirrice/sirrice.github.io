@@ -1,5 +1,5 @@
 <span class="applyheading">
-  If you are interested in joining, see below.  I am unlikely to respond to direct emails.
+  If you are interested in joining, the best way is to see below!
 </span>
   
 
