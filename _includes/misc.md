@@ -1,6 +1,6 @@
 #### Students
 
-Fotis Psallidas, Thibault Sellam
+Fotis Psallidas, Thibault Sellam, Haneen Mohammed, Yiru Chen, Yiliang Shi, Bill Sun
 
 
 #### Teaching
