@@ -7,6 +7,7 @@
 [Yiliang Shi](http://yiliangs.com/),
 [Bill Sun](https://github.com/sunyinqi0508)
 
+[See WuLab for full list](https://cudbg.github.io/lab/)
 
 #### Teaching
 
