@@ -1,4 +1,4 @@
-#### Students
+#### Graduate Students
 
 [Fotis Psallidas](http://www.cs.columbia.edu/~fotis/),
 [Thibault Sellam](http://sellam.me),
