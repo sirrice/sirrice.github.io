@@ -1,5 +1,6 @@
 
 My research vision is the development of a holistic data analysis, visualization, and explanation system.  
+
 My papers answer questions about 1) system infrastructure design for interactive applications, 2) how to scalably generate interfaces for any use case, 3) how to explain any data analysis result, 4) how to model and leverage perception to inform system design.
 
 ## Selected list of papers
