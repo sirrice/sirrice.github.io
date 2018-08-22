@@ -1,22 +1,17 @@
+
+My research vision is the development of a holistic data analysis, visualization, and explanation system.  
+My papers answer questions about 1) system infrastructure design for interactive applications, 2) how to scalably generate interfaces for any use case, 3) how to explain any data analysis result, 4) how to model and leverage perception to inform system design.
+
 ## Selected list of papers
 
-Core visualization system infrastructure
+Declarative visualization system infrastructure
 
 * [Smoke: Fine-grained Lineage at Interactive Speeds](https://arxiv.org/abs/1801.07237)
-  * The first lineage-tracking query engine that is fast enough to drive interactive applications at <100ms latencies
+  * The first lineage-tracking query engine that is fast enough to drive interactive applications (viz) at <100ms latencies
 * [Provenance in Interactive Visualizations](https://www.dropbox.com/s/fkp5hk1gp4lrg9h/smoke-hilda18.pdf?dl=0)
   * Illustrating the deep connections between fine-grained provenance and interactive applications
 * [Combining Design and Performance in a Data Visualization Management System](https://www.dropbox.com/s/0rdjsv7m7wbhmlk/cidr17-camera.pdf?dl=0)
   * Clarifying the connections between interactive data visualization applications and declarative languages
--
-
-
-Perceptual models and their use for visualization systems
-
-* [At a Glance: Approximate Entropy as a Measure of Line Chart Visualization Complexity](https://www.dropbox.com/s/9jipqhq1yqgn5yt/glance-infovis18-camera.pdf?dl=0)
-  * First quantitative model of visual complexity for data visualizations.
-* [PFunk-H: Approximate Query Processing using Perceptual Models](http://sirrice.github.io/files/papers/pfunk-hilda16.pdf)
-  * First proposal of using quantitative perceptual models to speed up visualiation systems
 
 Automatically Generating Interactive Data Exploration Interfaces
 
@@ -29,3 +24,11 @@ Explaining Data Analysis Results
 * [BoostClean: Automated Error Detection and Repair for Machine Learning](https://arxiv.org/abs/1711.01299) 
   * Automatic data cleaning pipeline generation using machine learning
  
+
+Perceptual models and their use for visualization systems
+
+* [At a Glance: Approximate Entropy as a Measure of Line Chart Visualization Complexity](https://www.dropbox.com/s/9jipqhq1yqgn5yt/glance-infovis18-camera.pdf?dl=0)
+  * First quantitative model of visual complexity for data visualizations.
+* [PFunk-H: Approximate Query Processing using Perceptual Models](http://sirrice.github.io/files/papers/pfunk-hilda16.pdf)
+  * First proposal of using quantitative perceptual models to speed up visualiation systems
+
