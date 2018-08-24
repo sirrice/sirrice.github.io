@@ -63,12 +63,12 @@ h4.eugene {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 14pt;
+    font-size: larger;
     font-style: italic;
     letter-spacing: 1px;
     font-family: Raleway;
     font-family: serif;
-		display: block;
+    display: block;
 }
 
 ul, ol {
