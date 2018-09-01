@@ -24,6 +24,7 @@
   authors: Michael Cafarella, Alon Halevy, Daisy Zhe Wang, Hongrae Lee, Jayant Madhavan, Cong Yu, Eugene Wu,
   url: https://www.dropbox.com/s/y3xlfstgoq8a221/webtables-vldb18.pdf?dl=0,
   conf: PVLDB 2018 Invited Paper,
+  selected: true
   tags:
     - db
 - authors: Thibault Sellam, Kevin Lin, Ian Yiran Huang, Michelle Yang, Carl Vondrick, Eugene Wu
