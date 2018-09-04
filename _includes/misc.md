@@ -3,7 +3,7 @@
 [Fotis Psallidas](http://www.cs.columbia.edu/~fotis/),
 [Thibault Sellam](http://sellam.me),
 [Haneen Mohammed](http://haneensa.github.io/),
-[Yiru Chen](https://github.com/Ireneruru),
+[Yiru Chen](https://ireneruru.github.io/),
 [Yiliang Shi](http://yiliangs.com/),
 [Bill Sun](https://github.com/sunyinqi0508)
 
