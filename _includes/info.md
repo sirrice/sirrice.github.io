@@ -4,7 +4,7 @@
 [421 Mudd, 500 W 120th St](./files/images/map.png)    
 Twitter: [@sirrice](https://twitter.com/sirrice)   
 Github: [sirrice](http://github.com/sirrice), [cudbg](http://github.com/cudbg)   
-OH: Thurs 5:30-6:30PM
+OH: Thurs 5:30-6:30PM    
 [CV](./files/job/cv.pdf)
 
 
