@@ -1,5 +1,5 @@
 <span class="applyheading">
-  If you are interested in joining, the best way is to see below!
+  I am looking for students and postdocs interested in fast provenance engines, and the future of interactive data analysis engines.  
 </span>
   
 
