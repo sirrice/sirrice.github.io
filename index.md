@@ -6,6 +6,7 @@ tags:
 
 
 
+* [News article about our At-a-Glance paper at VIS 2018!](https://engineering.columbia.edu/press-releases/eugene-wu-pixel-approximate-entropy)
 * [New blog post about WuLab at VLDB 2018 ](https://medium.com/thewulab/wulab-vldb-2018-82c00cb2599c)
 * Extremely honored to win the 2018 VLDB 10-Year Test-of-Time Award for [WebTables: exploring the power of tables on the web](https://www.dropbox.com/s/59gn40y2vwzfd6p/webtables-vldb08.pdf?dl=0).  Has it really been 10 years?
 * Our [At a Glance: Pixel Approximate Entropy](https://www.dropbox.com/s/9jipqhq1yqgn5yt/glance-infovis18-camera.pdf?dl=0) paper that proposes a quantitative measure of perceptual chart complexity has been accepted to InfoVIS 2018!  Congrats Gabriel Ryan and Abby Mosca!
