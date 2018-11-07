@@ -10,10 +10,6 @@
         <h4>Bio</h4>
         {% capture bio %}{% include bio.md %}{% endcapture %}
         {{ bio | markdownify }}
-        <div class="tight">
-          {% capture apply %}{% include applying.md %}{% endcapture %}
-          {{ apply | markdownify }}
-        </div>
                 
       </div>
       <div class="col-md-3">
@@ -21,6 +17,23 @@
         {{ info | markdownify }}
          
 
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+<div class="row" style="z-index: 10;">
+  <div class="col-md-12">
+
+    <div class="row">
+      <div class="col-md-12" style="text-align: center;">
+        <div class="tight">
+          {% capture apply %}{% include applying.md %}{% endcapture %}
+          {{ apply | markdownify }}
+        </div>
       </div>
     </div>
 

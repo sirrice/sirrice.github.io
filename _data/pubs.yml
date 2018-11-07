@@ -115,7 +115,6 @@
   url: https://arxiv.org/abs/1711.01299
   tags:
   - clean
-  selected: true
 - authors: Marianne Procopio, Carlos Scheidegger, Eugene Wu, Remco Chang
   title: 'Load-n-Go: Fast Approximate Join Visualizations That Improve Over Time'
   url: https://www.dropbox.com/s/2n1a4l0k63x9o4x/loadngo-dsia17.pdf?dl=0
@@ -212,7 +211,6 @@
   url: http://sirrice.github.io/files/papers/pfunk-hilda16.pdf
 - authors: Sanjay Krishnan, Daniel Haas, Michael J. Franklin, Eugene Wu
   conf: Hilda 2016
-  selected: true
   tags:
   - clean
   title: 'Towards Reliable Interactive Data Cleaning: A User Survey and Recommendations'

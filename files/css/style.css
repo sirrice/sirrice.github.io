@@ -60,15 +60,17 @@ h4.eugene {
 .applyheading {
     /* font-weight: bold; */
     /* color: rgb(201, 27, 77); */
-    width: 100%;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
-    font-size: larger;
+    font-size: 18pt;
     font-style: italic;
     letter-spacing: 1px;
     font-family: Raleway;
     font-family: serif;
     display: block;
+}
+.applylist{
+    font-size: larger;
 }
 
 ul, ol {
