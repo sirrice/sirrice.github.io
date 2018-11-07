@@ -1,3 +1,8 @@
+html {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 html, body {
   background: white;
@@ -17,7 +22,7 @@ h4 {
   font-size: 16pt;
   text-transform: uppercase;
   color: gray;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1.5px;
   /*font-family: Raleway;*/
   font-family: serif;
@@ -63,7 +68,7 @@ h4.eugene {
     margin-top: 30px;
     margin-bottom: 20px;
     font-size: 18pt;
-    font-style: italic;
+    /*font-style: italic;*/
     letter-spacing: 1px;
     font-family: Raleway;
     font-family: serif;
