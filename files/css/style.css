@@ -1,7 +1,7 @@
 
 html, body {
   background: white;
-  font-family: "Open Sans", georgia, helvetica, arial;
+  font-family: "Open Sans", arial, georgia, helvetica, arial;
   color: #444;
   line-height: 1.6em;
 }
@@ -92,7 +92,7 @@ li {
 
 small#pubs-toggle {
   font-size: 70%;
-  font-family: "Open Sans";
+  font-family: "Open Sans", arial;
 }
 small#pubs-toggle span{
   background: none;
@@ -108,6 +108,57 @@ small#pubs-toggle span:hover {
 .scrolldot {
   fill: grey;
 }
+
+
+
+#goCrayBtn {
+  height: 15px;
+  width: 30px;
+  position:fixed;  
+  font-family: courier; 
+  top: 5px; 
+  left: 5px;
+  cursor: pointer;
+  background-image:url(../images/switch.png);
+  background-size: contain;
+}
+#goCrayBtn.on {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+#signature {
+  background-image:url(../images/signature.png);
+  width:30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  background-position-x: center;  
+}
+
+.gallery div.image {
+  width:200px;
+  height: 200px;
+  background-size:contain;
+  background-repeat: no-repeat;
+  float:left;
+  display: inline;
+  margin: 5px;
+  padding: 15px;
+  border: 1px solid rgba(239, 239, 239, 0.86);
+  box-shadow: 0 1px 3px rgba(160, 202, 219, 0.24); 
+}
+.gallery div.image:hover {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);    
+}
+
+
 
 #coverimage {
   background-image:url('../images/gregory-large.jpg');
@@ -175,53 +226,6 @@ small#pubs-toggle span:hover {
   background-position: 0;
   */
 
-}
-
-#goCrayBtn {
-  height: 15px;
-  width: 30px;
-  position:fixed;  
-  font-family: courier; 
-  top: 5px; 
-  left: 5px;
-  cursor: pointer;
-  background-image:url(../images/switch.png);
-  background-size: contain;
-}
-#goCrayBtn.on {
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  filter: FlipH;
-  -ms-filter: "FlipH";
-}
-
-#signature {
-  background-image:url(../images/signature.png);
-  width:30px;
-  height: 30px;
-  background-repeat: no-repeat;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5px;
-  background-position-x: center;  
-}
-
-.gallery div.image {
-  width:200px;
-  height: 200px;
-  background-size:contain;
-  background-repeat: no-repeat;
-  float:left;
-  display: inline;
-  margin: 5px;
-  padding: 15px;
-  border: 1px solid rgba(239, 239, 239, 0.86);
-  box-shadow: 0 1px 3px rgba(160, 202, 219, 0.24); 
-}
-.gallery div.image:hover {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);    
 }
 
 @media  (max-width:1300px) {

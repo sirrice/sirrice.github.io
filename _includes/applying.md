@@ -1,5 +1,5 @@
 <span class="applyheading">
-  Excited about systems to define the future of human-data interaction?
+  Excited to design systems that define the future of human-data interaction?
 </span>
   
 
