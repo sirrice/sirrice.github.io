@@ -20,6 +20,10 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
+- title: 'You and your organization'
+  authors: Eugene Wu
+  conf: Technical Report (working note)
+  url: https://www.dropbox.com/s/wgpijmn2veabjd3/management-v1.pdf?dl=0
 - title: 'Ten Years of Web Tables'
   authors: Michael Cafarella, Alon Halevy, Daisy Zhe Wang, Hongrae Lee, Jayant Madhavan, Cong Yu, Eugene Wu,
   url: https://www.dropbox.com/s/y3xlfstgoq8a221/webtables-vldb18.pdf?dl=0,
