@@ -27,6 +27,20 @@
   selected: true
   tags:
     - db
+- title: 'Deep Neural Inspection Using DeepBase'
+  authors: Yiru Chen, Yiliang Shi, Boyuan Chen, Thibault Sellam, Carl Vondrick, Eugene Wu
+  url: https://www.dropbox.com/s/1bccm4nvyouc2k0/dnn-nips19learnsys-v2.pdf?dl=0
+  conf: LearnSys 2019 Workshop at NIPS
+  selected: true
+  tags:
+    - ml
+- title: 'CIDR2: Crazier Innovations in Databases JOIN Reinforcement-learning Research'
+  authors: Eugene Wu
+  url: https://www.dropbox.com/s/ui61nh0y3706sa5/cidr19abstract-v3.pdf?dl=0
+  conf: CIDR 2019 Abstract
+  selected: true
+  tags:
+    - ml
 - title: 'Ten Years of Web Tables'
   authors: Michael Cafarella, Alon Halevy, Daisy Zhe Wang, Hongrae Lee, Jayant Madhavan, Cong Yu, Eugene Wu,
   url: https://www.dropbox.com/s/y3xlfstgoq8a221/webtables-vldb18.pdf?dl=0,
