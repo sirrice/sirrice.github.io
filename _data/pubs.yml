@@ -29,7 +29,7 @@
     - db
 - title: 'Deep Neural Inspection Using DeepBase'
   authors: Yiru Chen, Yiliang Shi, Boyuan Chen, Thibault Sellam, Carl Vondrick, Eugene Wu
-  url: https://www.dropbox.com/s/1bccm4nvyouc2k0/dnn-nips19learnsys-v2.pdf?dl=0
+  url: Deep Neural Inspection using DeepBase.  
   conf: LearnSys 2019 Workshop at NIPS
   selected: true
   tags:

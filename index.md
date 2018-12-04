@@ -6,6 +6,7 @@ tags:
 
 
 
+* Looking forward to presenting our [Deep Neural Inspection work](https://www.dropbox.com/s/abth7ko579cf9mu/dnn-nips19learnsys-cr.pdf?dl=0) at LearningSys@Neurips! 
 * [News article about our At-a-Glance paper at VIS 2018!](https://engineering.columbia.edu/press-releases/eugene-wu-pixel-approximate-entropy)
 * [New blog post about WuLab at VLDB 2018 ](https://medium.com/thewulab/wulab-vldb-2018-82c00cb2599c)
 * Extremely honored to win the 2018 VLDB 10-Year Test-of-Time Award for [WebTables: exploring the power of tables on the web](https://www.dropbox.com/s/59gn40y2vwzfd6p/webtables-vldb08.pdf?dl=0).  Has it really been 10 years?
