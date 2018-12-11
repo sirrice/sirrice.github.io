@@ -1,5 +1,5 @@
 <span class="applyheading">
-  Excited to design systems that define the future of human-data interaction?
+  Core data systems research to define the future of human-data interaction!<br/>
 </span>
   
 

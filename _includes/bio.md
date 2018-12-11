@@ -16,12 +16,12 @@ Eugene Wu has received the VLDB 2018 10-year test of time award, best-of-confere
 
 <!--by [@mstem](http://partnews.brownbag.me/2012/02/29/interview-matt-stempeck-wants-to-change-the-world-with-tech/),-->
 
-<span style="font-size: larger">
+<div style="font-size: 18pt; margin-top: 1em;">
   The WuLab 
   <a href="http://cudbg.github.io/lab">Website</a>
   & 
   <a href="https://medium.com/thewulab">Blog</a>
-</span>
+</div>
 
 
 <!--advised by the esteemed [Sam Madden](http://db.lcs.mit.edu/madden/) and 
