@@ -21,7 +21,7 @@ var goCray = false;
 function randColor() {
   if (goCray) {
     setColor(Math.floor(Math.random()*colors.length));
-    setTimeout(randColor, 50);
+    setTimeout(randColor, 150);
   }
 };
 
