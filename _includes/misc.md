@@ -26,6 +26,7 @@
 
 **Organizer/Co-Chair**   NYDBDay ([2018](https://nydbday.github.io)), 
 SIGMOD Student Research Competition ([2019](https://sigmod2019.org/)),
+HILDA ([2018](http://hilda.io/2018/)),
 SIGMOD NRS ([2017](http://sigmod2017.org/new-researcher-symposium/)),
 SIGMOD Travel Award (2015, 2016),
 North East DB Day ([2016](http://mitdbg.github.io/nedbday/2016))   
