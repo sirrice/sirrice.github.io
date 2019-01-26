@@ -34,11 +34,12 @@ North East DB Day ([2016](http://mitdbg.github.io/nedbday/2016))
 **Area Chair**   ICDE ([2017](http://icde2017.sdsc.edu/))   
 
 **Program Committee**   WWW ([2017](http://www.www2017.com.au/)),
- SIGMOD ([2017](http://sigmod2017.org/)),
+ SIGMOD ([2017](http://sigmod2017.org/), [2019](https://sigmod2019.org)),
  VLDB ([2017](http://www.vldb.org/2017/)),
  HILDA ([2017](http://hilda.io/2017/), [2016](http://hilda.io/2016/)),
  SSDBM ([2017](http://ssdbm2017.eecs.northwestern.edu/)),
  HCOMP ([2017](http://www.humancomputation.com/2017/)),
+ CLOUDDM ([2016](https://www.computer.org/csdl/proceedings/icdew/2016/2109/00/07495607.pdf))
  DATA4U ([2014](https://sites.google.com/site/data4u2014/))   
  
 **Reviewer**   SIGMOD, VLDB, CIDR, WWW, ICDE, InfoVis, UIST, CHI, TKDE

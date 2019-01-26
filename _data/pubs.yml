@@ -27,6 +27,12 @@
   selected: true
   tags:
     - db
+- authors: Thibault Sellam, Kevin Lin, Ian Yiran Huang, Michelle Yang, Carl Vondrick, Eugene Wu
+  title: 'DeepBase: Deep Inspection of Neural Networks'
+  selected: true
+  conf: SIGMOD 2019
+  tags:
+    - ml
 - title: 'Deep Neural Inspection Using DeepBase'
   authors: Yiru Chen, Yiliang Shi, Boyuan Chen, Thibault Sellam, Carl Vondrick, Eugene Wu
   url: https://www.dropbox.com/s/abth7ko579cf9mu/dnn-nips19learnsys-cr.pdf?dl=0
@@ -44,7 +50,7 @@
     - ml
     - db
 - title: 'Ten Years of Web Tables'
-  authors: Michael Cafarella, Alon Halevy, Daisy Zhe Wang, Hongrae Lee, Jayant Madhavan, Cong Yu, Eugene Wu,
+  authors: Michael Cafarella, Alon Halevy, Daisy Zhe Wang, Hongrae Lee, Jayant Madhavan, Cong Yu, Eugene Wu
   url: https://www.dropbox.com/s/y3xlfstgoq8a221/webtables-vldb18.pdf?dl=0,
   conf: PVLDB 2018 Invited Paper,
   selected: true
@@ -53,8 +59,7 @@
 - authors: Thibault Sellam, Kevin Lin, Ian Yiran Huang, Michelle Yang, Carl Vondrick, Eugene Wu
   title: 'DeepBase: Deep Inspection of Neural Networks'
   url: https://arxiv.org/abs/1808.04486
-  selected: true
-  conf: Technical Report
+  conf: Technical Report 2018
   tags:
     - ml
 - authors: Gabriel Ryan, Abigail Mosca, Remco Chang, Eugene Wu
@@ -80,7 +85,7 @@
   tags:
   - mlexplain
   - crowd
-- authors: HaoCi Zhang, Viraj Rai, Thibault Sellam, Eugene Wu
+- authors: Haoci Zhang, Viraj Rai, Thibault Sellam, Eugene Wu
   title: 'Precision Interfaces for Different Modalities'
   conf: SIGMOD (demo) 2018
   url: https://www.dropbox.com/s/0hqjy6ha0antw7u/precisoninterface-sigmod2018demo-cr.pdf?dl=0
@@ -95,14 +100,14 @@
   tags:
   - db
   - vis
-- authors: Pei Wang, Yongjun He, Ryan Shea, Jiannan Wang, Eugene Wu. 
+- authors: Pei Wang, Yongjun He, Ryan Shea, Jiannan Wang, Eugene Wu
   title: 'Deeper: A Data Enrichment System Powered by Deep Web.'
   conf: SIGMOD (demo) 2018
   url: https://www.dropbox.com/s/nckhduhh294xiq8/deeper-sigmoddemo18-cr.pdf?dl=0
   tags:
   - clean
 - authors: Thibault Sellam, Kevin Lin, Ian Yiran Huang, Carl Vondrick, Eugene Wu
-  title: '“I Like the Way You Think!” Inspecting the Internal Logic of Recurrent Neural Networks'
+  title: '"I Like the Way You Think!" Inspecting the Internal Logic of Recurrent Neural Networks'
   conf: SysML 2018
   url: https://www.dropbox.com/s/7r8abwnpcmg1k1k/dnn-sysml18.pdf?dl=0
   selected: true
@@ -110,7 +115,7 @@
   - ml
   - mlexplain
 - authors: Eugene Wu
-  title: 'A “Probabilistic” Model of Research'
+  title: 'A "Probabilistic" Model of Research'
   conf: Blog Post 2018
   url: http://researchsetup.github.io/researchmodel
   selected: true
@@ -197,7 +202,7 @@
   - db
   title: Skipping-oriented Partitioning for Columnar Layouts
   url: https://www.dropbox.com/s/zsxuq955s466o70/skipping-vldb2017.pdf?dl=0
-- authors: Eugene Wu, Fotis Psallidas, Zhengjie Miao, Haoci Zhang,Laura Rettig, Yifan
+- authors: Eugene Wu, Fotis Psallidas, Zhengjie Miao, Haoci Zhang, Laura Rettig, Yifan
     Wu, Thibault Sellam
   conf: CIDR 2017
   selected: true
@@ -289,6 +294,7 @@
   tags:
   - clean
   title: 'SampleClean: Fast and Reliable Analytics on Dirty Data (overview paper)'
+  conf: IEEE Data Eng. Bulletin 2015
   url: http://sirrice.github.io/files/papers/sampleclean-overview.pdf
 - authors: Daniel Haas, Jiannan Wang, Eugene Wu, Michael J. Franklin
   conf: VLDB 2016
@@ -311,14 +317,14 @@
   title: 'Wisteria: Nurturing Scalable Data Cleaning Infrastructure (Demo)'
   url: http://sirrice.github.io/files/papers/wisteria.pdf
 - authors: Anant Bhardwaj, Amol Deshpande, Aaron Elmore, David Karger, Sam Madden,
-    Aditya Parameswaran, Harihar Subramanyam, Eugene Wu, and Rebecca Zhang
+    Aditya Parameswaran, Harihar Subramanyam, Eugene Wu, Rebecca Zhang
   conf: VLDB 2015
   tags:
   - misc
   title: Collaborative Data Analytics with Datahub (Demo)
   url: http://sirrice.github.io/files/papers/datahubdemo.pdf
 - authors: Leilani Battle, Edward Benson, Aditya Parameswaran, Eugene Wu
-  conf: Technical Report 
+  conf: Technical Report 2016
   tags:
   - ml
   title: Indexing Cost Sensitive Prediction
@@ -337,7 +343,7 @@
   - vis
   title: The Case for Data Visualization Management Systems
   url: http://sirrice.github.io/files/papers/ermac-vldb14.pdf
-- authors: Eugene Wu, Adam Marcus and Sam Madden
+- authors: Eugene Wu, Adam Marcus, Sam Madden
   conf: DBCrowd 2013
   tags:
   - misc
@@ -418,6 +424,7 @@
   tags:
   - db
   title: 'Relational Cloud: The Case for a Database Service'
+  conf: MIT Tech Report 2010
   url: http://sirrice.github.io/files/papers/caseforrelationalcloud.pdf
 - authors: Philippe Cudre-Mauroux, Eugene Wu, Sam Madden
   conf: ICDE 2010
@@ -444,8 +451,7 @@
   - web
   title: 'WebTables: Exploring the Power of Tables on the Web'
   url: http://sirrice.github.io/files/papers/webtables-vldb08.pdf
-- authors: Michael Cafarella, Nodira Khoussainova, Daisy Wang, Eugene Wu, Yang Zhang,
-    Alon Halevy
+- authors: Michael Cafarella, Nodira Khoussainova, Daisy Wang, Eugene Wu, Yang Zhang, Alon Halevy
   conf: WebDB 2008
   tags:
   - db
