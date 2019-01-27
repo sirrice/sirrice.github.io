@@ -21,9 +21,11 @@ mine = set([auth.strip().lower() for auth in mine.split("\n")])
 
 def format_auth(auth):
   parts = auth.split()
-  lastname = parts[-1]
-  rest = " ".join(parts[:-1])
-  name = "%s. %s" % (lastname[0], rest)
+  name = []
+  for part in parts[:-1]:
+    name.append(part[0] + ".")
+  name.append(parts[-1])
+  name = " ".join(name)
   if auth.lower() in mine:
     return "\\underline{\\bf %s}" % name
   else:

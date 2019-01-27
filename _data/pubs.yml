@@ -20,18 +20,22 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
-# - title: '(In Progress) Khameleon: Aggressive Prefetching for Approximation-Tolerant Cloud Visualizations'
-#   authors: Tracy Wei, Haneen Mohammed, Ravi Netravali, Eugene Wu
-#   conf: NSDI 2019 (Anticipated)
-# - title: '(In Progress) Precision Interfaces'
-#   authors: Owen Zhang, Haoci Zhang, Viraj Rai, Thibault Sellam, Eugene Wu
-#   conf: SIGMOD 2019 (Anticipated)
-# - title: '(In Progress) Acorn: Aggressive Result Caching in Spark SQL'
-#   authors: Alana Ramjit, Matteo Interlandi, Eugene Wu, Ravi Netravali
-#   conf: ATC 2019 (Anticipated)
-# - title: '(In Progress) Noob Saibot: Physiological Instrumentation for Database Engines'
-#   authors: Fotis Psallidas, Eugene Wu
-#   conf: VLDB 2019 (Anticipated)
+- title: '(In Progress) Khameleon: Aggressive Prefetching for Approximation-Tolerant Cloud Visualizations'
+  authors: Ziyun Wei, Haneen Mohammed, Ravi Netravali, Eugene Wu
+  conf: NSDI 2019 (Anticipated)
+  future: true
+- title: '(In Progress) Precision Interfaces'
+  authors: Qianrui Zhang, Haoci Zhang, Viraj Rai, Thibault Sellam, Eugene Wu
+  conf: SIGMOD 2019 (Anticipated)
+  future: true
+- title: '(In Progress) Acorn: Aggressive Result Caching in Spark SQL'
+  authors: Alana Ramjit, Matteo Interlandi, Eugene Wu, Ravi Netravali
+  conf: ATC 2019 (Anticipated)
+  future: true
+- title: '(In Progress) Noob Saibot: Physiological Instrumentation for Database Engines'
+  authors: Fotis Psallidas, Eugene Wu
+  conf: VLDB 2019 (Anticipated)
+  future: true
 - title: 'You and Your Organization'
   authors: Eugene Wu
   conf: 'Technical Report (working note)'

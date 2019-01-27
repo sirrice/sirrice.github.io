@@ -1,6 +1,9 @@
 <div class="pubs">
   <ol connect="rows">
     {% for p in {{site.data.pubs}} %}
+      {% if p.future == true %}
+        {% continue %}
+      {% endif %}
 
       {% assign found = false %}
       {% for tag in p.tags %}
