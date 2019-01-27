@@ -54,7 +54,7 @@ def get_year(pub):
       return int(v)
     except:
       pass
-  return -1
+  return None
 
 @click.command()
 @click.argument("pubfname")
@@ -69,6 +69,7 @@ def main(pubfname):
       print e
       return
 
+  data = filter(get_year, data)
   data.sort(key=get_year, reverse=True)
   for i, pub in enumerate(data):
     pub = print_pub(pub)
