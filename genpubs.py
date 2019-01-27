@@ -25,7 +25,7 @@ def format_auth(auth):
   rest = " ".join(parts[:-1])
   name = "%s. %s" % (lastname[0], rest)
   if auth.lower() in mine:
-    return "{\\bf %s}" % name
+    return "\\underline{\\bf %s}" % name
   else:
     return name
 

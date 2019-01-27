@@ -20,6 +20,18 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
+# - title: '(In Progress) Khameleon: Aggressive Prefetching for Approximation-Tolerant Cloud Visualizations'
+#   authors: Tracy Wei, Haneen Mohammed, Ravi Netravali, Eugene Wu
+#   conf: NSDI 2019 (Anticipated)
+# - title: '(In Progress) Precision Interfaces'
+#   authors: Owen Zhang, Haoci Zhang, Viraj Rai, Thibault Sellam, Eugene Wu
+#   conf: SIGMOD 2019 (Anticipated)
+# - title: '(In Progress) Acorn: Aggressive Result Caching in Spark SQL'
+#   authors: Alana Ramjit, Matteo Interlandi, Eugene Wu, Ravi Netravali
+#   conf: ATC 2019 (Anticipated)
+# - title: '(In Progress) Noob Saibot: Physiological Instrumentation for Database Engines'
+#   authors: Fotis Psallidas, Eugene Wu
+#   conf: VLDB 2019 (Anticipated)
 - title: 'You and Your Organization'
   authors: Eugene Wu
   conf: 'Technical Report (working note)'
@@ -282,7 +294,7 @@
   title: 'ActiveClean: Interactive Data Cleaning While Learning Convex Loss Models'
   url: http://arxiv.org/pdf/1601.03797v1
 - authors: Eugene Wu, Arnab Nandi
-  conf: <a href="http://www.interactive-analysis.org/">DSIA</a> 2015
+  conf: DSIA 2015
   selected: true
   slides: http://www.eugenewu.net/files/talks/perceptvis_dsia2015.pdf
   tags:
@@ -330,7 +342,7 @@
   title: Indexing Cost Sensitive Prediction
   url: http://sirrice.github.io/files/papers/csp-techreport.pdf
 - authors: Eugene Wu
-  conf: Doctoral Thesis
+  conf: Doctoral Thesis 2015
   selected: true
   tags:
   - thesis
@@ -482,11 +494,10 @@
 - authors: Minos N. Garofalakis, Kurt P. Brown, Michael J. Franklin, Joseph M. Hellerstein,
     Daisy Zhe Wang, Eirinaios Michelakis, Liviu Tancau, Eugene Wu, Shawn R. Jeffery,
     Ryan Aipperspach
-  conf: IEEE Data Eng. Bull.
+  conf: IEEE Data Eng. Bull. 2006
   tags:
   - db
-  title: 'Probabilistic Data Management for Pervasive Computing: The Data Furnace
-    Project'
+  title: 'Probabilistic Data Management for Pervasive Computing: The Data Furnace Project'
   url: '#'
 - authors: Michael J. Franklin, Shawn R. Jeffery, Sailesh Krishnamurthy, Frederick
     Reiss, Shariq Rizvi, Eugene Wu, Owen Cooper, Anil Edakkunni, Wei Hong
