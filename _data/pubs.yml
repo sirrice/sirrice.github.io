@@ -45,6 +45,7 @@
     - db
 - authors: Thibault Sellam, Kevin Lin, Ian Yiran Huang, Michelle Yang, Carl Vondrick, Eugene Wu
   title: 'DeepBase: Deep Inspection of Neural Networks'
+  url: https://www.dropbox.com/s/7yk2gr1qifvgakk/dnn-sigmod19-cr.pdf?dl=0
   selected: true
   conf: SIGMOD 2019
   tags:
