@@ -534,6 +534,7 @@
   tags:
   - db
   title: 'SASE: Complex Event Processing over Streams (Demo)'
+  short: true
   url: '#'
 - authors: Eugene Wu, Yanlei Diao, Shariq Rizvi
   conf: SIGMOD 2006

@@ -6,6 +6,9 @@ mine = """Daniel Alabi
 Fotis Psallidas
 Gabriel Ryan
 Hamed Nilforoshan
+Haneen Mohammed
+Qianrui Zhang
+Viraj Rai
 Haoci Zhang
 Ian Yiran Huang
 Lauren Arnett
@@ -82,24 +85,24 @@ def main(pubfname):
   print "\n\n"
   print "&\\section{In Review and Anticipated}\\\\"
   for pub in filter(lambda pub: pub.get("future"), data):
-    i += 1
     pub = print_pub(pub)
     print "\\smallskip $[%d]$ & \\smallskip %s\\\\" % (i+1, pub)
+    i += 1
 
 
   print "\n\n"
   print "&\\section{Full Publications}\\\\"
   for pub in filter(lambda pub: not pub.get("future") and not pub.get("short"), data):
-    i += 1
     pub = print_pub(pub)
     print "\\smallskip $[%d]$ & \\smallskip %s\\\\" % (i+1, pub)
+    i += 1
 
   print "\n\n"
   print "&\\section{Short Papers, Technical Reports, and Demos}\\\\"
   for pub in filter(lambda pub: pub.get("short"), data):
-    i += 1
     pub = print_pub(pub)
     print "\\smallskip $[%d]$ & \\smallskip %s\\\\" % (i+1, pub)
+    i += 1
 
 
 
