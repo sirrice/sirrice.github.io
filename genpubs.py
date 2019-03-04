@@ -73,9 +73,33 @@ def main(pubfname):
 
   data = filter(get_year, data)
   data.sort(key=get_year, reverse=True)
-  for i, pub in enumerate(data):
+
+  # TODO: print future, full, then short papers.
+  i = 0
+
+  print "\n\n"
+  print "&\\section{In Review and Anticipated}\\\\"
+  for pub in filter(lambda pub: pub.get("future"), data):
+    i += 1
     pub = print_pub(pub)
     print "\\smallskip $[%d]$ & \\smallskip %s\\\\" % (i+1, pub)
+
+
+  print "\n\n"
+  print "&\\section{Full Publications}\\\\"
+  for pub in filter(lambda pub: not pub.get("future") and not pub.get("short"), data):
+    i += 1
+    pub = print_pub(pub)
+    print "\\smallskip $[%d]$ & \\smallskip %s\\\\" % (i+1, pub)
+
+  print "\n\n"
+  print "&\\section{Short Papers, Technical Reports, and Demos}\\\\"
+  for pub in filter(lambda pub: pub.get("short"), data):
+    i += 1
+    pub = print_pub(pub)
+    print "\\smallskip $[%d]$ & \\smallskip %s\\\\" % (i+1, pub)
+
+
 
 
 
