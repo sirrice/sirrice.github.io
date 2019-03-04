@@ -8,6 +8,8 @@ Gabriel Ryan
 Hamed Nilforoshan
 Haoci Zhang
 Ian Yiran Huang
+Lauren Arnett
+Robert Netzorg
 James Sands
 Kevin Lin
 Rahul Khanna

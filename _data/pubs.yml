@@ -36,6 +36,19 @@
   authors: Ziyun Wei, Haneen Mohammed, Ravi Netravali, Eugene Wu
   conf: Anticipated 2019
   future: true
+- title: 'Progressive Deep Web Crawling Through Keyword Queries For Data Enrichment'
+  authors: Pei Wang, Jiannan Wang, Ryan Shea, Eugene Wu
+  conf: SIGMOD 2019
+  url: #
+  tags:
+    - crowd
+- title: 'Cross-platform Interactions and Popularity in the Live-streaming Community'
+  short: true
+  authors: Lauren Arnett, Robert Netzorg, Augustin Chaintreau, Eugene Wu
+  conf: CHI Latebreaking 2019
+  url: https://www.dropbox.com/s/n3u1zb23m2q1xjs/popfactor-chilatebreaking19.pdf?dl=0
+  tags:
+    - crowd
 - title: 'You and Your Organization'
   authors: Eugene Wu
   conf: 'Technical Report (working note)'
