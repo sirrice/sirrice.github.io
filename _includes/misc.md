@@ -1,24 +1,24 @@
 #### Graduate Students
 
-[Fotis Psallidas](http://www.cs.columbia.edu/~fotis/),
-[Thibault Sellam](http://sellam.me),
 [Haneen Mohammed](http://haneensa.github.io/),
 [Yiru Chen](https://ireneruru.github.io/),
 [Yiliang Shi](http://yiliangs.com/),
 [Bill Sun](https://github.com/sunyinqi0508)
 
+
+[Fotis Psallidas](http://www.cs.columbia.edu/~fotis/) (Microsoft),
+[Thibault Sellam](http://sellam.me) (Google)
+
+
 [See WuLab for full list](https://cudbg.github.io/lab/)
 
 #### Teaching
 
-* [Intro to DB](http://w4111.github.io) F18
-* [Big Data Systems](http://w4121.github.io/) S18
+* [Intro to DB](http://w4111.github.io) S19, F18, F16, F15
+* [Database Research Topics](https://w6113.github.io) S19
+* [Big Data Systems](http://w4121.github.io/) S18, S17, S16
 * [Database Topics in Research & Practice](https://columbiadb.github.io/index) S18
-* [Big Data Systems](http://w4121.github.io/) S17
 * [Columbia Viz](https://columbiaviz.github.io/) S17
-* [Intro to DB](http://www.cs.columbia.edu/~coms4111/) F16
-* [Big Data Systems](http://columbia.github.io/systems-bigdata-class/) S16
-* [Intro to DB](http://www.cs.columbia.edu/~coms4111/) F15
 * [From Ascii to Answers](http://db.csail.mit.edu/6.885/)@MIT 
 * [Data IAP](dataiap.github.io)@MIT
 
