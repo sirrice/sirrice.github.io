@@ -4,8 +4,7 @@ tags:
 ---
 
 
-
-
+* Our papers [DeepBase: Deep Inspection of Neural Network](https://www.dropbox.com/s/7yk2gr1qifvgakk/dnn-sigmod19-cr.pdf?dl=0), and [Mining Precision Interfaces From Query Logs](https://arxiv.org/abs/1904.02344) will be presented at SIGMOD 2019!
 * Looking forward to presenting our [Deep Neural Inspection work](https://www.dropbox.com/s/abth7ko579cf9mu/dnn-nips19learnsys-cr.pdf?dl=0) at LearningSys@Neurips! 
 * [News article about our At-a-Glance paper at VIS 2018!](https://engineering.columbia.edu/press-releases/eugene-wu-pixel-approximate-entropy)
 * [New blog post about WuLab at VLDB 2018 ](https://medium.com/thewulab/wulab-vldb-2018-82c00cb2599c)
@@ -21,11 +20,11 @@ tags:
 * Released a [probabilistic model of research](http://researchsetup.github.io/researchmodel)
 * New VLDB 18 paper:  [Fine-grained data lineage at SMOKIN' fast speeds](https://arxiv.org/abs/1801.07237)!!  Fast enough and low enough overhead to power real-time interactive applications!    
 * Our undergrad [Hamed Nilforoshan](http://hamedn.com/) won the [Snap Research Scholarship](https://snapresearchscholarship.splashthat.com/)!!
+
+<!--
 * [Mining Precision Interfaces from Query Logs](https://arxiv.org/abs/1712.00078) is our work on scalably generating analysis interfaces.
 * [BoostClean](https://arxiv.org/abs/1711.01299) continues our work towards automated human-in-the-loop data cleaning for data science!
 * [Webpage to track](http://eugenewu.net/ninjas.html) Mortal Kombat ninjas that we have declared flawless victory over.
-
-<!--
 * ActiveClean was covered by [The Morning Paper!](https://blog.acolyer.org/2017/10/04/activeclean-interactive-data-cleaning-for-statistical-modeling/)
 * Visited and spoke at DB groups at Wisconsin-Madison, University of Chicago, and UIUC.  Slides: [1 per page](https://www.dropbox.com/s/l487siez783qxo0/2017-10-midwest-1pp.pdf?dl=0), and [6 per page](https://www.dropbox.com/s/yauhvxdkv0kna7h/2017-10-midwest-6pp.pdf?dl=0).
 * Check out our DSIA paper [Load-n-go](https://www.dropbox.com/s/2n1a4l0k63x9o4x/loadngo-dsia17.pdf?dl=0), InfoVIS poster on [entropy measure for visualization](https://www.dropbox.com/s/5ed977dwelnd5c9/glance-infovisposter17.pdf?dl=0), and DECISIVE paper on [bayesian models of cognition for interactive visualization](https://www.dropbox.com/s/tede3vonedgd49k/bayesianvis-decisive17.pdf?dl=0).

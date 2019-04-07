@@ -20,10 +20,6 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
-- title: 'Precision Interfaces'
-  authors: Qianrui Zhang, Haoci Zhang, Viraj Rai, Thibault Sellam, Eugene Wu
-  conf: In Review 2019
-  future: true
 - title: 'Acorn: Aggressive Result Caching in Spark SQL'
   authors: Alana Ramjit, Matteo Interlandi, Eugene Wu, Ravi Netravali
   conf: In Review 2019
@@ -36,6 +32,14 @@
   authors: Ziyun Wei, Haneen Mohammed, Ravi Netravali, Eugene Wu
   conf: Anticipated 2019
   future: true
+- title: 'Precision Interfaces'
+  authors: Qianrui Zhang, Haoci Zhang, Viraj Rai, Thibault Sellam, Eugene Wu
+  conf: SIGMOD 2019
+  url: https://arxiv.org/abs/1904.02344
+  selected: true
+  tags:
+    - vis
+    - db
 - title: 'Progressive Deep Web Crawling Through Keyword Queries For Data Enrichment'
   authors: Pei Wang, Jiannan Wang, Ryan Shea, Eugene Wu
   conf: SIGMOD 2019
@@ -91,12 +95,6 @@
   selected: true
   tags:
     - db
-- authors: Thibault Sellam, Kevin Lin, Ian Yiran Huang, Michelle Yang, Carl Vondrick, Eugene Wu
-  title: 'DeepBase: Deep Inspection of Neural Networks'
-  url: https://arxiv.org/abs/1808.04486
-  conf: Technical Report 2018
-  tags:
-    - ml
 - authors: Gabriel Ryan, Abigail Mosca, Remco Chang, Eugene Wu
   title: 'At a Glance: Approximate Entropy as a Measure of Line Chart Visualization Complexity'
   conf: InfoVIS 2018
