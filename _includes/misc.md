@@ -1,12 +1,12 @@
 #### Graduate Students
 
-[Haneen Mohammed](http://haneensa.github.io/),   
-[Yiru Chen](https://ireneruru.github.io/),   
-[Yiliang Shi](http://yiliangs.com/),   
+[Haneen Mohammed](http://haneensa.github.io/),
+[Yiru Chen](https://ireneruru.github.io/), 
+[Yiliang Shi](http://yiliangs.com/), 
 [Bill Sun](https://github.com/sunyinqi0508)
 
 
-[Fotis Psallidas](http://www.cs.columbia.edu/~fotis/) (Microsoft),   
+[Fotis Psallidas](http://www.cs.columbia.edu/~fotis/) (Microsoft), 
 [Thibault Sellam](http://sellam.me) (Google)
 
 
