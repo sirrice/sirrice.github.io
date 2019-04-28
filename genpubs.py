@@ -36,9 +36,22 @@ def format_auth(auth):
   else:
     return name
 
+def format_text_auth(auth):
+  parts = auth.split()
+  name = []
+  for part in parts[:-1]:
+    name.append(part[0] + ".")
+  name.append(parts[-1])
+  name = " ".join(name)
+  return name
+
 
 def format_auths(auths):
   return ", ".join(map(format_auth, auths))
+
+def format_text_auths(auths):
+  return ", ".join(map(format_text_auth, auths))
+
 
 def print_pub(pub):
   try:
@@ -51,9 +64,27 @@ def print_pub(pub):
     conf = conf.strip(".")
     return "%s. ``{\\it %s.}'' %s." % (auths, title, conf)
   except Exception as e:
-    print e
-    print pub
+    print(e)
+    print(pub)
     raise e
+
+
+def print_text_pub(pub):
+  try:
+    auths = pub.get("authors", "")
+    auths = [auth.strip() for auth in auths.split(",")]
+    auths = format_text_auths(auths)
+    title = pub.get("title", "")
+    title = title.strip(".")
+    conf = pub.get("conf", "")
+    conf = conf.strip(".")
+    return "%s. ''%s.'' %s." % (auths, title, conf)
+  except Exception as e:
+    print(e)
+    print(pub)
+    raise e
+
+
 
 def get_year(pub):
   for v in pub['conf'].strip().split():
@@ -73,7 +104,7 @@ def main(pubfname):
     try:
       data = yaml.load(f)
     except Exception as e:
-      print e
+      print(e)
       return
 
   data = filter(get_year, data)
@@ -82,12 +113,13 @@ def main(pubfname):
   # TODO: print future, full, then short papers.
   i = 0
 
-  print "\n\n"
-  print "&\\section{In Review and Anticipated}\\\\"
-  for pub in filter(lambda pub: pub.get("future"), data):
-    pub = print_pub(pub)
-    print "\\smallskip $[%d]$ & \\smallskip %s\\\\" % (i+1, pub)
-    i += 1
+  if False:
+    print "\n\n"
+    print "&\\section{In Review and Anticipated}\\\\"
+    for pub in filter(lambda pub: pub.get("future"), data):
+      pub = print_pub(pub)
+      print "\\smallskip $[%d]$ & \\smallskip %s\\\\" % (i+1, pub)
+      i += 1
 
 
   print "\n\n"
@@ -103,6 +135,11 @@ def main(pubfname):
     pub = print_pub(pub)
     print "\\smallskip $[%d]$ & \\smallskip %s\\\\" % (i+1, pub)
     i += 1
+
+  # print "\n\n"
+  # for i, pub in enumerate(filter(lambda pub: not pub.get("future"), data)):
+  #   pub = print_text_pub(pub)
+  #   print "[%d] %s" % (i+1, pub)
 
 
 
