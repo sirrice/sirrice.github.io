@@ -8,5 +8,3 @@ if (!/pic=true/.test(document.cookie)) {
   document.querySelector("body").appendChild(css);
 }
 
-if (Math.random() > 0.5) {
-}

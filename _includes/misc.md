@@ -12,6 +12,10 @@
 
 [See WuLab for full list](https://cudbg.github.io/lab/)
 
+#### Masters Advising
+
+Questions?  See if [Professor Verma's FAQ page answers your questions](http://www.cs.columbia.edu/~verma/advising.html).
+
 #### Teaching
 
 * [Intro to DB](http://w4111.github.io) S19, F18, F16, F15
