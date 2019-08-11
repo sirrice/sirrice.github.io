@@ -4,6 +4,7 @@ tags:
 ---
 
 
+* Eugene gives a tutorial at the VLDB Summer School in Beijing, talk at 8th Workshop for Big Data Analysis and Systems in China, and at Tsinghua University.
 * Our undergrads [Lauren Arnett](https://www.linkedin.com/in/lauren-arnett-6ab037117) and [Robert Netzorg](https://www.linkedin.com/in/robert-netzorg-a1190210a) will be presenting their late breaking work on [studying popularity on live streaming platforms](https://www.dropbox.com/s/n3u1zb23m2q1xjs/popfactor-chilatebreaking19.pdf?dl=0) at CHI next month!
 * Our papers [DeepBase: Deep Inspection of Neural Network](https://www.dropbox.com/s/7yk2gr1qifvgakk/dnn-sigmod19-cr.pdf?dl=0), and [Mining Precision Interfaces From Query Logs](https://arxiv.org/abs/1904.02344) will be presented at SIGMOD 2019!
 * Looking forward to presenting our [Deep Neural Inspection work](https://www.dropbox.com/s/abth7ko579cf9mu/dnn-nips19learnsys-cr.pdf?dl=0) at LearningSys@Neurips! 
@@ -20,9 +21,9 @@ tags:
 * Won the [Amazon Faculty Research Award](http://www.cs.columbia.edu/2018/with-amazon-research-award-eugene-wu-will-add-interactivity-and-adversarial-generation-to-entity-matching/)!
 * Released a [probabilistic model of research](http://researchsetup.github.io/researchmodel)
 * New VLDB 18 paper:  [Fine-grained data lineage at SMOKIN' fast speeds](https://arxiv.org/abs/1801.07237)!!  Fast enough and low enough overhead to power real-time interactive applications!    
-* Our undergrad [Hamed Nilforoshan](http://hamedn.com/) won the [Snap Research Scholarship](https://snapresearchscholarship.splashthat.com/)!!
 
 <!--
+* Our undergrad [Hamed Nilforoshan](http://hamedn.com/) won the [Snap Research Scholarship](https://snapresearchscholarship.splashthat.com/)!!
 * [Mining Precision Interfaces from Query Logs](https://arxiv.org/abs/1712.00078) is our work on scalably generating analysis interfaces.
 * [BoostClean](https://arxiv.org/abs/1711.01299) continues our work towards automated human-in-the-loop data cleaning for data science!
 * [Webpage to track](http://eugenewu.net/ninjas.html) Mortal Kombat ninjas that we have declared flawless victory over.

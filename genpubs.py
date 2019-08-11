@@ -1,5 +1,6 @@
 import click
 import yaml
+import sys
 
 
 mine = """Daniel Alabi
@@ -49,6 +50,15 @@ def format_text_auth(auth):
 def format_auths(auths):
   return ", ".join(map(format_auth, auths))
 
+def format_bibtex_auth(auth):
+  parts = auth.split()
+  name = ", ".join([parts[-1], parts[0]])
+  return name
+
+def format_bibtex_auths(auths):
+  return " and ".join(map(format_bibtex_auth, auths))
+
+
 def format_text_auths(auths):
   return ", ".join(map(format_text_auth, auths))
 
@@ -85,6 +95,39 @@ def print_text_pub(pub):
     raise e
 
 
+def print_bibtex(pub, id):
+  try:
+    auths = pub.get("authors", "")
+    auths = [auth.strip() for auth in auths.split(",")]
+    auths = format_bibtex_auths(auths)
+    title = pub.get("title", "")
+    title = title.strip(".")
+    conf = get_conf_name(pub)
+    conf = conf.strip(".")
+    year = get_year(pub)
+    return """
+@inproceedings{pub%s,
+  title={%s},
+  author={%s},
+  booktitle={%s},
+  year={%s}
+}
+    """ % (id, title, auths, conf, year)
+  except Exception as e:
+    print(e)
+    print(pub)
+    raise e
+
+
+def get_conf_name(pub):
+  ret = []
+  for v in pub['conf'].strip().split():
+    try:
+      int(v)
+    except:
+      ret.append(v)
+  return " ".join(ret)
+
 
 def get_year(pub):
   for v in pub['conf'].strip().split():
@@ -96,10 +139,14 @@ def get_year(pub):
 
 @click.command()
 @click.argument("pubfname")
-def main(pubfname):
+@click.option("-b", is_flag=True, help="Print bibtex, then exit")
+def main(pubfname, b):
   """
   Give the YML pubs file from the website
   """
+  bibtex = b
+
+
   with open(pubfname, "r") as f:
     try:
       data = yaml.load(f)
@@ -112,6 +159,15 @@ def main(pubfname):
 
   # TODO: print future, full, then short papers.
   i = 0
+
+  if bibtex:
+    for pub in data:
+      try:
+        print print_bibtex(pub, i)
+        i += 1
+      except:
+        print >>sys.stderr, pub
+    return
 
   if False:
     print "\n\n"

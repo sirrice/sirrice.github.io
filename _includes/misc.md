@@ -2,8 +2,9 @@
 
 [Haneen Mohammed](http://haneensa.github.io/),
 [Yiru Chen](https://ireneruru.github.io/), 
-[Yiliang Shi](http://yiliangs.com/), 
-[Bill Sun](https://github.com/sunyinqi0508)
+[Yiliang Shi](http://yiliangs.com/),   
+[Bill Sun](https://github.com/sunyinqi0508),
+[Zach Huang](http://www.columbia.edu/~zh2408/)
 
 
 [Fotis Psallidas](http://www.cs.columbia.edu/~fotis/) (Microsoft), 
