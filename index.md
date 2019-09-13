@@ -4,6 +4,7 @@ tags:
 ---
 
 
+* Delighted to recieve the NSF CAREER for automatically generating interactive data analysis interfaces!
 * Eugene gives a tutorial at the VLDB Summer School in Beijing, talk at 8th Workshop for Big Data Analysis and Systems in China, and at Tsinghua University.
 * Our undergrads [Lauren Arnett](https://www.linkedin.com/in/lauren-arnett-6ab037117) and [Robert Netzorg](https://www.linkedin.com/in/robert-netzorg-a1190210a) will be presenting their late breaking work on [studying popularity on live streaming platforms](https://www.dropbox.com/s/n3u1zb23m2q1xjs/popfactor-chilatebreaking19.pdf?dl=0) at CHI next month!
 * Our papers [DeepBase: Deep Inspection of Neural Network](https://www.dropbox.com/s/7yk2gr1qifvgakk/dnn-sigmod19-cr.pdf?dl=0), and [Mining Precision Interfaces From Query Logs](https://arxiv.org/abs/1904.02344) will be presented at SIGMOD 2019!
