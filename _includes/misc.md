@@ -2,7 +2,6 @@
 
 [Haneen Mohammed](http://haneensa.github.io/),
 [Yiru Chen](https://ireneruru.github.io/), 
-[Yiliang Shi](http://yiliangs.com/),   
 [Bill Sun](https://github.com/sunyinqi0508),
 [Zach Huang](http://www.columbia.edu/~zh2408/)
 
@@ -19,6 +18,7 @@ Questions?  See if [Professor Verma's FAQ page answers your questions](http://ww
 
 #### Teaching
 
+* [Systems for Human Data Interaction](https://columbiaviz.github.io/2020s_w6998/) S20
 * [Intro to DB](http://w4111.github.io) S19, F18, F16, F15
 * [Database Research Topics](https://w6113.github.io) S19
 * [Big Data Systems](http://w4121.github.io/) S18, S17, S16
