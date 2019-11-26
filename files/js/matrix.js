@@ -101,6 +101,6 @@ var matrixify = (function() {
 
 
 if (!/visited=true/.test(document.cookie)) {
-  matrixify();
+  //matrixify();
 }
 
