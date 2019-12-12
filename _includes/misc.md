@@ -29,8 +29,8 @@ Questions?  See if [Professor Verma's FAQ page answers your questions](http://ww
 
 #### Service
 
-**Organizer/Co-Chair**   NYDBDay ([2018](https://nydbday.github.io)), 
-SIGMOD Student Research Competition ([2019](https://sigmod2019.org/)),
+**Organizer/Co-Chair**  SIGMOD Student Research Competition ([2019](https://sigmod2019.org/), [2020](http://sigmod2020.org/sigmod_student_research_competition.shtml)),
+NYDBDay ([2018](https://nydbday.github.io)),
 HILDA ([2018](http://hilda.io/2018/)),
 SIGMOD NRS ([2017](http://sigmod2017.org/new-researcher-symposium/)),
 SIGMOD Travel Award (2015, 2016),
