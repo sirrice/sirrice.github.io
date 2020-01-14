@@ -20,10 +20,14 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
+- title: 'Monte Carlo Tree Search for Generating Interactive Data Analysis Interfaces'
+  authors: Yiru Chen, Eugene Wu
+  conf: Intelligent Process Automation (IPA) 2020
+  url: https://arxiv.org/abs/2001.01902
 - title: 'Acorn: Aggressive Result Caching in Spark SQL'
   authors: Alana Ramjit, Matteo Interlandi, Eugene Wu, Ravi Netravali
-  conf: In Review 2019
-  future: true
+  conf: SOCC 2019
+  url: https://www.dropbox.com/s/dfq6w7mmlhiclzu/acorn-socc19-cr.pdf?dl=0
 - title: 'Noob Saibot: Physiological Instrumentation for Database Engines'
   authors: Fotis Psallidas, Eugene Wu
   conf: Anticipated 2019
