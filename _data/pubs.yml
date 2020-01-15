@@ -24,6 +24,10 @@
   authors: Yiru Chen, Eugene Wu
   conf: Intelligent Process Automation (IPA) 2020
   url: https://arxiv.org/abs/2001.01902
+  selected: true
+  tags:
+    - vis
+    - db
 - title: 'Acorn: Aggressive Result Caching in Spark SQL'
   authors: Alana Ramjit, Matteo Interlandi, Eugene Wu, Ravi Netravali
   conf: SOCC 2019

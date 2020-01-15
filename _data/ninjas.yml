@@ -36,5 +36,6 @@ ninjas:
     name: Noob Saibot
   - img: rain.png
     name: Rain
+    desc: In Submission
   - img: reptile.png
     name: Reptile
