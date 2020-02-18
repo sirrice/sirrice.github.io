@@ -4,6 +4,8 @@ tags:
 ---
 
 
+* Lampros will present our work [Towards Complaint-driven ML Workflow Debugging](#) at the [MLOps workshop](https://mlops-systems.github.io/), part of [MLSys](https://mlsys.org/)!  With Young Wu and Jiannan Wang.
+* Yiru presented our work on [layout-sensitive interface generation](https://arxiv.org/abs/2001.01902) at the Intelligent Process Automation workshop at AAAI!
 * Delighted to recieve the NSF CAREER for automatically generating interactive data analysis interfaces!
 * Eugene gives a tutorial at the VLDB Summer School in Beijing, talk at 8th Workshop for Big Data Analysis and Systems in China, and at Tsinghua University.
 * Our undergrads [Lauren Arnett](https://www.linkedin.com/in/lauren-arnett-6ab037117) and [Robert Netzorg](https://www.linkedin.com/in/robert-netzorg-a1190210a) will be presenting their late breaking work on [studying popularity on live streaming platforms](https://www.dropbox.com/s/n3u1zb23m2q1xjs/popfactor-chilatebreaking19.pdf?dl=0) at CHI next month!
