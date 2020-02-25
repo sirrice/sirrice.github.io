@@ -1,4 +1,4 @@
-#### Graduate Students
+#### Ph.Ds and PostDocs
 
 [Haneen Mohammed](http://haneensa.github.io/),
 [Yiru Chen](https://ireneruru.github.io/), 
@@ -36,7 +36,7 @@ SIGMOD NRS ([2017](http://sigmod2017.org/new-researcher-symposium/)),
 SIGMOD Travel Award (2015, 2016),
 North East DB Day ([2016](http://mitdbg.github.io/nedbday/2016))   
 
-**Area Chair**   ICDE ([2017](http://icde2017.sdsc.edu/))   
+**Area Chair**   ICDE ([2017](http://icde2017.sdsc.edu/)), VLDB (2021)  
 
 **Program Committee**   WWW ([2017](http://www.www2017.com.au/)),
  SIGMOD ([2017](http://sigmod2017.org/), [2019](https://sigmod2019.org)),
@@ -51,7 +51,7 @@ North East DB Day ([2016](http://mitdbg.github.io/nedbday/2016))
 
 #### 2014 Job Materials
 
-[Old CV](./files/job/cv-old.pdf) [Research](./files/job/research.pdf)   [Teaching](./files/job/teaching.pdf)  [Diversity](./files/job/diversity.pdf) 
+[Old CV](./files/job/cv-old.pdf), [Research](./files/job/research.pdf), [Teaching](./files/job/teaching.pdf), [Diversity](./files/job/diversity.pdf) 
 
 
 #### Side Projects
