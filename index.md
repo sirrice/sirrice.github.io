@@ -4,6 +4,7 @@ tags:
 ---
 
 
+* Excited to share our demo for Physical Visualization Design at SIGMOD 2020!  With Lana Ramjit, Zhaoning Kong, and Ravi Netravali.
 * Lampros will present our work [Towards Complaint-driven ML Workflow Debugging](#) at the [MLOps workshop](https://mlops-systems.github.io/), part of [MLSys](https://mlsys.org/)!  With Young Wu and Jiannan Wang.
 * Yiru presented our work on [layout-sensitive interface generation](https://arxiv.org/abs/2001.01902) at the Intelligent Process Automation workshop at AAAI!
 * Delighted to recieve the NSF CAREER for automatically generating interactive data analysis interfaces!
