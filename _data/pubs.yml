@@ -13,6 +13,7 @@
 #   code: URL to code/github
 #   comments: any comments
 #   selected: true
+#   short: true
 #
 # Main tags are
 #
@@ -20,6 +21,25 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
+- title: 'Physical Visualization Design'
+  authors: Lana Ramjit, Zhaoning Kong, Ravi Netravali, Eugene Wu
+  conf: SIGMOD (demo) 2020
+  short: true
+  selected: true
+  tags:
+    - vis
+    - db
+- title: 'Towards Complaint-driven ML Workflow Debugging'
+  authors: Lampros Flokas, Young Wu, Jiannan Wang, Eugene Wu
+  conf: MLOps 2020
+  url: https://www.dropbox.com/s/yxip1pd6rnxj8ev/mlexplain-mlops20-submitted.pdf?dl=0
+  selected: true
+  short: true
+  tags:
+    - ml
+    - mlexplain
+    - clean
+    - pi
 - title: 'Monte Carlo Tree Search for Generating Interactive Data Analysis Interfaces'
   authors: Yiru Chen, Eugene Wu
   conf: Intelligent Process Automation (IPA) 2020
@@ -28,6 +48,7 @@
   tags:
     - vis
     - db
+    - pi
 - title: 'Acorn: Aggressive Result Caching in Spark SQL'
   authors: Alana Ramjit, Matteo Interlandi, Eugene Wu, Ravi Netravali
   conf: SOCC 2019
@@ -38,7 +59,7 @@
   future: true
 - title: 'Khameleon: Aggressive Prefetching for Approximation-Tolerant Cloud Visualizations'
   authors: Ziyun Wei, Haneen Mohammed, Ravi Netravali, Eugene Wu
-  conf: Anticipated 2019
+  conf: Anticipated 2020
   future: true
 - title: 'AlphaClean: Automatic Generation of Data Cleaning Pipelines'
   url: https://arxiv.org/abs/1904.11827
@@ -108,7 +129,6 @@
   authors: Eugene Wu
   url: https://www.dropbox.com/s/ui61nh0y3706sa5/cidr19abstract-v3.pdf?dl=0
   conf: CIDR 2019 Abstract
-  selected: true
   short: true
   tags:
     - ml
