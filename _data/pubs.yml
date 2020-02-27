@@ -124,6 +124,7 @@
   title: 'At a Glance: Approximate Entropy as a Measure of Line Chart Visualization Complexity'
   conf: InfoVIS 2018
   selected: true
+  code: https://github.com/cudbg/pae
   url: https://www.dropbox.com/s/9jipqhq1yqgn5yt/glance-infovis18-camera.pdf?dl=0
   tags:
     - vis
