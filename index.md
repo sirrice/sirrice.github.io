@@ -4,10 +4,13 @@ tags:
 ---
 
 
-* Delighted to recieve the NSF CAREER for automatically generating interactive data analysis interfaces!
-* Eugene gives a tutorial at the VLDB Summer School in Beijing, talk at 8th Workshop for Big Data Analysis and Systems in China, and at Tsinghua University.
-* Our undergrads [Lauren Arnett](https://www.linkedin.com/in/lauren-arnett-6ab037117) and [Robert Netzorg](https://www.linkedin.com/in/robert-netzorg-a1190210a) will be presenting their late breaking work on [studying popularity on live streaming platforms](https://www.dropbox.com/s/n3u1zb23m2q1xjs/popfactor-chilatebreaking19.pdf?dl=0) at CHI next month!
-* Our papers [DeepBase: Deep Inspection of Neural Network](https://www.dropbox.com/s/7yk2gr1qifvgakk/dnn-sigmod19-cr.pdf?dl=0), and [Mining Precision Interfaces From Query Logs](https://arxiv.org/abs/1904.02344) will be presented at SIGMOD 2019!
+* Feb-2020: Excited to share our demo for Physical Visualization Design at SIGMOD 2020!  With Lana Ramjit, Zhaoning Kong, and Ravi Netravali.
+* Feb-2020: Lampros will present our work [Towards Complaint-driven ML Workflow Debugging](#) at the [MLOps workshop](https://mlops-systems.github.io/), part of [MLSys](https://mlsys.org/)!  With Young Wu and Jiannan Wang.
+* Feb-2020: Yiru presented our work on [layout-sensitive interface generation](https://arxiv.org/abs/2001.01902) at the Intelligent Process Automation workshop at AAAI!
+* Dec-2019: Delighted to recieve the NSF CAREER for automatically generating interactive data analysis interfaces!
+* Aug-2019: Eugene gives a tutorial at the VLDB Summer School in Beijing, talk at 8th Workshop for Big Data Analysis and Systems in China, and at Tsinghua University.
+* Jul-2019: Our undergrads [Lauren Arnett](https://www.linkedin.com/in/lauren-arnett-6ab037117) and [Robert Netzorg](https://www.linkedin.com/in/robert-netzorg-a1190210a) will be presenting their late breaking work on [studying popularity on live streaming platforms](https://www.dropbox.com/s/n3u1zb23m2q1xjs/popfactor-chilatebreaking19.pdf?dl=0) at CHI next month!
+* Jun-2019: Our papers [DeepBase: Deep Inspection of Neural Network](https://www.dropbox.com/s/7yk2gr1qifvgakk/dnn-sigmod19-cr.pdf?dl=0), and [Mining Precision Interfaces From Query Logs](https://arxiv.org/abs/1904.02344) will be presented at SIGMOD 2019!
 * Looking forward to presenting our [Deep Neural Inspection work](https://www.dropbox.com/s/abth7ko579cf9mu/dnn-nips19learnsys-cr.pdf?dl=0) at LearningSys@Neurips! 
 * [News article about our At-a-Glance paper at VIS 2018!](https://engineering.columbia.edu/press-releases/eugene-wu-pixel-approximate-entropy)
 * [New blog post about WuLab at VLDB 2018 ](https://medium.com/thewulab/wulab-vldb-2018-82c00cb2599c)
