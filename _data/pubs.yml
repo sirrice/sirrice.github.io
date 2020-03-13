@@ -21,6 +21,13 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
+- title: 'Complaint-driven Training Data Debugging for Query 2.0'
+  authors: Young Wu, Lampros Flokas, Jiannan Wang, Eugene Wu
+  conf: SIGMOD 2020
+  selected; true
+  tags:
+    - ml
+    - mlexplain
 - title: 'Physical Visualization Design'
   authors: Lana Ramjit, Zhaoning Kong, Ravi Netravali, Eugene Wu
   conf: SIGMOD (demo) 2020
