@@ -24,7 +24,7 @@
 - title: 'Complaint-driven Training Data Debugging for Query 2.0'
   authors: Young Wu, Lampros Flokas, Jiannan Wang, Eugene Wu
   conf: SIGMOD 2020
-  selected; true
+  selected: true
   tags:
     - ml
     - mlexplain
