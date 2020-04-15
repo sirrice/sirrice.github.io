@@ -4,7 +4,7 @@ tags:
 ---
 
 
-* Mar-2020: FATALITY!  A new mortal kombat-themed system has been beaten into submission.   Our full paper about Rain: [Complaint-driven Training Data Debugging for Query 2.0](#) will be presented at SIGMOD 2020!  With Young Wu, Lampros Flokas, and Jiannan Wang.
+* Mar-2020: FATALITY!  A [new mortal kombat-themed system](./ninjas) has been beaten into submission.   Our full paper about Rain: [Complaint-driven Training Data Debugging for Query 2.0](#) will be presented at SIGMOD 2020!  With Young Wu, Lampros Flokas, and Jiannan Wang.
 * Feb-2020: Excited to share our demo for [Physical Visualization Design](#) at SIGMOD 2020!  With Lana Ramjit, Zhaoning Kong, and Ravi Netravali.
 * Feb-2020: Lampros will present our work [Towards Complaint-driven ML Workflow Debugging](https://www.dropbox.com/s/yxip1pd6rnxj8ev/mlexplain-mlops20-submitted.pdf?dl=0) at the [MLOps workshop](https://mlops-systems.github.io/), part of [MLSys](https://mlsys.org/)!  With Young Wu and Jiannan Wang.
 * Feb-2020: Yiru presented our work on [layout-sensitive interface generation](https://arxiv.org/abs/2001.01902) at the Intelligent Process Automation workshop at AAAI!
