@@ -1,4 +1,4 @@
-#### Ph.Ds and PostDocs
+#### Phds and PostDocs
 
 [Haneen Mohammed](http://haneensa.github.io/),
 [Yiru Chen](https://ireneruru.github.io/), 
