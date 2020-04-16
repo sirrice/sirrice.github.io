@@ -38,7 +38,7 @@ document.onscroll = (function() {
       .attr("y", function(d, i) { return i*3; })
       .attr("height", 2)
       .attr("x", function(d) { return Math.min(maxwidth, maxwidth * d.dy / maxh);})
-      .attr("width", 2)
+      .attr("width", 3)
       .classed("scrolldot", true);
   };
 

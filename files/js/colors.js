@@ -1,13 +1,10 @@
-function addStyle(str) {
-  var sheet = document.createElement('style')
-  sheet.innerHTML = str; 
-  document.body.appendChild(sheet);
-  return sheet;
-};
 function setColor(idx) {
   var color = "#" + colors[idx % colors.length];
   window.color = color;
-  addStyle("h4,a,.scrolldot { color: " + color + "; fill: " + color + "; };");
+  $("h4,a,.scrolldot").css({
+    color: color,
+    fill: color
+  });
 }
 window.setColor = setColor;
 
@@ -18,10 +15,24 @@ var color = "hsla(" + hue + ", 73%, 52%, 0.7)";
 setColor(Math.floor(Math.random()*colors.length));
 
 var goCray = false;
+var bold = false;
+var h4s = null;
 function randColor() {
+  if (h4s == null) {
+      h4s = $("h4,a");
+  }
+
   if (goCray) {
     setColor(Math.floor(Math.random()*colors.length));
-    setTimeout(randColor, 150);
+    if (bold) {
+      h4s.css("text-decoration", "underline overline");
+    } else {
+      h4s.css("text-decoration", "none");
+    }
+    bold = !bold;
+    setTimeout(randColor, Math.random() * 100 + 100);
+  } else {
+    h4s.css("text-decoration", "none");
   }
 };
 
