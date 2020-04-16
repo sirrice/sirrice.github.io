@@ -23,16 +23,33 @@ function randColor() {
   }
 
   if (goCray) {
-    setColor(Math.floor(Math.random()*colors.length));
-    if (bold) {
-      h4s.css("text-decoration", "underline overline");
+    var idx = Math.floor(Math.random()*colors.length);
+    var _color = '#' + colors[idx % colors.length];
+    setColor(idx);
+    if (1 || bold) {
+      //h4s.css("text-decoration", "underline overline");
+      h4s.css({
+        background: color,
+        color: 'white',
+        fill: 'white'
+      });
     } else {
-      h4s.css("text-decoration", "none");
+      //h4s.css("text-decoration", "none");
+      h4s.css({
+        background: 'none',
+        color: color,
+        fill: color
+      });
     }
     bold = !bold;
     setTimeout(randColor, Math.random() * 100 + 100);
   } else {
-    h4s.css("text-decoration", "none");
+    //h4s.css("text-decoration", "none");
+    h4s.css({
+      background: 'none',
+      color: color,
+      fill: color
+    });
   }
 };
 
