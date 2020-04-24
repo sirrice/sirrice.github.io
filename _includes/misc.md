@@ -41,6 +41,7 @@ North East DB Day ([2016](http://mitdbg.github.io/nedbday/2016))
 **Program Committee**   WWW ([2017](http://www.www2017.com.au/)),
  SIGMOD ([2017](http://sigmod2017.org/), [2019](https://sigmod2019.org)),
  VLDB ([2017](http://www.vldb.org/2017/), 2020),
+ VLDB PhD Workshop (2020),
  HILDA ([2016](http://hilda.io/2016/), [2017](http://hilda.io/2017/), [2020](http://hilda.io/2020)),
  SSDBM ([2017](http://ssdbm2017.eecs.northwestern.edu/)),
  HCOMP ([2017](http://www.humancomputation.com/2017/)),
