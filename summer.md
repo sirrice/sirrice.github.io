@@ -21,7 +21,7 @@ Skills:
 
 ### Project 2. Extending Khameleon's scheduler to use reinforcement learning
 
-Khameleon's scheduler (Section 5 of the paper above) is basically a degenerate version of reinforcement learning.  We are interested to replace the scheduler with a reinforcement learning-based scheduler.  The challenge is to ensure it runs in real-time (in microseconds).
+Khameleon's scheduler ([Section 5 of the paper](https://drive.google.com/file/d/1753VKeIz_uVHnHFd1VxsGbSD5r2XgM0e/view)) is basically a degenerate version of reinforcement learning.  We are interested to replace the scheduler with a reinforcement learning-based scheduler.  The challenge is to ensure it runs in real-time (in microseconds).
 
 
 Skills:
