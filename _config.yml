@@ -22,6 +22,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://eugenewu.net"
 github_username:  sirrice
 
+encoding: utf-8
+
 # Build settings
 markdown: kramdown
 theme: minima
