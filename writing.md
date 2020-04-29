@@ -166,7 +166,9 @@ This is why passive sentences are discouraged.  They often cause the topic posit
 
 #### Summary
 
-These ideas are very simple, but apply consistently to sentences, paragraphs, and even section.  This is a necessary, but not sufficient, condition for constructing a logical sequence of arguments as well.     
+These principles are very simple, but apply consistently to sentences, paragraphs, and even sections.
+Keep in mind that these are _syntactic_ expectations, and do not deal with semantics.
+Adhering to these principles is needed to make the content easier and unambiguous to decode, but _what_ the content is needs to make sense as well.
 
 When writing (or communicating in general) ask yourself these questions:
 
@@ -174,7 +176,6 @@ When writing (or communicating in general) ask yourself these questions:
 * Is the topic related to the previous topic/stress positions?
 * What am I trying to convey?  Is it in the stress position?
 * Is the verb near the subject?
-
 
 To summarize, here is a helpful diagram of everything we discussed:
 
