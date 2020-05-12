@@ -33,19 +33,20 @@ Skills:
 
 ## Precision Interfaces
 
-[Precision interfaces](https://www.dropbox.com/s/09ri46n9zcv7jxh/precisioninterface-ipa20-submitted.pdf?dl=0) is a research project that uses query logs to automatically generate interactive data analysis interfaces.
-For instance, you might do SQL-based analysis in a Jupyter notebook, and the system would generate an interactive visualization interface for the analysis.
+Precision interfaces (see [short paper (newer)](https://arxiv.org/pdf/2001.01902.pdf) or [full paper (older)](https://www.dropbox.com/s/9i0pbkacqpb5s0r/precisioninterface-sigmod19-cr.pdf?dl=0)) is a research project that uses query logs to automatically generate interactive data analysis interfaces.  For instance, you might do SQL-based analysis in a Jupyter notebook, and the system would generate an interactive visualization interface for the analysis.
 
 ### Project 3.  Front-end Engine
 
 The current system generates an abstract interface specification.
-The goal of the summer project is to develop our front-end engine that takes a specification as input, and generates the user-facing interactive interface.
+The goal of the summer project is to develop our front-end engine.
+The engine takes as input a specification, and generates an interactive interface in the browser that the user can use for data analysis.
+
 The basic scaffolding for the engine has been developed, however the details on how it connects to a backend database, how interactions are executed, and the set of widgets and visualizations it supports, all need to be fleshed out.
 The goal is to integrate this engine with Precision Interfaces, and embed both into Jupyter Notebook.
 
 Skills:
 
-* Front-end: javascript, willingness to read JS library source code
+* Front-end: Javascript, willingness to read JS library source code
 * Backend: Python, abstract syntax trees
 
 
