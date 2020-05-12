@@ -1,0 +1,143 @@
+html {
+  font-family: "Open Sans", georgia, helvetica, arial;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: Lora; 
+  line-height: 30pt;
+  margin-bottom: 2em;
+}
+h1 #logo {
+  float:left; font-size: 50pt;
+}
+h1 #tagline {
+  margin-top: -3pt;
+  float:left; font-size: 17pt; line-height: 19pt; padding-left: 1em; color: #aaa;
+}
+h2 {
+  margin-top: 2em;
+  font-family: "Raleway";
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+h4 {
+  margin-top: 2em;
+  font-family: "Raleway";
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+a {
+  text-decoration: none;
+  color: hsla(200, 70%, 55%, 1);
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  background: hsla(200, 70%, 55%, 1);
+}
+
+code {
+  margin-left: 0em;
+}
+
+
+body {
+  background: white;
+  padding: 65px;
+  padding-top: 50px;
+  min-width:600px;
+  width: 80%;
+  line-height: 20pt;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+b, strong {
+  font-weight: bold;
+}
+
+
+
+.callout {
+  font-size: 16pt;
+  text-align: center;
+  letter-spacing: 2px;
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+
+.fig {
+}
+
+.subfig{
+  width: 18%;
+  min-width: 180px;
+  float: left;
+}
+.subfig img {
+  width: 150px;
+}
+.subfig p {
+  text-align: center;
+  width: 90%;
+  font-family: "Computer Modern", serif;
+  color: grey;
+}
+
+
+
+.pubs {
+  font-family: "Open Sans";
+  line-height: 15pt;
+}
+
+
+
+.pubs .authors {
+  font-size: smaller;
+  color: gray;
+}
+.pubs .conf {
+  /*text-transform: uppercase;*/
+  font-size: smaller;
+}
+
+/*ul, ol {
+  list-style-position: outside;
+  list-style-type: none;
+  padding: 0px;
+}
+li {
+  margin-bottom: 1em;
+}
+*/
+
+@media  (max-width:1300px) {
+}
+
+
+
+@media  (max-width:900px) {
+  h4 {
+    margin-top: 2em;
+    font-size: 14pt;
+  }
+  .stitle {
+    text-align: left;
+  }
+  .header div {
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+
