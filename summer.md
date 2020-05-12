@@ -6,9 +6,10 @@ logo: Summer Projects
 
 ### Extending Khameleon
 
+Khameleon is a new prefetching framework for cloud-based interactive applications. The main idea is to trade off latency for response quality by combining progressive encoded response and resource-aware scheduling.    The paper and screenshots [can be found here](https://drive.google.com/file/d/1753VKeIz_uVHnHFd1VxsGbSD5r2XgM0e/view).
+
 ### Project 1. Multi-media Exploration Application
 
-Khameleon is a new prefetching framework for cloud-based interactive applications. The main idea is to trade off latency for response quality by combining progressive encoded response and resource-aware scheduling.    The paper and screenshots [can be found here](https://drive.google.com/file/d/1753VKeIz_uVHnHFd1VxsGbSD5r2XgM0e/view).
 We have already [built a simple demo](https://drive.google.com/file/d/1UwXYxmWAMN9kOb4mdmQuH9EW194BsPOB/view) that lets users explore a big collection of images.  However, it was a custom implementation where we manually encoded the image corpus, loaded it on the server, and built a custom webpage for the demo.  Your project will be one of the following tasks:
 
 1. Generalize our demo into an API that any developer can use to easily set up their own custom image exploration deployment.   Basically, the developer can point to a massive image collection (say, on AWS S3) and write a little bit of front-end code to easily create a custom responsive image exploration app.
@@ -28,6 +29,19 @@ Skills:
 
 * Background in Reinforcement Learning 
 * familiarity or willingness to learn Rust  (it helps to know an OOP language e.g C/C++, Java)
+
+
+### Precision Interfaces
+
+[Precision interfaces](https://www.dropbox.com/s/09ri46n9zcv7jxh/precisioninterface-ipa20-submitted.pdf?dl=0) is a research project that uses query logs to automatically generate interactive data analysis interfaces.
+For instance, you might do SQL-based analysis in a Jupyter notebook, and the system would generate an interactive visualization interface for the analysis.
+
+### Project 3.  Front-end Engine
+
+The current system generates an abstract interface specification.
+The goal of the summer project is to develop our front-end engine that takes a specification as input, and generates the user-facing interactive interface.
+The basic scaffolding for the engine has been developed, however the details on how it connects to a backend database, how interactions are executed, and the set of widgets and visualizations it supports, all need to be fleshed out.
+The goal is to integrate this engine with Precision Interfaces, and embed both into Jupyter Notebook.
 
 
 
