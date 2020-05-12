@@ -4,7 +4,7 @@ color: steelblue
 logo: Summer Projects
 ---
 
-### Extending Khameleon
+## Extending Khameleon
 
 Khameleon is a new prefetching framework for cloud-based interactive applications. The main idea is to trade off latency for response quality by combining progressive encoded response and resource-aware scheduling.    The paper and screenshots [can be found here](https://drive.google.com/file/d/1753VKeIz_uVHnHFd1VxsGbSD5r2XgM0e/view).
 
@@ -31,7 +31,7 @@ Skills:
 * familiarity or willingness to learn Rust  (it helps to know an OOP language e.g C/C++, Java)
 
 
-### Precision Interfaces
+## Precision Interfaces
 
 [Precision interfaces](https://www.dropbox.com/s/09ri46n9zcv7jxh/precisioninterface-ipa20-submitted.pdf?dl=0) is a research project that uses query logs to automatically generate interactive data analysis interfaces.
 For instance, you might do SQL-based analysis in a Jupyter notebook, and the system would generate an interactive visualization interface for the analysis.
@@ -43,5 +43,9 @@ The goal of the summer project is to develop our front-end engine that takes a s
 The basic scaffolding for the engine has been developed, however the details on how it connects to a backend database, how interactions are executed, and the set of widgets and visualizations it supports, all need to be fleshed out.
 The goal is to integrate this engine with Precision Interfaces, and embed both into Jupyter Notebook.
 
+Skills:
+
+* Front-end: javascript, willingness to read JS library source code
+* Backend: Python, abstract syntax trees
 
 
