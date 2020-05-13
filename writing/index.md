@@ -13,18 +13,29 @@ logo: <a href="./">Notes On Writing</a>
 
 One of the biggest challenges in research is writing.  
 
-Science (say math, or physics, or computer science) has a sufficiently unambiguous syntax and language that students are trained to read and learn from it.  However, the quality of english writing classes is hugely variable, and is a major stumbling block for many students.  
+Science (say math, or physics, or programming) has a sufficiently unambiguous syntax and language that students are trained to read and learn from it.  In this I refer to the syntax of "1 + 2".  Unfortunately, the quality of _english_ writing classes is hugely variable, and is a major stumbling block for many students.  
 
 For instance, I have been reviewing lots of student papers and grant proposals this semester, and see the same basic flaws over and over again.  Although the ideas are great, and in some cases the author has done very impressive past work, the writing is sufficiently poor that I cannot give it a positive review.
 
 What most frustrated me during the PhD is that it was never really clear what 'poor writing' meant.  Sure, there were seemingly universal rules such as 'the passive voice should not be used' -- guides such as the Chicago manual and Elements of Style are full of rules.  But where do they come from?  Further, when people would say 'make the text flow better' or 'connect these thoughts',  what does that mean?  I slowly learned through osmosis, but that's not a winning solution.  
 
-The following links are notes for improving your writing.  The text is tailored to folks in Computer Science:
 
-* [Writing as an Encode/Decode process](./encdec)
-* Reducing Ambiguity in Your Writing
-* Be Careful About What You Claim
+## Notes on Writing
 
+The purpose of writing is to communicate to the reader.  Writing is a lossy encoding, and reading is a lossy decoding.   We want the communication to exhibit three properties:
+
+* It is unambiguous
+* It is easy to read
+* It is convincing
+
+Based on these principles, the following are notes to help improve your writing:
+
+* [How to syntactically structure your writing](./encdec)
+* Reduce ambiguity 
+* Be careful about what you claim
+
+
+## Resources
 
 Some good resources include: 
 
