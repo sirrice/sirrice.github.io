@@ -9,13 +9,13 @@ urlprefix: .
 .blue { background: #B4C7E7; }
 </style>
 
-# Writing as an Encode/Decode process
+# How to syntactically structure your writing
 
-The purpose of writing is to communicate to the reader.  Writing is a lossy encoding procedure, and reading is a lossy decoding procedure.   We want the communication to exhibit three properties:
+The purpose of writing is to communicate to the reader.  Since both writing and reading are lossy processes, we want to write in a way that: 
 
-* It is unambiguous
-* It is easy to read (discussed below)
-* It is convincing
+* is unambiguous
+* is easy to read (discussed below)
+* is convincing
 
 It turns out that _syntactic structure_ directly affect the reader's ability to easily and accurately decode what's on the page!
 

@@ -22,11 +22,7 @@ What most frustrated me during the PhD is that it was never really clear what 'p
 
 ## Notes on Writing
 
-The purpose of writing is to communicate to the reader.  Writing is a lossy encoding, and reading is a lossy decoding.   We want the communication to exhibit three properties:
-
-* It is unambiguous
-* It is easy to read
-* It is convincing
+The purpose of writing is to communicate to the reader.  Since both writing and reading are lossy processes, we want to write in a way that is unambiguous, easy to read, and convincing.
 
 Based on these principles, the following are notes to help improve your writing:
 
