@@ -1,30 +1,15 @@
 ---
 layout: page
 color: '#0c6a99'
-logo: Notes On Writing
+logo: <a href="./">Notes On Writing</a>
+urlprefix: .
 ---
 <style>
 .peach { background: #FBE5D6; }
 .blue { background: #B4C7E7; }
 </style>
 
-
-
-One of the biggest challenges in research is writing.  
-
-Science (say math, or physics, or computer science) has a sufficiently unambiguous syntax and language that students are trained to read and learn from it.  However, the quality of english writing classes is hugely variable, and is a major stumbling block for many students.  
-
-For instance, I have been reviewing lots of student papers and grant proposals this semester, and see the same basic flaws over and over again.  Although the ideas are great, and in some cases the author has done very impressive past work, the writing is sufficiently poor that I cannot give it a positive review.
-
-What most frustrated me during the PhD is that it was never really clear what 'poor writing' meant.  Sure, there were seemingly universal rules such as 'the passive voice should not be used' -- guides such as the Chicago manual and Elements of Style are full of rules.  But where do they come from?  Further, when people would say 'make the text flow better' or 'connect these thoughts',  what does that mean?  I slowly learned through osmosis, but that's not a winning solution.  
-
-Below, I discuss how these ideas are useful.   The text is tailored to folks in Computer Science.  The ideas are drawn from the following resources, which discuss the principles and concrete techniques for 'good writing': 
-
-* [The Science of Scientific Writing](http://image.sciencenet.cn/olddata/kexue.com.cn/upload/blog/file/2010/10/20101022939399411.pdf) draws from the fields of rhetoric, linguistics and cognitive psychology to offer a singluar argument: *Readers interpret writing based on its syntactic structure*.  They describe how this informs how to structure your writing.
-* [They Say, I Say](https://www.amazon.com/They-Say-Matter-Academic-Writing/dp/039393361X)
-
-
-## Writing as an Encode/Decode process
+# Writing as an Encode/Decode process
 
 The purpose of writing is to communicate to the reader.  Writing is a lossy encoding procedure, and reading is a lossy decoding procedure.   We want the communication to exhibit three properties:
 
@@ -35,7 +20,7 @@ The purpose of writing is to communicate to the reader.  Writing is a lossy enco
 It turns out that _syntactic structure_ directly affect the reader's ability to easily and accurately decode what's on the page!
 
 
-### Example of Syntactic Structure That Matters
+## Example of Syntactic Structure That Matters
 
 As a trivial example where syntactic structure is important, consider the following information:
 
@@ -67,14 +52,14 @@ This left to right flow is a common pattern that *readers expect when they read 
 
 ```
     Expectation   --->  Discovery
-                   or
+            in other words
        Old info   --->  New Info
 ```
 
 Think about when you read a paper.  You expect it to follow a certain structure of Introduction, Methods, Conclusion, with Related Works thrown in after the intro or before the conclusions.  If the paper is not organized this way, it instills confusion and forces the reader to work harder to figure out why.
 
 
-### Units of Discourse
+## Units of Discourse
 
 Writing is composed of _units of discourse_.  A unit can be a clause, a sentence, a paragraph, a section, or an article.
 The most important principle is that a unit conveys _a single point_.   Consider the following examples:
@@ -94,7 +79,7 @@ The most important principle is that a unit conveys _a single point_.   Consider
 Note that an article is composed of sections, which are composed of paragraphs, and so on.   Thus, you can think of each unit (say, an article) as a tree of smaller units.  Each tree makes a single point, and each node's point is argued in more detail by its child units.  
 
 
-### How to Connect Units Together
+## How to Connect Units Together
 
 
 Consider a unit at the granularity of a sentence.  We will discuss how people rely on its syntactic structure to decode a sentence, and what readers expect when reading from one sentence to the next.  We use sentence as the example, but the principles apply to units of any granularity.  
@@ -108,7 +93,7 @@ These principles are:
 As a example, in the sentence **Spot chased the cat**, the subject refers to **Spot**, the verb is **chased**, and what we learn is that the subject **chased the cat**.
 
 
-#### Subject Followed By Verb
+### Subject Followed By Verb
 
 Once the reader has found the subject, she literally waits in anticipation for the verb.  Without the verb, the reader doesn't know what the subject is doing.  This penalizes the reader in two ways:
 
@@ -125,11 +110,11 @@ The issue is that the subject and verb is separated by over a dozen words; the r
 
 
 
-#### The Stress Position: the Point of the Sentence 
+### The Stress Position: the Point of the Sentence 
 
 The reader mentally inhales when she starts a sentence (or any unit), and exhales at the end.   When she starts, she expects a reference to something she already knows, or has already learned earlier.  When she finishes, she expects to be rewarded with new information.    
 
-> <img src="./files/images/writing/sentence.png" style="width:500" />
+> <img src="../files/images/writing/sentence.png" style="width:500" />
 
 The end of the sentence is called the **Stress Position**.   The reader expects that the point is at the end of the sentence (new information).  In the following example, the reader is likely to think that Spot is a West Nile Lion.
 
@@ -141,22 +126,22 @@ The reason this happens is because the sentence has multiple points that it is t
 
 
 
-#### The Topic Position: Backward Reference
+### The Topic Position: Backward Reference
 
 Finally, the start of the sentence is called the **Topic Position**.   The reader expects something she already knows (old information).  Thus, it should either reference 1) a previous topic position/subject or 2) a previous stress position.   Note that this is typically where the reader expects the subject of the sentence.
 
 
 In the following is an example where the topic position of the second sentence refers to the stress position (<span class='peach'>cat</span>) from the previous sentence.  This is an example of _flow_.  
 
-> <img src="./files/images/writing/topic_ok.png" style="width:300" />
+> <img src="../files/images/writing/topic_ok.png" style="width:300" />
 
 But if the first sentence is different, we lose the flow.    <span class='blue'>The cat</span> does not refer to anything in the previous sentence!
 
-> <img src="./files/images/writing/topic_notok.png" style="width:300" />
+> <img src="../files/images/writing/topic_notok.png" style="width:300" />
 
 We can fix this by making spot the topic of the second sentence.  Now there is a connection (flow) between the two sentences.  
 
-> <img src="./files/images/writing/topic_fixed.png" style="width:300" />
+> <img src="../files/images/writing/topic_fixed.png" style="width:300" />
 
 
 This is why passive sentences are discouraged.  They often cause the topic position to refer to information that is surprising.  Remember, new information (the surprise) should be in the stress position!
@@ -164,7 +149,7 @@ This is why passive sentences are discouraged.  They often cause the topic posit
 
 
 
-#### Summary
+## Summary
 
 These principles are very simple, but apply consistently to sentences, paragraphs, and even sections.
 Keep in mind that these are _syntactic_ expectations, and do not deal with semantics.
@@ -179,5 +164,5 @@ When writing (or communicating in general) ask yourself these questions:
 
 To summarize, here is a helpful diagram of everything we discussed:
 
-> <img src="./files/images/writing/sentence_summary.png" style="width:500" />
+> <img src="../files/images/writing/sentence_summary.png" style="width:500" />
 
