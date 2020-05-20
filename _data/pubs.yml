@@ -34,6 +34,7 @@
   conf: SIGMOD (demo) 2020
   short: true
   selected: true
+  url: https://www.dropbox.com/s/i6dngaqr1xyo9fg/pvd-sigmod20demo-cr.pdf?dl=0
   tags:
     - vis
     - db
