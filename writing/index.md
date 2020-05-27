@@ -27,6 +27,7 @@ The purpose of writing is to communicate to the reader.  Since both writing and 
 Based on these principles, the following are notes to help improve your writing:
 
 * [How to syntactically structure your writing](./encdec.html)
+* What does "provide more context" mean?
 * Reduce ambiguity 
 * Be careful about what you claim
 
