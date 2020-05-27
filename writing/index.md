@@ -24,8 +24,7 @@ What most frustrated me during the PhD is that it was never really clear what 'p
 
 The purpose of writing is to communicate to the reader.  Since both writing and reading are lossy processes, we want to write in a way that is unambiguous, easy to read, and convincing.
 
-Based on these principles, the following is a series of short articles
-to hopefully help improve your writing:
+Based on these principles, the following is a series of short articles to hopefully help improve your writing.  Articles will be added throughout 2020.
 
 * [How to syntactically structure your writing](./encdec.html)
 * What does "provide more context" mean?
