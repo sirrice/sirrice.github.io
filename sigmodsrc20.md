@@ -2,7 +2,9 @@
 layout: sigmodsrc
 ---
 
-# SIGMOD 2020 Student Research Competition Posters
+# [SIGMOD 2020 Student Research Competition Posters](https://sigmod2020.org/sigmod_student_research_competition.shtml) 
+
+
 
 <div class="row">
 {% for p in {{site.data.sigmodsrc20}} %}
