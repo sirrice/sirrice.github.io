@@ -1,0 +1,47 @@
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{page.urlprefix}}./files/css/page.css" />
+
+</head>
+<body>
+
+
+
+
+<h1>
+  <span id="logo" >{{page.logo}}</span>
+  <span id="tagline">{{page.tagline}}</span>
+  <div style="clear=both;width:100%;">&nbsp;</div>
+</h1>
+
+{{content}}
+
+
+<style>
+html { background: {{page.color}}; }
+body {
+  width: 80%;
+  max-width: 80%;
+}
+#logo, h2 { color: {{page.color}}; }
+a { color: {{page.color}}; }
+a:hover { color: white; background: {{page.color}}; }
+</style>
+
+</html>
+
+<script>
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112401455-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112401455-2');
+</script>
+
