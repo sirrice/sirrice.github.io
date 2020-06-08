@@ -11,6 +11,8 @@ layout: sigmodsrc
     {% if p.grade == "Graduate" %}
     <a href="./files/sigmodsrc20/{{p.filename}}">
       <div class="card card bg-light mb-3">
+      <img class="card-img-top" src="./files/sigmodsrc20/{{p.filename}}.png" alt="Screen of poster for {{p.name}}" style="object-fit: none;  object-position: 0 0; height: 200px; width: 100%;" />
+
       <h5 class="card-header" style="color:black">
           {{forloop.index}}. 
           {{p.name}}
@@ -26,6 +28,7 @@ layout: sigmodsrc
     {% else %}
     <a href="./files/sigmodsrc20/{{p.filename}}">
       <div class="card text-white bg-secondary mb-3 ">
+        <img class="card-img-top" src="./files/sigmodsrc20/{{p.filename}}.png" alt="Screen of poster for {{p.name}}" style="object-fit: none; object-position: 0 0;  width: 100%; height: 200px; " />
         <h5 class="card-header" >
           {{forloop.index}}. 
           {{p.name}}
