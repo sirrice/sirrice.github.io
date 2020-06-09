@@ -144,7 +144,7 @@ We can fix this by making spot the topic of the second sentence.  Now there is a
 > <img src="../files/images/writing/topic_fixed.png" style="width:300" />
 
 
-This is why passive sentences are discouraged.  They often cause the topic position to refer to information that is surprising.  Remember, new information (the surprise) should be in the stress position!
+This is why passive sentences are discouraged.  They often move new information into the topic position.  Remember, new information (the surprise) should be in the stress position.  For an example of an extreme abuse of the passive voice, [see this article](https://www.mcsweeneys.net/articles/an-interactive-guide-to-ambiguous-grammar).
 
 
 
