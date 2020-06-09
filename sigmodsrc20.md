@@ -22,7 +22,7 @@ layout: sigmodsrc
    
       <div class="card-body">
         <p class="card-text" style="color: black">
-        {{p.university}}<br/> Ph.D. Student
+        {{p.university}}<br/> Graduate Student
         </p>
       </div>
     </div>
