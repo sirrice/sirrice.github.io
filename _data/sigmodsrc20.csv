@@ -1,19 +1,19 @@
-name,filename,university,grade
-Chen Luo,Chen Luo - chen_luo.pdf,"University of Calfornia, Irvine",Graduate
-Haneen Mohammed,Haneen Mohammed - Haneen_Mohammed.pdf,Columbia University,Graduate
-Hendrik Makait,Hendrik Makait - Hendrik_Makait.pdf,Technische Universität Berlin,Graduate
-Karima Echihabi,Karima Echihabi - Karima_Echihabi.pdf,"ENSIAS, Mohammed V University",Graduate
-Shiva Jahangiri,Shiva_Jahangiri.pdf,"University of California, Irvine",Graduate
-Xiaoshuang Chen,Xiaoshuang Chen - SRC U1_XChen.pdf,The University of New South Wales,Graduate
-Xiaozhong Zhang,Xiaozhong_Zhang.pdf,University of Pittsburgh,Graduate
-Yiru Chen,Yiru_Chen.pdf,Columbia University,Graduate
-Yuliya Susanina,Yuliya Susanina - YULIYA_SUSANINA.pdf,Saint Petersburg State University,Graduate
-Jia Shi,Jia_Shi.pdf,University of Waterloo,Undergraduate
-Justus Adam,justus_adam.pdf,University of Kent,Undergraduate
-Kongzhang Hao,Kongzhang Hao - SRC U1_KHao.pdf,UNSW,Undergraduate
-Kunal Waghray,Kunal Waghray - Kunal_Waghray.pdf,University of Wisconsin - Madison,Undergraduate
-Meena Jagadeesan,Meena_J_Poster.pdf,Harvard University,Undergraduate
-Neil Band,Neil_Band.pdf,Harvard College,Undergraduate
-Noah Slavitch,Noah Slavitch - NOAH_SLAVITCH.pdf,University of Waterloo,Undergraduate
-Wanxin Li,Wanxin Li - Wanxin_Li.pdf,University of Waterloo,Undergraduate
-William Ma,William Ma.pdf,"University of California, Berkeley",Undergraduate
+name,filename,university,grade,session,order,idx,masterorder
+Chen Luo,Chen Luo - chen_luo.pdf,"University of Calfornia, Irvine",Graduate,G1,1,1,1
+Yuliya Susanina,Yuliya Susanina - YULIYA_SUSANINA.pdf,Saint Petersburg State University,Graduate,G1,2,9,2
+Xiaoshuang Chen,Xiaoshuang Chen - SRC U1_XChen.pdf,The University of New South Wales,Graduate,G1,3,6,3
+Karima Echihabi,Karima Echihabi - Karima_Echihabi.pdf,"ENSIAS, Mohammed V University",Graduate,G1,4,4,4
+Hendrik Makait,Hendrik Makait - Hendrik_Makait.pdf,Technische Universität Berlin,Graduate,G1,5,3,5
+Yiru Chen,Yiru_Chen.pdf,Columbia University,Graduate,G2,1,8,6
+Haneen Mohammed,Haneen Mohammed - Haneen_Mohammed.pdf,Columbia University,Graduate,G2,2,2,7
+Shiva Jahangiri,Shiva_Jahangiri.pdf,"University of California, Irvine",Graduate,G2,3,5,8
+Xiaozhong Zhang,Xiaozhong_Zhang.pdf,University of Pittsburgh,Graduate,G2,4,7,9
+Meena Jagadeesan,Meena_J_Poster.pdf,Harvard University,Undergraduate,U1,1,14,10
+Kongzhang Hao,Kongzhang Hao - SRC U1_KHao.pdf,UNSW,Undergraduate,U1,2,12,11
+William Ma,William Ma.pdf,"University of California, Berkeley",Undergraduate,U1,3,18,12
+Noah Slavitch,Noah Slavitch - NOAH_SLAVITCH.pdf,University of Waterloo,Undergraduate,U1,4,16,13
+Justus Adam,justus_adam.pdf,University of Kent,Undergraduate,U1,5,11,14
+Jia Shi,Jia_Shi.pdf,University of Waterloo,Undergraduate,U2,1,10,15
+Wanxin Li,Wanxin Li - Wanxin_Li.pdf,University of Waterloo,Undergraduate,U2,2,17,16
+Neil Band,Neil_Band.pdf,Harvard College,Undergraduate,U2,3,15,17
+Kunal Waghray,Kunal Waghray - Kunal_Waghray.pdf,University of Wisconsin - Madison,Undergraduate,U2,4,13,18

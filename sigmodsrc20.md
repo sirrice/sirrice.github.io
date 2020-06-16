@@ -2,12 +2,37 @@
 layout: sigmodsrc
 ---
 
-# [SIGMOD 2020 Student Research Competition Posters](https://sigmod2020.org/sigmod_student_research_competition.shtml) 
+# [SIGMOD 2020 Student Research Competition](https://sigmod2020.org/sigmod_student_research_competition.shtml) 
 
 
+###  Session Order
+
+{% assign v2 =  site.data.sigmodsrc20 | sorte: "masterorder" %}
+
+
+<table class="table-striped table">
+  <tr>
+  <th>Session</th>
+  <th>Order</th>
+  <th>Student Name</th>
+  </tr>
+
+{% for r in v2 %}
+<tr>
+<td>{{r.session}}</td>
+<td>{{r.order}}</td>
+<td><a href="./files/sigmodsrc20/{{r.filename}}">{{r.name}}</a></td>
+</tr>
+{% endfor %}
+</table>
+
+
+
+
+### Full Poster List
 
 <div class="row">
-{% for p in {{site.data.sigmodsrc20}} %}
+{% for p in site.data.sigmodsrc20 %}
 
   <div class="col-md-4">
     {% if p.grade == "Graduate" %}

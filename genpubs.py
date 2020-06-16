@@ -5,6 +5,7 @@ import sys
 
 mine = """Daniel Alabi
 Fotis Psallidas
+Eugene Wu
 Gabriel Ryan
 Hamed Nilforoshan
 Haneen Mohammed
