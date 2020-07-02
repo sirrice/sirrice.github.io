@@ -21,6 +21,17 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
+- title: 'Noob Saibot: Physiological Instrumentation for Database Engines'
+  authors: Fotis Psallidas, Eugene Wu
+  conf: Anticipated 2019
+  future: true
+- title: 'Continuous Prefetch for Interactive Data Applications'
+  authors: Ziyun Wei, Haneen Mohammed, Ravi Netravali, Eugene Wu
+  conf: VLDB 2020
+  selected: true
+  tags:
+    - db
+    - vis
 - title: 'Complaint-driven Training Data Debugging for Query 2.0'
   authors: Young Wu, Lampros Flokas, Jiannan Wang, Eugene Wu
   conf: SIGMOD 2020
@@ -62,14 +73,6 @@
   authors: Alana Ramjit, Matteo Interlandi, Eugene Wu, Ravi Netravali
   conf: SOCC 2019
   url: https://www.dropbox.com/s/dfq6w7mmlhiclzu/acorn-socc19-cr.pdf?dl=0
-- title: 'Noob Saibot: Physiological Instrumentation for Database Engines'
-  authors: Fotis Psallidas, Eugene Wu
-  conf: Anticipated 2019
-  future: true
-- title: 'Khameleon: Aggressive Prefetching for Approximation-Tolerant Cloud Visualizations'
-  authors: Ziyun Wei, Haneen Mohammed, Ravi Netravali, Eugene Wu
-  conf: Anticipated 2020
-  future: true
 - title: 'AlphaClean: Automatic Generation of Data Cleaning Pipelines'
   url: https://arxiv.org/abs/1904.11827
   authors: Sanjay Krishnan, Eugene Wu
