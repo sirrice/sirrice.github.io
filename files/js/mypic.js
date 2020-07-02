@@ -1,5 +1,5 @@
 var picurls = [
-  "/files/images/eugene.png",
+  "/files/images/eugene.gif",
   "/files/images/wulab_small.png"
 ];
 
