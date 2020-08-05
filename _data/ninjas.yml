@@ -25,6 +25,7 @@ ninjas:
     desc: FLAWLESS VICTORY
   - img: khameleon.png
     name: Khameleon
+    url: https://arxiv.org/pdf/2007.07858.pdf
     desc: rLAWLESS VICTORY
   - img: jade.png
     name: Jade
