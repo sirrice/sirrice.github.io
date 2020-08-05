@@ -29,6 +29,7 @@
   authors: Ziyun Wei, Haneen Mohammed, Ravi Netravali, Eugene Wu
   conf: VLDB 2020
   selected: true
+  url: https://arxiv.org/pdf/2007.07858.pdf
   tags:
     - db
     - vis
