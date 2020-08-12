@@ -12,9 +12,11 @@
 
 [See WuLab for full list](https://cudbg.github.io/lab/)
 
-#### Masters Advising
+#### Masters Question
 
-Questions?  See if [Professor Verma's FAQ page answers your questions](http://www.cs.columbia.edu/~verma/advising.html).
+Current Student?  See if [Professor Verma's FAQ page answers your questions](http://www.cs.columbia.edu/~verma/advising.html).
+
+Questions about the CS Journalism dual degree?  See the [FAQ](./dualdegree)
 
 #### Teaching
 
