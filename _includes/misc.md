@@ -16,7 +16,7 @@
 
 Current Student?  See if [Professor Verma's FAQ page answers your questions](http://www.cs.columbia.edu/~verma/advising.html).
 
-Questions about the CS Journalism dual degree?  See the [FAQ](./dualdegree)
+Questions about the CS Journalism dual degree?  See the [FAQ](./dualdegree.html)
 
 #### Teaching
 
