@@ -25,6 +25,14 @@
   authors: Fotis Psallidas, Eugene Wu
   conf: Anticipated 2019
   future: true
+- title: 'Facilitating Exploration with Interaction Snapshots under High Latency'
+  authors: Yifan Wu, Remco Chang, Joe Hellerstein, Eugene Wu
+  conf: InfoVIS (short paper) 2020
+  short: true
+  selected: true
+  tags:
+    - db
+    - vis
 - title: 'Continuous Prefetch for Interactive Data Applications'
   authors: Haneen Mohammed, Ziyun Wei, Ravi Netravali, Eugene Wu
   conf: VLDB 2020
