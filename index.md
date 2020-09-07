@@ -4,7 +4,7 @@ tags:
 ---
 
 
-* Aug-2020: [For Highly Interactive Apps, Prediction Is Not Enough!](https://medium.com/thewulab/for-responsive-interactive-apps-prediction-is-not-enough-3188bc7b53db).  We put together a blog post to introduce our Khameleon paper!
+* Aug-2020: [For Highly Interactive Apps, Prediction Is Not Enough!](https://medium.com/thewulab/for-responsive-interactive-apps-prediction-is-not-enough-3188bc7b53db) is a blog post to introduce our Khameleon paper.   Haneen also recorded a [short YouTube video summarizing our work](https://www.youtube.com/watch?v=oiU5xytHMm4).
 * Jul-2020: FLAWLESS VICTORY! Khameleon, our rethink of client-server communication for interactive applications will be presented at VLDB 2020!  With Haneen Mohammed, Tracy Wei, and Ravi Netravali. This makes the sixth [mortal kombat-based system](./ninjas.html) that has fallen to science.
 * Jun-2020: Haneen participated in, and won, **first place** at the [2020 SIGMOD student research competition](https://sigmod2020.org/sigmod_student_research_competition.shtml) for her work on [Khameleon](http://eugenewu.net/files/sigmodsrc20/Haneen%20Mohammed%20-%20Haneen_Mohammed.pdf)!!
 * Mar-2020: FATALITY!  A [new mortal kombat-themed system](./ninjas.html) has been beaten into submission.   Our full paper about Rain: [Complaint-driven Training Data Debugging for Query 2.0](https://arxiv.org/pdf/2004.05722.pdf) will be presented at SIGMOD 2020!  With Young Wu, Lampros Flokas, and Jiannan Wang.

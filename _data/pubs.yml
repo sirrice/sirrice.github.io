@@ -25,6 +25,12 @@
   authors: Fotis Psallidas, Eugene Wu
   conf: Anticipated 2019
   future: true
+- title: 'ActiveDeeper: A Model-based Active Data Enrichment system'
+  authors: Liang Zhao, Qingcan Li, Pei Wang, Jiannan Wang, Eugene Wu
+  conf: VLDB (demo) 2020
+  short: true
+  tags:
+    - clean
 - title: 'Facilitating Exploration with Interaction Snapshots under High Latency'
   authors: Yifan Wu, Remco Chang, Joe Hellerstein, Eugene Wu
   conf: InfoVIS (short paper) 2020
