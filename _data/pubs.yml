@@ -45,6 +45,7 @@
   selected: true
   url: https://arxiv.org/pdf/2007.07858.pdf
   video: https://www.youtube.com/watch?v=oiU5xytHMm4
+  blog: https://medium.com/thewulab/for-responsive-interactive-apps-prediction-is-not-enough-3188bc7b53db
   tags:
     - db
     - vis
@@ -54,6 +55,7 @@
   url: https://arxiv.org/pdf/2004.05722.pdf
   selected: true
   video: https://www.youtube.com/watch?v=qvgBmM1LP38
+  blog: https://medium.com/thewulab/complaint-driven-training-data-debugging-94413f6a15fb
   tags:
     - ml
     - mlexplain
