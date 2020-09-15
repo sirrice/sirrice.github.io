@@ -44,6 +44,7 @@
   conf: VLDB 2020
   selected: true
   url: https://arxiv.org/pdf/2007.07858.pdf
+  video: https://www.youtube.com/watch?v=oiU5xytHMm4
   tags:
     - db
     - vis
@@ -52,6 +53,7 @@
   conf: SIGMOD 2020
   url: https://arxiv.org/pdf/2004.05722.pdf
   selected: true
+  video: https://www.youtube.com/watch?v=qvgBmM1LP38
   tags:
     - ml
     - mlexplain
