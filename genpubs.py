@@ -120,6 +120,31 @@ def print_bibtex(pub, id):
     raise e
 
 
+
+def print_medline(pub, id):
+  try:
+    auths = pub.get("authors", "")
+    auths = [auth.strip() for auth in auths.split(",")]
+    auths = "\n".join(["AU  - %s,\r" % a.replace(" ", "") for a in map(format_bibtex_auth, auths)])
+    title = pub.get("title", "")
+    title = title.strip(".")
+    conf = get_conf_name(pub)
+    conf = conf.strip(".")
+    year = get_year(pub)
+    return """TI  - %s\r
+DP  - %s\r
+%s\r
+PG  - \r
+TA  - %s\r
+\r""" % (title, year, auths, conf)
+  except Exception as e:
+    print(e)
+    print(pub)
+    raise e
+
+
+
+
 def get_conf_name(pub):
   ret = []
   for v in pub['conf'].strip().split():
@@ -141,11 +166,13 @@ def get_year(pub):
 @click.command()
 @click.argument("pubfname")
 @click.option("-b", is_flag=True, help="Print bibtex, then exit")
-def main(pubfname, b):
+@click.option("-m", is_flag=True, help="Print MEDLINE format, then exit")
+def main(pubfname, b, m):
   """
-  Give the YML pubs file from the website
+  Input is the YML pubs file from the website
   """
   bibtex = b
+  medline = m
 
 
   with open(pubfname, "r") as f:
@@ -169,6 +196,17 @@ def main(pubfname, b):
       except:
         print >>sys.stderr, pub
     return
+
+  if medline:
+    for pub in data:
+      try:
+        print print_medline(pub, i)
+        i += 1
+      except:
+        print >>sys.stderr, pub
+    return
+
+
 
   if False:
     print "\n\n"
