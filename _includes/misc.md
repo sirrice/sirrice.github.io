@@ -2,8 +2,8 @@
 
 [Haneen Mohammed](http://haneensa.github.io/),
 [Yiru Chen](https://ireneruru.github.io/), 
-[Bill Sun](https://github.com/sunyinqi0508),
-[Zach Huang](http://www.columbia.edu/~zh2408/)
+[Zach Huang](http://www.columbia.edu/~zh2408/),
+[Lampros Flokas](https://dblp.uni-trier.de/pid/185/0725.html)
 
 
 [Fotis Psallidas](http://www.cs.columbia.edu/~fotis/) (Microsoft), 
@@ -77,8 +77,6 @@ North East DB Day ([2016](http://mitdbg.github.io/nedbday/2016))
 
 #### Some Interesting Links
 
-* [Some vis inspiration](./d3gallery.html)
-* [Tufte](http://www.edwardtufte.com)
 * [I made tea](http://www.telescopictext.com/)
 * [layer ping pong](http://eugenewu.net/layerpp.html)
 * [pornp](http://www.pantsornopants.com)
