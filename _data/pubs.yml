@@ -35,6 +35,7 @@
   authors: Yifan Wu, Remco Chang, Joe Hellerstein, Eugene Wu
   conf: InfoVIS (short paper) 2020
   short: true
+  url: https://arxiv.org/pdf/1806.01499.pdf
   selected: true
   tags:
     - db
