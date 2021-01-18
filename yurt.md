@@ -38,7 +38,7 @@ color: '#9E362C'
 
 <script>
 var data = [
-{% for img in site.data.2020card %}
+{% for img in site.data.card2020 %}
   {
     src: "{{img.src}}",
     overlay: {{img.overlay | default: "null"}},
@@ -102,7 +102,7 @@ $(document).keydown(function(e) {
 
 
 // preload
-{% for img in site.data.2020card %}
+{% for img in site.data.card2020 %}
   $("#preload").append($(`<img src="./files/images/2020card/{{img.src}}"></img>`))
 {% endfor %}
 $("#preload").append($(`<img src="./files/images/2020card/sleep-1.png"></img>`))
