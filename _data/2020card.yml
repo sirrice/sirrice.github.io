@@ -1,0 +1,49 @@
+- src: 01.jpg
+  stars: 3
+  name: Car Seat
+  review: The car seat is not the most comfortable, but it keeps me safe and the bear suit keeps me warm.
+- src: 02.jpg
+  name: Couch
+  stars: 5
+  review: I like to sauna after  sleeping on the couch.  It is hot, so hydrate & drink lots of milk! 
+- src: 03.jpg
+  name: Bassinet
+  stars: 3
+  review: The bassinet is getting a bit cramped.  Mom and dad were worried about my lop sided head and wanted me to sleep on one side.
+- src: 04.jpg
+  name: Park Bench
+  stars: 4
+  review: The park bench is not for good Yurts.  I raised my fist in protest.
+- src: 05.jpg
+  name: Boppy
+  stars: 4
+  review: I like to pop bottles in the club, if the club is my boppy.  
+- src: 07.jpg
+  stars: 4
+  name: Boppy
+  review: Mom uses the boppy to teach me how to stare at screens.  
+- src: 08.jpg
+  stars: 1
+  name: Box
+  review: Mom and dad accidentally packed me during the move.  I was angry for a week.
+- src: 09.jpg
+  stars: 4
+  name: Boppy
+  review: I want to be a star, so I asked dad to take head shots for me.  
+- src: 10.jpg
+  stars: 4
+  name: Baby Bjorn
+  review: New York schools are very competitive so I am practicing reading early.  This book puts me to sleep.
+- src: 11.jpg
+  stars: 4
+  name: Boppy
+  review: I like to read on the boppy and think important thoughts. Like, when is dinner?  Do I have a blowout? Am I near sighted or far sighted? 
+- src: 12.jpg
+  stars: 3
+  name: Pack n' Play 
+  review: I like to fly across the pack n' play.  Though it's a bit firm for my taste.
+- src: 14.jpg
+  stars: 3
+  name: Bassinet
+  review: Hey.  What's up girl?  Do you like my pumpkins?
+
