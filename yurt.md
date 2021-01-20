@@ -7,7 +7,7 @@ color: '#9E362C'
 
 <div id="errmsg" style="margin-top: 5ex; text-align: center; font-size: 25pt; color: red; display: none;">
     <img src="./files/images/2020card/v-01.jpg" style="width:200px"/>
-    <div style="margin-top:2em; width: 60%; margin-left: auto; margin-right: auto;">The screen size is too small.  Can you use a larger browser window?</div>
+    <div style="margin-top:2em; width: 60%; margin-left: auto; margin-right: auto;">The screen size is too small.  Can you make the browser window wider?</div>
 </div>
 <div id="container">
   <div style="margin-top: 5ex; text-align: center;">
@@ -112,7 +112,7 @@ $("#preload").append($(`<img src="./files/images/2020card/sleep-5.png"></img>`))
 
 var checkWindowSize = () => {
   console.log($(window).width())
-  if ($(window).width() < 1000) {
+  if ($(window).width() < 700) {
     $("#container").hide();
     $("#errmsg").show();
   } else {
@@ -122,8 +122,8 @@ var checkWindowSize = () => {
 }
 
 $(document).ready(() => {
-  //checkWindowSize();
-  //$(window).resize(checkWindowSize);
+  checkWindowSize();
+  $(window).resize(checkWindowSize);
   
 })
 
