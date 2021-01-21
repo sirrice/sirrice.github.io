@@ -141,6 +141,9 @@ $(document).ready(() => {
 
 
 <style>
+body {
+box-shadow: #333 0px 0px 20px;
+}
 
 #preload {
   display: none;
