@@ -10,14 +10,19 @@ color: '#9E362C'
     <div style="margin-top:2em; width: 60%; margin-left: auto; margin-right: auto;">The screen size is too small.  Can you make the browser window wider?</div>
 </div>
 <div id="container">
+  <div style="text-align: center; margin-top: 2em;">
+    <img src="./files/images/2020card/hi.png" style="width:500px;">
+  </div>
   <div style="margin-top: 5ex; text-align: center;">
     <span id="prev" style="text-align: center;">Prev</span>
     <span id="next" style="text-align: center; margin-left: 3em;">Next</span>
   </div>
   <div class='grid'>
+
     <div class="imgs">
         <img id="overlay" class="sleep-3" src="./files/images/2020card/sleep-3.png" alt="">
-        <img id="yurt" class="yurt square" src="./files/images/2020card/01.jpg" alt="">
+        <!--<img id="yurt" class="yurt square" src="./files/images/2020card/01.jpg" alt="">-->
+        <div id="yurt" class="yurt square" alt=""></div>
     </div>
     <div class="review">
       <h3 id="name"></h3>
@@ -51,6 +56,7 @@ var data = [
 var App = ((data) => {
   var me = () => {};
   me.idx = 0;
+  me.overlayidx = Math.floor(Math.random() * 5) + 1;
   me.prefix = "./files/images/2020card"
   me.overlay = $("#overlay")
   me.yurt = $("#yurt")
@@ -70,11 +76,12 @@ var App = ((data) => {
 
     me.overlay.attr("class", "");
     me.overlay.attr("src", "");
-    img.overlay = Math.floor(Math.random() * 5) + 1;
-    me.overlay.attr("class", `overlay sleep-${img.overlay}`);
-    me.overlay.attr("src", `${me.prefix}/sleep-${img.overlay}.png`);
+    me.overlayidx = (me.overlayidx + 1) % 5 + 1; 
+    me.overlay.attr("class", `overlay sleep-${me.overlayidx}`);
+    me.overlay.attr("src", `${me.prefix}/sleep-${me.overlayidx}.png`);
 
-    me.yurt.attr("src", `${me.prefix}/${img.src}`);
+    //me.yurt.attr("src", `${me.prefix}/${img.src}`);
+    me.yurt.css("background", `center / contain no-repeat url(${me.prefix}/${img.src})`);
     me.title.text(img.name);
     me.stars.attr("class", `stars stars-${img.stars}`);
     me.quote.text(img.review);
@@ -141,6 +148,13 @@ $(document).ready(() => {
 #prev, #next {
   font-size: 20pt;
   cursor: pointer;
+  padding: 1em;
+}
+#prev {
+  padding-left: 5em;
+}
+#next {
+  padding-right: 5em;
 }
 #prev:hover, #next:hover {
   text-decoration: underline;
@@ -151,7 +165,7 @@ $(document).ready(() => {
   height: 300px;
 }
 .review {
-  padding-top: 100px;
+  padding-top: 2em;
   width: 40%;
   display: inline-block;
 }
@@ -180,6 +194,7 @@ $(document).ready(() => {
   flex-Direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-bottom: 5em;
 }
 
 .imgs .overlay {
@@ -219,14 +234,17 @@ $(document).ready(() => {
 
 .imgs .yurt {
   height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: inline-block;
   background-color: #ccc;
   position: relative;
   z-index: 1;
-  box-shadow: 0px 0px 2px 2px gray;
 }
 .imgs {
   margin-top: 100px;
+  margin-top: 2em;
   position: relative;
 }
 
