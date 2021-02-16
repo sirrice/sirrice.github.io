@@ -12,7 +12,7 @@
   review: The bassinet is getting a bit cramped.  Mom and dad were worried about my lop sided head and wanted me to sleep on one side.
 - src: 04.jpg
   name: Park Bench
-  stars: 4
+  stars: 1
   review: The park bench is not for good Yurts.  I raised my fist in protest.
 - src: 05.jpg
   name: Boppy
@@ -29,11 +29,11 @@
 - src: 09.jpg
   stars: 4
   name: Boppy
-  review: I want to be a star, so I asked dad to take head shots for me.  
+  review: I want to be a star, so I asked dad to take my head shot.
 - src: 10.jpg
   stars: 4
   name: Baby Bjorn
-  review: New York schools are very competitive so I am practicing reading early.  This book puts me to sleep.
+  review: New York schools are very competitive so I am practicing reading early.  But this book puts me to sleep.
 - src: 11.jpg
   stars: 4
   name: Boppy
@@ -45,5 +45,5 @@
 - src: 14.jpg
   stars: 3
   name: Bassinet
-  review: Hey.  What's up girl?  Do you like my pumpkins?
+  review: Hey.  Do you like my pumpkins?
 

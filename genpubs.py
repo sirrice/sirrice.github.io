@@ -5,12 +5,15 @@ import sys
 
 mine = """Daniel Alabi
 Fotis Psallidas
-Eugene Wu
+Zachary Huang
+Lana Ramjit
+Lampros Flokas
 Gabriel Ryan
 Hamed Nilforoshan
 Haneen Mohammed
 Qianrui Zhang
 Viraj Rai
+Jacob Fisher
 Haoci Zhang
 Ian Yiran Huang
 Lauren Arnett
@@ -166,8 +169,9 @@ def get_year(pub):
 @click.command()
 @click.argument("pubfname")
 @click.option("-b", is_flag=True, help="Print bibtex, then exit")
+@click.option("-a", is_flag=True, help="Include anticipated papers")
 @click.option("-m", is_flag=True, help="Print MEDLINE format, then exit")
-def main(pubfname, b, m):
+def main(pubfname, b, a, m):
   """
   Input is the YML pubs file from the website
   """
@@ -208,9 +212,9 @@ def main(pubfname, b, m):
 
 
 
-  if False:
+  if a:
     print "\n\n"
-    print "&\\section{In Review and Anticipated}\\\\"
+    print "&\\section{In Progress or In Review}\\\\"
     for pub in filter(lambda pub: pub.get("future"), data):
       pub = print_pub(pub)
       print "\\smallskip $[%d]$ & \\smallskip %s\\\\" % (i+1, pub)
