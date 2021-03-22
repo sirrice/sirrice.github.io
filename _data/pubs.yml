@@ -24,12 +24,12 @@
 #
 - title: 'From Cleaning Before ML to Cleaning For ML'
   authors: Felix Neutatz, Binger Chen, Ziawasch Abedjan, Eugene Wu
-  future: true
-  conf: Invited, IEEE Data Engineering Bulletin 2021 (in review)
+  conf: Invited, IEEE Data Engineering Bulletin 2021 
+  selected: true
 - title: 'DIEL: Interactive Visualization Beyond the Here and Now'
   authors: Yifan Wu, Remco Chang, Joseph Hellerstein, Arvind Satyanarayan, Eugene Wu
   future: true
-  conf: EuroVIS 2021 (in review)
+  conf: VIS 2021 (in review)
 - title: 'Private Federated Explanation of Inference Queries'
   future: true
   authors: Young Wu, Yejia Liu, Lampros Flokas, Jiannan Wang, Eugene Wu
@@ -37,11 +37,11 @@
 - title: 'Explaining SQL-ML Queries with Bayesian Optimization'
   future: true
   authors: Brandon Lockhard, Jiannan Wang, Eugene Wu
-  conf: VLDB 2021 (in review)
+  conf: VLDB 2021 (under revision)
 - title: 'Visual Composition Algebra'
   authors: Eugene Wu
   future: true
-  conf: VIS 2021
+  conf: TVCG 2021
 - title: 'Dynamic Breakpoints for Y-axis Scales'
   authors: Jacob Fisher, Remco Chang, Eugene Wu
   future: true
@@ -50,14 +50,19 @@
   future: true
   authors: Lana Ramjit, Subrata Mitra, Ravi Netravali, Eugene Wu
   conf: VLDB 2021
-- title: 'Reptile: Population-level Explanations for Hierarchical Data'
+- title: 'Reptile: Aggregation-level Explanations for Hierarchical Data'
   future: true
   authors: Zachary Huang, Eugene Wu
-  conf: VLDB 2021
+  conf: VLDB 2021 (in review)
 - title: 'Interactive Visualization Generation From Queries'
   authors: Yiru Chen, Eugene Wu
   future: true
   conf: VLDB 2021
+- title: 'Impact of Cognitive Biases on Progressive Visualization'
+  authors: Marianne Procopio, Ab Mosca, Carlos Scheidegger, Eugene Wu, Remco Chang
+  conf: TVCG 2021
+  tags:
+    - vis
 - title: 'ActiveDeeper: A Model-based Active Data Enrichment system'
   authors: Liang Zhao, Qingcan Li, Pei Wang, Jiannan Wang, Eugene Wu
   conf: VLDB (demo) 2020
