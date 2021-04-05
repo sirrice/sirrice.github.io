@@ -103,22 +103,23 @@ We presented a demo paper in 2020 based on a toy interface, and are in the proce
 
 Precision Interfaces studies whether it is possible to automatically generate interfaces from analysis queries. If so, custom interfaces could be created by simply performing the intended analysis, by monitoring live analysis sessions, or by mining existing query logs (e.g., collected by existing data systems) to synthesize shared interfaces. Further, these interfaces would be highly adapted to individual users’ analysis workflows, reduce cognitive load and user errors, and improve data accessibility.
 
-Our key insight is that interactive interfaces are not arbitrary programs. Instead, interactions change an underlying program in systematic ways: e.g., a slider controls a numeric parameter, a button replaces a query. Thus, an interface expresses the set of queries needed for the desired analysis task, and the input queries are a sample sequence generated from this “latent” interface.  Based on this insight, we [formally modeled this as a mapping problem](https://arxiv.org/abs/1904.02344) from queries to a set of interactive widgets, and extended it to support [natural language, mouse, and touch input  modalities](https://www.dropbox.com/s/0hqjy6ha0antw7u/precisoninterface-sigmod2018demo-cr.pdf?dl=0)  and to [determine layouts based on screen size](https://arxiv.org/abs/2001.01902). Our current work extends this formalism to interactive visualizations, and can generate fully interactive interfaces containing multiple visualizations.
-
 <div class="row"  style="margin: 1em">
   <div class="col-md-12" class='code'><code>select city, product_line, sum(total) from sales as ss where ss.date between '2019-01-05' and '2019-03-10' group by city, product_line having sum(total) >= ( select max(t) from ( select sum(total) as t from sales as s where s.city = ss.city and s.date between '2019-01-05' and '2019-03-10' group by s.city, s.product_line ) )
 ...
 select date, sum(total) from sales where branch = 'A' and product_line = 'Health and beauty' group by date
 select date, sum(total) from sales where branch = 'B' and product_line = 'Electronic accessories' group by date
-select date, sum(total) from sales where branch = 'C' and product_line = 'Fashion accessories' group by date</code> </div>
+...</code> </div>
   <div class="col-md-12">
     <img src="./files/images/statement/pi.png" style="display:inline; width: 100%;"/>
   </div>
   <div class="col-md-12" style="text-align: center; font-style: italic">
-  Precision interfaces analyzes the structural changes in the sample of queries 
-  to generate the interactive visualization.   
+  Precision interfaces uses queries that analyze a <a href="https://www.kaggle.com/aungpyaeap/supermarket-sales">Kaggle supermarket sales dataset</a> to generate the interactive visualization.   The line chart renders total sales over time for different branches (A, B, or C) and product lines (health, electronics, etc).  The bar chart renders the product with the highest sales in each city within the period selected in the line chart.  
   </div>
 </div>
+
+
+Our key insight is that interactive interfaces are not arbitrary programs. Instead, interactions change an underlying program in systematic ways: e.g., a slider controls a numeric parameter, a button replaces a query. Thus, an interface expresses the set of queries needed for the desired analysis task, and the input queries are a sample sequence generated from this “latent” interface.  Based on this insight, we [formally modeled this as a mapping problem](https://arxiv.org/abs/1904.02344) from queries to a set of interactive widgets, and extended it to support [natural language, mouse, and touch input  modalities](https://www.dropbox.com/s/0hqjy6ha0antw7u/precisoninterface-sigmod2018demo-cr.pdf?dl=0)  and to [determine layouts based on screen size](https://arxiv.org/abs/2001.01902). Our current work extends this formalism to interactive visualizations, and can generate fully interactive interfaces containing multiple visualizations.
+
 
 * Yiru Chen, Eugene Wu. [Monte Carlo Tree Search for Generating Interactive Data Analysis Interfaces](https://arxiv.org/abs/2001.01902) Intelligent Process Automation (IPA) 2020
 * Qianrui Zhang, Haoci Zhang, Viraj Rai, Thibault Sellam, Eugene Wu.  [Precision Interfaces](https://arxiv.org/abs/1904.02344) SIGMOD 2019
@@ -157,15 +158,15 @@ Explanation has strong ties to data cleaning. For instance, when explaining an a
 We applied this concept in some of the first data cleaning approaches specifically designed to improve a ML model.  We started by developing an active learning-style framework to iteratively select the training records to clean that will most improve a down-stream model.  We then extended the ideas to a boosting framework to select a good sequence of parameterized cleaning operations to apply, and a hyperparameter tuning framework that views  the entire cleaning pipeline as a black box to optimize.
 
 * Sanjay Krishnan, Jiannan Wang, Eugene Wu, Michael J. Franklin, Ken Goldberg. [Activeclean: Interactive data cleaning for statistical modeling](https://dl.acm.org/doi/abs/10.14778/2994509.2994514) VLDB 2016
-* Sanjay Krishnan, Michael Franklin, Ken Goldberg, Jiannan Wang, Eugene Wu. [ActiveClean: An Interactive Data Cleaning Framework For Modern Machine Learning](http://eugenewu.net/files/papers/activeclean-sigmod16demo.pdf) SIGMOD 2016 demo award winner.
 * Sanjay Krishnan, Eugene Wu.  [AlphaClean: Automatic Generation of Data Cleaning Pipelines](https://arxiv.org/abs/1904.11827) Technical Report 2019
 * Sanjay Krishnan, Michael J. Franklin, Ken Goldberg, Eugene Wu.  [BoostClean: Automated Error Detection and Repair for Machine Learning](https://arxiv.org/abs/1711.01299) Technical Report 2017
+* Sanjay Krishnan, Michael Franklin, Ken Goldberg, Jiannan Wang, Eugene Wu. [ActiveClean: An Interactive Data Cleaning Framework For Modern Machine Learning](http://eugenewu.net/files/papers/activeclean-sigmod16demo.pdf) SIGMOD 2016 demo award winner.
 
 More recently, we developed complaint-driven approaches for training data debugging in ML analysis workflows.  This is a natural fit because evidence of data errors is often only detected in the output of downstream analytics, and they need to be translated into errors in the training.    Rain ranks training data interventions for relational workflows over ML predictions.  It models the query result as a differentiable provenance polynomial over the prediction probabilities, and combines this with influence functions to differentiate the end-to-end training and analysis pipeline.    We further developed offline materialization techniques that lets Rain debug complaints interactively and scale to Neural Networks with millions of parameters.
 
 * Weiyuan Wu, Lampros Flokas, Eugene Wu, Jiannan Wang.  [Complaint-driven Training Data Debugging for Query 2.0](https://arxiv.org/pdf/2004.05722.pdf) SIGMOD 2020
 * Lampros Flokas, Young Wu, Jiannan Wang, Eugene Wu.  [Towards Complaint-driven ML Workflow Debugging](https://www.dropbox.com/s/yxip1pd6rnxj8ev/mlexplain-mlops20-submitted.pdf?dl=0)  MLOps 2020
-* Lampros Flokas, Weiyuan Wu, Yejia Liu, Jiannan Wang, Nakul Verma, Eugene Wu [Complaint-Driven Data Debugging at Interactive Speeds](#)  In submission.
+* Lampros Flokas, Weiyuan Wu, Yejia Liu, Jiannan Wang, Nakul Verma, Eugene Wu [Complaint-Driven Data Debugging at Interactive Speeds](https://www.dropbox.com/s/rxj5os564g0nrmp/rainpp-vldb21-v1.pdf?dl=0)  In submission.
 
 
 <!--
