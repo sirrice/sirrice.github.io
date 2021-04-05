@@ -1,0 +1,27 @@
+<div class="row header" style="z-index: 10;">
+  <div class="col-md-12">
+
+    <div class="row">
+      <div class="col-md-3" style="text-align: center;">
+        <h4 class="eugene">Eugene Wu</h4>
+        <div id="mypic"></div>
+      </div>
+      <div class="col-md-6">
+        <h4>Research Overview</h4>
+        {% capture bio %}{% include statement_bio.md %}{% endcapture %}
+        {{ bio | markdownify }}
+                
+      </div>
+      <div class="col-md-3">
+        {% capture info %}{% include statement_info.md %}{% endcapture %}
+        {{ info | markdownify }}
+ 
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+

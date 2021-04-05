@@ -1,7 +1,7 @@
 function setColor(idx) {
   var color = "#" + colors[idx % colors.length];
   window.color = color;
-  $("h4,a,.scrolldot").css({
+  $("h1,h2,h3,h4,h5,a,.scrolldot").css({
     color: color,
     fill: color
   });

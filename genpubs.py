@@ -38,6 +38,8 @@ def format_auth(auth):
   name = " ".join(name)
   if auth.lower() in mine:
     return "\\underline{\\bf %s}" % name
+  if auth.lower() == "eugene wu":
+    return "\\underline{%s}" % name
   else:
     return name
 

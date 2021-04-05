@@ -1,0 +1,104 @@
+<html>
+   <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>Eugene Wu</title>
+  </head>
+<body>
+
+
+  <!--<img src="{{ "/files/images/cudbg.png" | relative_url }}" id="cudbg"/>-->
+
+<div id="goCrayBtn" onclick="toggleCray()"> </div>
+{% include statement_header.html %}
+<br/>
+
+<div class="row body">
+  <div class="col-md-12">
+
+    <div class="row">
+      <div class="col-md-3" >
+        <div class="sidebar">
+          {% capture nav %}{% include statement_nav.md %}{% endcapture %}
+          {{ nav | markdownify }}
+        </div>
+      </div>
+      <div class="col-md-6">
+        {{ content }}
+      </div>
+      <div class="col-md-3">
+        <div class="sidebar tight">
+        {% capture support %}{% include statement_support.md %}{% endcapture %}
+        {{ support | markdownify }}
+        </div>
+       </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+{% include footer.html %}
+
+
+{% include includes.html %}
+
+<style>
+li {
+  margin-bottom: 0px;
+}
+h1,h2,h3 {
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-family: serif;
+  margin-bottom: .75em;
+}
+.body h4 {
+  margin-top: 20pt;
+}
+.body h1 {
+  margin-top: 20pt;
+}
+
+h1 {
+  font-size: 20pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+}
+h2 {
+  font-size: 18pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+}
+h3 {
+  font-size: 16pt;
+  text-transform: uppercase;
+  margin-top: 2em;
+}
+h4 {
+  font-size: 16pt;
+  text-transform: none;
+}
+h5 {
+  font-size: 14pt;
+  font-family: serif;
+  margin-top: 30pt;
+}
+.caption{ display: block;width: 94%; margin:auto; font-style: italic; }
+ul, ol {
+  list-style-type: circle;
+  list-style-position: outside;
+  padding-left: 1.5rem
+}
+
+
+</style>
+
+
+
+</body>
+
+

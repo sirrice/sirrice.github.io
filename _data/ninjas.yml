@@ -26,7 +26,13 @@ ninjas:
   - img: khameleon.png
     name: Khameleon
     url: https://arxiv.org/pdf/2007.07858.pdf
-    desc: rLAWLESS VICTORY
+    desc: FLAWLESS VICTORY
+  - img: rain.png
+    name: Rain
+    desc: FLAWLESS VICTORY
+  - img: reptile.png
+    desc: In Submission
+    name: Reptile
   - img: jade.png
     name: Jade
   - img: kitana.png
@@ -35,8 +41,4 @@ ninjas:
     name: Mileena
   - img: noobsaibot.png
     name: Noob Saibot
-  - img: rain.png
-    name: Rain
-    desc: FLAWLESS VICTORY
-  - img: reptile.png
-    name: Reptile
+
