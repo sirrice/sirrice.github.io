@@ -145,7 +145,7 @@ More recently, we started a collaboration with Columbia Earth Institute's Financ
 
 * Zezhou "Zachary" Huang, Eugene Wu.  [Reptile: Aggregation-level Explanations for Hierarchical Data](https://arxiv.org/pdf/2103.07037.pdf)  In review.
 
-Since our work appeared, many in the database community have extended it to different applications or types of errors or complaints, and developed highly scalable implementations.  For example, see [Miao et al.](http://www.vldb.org/pvldb/vol12/p1806-miao.pdf), [Roy et al.](https://dl.acm.org/doi/pdf/10.14778/2856318.2856329), and [Abuzaid et al.](https://link.springer.com/article/10.1007/s00778-020-00633-6).
+Since our work appeared, many in the database community have extended it to different applications and to different types of errors or complaints, and developed highly scalable implementations.  For example, see [Miao et al.](http://www.vldb.org/pvldb/vol12/p1806-miao.pdf), [Roy et al.](https://dl.acm.org/doi/pdf/10.14778/2856318.2856329), and [Abuzaid et al.](https://link.springer.com/article/10.1007/s00778-020-00633-6).
 
 <a name="rain"/>
 ##### Complaint-driven Debugging
