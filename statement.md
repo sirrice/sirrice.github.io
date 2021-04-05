@@ -17,8 +17,8 @@ Fotis Psallidas and I observed that although no such engines existed, the fact t
 
 
 <div style="text-align: center; width: 100%; margin: 1em;">
-<img src="./files/images/statement/smoke.gif" style="display:block; margin: auto; width: 95%;"/>
-<span class="caption" >14.4M tuple flights dashboard that simulates every possible filter interaction.  Smoke materializes lineage when it runs the queries to load the initial charts, and optimizes each interaction using the lineage indexes.  The benchmark finishes before vis-specific data cubes are built.    </span>
+<img src="./files/images/statement/smoke.gif" style="display:block; margin: auto; width: 60%;"/>
+<span class="caption" >14.4M tuple flights dashboard that simulates every possible filter interaction.  Smoke materializes lineage when it runs the queries to load the initial charts, and optimizes each interaction using the lineage indexes.  Smoke finishes the benchmark before data cubes can even be built. </span>
 </div>
 
 Our [HILDA paper](https://www.dropbox.com/s/fkp5hk1gp4lrg9h/smoke-hilda18.pdf?dl=0) articulated the connections between lineage and visualization interaction, and also described how lineage enables novel interface functionalities such as data explanation, cross-application linking and interactions, interaction histories, and interaction-by-example.    We are currently studying additional opportunities for piggy backing in production late-materialization columnar engines, and how lineage data structures can be easily managed with minimal memory pressure.
@@ -103,15 +103,28 @@ We presented a demo paper in 2020 based on a toy interface, and are in the proce
 
 Precision Interfaces studies whether it is possible to automatically generate interfaces from analysis queries. If so, custom interfaces could be created by simply performing the intended analysis, by monitoring live analysis sessions, or by mining existing query logs (e.g., collected by existing data systems) to synthesize shared interfaces. Further, these interfaces would be highly adapted to individual users’ analysis workflows, reduce cognitive load and user errors, and improve data accessibility.
 
-My key insight is that interactive interfaces are not arbitrary programs. Instead, interactions change an underlying program in systematic ways: e.g., a slider controls a numeric parameter, a button replaces a query. Thus, an interface expresses the set of queries needed for the desired analysis task, and the input queries are a sample sequence generated from this “latent” interface. 
+Our key insight is that interactive interfaces are not arbitrary programs. Instead, interactions change an underlying program in systematic ways: e.g., a slider controls a numeric parameter, a button replaces a query. Thus, an interface expresses the set of queries needed for the desired analysis task, and the input queries are a sample sequence generated from this “latent” interface.  Based on this insight, we [formally modeled this as a mapping problem](https://arxiv.org/abs/1904.02344) from queries to a set of interactive widgets, and extended it to support [natural language, mouse, and touch input  modalities](https://www.dropbox.com/s/0hqjy6ha0antw7u/precisoninterface-sigmod2018demo-cr.pdf?dl=0)  and to [determine layouts based on screen size](https://arxiv.org/abs/2001.01902). Our current work extends this formalism to interactive visualizations, and can generate fully interactive interfaces containing multiple visualizations.
 
-We have developed a [formal model of the mapping problem](https://arxiv.org/abs/1904.02344) from queries to a set of interactive widgets, and extended it to support [different interaction modalities](https://www.dropbox.com/s/0hqjy6ha0antw7u/precisoninterface-sigmod2018demo-cr.pdf?dl=0) (e.g., natural language, touch) and [determine layouts based on screen size](https://arxiv.org/abs/2001.01902). Our current work extends this formalism to interactive visualizations, and can generate fully interactive interfaces containing multiple visualizations.
+<div class="row"  style="margin: 1em">
+  <div class="col-md-12" class='code'><code>select city, product_line, sum(total) from sales as ss where ss.date between '2019-01-05' and '2019-03-10' group by city, product_line having sum(total) >= ( select max(t) from ( select sum(total) as t from sales as s where s.city = ss.city and s.date between '2019-01-05' and '2019-03-10' group by s.city, s.product_line ) )
+...
+select date, sum(total) from sales where branch = 'A' and product_line = 'Health and beauty' group by date
+select date, sum(total) from sales where branch = 'B' and product_line = 'Electronic accessories' group by date
+select date, sum(total) from sales where branch = 'C' and product_line = 'Fashion accessories' group by date</code> </div>
+  <div class="col-md-12">
+    <img src="./files/images/statement/pi.png" style="display:inline; width: 100%;"/>
+  </div>
+  <div class="col-md-12" style="text-align: center; font-style: italic">
+  Precision interfaces analyzes the structural changes in the sample of queries 
+  to generate the interactive visualization.   
+  </div>
+</div>
 
 * Yiru Chen, Eugene Wu. [Monte Carlo Tree Search for Generating Interactive Data Analysis Interfaces](https://arxiv.org/abs/2001.01902) Intelligent Process Automation (IPA) 2020
 * Qianrui Zhang, Haoci Zhang, Viraj Rai, Thibault Sellam, Eugene Wu.  [Precision Interfaces](https://arxiv.org/abs/1904.02344) SIGMOD 2019
 * Haoci Zhang, Viraj Rai, Thibault Sellam, Eugene Wu. [Precision Interfaces for Different Modalities](https://www.dropbox.com/s/0hqjy6ha0antw7u/precisoninterface-sigmod2018demo-cr.pdf?dl=0) SIGMOD 2018 demo
 
-### Interaction & Explanation
+### Explanation
 
 What interaction capabilities should future data interfaces support?   I believe a core capability is to explain the data that the user sees.    My research introduced this problem, and extended its ideas towards ML debugging.
 
@@ -141,7 +154,7 @@ Explanation has strong ties to data cleaning. For instance, when explaining an a
 * Felix Neutatz, Binger Chen, Ziawasch Abedjan, Eugene Wu.  [From Cleaning before ML to Cleaning for ML](http://sites.computer.org/debull/A21mar/p24.pdf) IEEE Data Engineering Bulletin 2021
 
 
-We applied this concept in some of the first data cleaning approaches specifically designed to improve a ML model.  ActiveClean recommends the best training records to clean that will improve a model, BoostClean uses a boosting framework to select a good sequence of parameterized cleaning operations to apply, and AlphaClean treats the problem as pipeline parameter tuning.  
+We applied this concept in some of the first data cleaning approaches specifically designed to improve a ML model.  We started by developing an active learning-style framework to iteratively select the training records to clean that will most improve a down-stream model.  We then extended the ideas to a boosting framework to select a good sequence of parameterized cleaning operations to apply, and a hyperparameter tuning framework that views  the entire cleaning pipeline as a black box to optimize.
 
 * Sanjay Krishnan, Jiannan Wang, Eugene Wu, Michael J. Franklin, Ken Goldberg. [Activeclean: Interactive data cleaning for statistical modeling](https://dl.acm.org/doi/abs/10.14778/2994509.2994514) VLDB 2016
 * Sanjay Krishnan, Michael Franklin, Ken Goldberg, Jiannan Wang, Eugene Wu. [ActiveClean: An Interactive Data Cleaning Framework For Modern Machine Learning](http://eugenewu.net/files/papers/activeclean-sigmod16demo.pdf) SIGMOD 2016 demo award winner.
@@ -155,5 +168,7 @@ More recently, we developed complaint-driven approaches for training data debugg
 * Lampros Flokas, Weiyuan Wu, Yejia Liu, Jiannan Wang, Nakul Verma, Eugene Wu [Complaint-Driven Data Debugging at Interactive Speeds](#)  In submission.
 
 
+<!--
 ##### Visual Composition Algebra
+-->
 

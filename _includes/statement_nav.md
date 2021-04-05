@@ -1,8 +1,8 @@
 
 ### Systems
 
-* [Lineage](#smoke)
-* [Communication](#khameleon)
+* [Lineage Instrumentation in Query Engines](#smoke)
+* [General Prefetching Framework](#khameleon)
 * [Perceptual Approximation](#perc)
 
 ### Interfaces & Design

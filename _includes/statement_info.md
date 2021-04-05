@@ -1,6 +1,6 @@
 #### Materials
 
-* [Research Statement](#)
-* [Teaching Statement](#)
-* [CV (4/1/20)](#)
+* [Research Statement](./files/statement/reserach.pdf)
+* [Teaching Statement](./files/statement/teaching.pdf)
+* [CV (4/1/20)](./files/statement/cv.pdf)
 
