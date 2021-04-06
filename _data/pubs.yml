@@ -62,17 +62,20 @@
 - title: 'Impact of Cognitive Biases on Progressive Visualization'
   authors: Marianne Procopio, Ab Mosca, Carlos Scheidegger, Eugene Wu, Remco Chang
   conf: TVCG 2021
+  url: https://www.dropbox.com/s/kzjotdoq9zpmuxf/marianne-bias-tvcg20-cr.pdf?dl=0
   tags:
     - vis
 - title: 'ActiveDeeper: A Model-based Active Data Enrichment system'
   authors: Liang Zhao, Qingcan Li, Pei Wang, Jiannan Wang, Eugene Wu
   conf: VLDB (demo) 2020
   short: true
+  url: https://www.dropbox.com/s/7a2vgemw6za9u4o/deeper-vldb20demo-cr.pdf?dl=0
   tags:
     - clean
 - title: 'From Cleaning Before ML to Cleaning For ML'
   authors: Felix Neutatz, Binger Chen, Ziawasch Abedjan, Eugene Wu
   conf: Invited, IEEE Data Engineering Bulletin 2021 
+  url: http://sites.computer.org/debull/A21mar/p24.pdf
   tags:
     - clean
     - mlexplain

@@ -18,6 +18,13 @@ Current Student?  See if [Professor Verma's FAQ page answers your questions](htt
 
 Questions about the CS Journalism dual degree?  See the [FAQ](./dualdegree.html)
 
+#### Applying To the Lab
+
+* [PhDs + Postdocs](./apply.html), 
+* [Interns + Undergrads + Masters](https://ewuuu.wufoo.com/forms/z1mh8vwi1q2p3tp/)
+
+
+
 #### Teaching
 
 * [Systems for Human Data Interaction](https://columbiaviz.github.io/2020s_w6998/) S20
