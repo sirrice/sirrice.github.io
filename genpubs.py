@@ -78,7 +78,17 @@ def print_pub(pub):
     title = title.strip(".")
     conf = pub.get("conf", "")
     conf = conf.strip(".")
-    return "%s. ``{\\it %s.}'' %s." % (auths, title, conf)
+    rate = pub.get("rate", "")
+    citations = pub.get("citations", "")
+    misc = []
+    if rate:
+      misc.append("acceptance rate: %s\\%%" % rate)
+    if citations:
+      misc.append("citations: %d" % citations)
+    misc = ", ".join(misc)
+    if misc:
+      misc = "(%s)" % misc
+    return "%s. ``{\\it %s.}'' %s. %s" % (auths, title, conf, misc)
   except Exception as e:
     print(e)
     print(pub)
