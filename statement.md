@@ -104,16 +104,18 @@ We presented a demo paper in 2020 based on a toy interface, and are in the proce
 Precision Interfaces studies whether it is possible to automatically generate interfaces from analysis queries. If so, custom interfaces could be created by simply performing the intended analysis, by monitoring live analysis sessions, or by mining existing query logs (e.g., collected by existing data systems) to synthesize shared interfaces. Further, these interfaces would be highly adapted to individual users’ analysis workflows, reduce cognitive load and user errors, and improve data accessibility.
 
 <div class="row"  style="margin: 1em">
-  <div class="col-md-12" class='code'><code>select city, product_line, sum(total) from sales as ss where ss.date between '2019-01-05' and '2019-03-10' group by city, product_line having sum(total) >= ( select max(t) from ( select sum(total) as t from sales as s where s.city = ss.city and s.date between '2019-01-05' and '2019-03-10' group by s.city, s.product_line ) )
+  <!--<div class="col-md-12" class='code'><code>select city, product_line, sum(total) from sales as ss where ss.date between '2019-01-05' and '2019-03-10' group by city, product_line having sum(total) >= ( select max(t) from ( select sum(total) as t from sales as s where s.city = ss.city and s.date between '2019-01-05' and '2019-03-10' group by s.city, s.product_line ) )
 ...
 select date, sum(total) from sales where branch = 'A' and product_line = 'Health and beauty' group by date
 select date, sum(total) from sales where branch = 'B' and product_line = 'Electronic accessories' group by date
-...</code> </div>
+...</code> </div>-->
   <div class="col-md-12">
-    <img src="./files/images/statement/pi.png" style="display:inline; width: 100%;"/>
+    <div style="position: relative; padding-bottom: 55.46995377503852%; height: 0;"><iframe src="https://www.loom.com/embed/6551e2208acb484cac29dd37f3488d6f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <!--<img src="./files/images/statement/pi.png" style="display:inline; width: 100%;"/>-->
   </div>
   <div class="col-md-12" style="text-align: center; font-style: italic">
-  Precision interfaces uses queries that analyze a <a href="https://www.kaggle.com/aungpyaeap/supermarket-sales">Kaggle supermarket sales dataset</a> to generate the interactive visualization.   The line chart renders total sales over time for different branches (A, B, or C) and product lines (health, electronics, etc).  The bar chart renders the product with the highest sales in each city within the period selected in the line chart.  
+  Precision interfaces incrementally generates interfaces based on queries that have been executed.  It abstracts the structural transformations (such as switching subqueries and contexutally modifying them) and maps the transformations to visualizations and interactions.
+  <!--Precision interfaces uses queries that analyze a <a href="https://www.kaggle.com/aungpyaeap/supermarket-sales">Kaggle supermarket sales dataset</a> to generate the interactive visualization.   The line chart renders total sales over time for different branches (A, B, or C) and product lines (health, electronics, etc).  The bar chart renders the product with the highest sales in each city within the period selected in the line chart.  -->
   </div>
 </div>
 
