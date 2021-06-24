@@ -8,6 +8,8 @@ layout: statement
 It is very difficult to design and build interactive data analysis interfaces that are useful for a given analysis task, highly responsive, and scalable to large datasets.  Developers must piece together technologies that span the browser, server, database, and cloud platforms, and attempt to optimize across all of these layers.  This motivated me to develop optimization and programming abstractions that are specific to the needs of interactive data interfaces.
 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1q8ZiPGv_z8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <a name="smoke"/>
 ##### Lineage Instrumentation in Query Engines
 

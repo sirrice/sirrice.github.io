@@ -39,7 +39,7 @@
 - title: 'Dynamic Breakpoints for Y-axis Scales'
   authors: Jacob Fisher, Remco Chang, Eugene Wu
   future: true
-  conf: InfoVIS  2021 (in progress, short paper)
+  conf: InfoVIS  2021 (in review, short paper)
 - title: 'Physical Visualization Design'
   future: true
   authors: Lana Ramjit, Subrata Mitra, Ravi Netravali, Eugene Wu
@@ -55,7 +55,7 @@
 - title: 'DIEL: Interactive Visualization Beyond the Here and Now'
   authors: Yifan Wu, Remco Chang, Joseph Hellerstein, Arvind Satyanarayan, Eugene Wu
   rate: approx 20
-  conf: VIS 2021 
+  conf: VIS 2021 (conditionally accepted)
 - title: 'PopFactor: Live-Streamer Behavior and Popularity'
   conf: ICWSM 2021
   rate: approx 20
