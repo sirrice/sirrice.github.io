@@ -24,22 +24,16 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
-- title: 'Private Federated Explanation of Inference Queries'
-  future: true
-  authors: Young Wu, Yejia Liu, Lampros Flokas, Jiannan Wang, Eugene Wu
-  conf: VLDB 2021 (in review)
 - title: 'Visual Composition Algebra'
   authors: Eugene Wu
   future: true
   conf: TVCG 2021 (in review)
-- title: 'Explaining SQL-ML Queries with Bayesian Optimization'
-  future: true
-  authors: Brandon Lockhard, Jiannan Wang, Eugene Wu
-  conf: VLDB 2021 (under revision)
 - title: 'Dynamic Breakpoints for Y-axis Scales'
   authors: Jacob Fisher, Remco Chang, Eugene Wu
   future: true
   conf: InfoVIS  2021 (in review, short paper)
+  tags:
+    - vis
 - title: 'Physical Visualization Design'
   future: true
   authors: Lana Ramjit, Subrata Mitra, Ravi Netravali, Eugene Wu
@@ -48,14 +42,28 @@
   future: true
   authors: Zachary Huang, Eugene Wu
   conf: SIGMOD 2022 (in progress)
-- title: 'Interactive Visualization Generation From Queries'
+  tags:
+    - dbexplain
+- title: 'PI2: Generating Visual Analysis Interfaces From Queries'
   authors: Yiru Chen, Eugene Wu
   future: true
   conf: SIGMOD 2022 (in progress)
+- title: 'Private Federated Explanation of Inference Queries'
+  selected: true
+  authors: Young Wu, Yejia Liu, Lampros Flokas, Jiannan Wang, Eugene Wu
+  conf: VLDB 2022 
+  tags:
+    - mlexplain
+- title: 'Explaining SQL-ML Queries with Bayesian Optimization'
+  selected: true
+  authors: Brandon Lockhard, Jiannan Wang, Eugene Wu
+  conf: VLDB 2021
+  tags:
+    - mlexplain
 - title: 'DIEL: Interactive Visualization Beyond the Here and Now'
   authors: Yifan Wu, Remco Chang, Joseph Hellerstein, Arvind Satyanarayan, Eugene Wu
   rate: approx 20
-  conf: VIS 2021 (conditionally accepted)
+  conf: VIS 2021 
 - title: 'PopFactor: Live-Streamer Behavior and Popularity'
   conf: ICWSM 2021
   rate: approx 20
@@ -90,7 +98,6 @@
   conf: InfoVIS (short paper) 2020
   short: true
   url: https://arxiv.org/pdf/1806.01499.pdf
-  selected: true
   tags:
     - db
     - vis
@@ -120,7 +127,6 @@
   authors: Lana Ramjit, Zhaoning Kong, Ravi Netravali, Eugene Wu
   conf: SIGMOD (demo) 2020
   short: true
-  selected: true
   url: https://www.dropbox.com/s/i6dngaqr1xyo9fg/pvd-sigmod20demo-cr.pdf?dl=0
   tags:
     - vis
@@ -129,7 +135,6 @@
   authors: Lampros Flokas, Young Wu, Jiannan Wang, Eugene Wu
   conf: MLOps 2020
   url: https://www.dropbox.com/s/yxip1pd6rnxj8ev/mlexplain-mlops20-submitted.pdf?dl=0
-  selected: true
   short: true
   tags:
     - ml
@@ -215,7 +220,6 @@
   authors: Yiru Chen, Yiliang Shi, Boyuan Chen, Thibault Sellam, Carl Vondrick, Eugene Wu
   url: https://www.dropbox.com/s/abth7ko579cf9mu/dnn-nips19learnsys-cr.pdf?dl=0
   conf: LearnSys 2018 Workshop at NIPS
-  selected: true
   short: true
   tags:
     - ml
@@ -241,7 +245,6 @@
   citations: 13
   conf: InfoVIS 2018
   rate: 25.13
-  selected: true
   code: https://github.com/cudbg/pae
   url: https://www.dropbox.com/s/9jipqhq1yqgn5yt/glance-infovis18-camera.pdf?dl=0
   tags:
@@ -269,7 +272,6 @@
   conf: SIGMOD (demo) 2018
   short: true
   url: https://www.dropbox.com/s/0hqjy6ha0antw7u/precisoninterface-sigmod2018demo-cr.pdf?dl=0
-  selected: true
   tags:
     - vis
     - pi
@@ -292,7 +294,6 @@
   title: '"I Like the Way You Think!" Inspecting the Internal Logic of Recurrent Neural Networks'
   conf: SysML 2018
   url: https://www.dropbox.com/s/7r8abwnpcmg1k1k/dnn-sysml18.pdf?dl=0
-  selected: true
   tags:
   - ml
   - mlexplain
@@ -319,7 +320,6 @@
   conf: Tech Report 2017
   url: https://arxiv.org/abs/1712.00078
   short: true
-  selected: true
   tags:
   - vis
   - pi
@@ -371,7 +371,6 @@
   url: https://www.dropbox.com/s/x8g0zljv7bmfpuo/palm-hilda17.pdf?dl=0
   short: true
   conf: HILDA 2017
-  selected: true
   tags:
   - ml
   - mlexplain
@@ -431,7 +430,6 @@
   tags:
   - vis
   title: A DeVIL-ish Approach to Inconsistency in Interactive Visualizations
-  selected: true
   url: http://sirrice.github.io/files/papers/devil-hilda16.pdf
 - authors: Daniel Alabi, Eugene Wu
   conf: HILDA 2016
@@ -499,7 +497,6 @@
 - authors: Eugene Wu, Arnab Nandi
   conf: DSIA 2015
   short: true
-  selected: true
   slides: http://www.eugenewu.net/files/talks/perceptvis_dsia2015.pdf
   tags:
   - vis
@@ -644,14 +641,12 @@
   url: http://sirrice.github.io/files/papers/qurk-sigmod2011.pdf
 - authors: Eugene Wu, Carlo Curino, Sam Madden
   conf: CIDR 2011
-  selected: true
   tags:
   - db
   title: No Bits Left Behind
   url: http://sirrice.github.io/files/papers/bits-cidr11.pdf
 - authors: Adam Marcus, Eugene Wu, Sam Madden, Robert Miller
   conf: CIDR 2011
-  selected: true
   citations: 248
   tags:
   - crowd
