@@ -62,8 +62,9 @@
     - mlexplain
 - title: 'DIEL: Interactive Visualization Beyond the Here and Now'
   authors: Yifan Wu, Remco Chang, Joseph Hellerstein, Arvind Satyanarayan, Eugene Wu
-  rate: approx 20
   conf: VIS 2021 
+  tags:
+    - vis
 - title: 'PopFactor: Live-Streamer Behavior and Popularity'
   conf: ICWSM 2021
   rate: approx 20
