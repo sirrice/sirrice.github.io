@@ -12,4 +12,11 @@ Co-Chair: <a href="http://datascienceinstitute.github.io">Data, Media & Society<
 Advisor:  <a href="http://www.cs.columbia.edu/education/ms/journalism/">Journalism + CS Dual Degree</a><br/>
 Member: <a href="http://cudbg.github.io/">Columbia DB</a>, <a href="http://www.cs.columbia.edu/">Columbia CS</a>, <a href="http://datascience.columbia.edu/">DSI</a><br/>
 
-Support: [NSF 1527765](http://perceptvis.github.io/), [NSF 1564049](https://nsfdeclarativevis.github.io/NSFDeclarativeVis/), [NSF CAREER 1845638](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1845638&HistoricalAwards=false), [NSF 2008295](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2008295&HistoricalAwards=false), [Amazon](http://www.cs.columbia.edu/2018/with-amazon-research-award-eugene-wu-will-add-interactivity-and-adversarial-generation-to-entity-matching/), [Google](http://www.cs.columbia.edu/2018/peter-allen-and-eugene-wu-selected-for-google-faculty-research-awards/)
+Support:
+[NSF 1527765](http://perceptvis.github.io/),
+[NSF 1564049](https://nsfdeclarativevis.github.io/NSFDeclarativeVis/),
+[NSF CAREER 1845638](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1845638&HistoricalAwards=false),
+[NSF 2008295](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2008295&HistoricalAwards=false),
+[NSF 2106197](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2106197&HistoricalAwards=false),
+[Amazon](http://www.cs.columbia.edu/2018/with-amazon-research-award-eugene-wu-will-add-interactivity-and-adversarial-generation-to-entity-matching/),
+[Google](http://www.cs.columbia.edu/2018/peter-allen-and-eugene-wu-selected-for-google-faculty-research-awards/)
