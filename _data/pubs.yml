@@ -78,13 +78,6 @@
   url: https://www.dropbox.com/s/kzjotdoq9zpmuxf/marianne-bias-tvcg20-cr.pdf?dl=0
   tags:
     - vis
-- title: 'ActiveDeeper: A Model-based Active Data Enrichment system'
-  authors: Liang Zhao, Qingcan Li, Pei Wang, Jiannan Wang, Eugene Wu
-  conf: VLDB 2020 demo
-  short: true
-  url: https://www.dropbox.com/s/7a2vgemw6za9u4o/deeper-vldb20demo-cr.pdf?dl=0
-  tags:
-    - clean
 - title: 'From Cleaning Before ML to Cleaning For ML'
   authors: Felix Neutatz, Binger Chen, Ziawasch Abedjan, Eugene Wu
   conf: Invited, IEEE Data Engineering Bulletin 2021 
@@ -102,6 +95,13 @@
   tags:
     - db
     - vis
+- title: 'ActiveDeeper: A Model-based Active Data Enrichment system'
+  authors: Liang Zhao, Qingcan Li, Pei Wang, Jiannan Wang, Eugene Wu
+  conf: VLDB 2020 demo
+  short: true
+  url: https://www.dropbox.com/s/7a2vgemw6za9u4o/deeper-vldb20demo-cr.pdf?dl=0
+  tags:
+    - clean
 - title: 'Continuous Prefetch for Interactive Data Applications'
   authors: Haneen Mohammed, Ziyun Wei, Ravi Netravali, Eugene Wu
   conf: VLDB 2020
