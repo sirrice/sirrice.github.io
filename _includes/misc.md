@@ -3,7 +3,8 @@
 [Haneen Mohammed](http://haneensa.github.io/),
 [Yiru Chen](https://ireneruru.github.io/), 
 [Zach Huang](http://www.columbia.edu/~zh2408/),
-[Lampros Flokas](https://dblp.uni-trier.de/pid/185/0725.html)
+[Lampros Flokas](https://dblp.uni-trier.de/pid/185/0725.html),
+Charlie Summers
 
 
 [Fotis Psallidas](http://www.cs.columbia.edu/~fotis/) (Microsoft), 
@@ -45,7 +46,7 @@ SIGMOD NRS ([2017](http://sigmod2017.org/new-researcher-symposium/)),
 SIGMOD Travel Award (2015, 2016),
 North East DB Day ([2016](http://mitdbg.github.io/nedbday/2016))   
 
-**Area Chair**   ICDE ([2017](http://icde2017.sdsc.edu/)), VLDB (2021)  
+**Area Chair**   ICDE ([2017](http://icde2017.sdsc.edu/)), VLDB ([2021](https://vldb.org/2021/), [2022](https://vldb.org/2022/))  
 
 **Program Committee**   WWW ([2017](http://www.www2017.com.au/)),
  SIGMOD ([2017](http://sigmod2017.org/), [2019](https://sigmod2019.org)),
