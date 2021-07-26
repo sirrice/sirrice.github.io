@@ -28,12 +28,6 @@
   authors: Eugene Wu
   future: true
   conf: TVCG 2021 (in review)
-- title: 'Dynamic Breakpoints for Y-axis Scales'
-  authors: Jacob Fisher, Remco Chang, Eugene Wu
-  future: true
-  conf: InfoVIS  2021 (in review, short paper)
-  tags:
-    - vis
 - title: 'Physical Visualization Design'
   future: true
   authors: Lana Ramjit, Subrata Mitra, Ravi Netravali, Eugene Wu
@@ -48,6 +42,12 @@
   authors: Yiru Chen, Eugene Wu
   future: true
   conf: SIGMOD 2022 (in progress)
+- title: 'Dynamic Breakpoints for Y-axis Scales'
+  authors: Jacob Fisher, Remco Chang, Eugene Wu
+  conf: InfoVIS  2021 (short paper)
+  short: true
+  tags:
+    - vis
 - title: 'Private Federated Explanation of Inference Queries'
   selected: true
   authors: Young Wu, Yejia Liu, Lampros Flokas, Jiannan Wang, Eugene Wu
