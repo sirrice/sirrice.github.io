@@ -157,6 +157,11 @@ TA  - %s\r
     print(pub)
     raise e
 
+def print_latex(pub, i, b_year):
+  year = b_year and get_year(pub) or ""
+  pub = print_pub(pub)
+  return "\\smallskip %s& $[%d]$ \\smallskip %s\\\\" % (year, i, pub)
+
 
 
 
@@ -224,27 +229,33 @@ def main(pubfname, b, a, m):
 
 
 
+  prev_year = None
+  i = 0
   if a:
     print "\n\n"
     print "&\\section{In Progress or In Review}\\\\"
     for pub in filter(lambda pub: pub.get("future"), data):
-      pub = print_pub(pub)
-      print "\\smallskip $[%d]$ & \\smallskip %s\\\\" % (i+1, pub)
+      year = get_year(pub)
+      print print_latex(pub, i+1, prev_year != year)
+      prev_year = year
       i += 1
 
 
   print "\n\n"
   print "&\\section{Full Publications}\\\\"
   for pub in filter(lambda pub: not pub.get("future") and not pub.get("short"), data):
-    pub = print_pub(pub)
-    print "\\smallskip $[%d]$ & \\smallskip %s\\\\" % (i+1, pub)
+    year = get_year(pub)
+    print print_latex(pub, i+1, prev_year != year)
+    prev_year = year
     i += 1
+
 
   print "\n\n"
   print "&\\section{Short Papers, Technical Reports, and Demos}\\\\"
   for pub in filter(lambda pub: pub.get("short"), data):
-    pub = print_pub(pub)
-    print "\\smallskip $[%d]$ & \\smallskip %s\\\\" % (i+1, pub)
+    year = get_year(pub)
+    print print_latex(pub, i+1, prev_year != year)
+    prev_year = year
     i += 1
 
   # print "\n\n"

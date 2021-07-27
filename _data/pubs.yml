@@ -24,24 +24,31 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
+- title: 'Physical Visualization Design'
+  future: true
+  authors: Lana Ramjit, Subrata Mitra, Ravi Netravali, Eugene Wu
+  conf: VLDB 2022 (in progress)
 - title: 'Visual Composition Algebra'
   authors: Eugene Wu
   future: true
   conf: TVCG 2021 (in review)
-- title: 'Physical Visualization Design'
-  future: true
-  authors: Lana Ramjit, Subrata Mitra, Ravi Netravali, Eugene Wu
-  conf: SIGMOD 2022 (in progress)
 - title: 'Reptile: Aggregation-level Explanations for Hierarchical Data'
   future: true
   authors: Zachary Huang, Eugene Wu
-  conf: SIGMOD 2022 (in progress)
+  conf: SIGMOD 2022 (in review)
   tags:
     - dbexplain
 - title: 'PI2: Generating Visual Analysis Interfaces From Queries'
   authors: Yiru Chen, Eugene Wu
   future: true
-  conf: SIGMOD 2022 (in progress)
+  conf: VLDB 2022 (in review)
+- title: 'Complaint-Driven Training Data Debugging at Interactive Speeds'
+  authors: Lampros Flokas, Young Wu, Jiannan Wang, Nakul Verma, Eugene Wu
+  conf: SIGMOD 2022 (in review)
+  future: true
+  tags:
+    - mlexplain
+    - dbexplain
 - title: 'Dynamic Breakpoints for Y-axis Scales'
   authors: Jacob Fisher, Remco Chang, Eugene Wu
   conf: InfoVIS  2021 (short paper)
