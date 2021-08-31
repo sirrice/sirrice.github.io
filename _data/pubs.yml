@@ -27,7 +27,7 @@
 - title: 'Physical Visualization Design'
   future: true
   authors: Lana Ramjit, Subrata Mitra, Ravi Netravali, Eugene Wu
-  conf: VLDB 2022 (in progress)
+  conf: SIGMOD 2022 (in progress)
 - title: 'Visual Composition Algebra'
   authors: Eugene Wu
   future: true
@@ -52,6 +52,7 @@
 - title: 'Dynamic Breakpoints for Y-axis Scales'
   authors: Jacob Fisher, Remco Chang, Eugene Wu
   conf: InfoVIS  2021 (short paper)
+  url: https://www.dropbox.com/s/3oehfixhsg1ftk8/breakpoints-vis21short-camera-submitted.pdf?dl=0
   short: true
   tags:
     - vis
@@ -63,6 +64,7 @@
     - mlexplain
 - title: 'Explaining SQL-ML Queries with Bayesian Optimization'
   selected: true
+  url: https://arxiv.org/pdf/2102.05308.pdf
   authors: Brandon Lockhard, Jiannan Wang, Eugene Wu
   conf: VLDB 2021
   tags:
@@ -70,11 +72,13 @@
 - title: 'DIEL: Interactive Visualization Beyond the Here and Now'
   authors: Yifan Wu, Remco Chang, Joseph Hellerstein, Arvind Satyanarayan, Eugene Wu
   conf: VIS 2021 
+  url: https://arxiv.org/pdf/1907.00062.pdf
   tags:
     - vis
 - title: 'PopFactor: Live-Streamer Behavior and Popularity'
   conf: ICWSM 2021
   rate: approx 20
+  url: https://www.dropbox.com/s/1fommgp9lz1hwxz/popfactor-icwsm21-cr.pdf?dl=0
   authors: Robert Netzorg, Lauren Arnett, Augustin Chaintreau, Eugene Wu
   tags:
     - crowd
