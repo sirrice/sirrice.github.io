@@ -167,6 +167,8 @@
   conf: SOCC 2019
   rate: 25
   url: https://www.dropbox.com/s/dfq6w7mmlhiclzu/acorn-socc19-cr.pdf?dl=0
+  tags:
+    - db
 - title: 'AlphaClean: Automatic Generation of Data Cleaning Pipelines'
   citations: 12
   url: https://arxiv.org/abs/1904.11827
