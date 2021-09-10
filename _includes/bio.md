@@ -16,11 +16,19 @@ Eugene Wu has received the VLDB 2018 10-year test of time award, best-of-confere
 <!--by [@mstem](http://partnews.brownbag.me/2012/02/29/interview-matt-stempeck-wants-to-change-the-world-with-tech/),-->
 
 <div style="margin-top: 1em;font-size: 12pt; ">
+<p>
   The WuLab 
   <a href="http://cudbg.github.io/lab">Website</a>
   & 
   <a href="https://medium.com/thewulab">Blog</a>
+</p>
+<p>
+  We are recruiting
+  <a href="./apply.html">PhDs + Postdocs</a>, and
+  <a href="https://ewuuu.wufoo.com/forms/z1mh8vwi1q2p3tp/">Interns + UGrad + Masters</a>!
+</p>
 </div>
+
 
 <div class="applyheading" style="text-align: left; ">
   <a href="./statement">Overview of My Research and Teaching</a>
