@@ -29,11 +29,10 @@ Questions about the CS Journalism dual degree?  See the [FAQ](./dualdegree.html)
 #### Teaching
 
 * [Intro to DB](http://w4111.github.io) S19, F18, F16, F15
-* [Systems for Human Data Interaction](https://columbiaviz.github.io/2020s_w6998/) F21 S20 
+* [Systems for Human Data Interaction](https://columbiaviz.github.io/) F21 S20 S17
 * [Database Research Topics](https://w6113.github.io) F20 S19
 * [Big Data Systems](http://w4121.github.io/) S18, S17, S16
 * [Database Topics in Research & Practice](https://columbiadb.github.io/index) S18
-* [Columbia Viz](https://columbiaviz.github.io/) S17
 * [From Ascii to Answers](http://db.csail.mit.edu/6.885/)@MIT 
 * [Data IAP](https://dataiap.github.io)@MIT
 
