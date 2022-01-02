@@ -15,11 +15,12 @@ color: '#9E362C'
   <h1>Happy 2021 Holidays!</h1>
   <p>Elliot is now a little boy that waddles around, smiles at strangers, and splashes in puddles.
   He loves finding animals in his books and pointing out other books that have the same animals.
-  He's started daycare in September, and absolutely loves it.  
+  He also started daycare in September, and absolutely loves it.  
   The teachers told us that "<i>Elliot's friendly personality is conquering everybody's heart in the classroom.</i>"
   </p>
   <p>
-  We're also thankful of Lydia and Eugene's parents for visiting us multiple times this years to
+  We did not expect the amount of cooking and cleaning that a Yurt demands,
+  so we're also thankful of Lydia and Eugene's parents for visiting us multiple times over the past year to
   help take care of Yurt (and us).
   </p>
 
