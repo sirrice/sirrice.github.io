@@ -26,25 +26,53 @@
 #
 - title: 'Physical Visualization Design'
   future: true
-  authors: Lana Ramjit, Subrata Mitra, Ravi Netravali, Eugene Wu
-  conf: SIGMOD 2022 (in progress)
+  authors: Lana Ramjit, Yiru Chen, Subrata Mitra, Ravi Netravali, Eugene Wu
+  conf: VLDB 2022 (in progress)
+- title: 'Calibrated Junction HyperTrees for Data Augmentations'
+  future: true
+  authors: Zachary Huang, Eugene Wu
+  conf: VLDB 2022 (in progress)
+- title: 'SmokedDuck: Fast Lineage in Analytical Databases'
+  future: true
+  authors: Haneen Mohammed, Charlie Summers, Eugene Wu
+  conf: VLDB 2022 (in progress)
+- title: 'How I Stopped Worrying About Training Data Bugs and Started Complaining'
+  future: true
+  authors: Lampros Flokas, Weiuan Wu, Jiannan Wang, Nakul Verma, Eugene Wu
+  conf: DEEM Workshop 2022 (in progress)
+- title: 'Fast Deletion Interventions with Application to Query Explanations'
+  future: true
+  authors: Alexander Yao, Lampros Flokas, Eugene Wu
+  conf: VLDB 2022 (in progress)
+- title: 'Centralized Data Market Designs for AutoML'
+  future: true
+  authors: Pranav Subramaniam, Zachary Huang, Raul Fernandez, Eugene Wu
+  conf: VLDB 2022 (in progress)
+- title: 'Interactive Interface Generation in Notebooks'
+  future: true
+  authors: Jeffrey Tao, Yiru Chen, Eugene Wu
+  conf: VLDB 2022 demo (in progress)
+- title: 'Interactive Interface Generation Using Natural Language'
+  future: true
+  authors: Alexander Yao, Yiru Chen, Eugene Wu
+  conf: InfoVIS (in progress)
 - title: 'Visual Composition Algebra'
   authors: Eugene Wu
   future: true
-  conf: TVCG 2021 (in review)
+  conf: TVCG 2021 (in revision)
 - title: 'Reptile: Aggregation-level Explanations for Hierarchical Data'
   future: true
   authors: Zachary Huang, Eugene Wu
-  conf: SIGMOD 2022 (in review)
+  conf: SIGMOD 2022 (in revision)
   tags:
     - dbexplain
 - title: 'PI2: Generating Visual Analysis Interfaces From Queries'
   authors: Yiru Chen, Eugene Wu
   future: true
-  conf: VLDB 2022 (in review)
+  conf: VLDB 2022 (in revision)
 - title: 'Complaint-Driven Training Data Debugging at Interactive Speeds'
   authors: Lampros Flokas, Young Wu, Jiannan Wang, Nakul Verma, Eugene Wu
-  conf: SIGMOD 2022 (in review)
+  conf: SIGMOD 2022 (in revision)
   future: true
   tags:
     - mlexplain

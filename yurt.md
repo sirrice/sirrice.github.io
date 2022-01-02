@@ -1,257 +1,103 @@
 ---
-layout: card
-logo: Yurt's 2020 Review of Beds
+layout: card2021
 color: '#9E362C'
 ---
 
-
-<div id="errmsg" style="margin-top: 5ex; text-align: center; font-size: 25pt; color: red; display: none;">
-    <img src="./files/images/2020card/v-01.jpg" style="width:200px"/>
-    <div style="margin-top:2em; width: 60%; margin-left: auto; margin-right: auto;">The screen size is too small.  Can you make the browser window wider?</div>
-</div>
-<div id="container">
-  <div style="text-align: center; margin-top: 2em;">
-    <img src="./files/images/2020card/hi.png" style="width:500px;">
-  </div>
-  <div style="margin-top: 5ex; text-align: center;">
-    <span id="prev" style="text-align: center;">Prev</span>
-    <span id="next" style="text-align: center; margin-left: 3em;">Next</span>
-  </div>
-  <div class='grid'>
-
-    <div class="imgs">
-        <img id="overlay" class="sleep-3" src="./files/images/2020card/sleep-3.png" alt="">
-        <!--<img id="yurt" class="yurt square" src="./files/images/2020card/01.jpg" alt="">-->
-        <div id="yurt" class="yurt square" alt=""></div>
+<!-- The video -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+    <video autoplay loop id="myVideo" onclick="myFunction()">
+      <source src="{{page.urlprefix}}./files/images/2021card/elliotvideo.mp4"  />
+    </video>
     </div>
-    <div class="review">
-      <h3 id="name"></h3>
-      <div id="stars" class="stars stars-{{img.stars}}"> </div>
-      <div id="quote" class="quote">
-        {{img.review}}
-      </div>
-    </div>
-    
+  <div  class="col-md-4 text">
+  <h1>Happy 2021 Holidays!</h1>
+  <p>Elliot is now a little boy that waddles around, smiles at strangers, and splashes in puddles.
+  He loves finding animals in his books and pointing out other books that have the same animals.
+  He's started daycare in September, and absolutely loves it.  
+  The teachers told us that "<i>Elliot's friendly personality is conquering everybody's heart in the classroom.</i>"
+  </p>
+  <p>
+  We're also thankful of Lydia and Eugene's parents for visiting us multiple times this years to
+  help take care of Yurt (and us).
+  </p>
+
+  <p>
+  Click the video to pause/play.
+  Oh, and don't miss <a href="./yurt2020">his 2020 review of beds</a>!
+  </p>
   </div>
-
-
+  </div>
 </div>
 
-<div id="preload" style="position: absolute; left: -1000px; top: -1000px">
-</div>
-
-<script>
-var data = [
-{% for img in site.data.card2020 %}
-  {
-    src: "{{img.src}}",
-    overlay: {{img.overlay | default: "null"}},
-    name: "{{img.name | default: ""}}",
-    stars: {{img.stars }},
-    review: "{{img.review}}"
-  },
-{% endfor %}
-]
-
-var App = ((data) => {
-  var me = () => {};
-  me.idx = 0;
-  me.overlayidx = Math.floor(Math.random() * 5) + 1;
-  me.prefix = "./files/images/2020card"
-  me.overlay = $("#overlay")
-  me.yurt = $("#yurt")
-  me.title = $("#name")
-  me.stars = $("#stars")
-  me.quote = $("#quote")
-
-  me.step = (n) => {
-    me.idx += n;
-    while (me.idx < 0) me.idx += data.length;
-    me.idx = me.idx % data.length;
-    return me.render();
-  }
-
-  me.render = () => {
-    var img = data[me.idx];
-
-    me.overlay.attr("class", "");
-    me.overlay.attr("src", "");
-    me.overlayidx = (me.overlayidx + 1) % 5 + 1; 
-    me.overlay.attr("class", `overlay sleep-${me.overlayidx}`);
-    me.overlay.attr("src", `${me.prefix}/sleep-${me.overlayidx}.png`);
-
-    //me.yurt.attr("src", `${me.prefix}/${img.src}`);
-    me.yurt.css("background", `center / contain no-repeat url(${me.prefix}/${img.src})`);
-    me.title.text(img.name);
-    me.stars.attr("class", `stars stars-${img.stars}`);
-    me.quote.text(img.review);
-    return me;
-  }
-
-  return me;
-})(data)
-
-$("#prev").on('click', () => { App.step(-1); })
-$("#next").on('click', () => { App.step(1); })
-App.render()
-
-$(document).keydown(function(e) {
-    switch (e.which) {
-      case 39:
-        App.step(1);
-        break;
-      case 37:
-        App.step(-1);
-        break;
-    }
-});
-
-
-// preload
-{% for img in site.data.card2020 %}
-  $("#preload").append($(`<img src="./files/images/2020card/{{img.src}}"></img>`))
-{% endfor %}
-$("#preload").append($(`<img src="./files/images/2020card/sleep-1.png"></img>`))
-$("#preload").append($(`<img src="./files/images/2020card/sleep-2.png"></img>`))
-$("#preload").append($(`<img src="./files/images/2020card/sleep-3.png"></img>`))
-$("#preload").append($(`<img src="./files/images/2020card/sleep-4.png"></img>`))
-$("#preload").append($(`<img src="./files/images/2020card/sleep-5.png"></img>`))
-
-var checkWindowSize = () => {
-  console.log($(window).width())
-  if ($(window).width() < 700) {
-    $("#container").hide();
-    $("#errmsg").show();
-  } else {
-    $("#container").show();
-    $("#errmsg").hide();
-  }
-}
-
-$(document).ready(() => {
-  checkWindowSize();
-  $(window).resize(checkWindowSize);
-  
-})
-
-</script>
-
-
-
-
+<!-- Optional: some overlay text to describe the video -->
 
 <style>
-body {
-box-shadow: #333 0px 0px 20px;
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 50%;
+  max-height: 100%;
 }
-
-#preload {
-  display: none;
-}
-#prev, #next {
-  font-size: 20pt;
+#myVideo:hover {
   cursor: pointer;
-  padding: 1em;
-}
-#prev {
-  padding-left: 5em;
-}
-#next {
-  padding-right: 5em;
-}
-#prev:hover, #next:hover {
-  text-decoration: underline;
+  background: whitesmoke;
 }
 
-.square {
-  /*width: 300px;*/
-  height: 300px;
+.text {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+
 }
-.review {
-  padding-top: 2em;
-  width: 40%;
-  display: inline-block;
+/* Add some content at the bottom of the video/page */
+.content {
+display: none;
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
 }
-.quote {
-  font-size: 18pt;
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
   color: black;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.stars {
-  width: 250px;
-  height: 30px;
-  margin-left: -10px;
-  background-image:url(./files/images/2020card/stars.png);
-  background-size: 200px;
-  background-repeat: no-repeat;
-}
-.stars-1 { background-position: -10px -18px; }
-.stars-2 { background-position: -10px -65px; }
-.stars-3 { background-position: -8px -116px; }
-.stars-4 { background-position: -12px -162px; }
-.stars-5 { background-position: -9px -214px; }
-
-
-.grid {
-  display: flex;
-  flex-Direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-bottom: 5em;
-}
-
-.imgs .overlay {
-  width: 200px;
-  display: inline-block;
-  position: absolute;
-  z-index: 10;
-  margin: 0px;
-}
-.imgs  .sleep-3 {
-  width: 150px;
-  top: -37%;
-  left: -4%;
-  z-index: 10;
-}
-.imgs  .sleep-1 {
-  width: 200px;
-  bottom: -20%;
-  right: -30%;
-}
-.imgs  .sleep-2 {
-  width: 200px;
-  bottom: -10%;
-  left: -25%;
-}
-.imgs .sleep-4 {
-  width: 100px;
-  bottom: -10%;
-  left: -18%;
-}
-.imgs  .sleep-5 {
-  width: 110px;
-  bottom: -10%;
-  right: -20%;
-}
-
-
-.imgs .yurt {
-  height: 250px;
-  width: 250px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-color: #ccc;
-  position: relative;
-  z-index: 1;
-}
-.imgs {
-  margin-top: 100px;
-  margin-top: 2em;
-  position: relative;
-}
-
-
 </style>
 
 
+
+<script>
+// Get the video
+var video = document.getElementById("myVideo");
+
+// Get the button
+//var btn = document.getElementById("myBtn");
+
+// Pause and play the video, and change the button text
+function myFunction() {
+  if (video.paused) {
+    video.play();
+   // btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    //btn.innerHTML = "Play";
+  }
+}
+</script>
