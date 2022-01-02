@@ -20,7 +20,7 @@ color: '#9E362C'
   </p>
   <p>
   We did not expect the amount of cooking and cleaning that a Yurt demands,
-  so we're also thankful of Lydia and Eugene's parents for visiting us multiple times over the past year to
+  so we're grateful that Lydia and Eugene's parents visited us multiple times over the past year to
   help take care of Yurt (and us).
   </p>
 
@@ -50,7 +50,7 @@ color: '#9E362C'
 
 .text {
   position: fixed;
-  top: 40%;
+  top: 35%;
   left: 50%;
 
 }
