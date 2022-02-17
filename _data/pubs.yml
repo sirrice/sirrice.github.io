@@ -56,20 +56,23 @@
   future: true
   authors: Alexander Yao, Yiru Chen, Eugene Wu
   conf: InfoVIS (in progress)
-- title: 'Visual Composition Algebra'
-  authors: Eugene Wu
-  future: true
-  conf: TVCG 2021 (in revision)
-- title: 'Reptile: Aggregation-level Explanations for Hierarchical Data'
-  future: true
-  authors: Zachary Huang, Eugene Wu
-  conf: SIGMOD 2022 (in revision)
-  tags:
-    - dbexplain
 - title: 'PI2: Generating Visual Analysis Interfaces From Queries'
   authors: Yiru Chen, Eugene Wu
   future: true
   conf: VLDB 2022 (in revision)
+- title: 'Visual Composition Algebra'
+  authors: Eugene Wu
+  conf: TVCG 2022 
+  selected: true
+  url: https://arxiv.org/abs/2202.07836
+  tags:
+    - vis
+- title: 'Reptile: Aggregation-level Explanations for Hierarchical Data'
+  authors: Zachary Huang, Eugene Wu
+  conf: SIGMOD 2022 
+  url: https://arxiv.org/abs/2103.07037
+  tags:
+    - dbexplain
 - title: 'A Neural Network Solves and Generates Mathematics Problems by Program Synthesis: Calculus, Differential Equations, Linear Algebra, and More'
   authors: Iddo Drori, Sunny Tran, Roman Wang, Newman Cheng, Kevin Liu, Leonard Tang, Elizabeth Ke, Nikhil Singh, Taylor L. Patti, Jayson Lynch, Avi Shporer, Nakul Verma, Eugene Wu, Gilbert Strang
   url: https://arxiv.org/abs/2112.15594
@@ -78,7 +81,6 @@
 - title: 'Complaint-Driven Training Data Debugging at Interactive Speeds'
   authors: Lampros Flokas, Young Wu, Jiannan Wang, Nakul Verma, Eugene Wu
   conf: SIGMOD 2022
-  future: true
   tags:
     - mlexplain
     - dbexplain
