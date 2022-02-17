@@ -81,6 +81,7 @@
 - title: 'Complaint-Driven Training Data Debugging at Interactive Speeds'
   authors: Lampros Flokas, Young Wu, Jiannan Wang, Nakul Verma, Eugene Wu
   conf: SIGMOD 2022
+  selected: true
   tags:
     - mlexplain
     - dbexplain
@@ -92,7 +93,6 @@
   tags:
     - vis
 - title: 'Private Federated Explanation of Inference Queries'
-  selected: true
   authors: Young Wu, Yejia Liu, Lampros Flokas, Jiannan Wang, Eugene Wu
   conf: VLDB 2022 
   tags:
