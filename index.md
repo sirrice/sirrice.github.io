@@ -4,10 +4,15 @@ tags:
 ---
 
 
-* Jun-2021: Looking forward to giving one of the keynotes at [SEA DATA](https://sea-data.ml/) at VLDB 2021 this summer!
+* Feb-2022: Excited to have received tenure!
+* Feb-2022: our paper **[Visual Composition Algebra for Ad hoc Comparisons](https://arxiv.org/abs/2202.07836)**  was accepted to TVCG 2022 and will be presented at VIS later this year.
+* Jan-2022: 2 more paper acceptances to SIGMOD 2022: our demo paper **Interactive Interface Generation in Notebooks** extends jupyter to automatically generate interactive analysis interfaces during SQL analysis, and our full paper **Complaint-Driven Training Data Debugging at Interactive Speeds** enables training data debugging by simply identifying errors in analytic results in milliseconds!
+* Jan-2022: FLAWLESS VICTORY!  Our [mortal kombat-themed system](./ninjas.html) **[Reptile: Aggregation-level Explanations for Hierarchical Data](https://arxiv.org/abs/2103.07037)** reformulates data cleaning as a top-down iterative process.  It has been used by the Zambia government to clean data gathered from farmers across the entire country. Zachary will present it at SIGMOD 2022.
+* Jun-2021: Looking forward to giving a keynote at the [SEA DATA](https://sea-data.ml/) workshop at VLDB 2021 this summer!
 * Aug-2020: [For Highly Interactive Apps, Prediction Is Not Enough!](https://medium.com/thewulab/for-responsive-interactive-apps-prediction-is-not-enough-3188bc7b53db) is a blog post to introduce our Khameleon paper.   Haneen also recorded a [short YouTube video summarizing our work](https://www.youtube.com/watch?v=oiU5xytHMm4).
 * Jul-2020: FLAWLESS VICTORY! Khameleon, our rethink of client-server communication for interactive applications will be presented at VLDB 2020!  With Haneen Mohammed, Tracy Wei, and Ravi Netravali. This makes the sixth [mortal kombat-based system](./ninjas.html) that has fallen to science.
 * Jun-2020: Haneen participated in, and won, **first place** at the [2020 SIGMOD student research competition](https://sigmod2020.org/sigmod_student_research_competition.shtml) for her work on [Khameleon](http://eugenewu.net/files/sigmodsrc20/Haneen%20Mohammed%20-%20Haneen_Mohammed.pdf)!!
+<!--
 * Mar-2020: FATALITY!  A [new mortal kombat-themed system](./ninjas.html) has been beaten into submission.   Our full paper about Rain: [Complaint-driven Training Data Debugging for Query 2.0](https://arxiv.org/pdf/2004.05722.pdf) will be presented at SIGMOD 2020!  With Young Wu, Lampros Flokas, and Jiannan Wang.
 * Feb-2020: Excited to share our demo for [Physical Visualization Design](https://www.dropbox.com/s/i6dngaqr1xyo9fg/pvd-sigmod20demo-cr.pdf?dl=0) at SIGMOD 2020!  With Lana Ramjit, Zhaoning Kong, and Ravi Netravali.
 * Feb-2020: Lampros will present our work [Towards Complaint-driven ML Workflow Debugging](https://www.dropbox.com/s/yxip1pd6rnxj8ev/mlexplain-mlops20-submitted.pdf?dl=0) at the [MLOps workshop](https://mlops-systems.github.io/), part of [MLSys](https://mlsys.org/)!  With Young Wu and Jiannan Wang.
@@ -30,8 +35,6 @@ tags:
 * Won the [Amazon Faculty Research Award](http://www.cs.columbia.edu/2018/with-amazon-research-award-eugene-wu-will-add-interactivity-and-adversarial-generation-to-entity-matching/)!
 * Released a [probabilistic model of research](http://researchsetup.github.io/researchmodel)
 * New VLDB 18 paper:  [Fine-grained data lineage at SMOKIN' fast speeds](https://arxiv.org/abs/1801.07237)!!  Fast enough and low enough overhead to power real-time interactive applications!    
-
-<!--
 * Our undergrad [Hamed Nilforoshan](http://hamedn.com/) won the [Snap Research Scholarship](https://snapresearchscholarship.splashthat.com/)!!
 * [Mining Precision Interfaces from Query Logs](https://arxiv.org/abs/1712.00078) is our work on scalably generating analysis interfaces.
 * [BoostClean](https://arxiv.org/abs/1711.01299) continues our work towards automated human-in-the-loop data cleaning for data science!
