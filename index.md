@@ -4,7 +4,7 @@ tags:
 ---
 
 
-* Feb-2022: Excited to have received tenure!
+* Feb-2022: Excited to have been recommended for tenure at Columbia University!
 * Feb-2022: our paper **[Visual Composition Algebra for Ad hoc Comparisons](https://arxiv.org/abs/2202.07836)**  was accepted to TVCG 2022 and will be presented at VIS later this year.
 * Jan-2022: 2 more paper acceptances to SIGMOD 2022: our demo paper **Interactive Interface Generation in Notebooks** extends jupyter to automatically generate interactive analysis interfaces during SQL analysis, and our full paper **Complaint-Driven Training Data Debugging at Interactive Speeds** enables training data debugging by simply identifying errors in analytic results in milliseconds!
 * Jan-2022: FLAWLESS VICTORY!  Our [mortal kombat-themed system](./ninjas.html) **[Reptile: Aggregation-level Explanations for Hierarchical Data](https://arxiv.org/abs/2103.07037)** reformulates data cleaning as a top-down iterative process.  It has been used by the Zambia government to clean data gathered from farmers across the entire country. Zachary will present it at SIGMOD 2022.
