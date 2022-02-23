@@ -48,10 +48,10 @@ North East DB Day ([2016](http://mitdbg.github.io/nedbday/2016))
 **Area Chair**   ICDE ([2017](http://icde2017.sdsc.edu/)), VLDB ([2021](https://vldb.org/2021/), [2022](https://vldb.org/2022/))  
 
 **Program Committee**   WWW ([2017](http://www.www2017.com.au/)),
- SIGMOD ([2017](http://sigmod2017.org/), [2019](https://sigmod2019.org)),
+ SIGMOD ([2017](http://sigmod2017.org/), [2019](https://sigmod2019.org), [2023](https://2023.sigmod.org/)),
  VLDB ([2017](http://www.vldb.org/2017/), 2020),
  VLDB PhD Workshop (2020),
- HILDA ([2016](http://hilda.io/2016/), [2017](http://hilda.io/2017/), [2020](http://hilda.io/2020)),
+ HILDA ([2016](http://hilda.io/2016/), [2017](http://hilda.io/2017/), [2020](http://hilda.io/2020), [2022](http://hilda.io/2022)),
  SSDBM ([2017](http://ssdbm2017.eecs.northwestern.edu/)),
  HCOMP ([2017](http://www.humancomputation.com/2017/)),
  CLOUDDM ([2016](https://www.computer.org/csdl/proceedings/icdew/2016/2109/00/07495607.pdf))
