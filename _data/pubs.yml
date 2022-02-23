@@ -60,7 +60,7 @@
   authors: Yiru Chen, Eugene Wu
   future: true
   conf: VLDB 2022 (in revision)
-- title: 'Visual Composition Algebra'
+- title: 'View Composition Algebra for Ad Hoc Comparisons'
   authors: Eugene Wu
   conf: TVCG 2022 
   selected: true
