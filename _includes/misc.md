@@ -68,7 +68,7 @@ North East DB Day ([2016](http://mitdbg.github.io/nedbday/2016))
 
 [Latex Snapshots](http://www.github.com/sirrice/latexsnapshots) goes through your latex repo's history and renders thumbnails of your pdf   
 
-[VLDB conference trends](http://eugenewu.net/vldbtrends/) renders a history of databases through keyword trends in VLDB publication titles   
+[VLDB conference trends](http://eugenewu.net/vldbtrends/vldb2012.html) renders a history of databases through keyword trends in VLDB publication titles   
 
 [pygg](http://www.github.com/sirrice/pygg) is a python wrapper around ggplot2 that provides nearly the same syntax, but in python.   
 
