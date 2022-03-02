@@ -51,7 +51,7 @@
 - title: 'Interactive Interface Generation in Notebooks'
   future: true
   authors: Jeffrey Tao, Yiru Chen, Eugene Wu
-  conf: VLDB 2022 demo (in progress)
+  conf: VLDB 2022 demo 
 - title: 'Interactive Interface Generation Using Natural Language'
   future: true
   authors: Alexander Yao, Yiru Chen, Eugene Wu
@@ -76,6 +76,7 @@
 - title: 'A Neural Network Solves and Generates Mathematics Problems by Program Synthesis: Calculus, Differential Equations, Linear Algebra, and More'
   authors: Iddo Drori, Sunny Tran, Roman Wang, Newman Cheng, Kevin Liu, Leonard Tang, Elizabeth Ke, Nikhil Singh, Taylor L. Patti, Jayson Lynch, Avi Shporer, Nakul Verma, Eugene Wu, Gilbert Strang
   url: https://arxiv.org/abs/2112.15594
+  conf: PNAS 2022 (in review)
   tags:
     - ml
 - title: 'Complaint-Driven Training Data Debugging at Interactive Speeds'
