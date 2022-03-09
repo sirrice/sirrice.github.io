@@ -51,13 +51,15 @@
 - title: 'Interactive Interface Generation in Notebooks'
   authors: Jeffrey Tao, Yiru Chen, Eugene Wu
   conf: SIGMOD 2022 demo 
-- title: 'Interactive Interface Generation Using Natural Language'
-  future: true
-  authors: Alexander Yao, Yiru Chen, Eugene Wu
-  conf: InfoVIS (in progress)
+  tags:
+    - vis
 - title: 'PI2: Generating Visual Analysis Interfaces From Queries'
   authors: Yiru Chen, Eugene Wu
+  selected: true
   conf: SIGMOD 2022 
+  tags:
+    - vis
+    - db
 - title: 'View Composition Algebra for Ad Hoc Comparisons'
   authors: Eugene Wu
   conf: TVCG 2022 
