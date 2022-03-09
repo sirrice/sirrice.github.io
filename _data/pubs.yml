@@ -49,17 +49,15 @@
   authors: Pranav Subramaniam, Zachary Huang, Raul Fernandez, Eugene Wu
   conf: VLDB 2022 (in progress)
 - title: 'Interactive Interface Generation in Notebooks'
-  future: true
   authors: Jeffrey Tao, Yiru Chen, Eugene Wu
-  conf: VLDB 2022 demo 
+  conf: SIGMOD 2022 demo 
 - title: 'Interactive Interface Generation Using Natural Language'
   future: true
   authors: Alexander Yao, Yiru Chen, Eugene Wu
   conf: InfoVIS (in progress)
 - title: 'PI2: Generating Visual Analysis Interfaces From Queries'
   authors: Yiru Chen, Eugene Wu
-  future: true
-  conf: VLDB 2022 (in revision)
+  conf: SIGMOD 2022 
 - title: 'View Composition Algebra for Ad Hoc Comparisons'
   authors: Eugene Wu
   conf: TVCG 2022 
