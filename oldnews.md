@@ -5,6 +5,9 @@ tags:
 
 # Older News
 
+
+* Jul-2020: FLAWLESS VICTORY! Khameleon, our rethink of client-server communication for interactive applications will be presented at VLDB 2020!  With Haneen Mohammed, Tracy Wei, and Ravi Netravali. This makes the sixth [mortal kombat-based system](./ninjas.html) that has fallen to science.
+* Jun-2020: Haneen participated in, and won, **first place** at the [2020 SIGMOD student research competition](https://sigmod2020.org/sigmod_student_research_competition.shtml) for her work on [Khameleon](http://eugenewu.net/files/sigmodsrc20/Haneen%20Mohammed%20-%20Haneen_Mohammed.pdf)!!
 * Mar-2020: FATALITY!  A [new mortal kombat-themed system](./ninjas.html) has been beaten into submission.   Our full paper about Rain: [Complaint-driven Training Data Debugging for Query 2.0](https://arxiv.org/pdf/2004.05722.pdf) will be presented at SIGMOD 2020!  With Young Wu, Lampros Flokas, and Jiannan Wang.
 * Feb-2020: Excited to share our demo for [Physical Visualization Design](https://www.dropbox.com/s/i6dngaqr1xyo9fg/pvd-sigmod20demo-cr.pdf?dl=0) at SIGMOD 2020!  With Lana Ramjit, Zhaoning Kong, and Ravi Netravali.
 * Feb-2020: Lampros will present our work [Towards Complaint-driven ML Workflow Debugging](https://www.dropbox.com/s/yxip1pd6rnxj8ev/mlexplain-mlops20-submitted.pdf?dl=0) at the [MLOps workshop](https://mlops-systems.github.io/), part of [MLSys](https://mlsys.org/)!  With Young Wu and Jiannan Wang.
