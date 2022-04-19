@@ -31,7 +31,8 @@ ninjas:
     name: Rain
     desc: FLAWLESS VICTORY
   - img: reptile.png
-    desc: In Submission
+    desc: FLAWLESS VICTORY
+    url: https://www.dropbox.com/s/g80rj9y4znhfhjt/reptile-sigmod22-camera.pdf?dl=0
     name: Reptile
   - img: jade.png
     name: Jade

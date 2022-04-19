@@ -11,4 +11,4 @@ tags:
 * Jan-2022: FLAWLESS VICTORY!  Our [mortal kombat-themed system](./ninjas.html), **[Reptile](https://www.dropbox.com/s/g80rj9y4znhfhjt/reptile-sigmod22-camera.pdf?dl=0)** reformulates data cleaning as a top-down iterative process.  It has been used in Zambia and Ethiopia to clean nation-wide farmer survey data in order to design their national drought insurance policies. Zachary will present it at SIGMOD 2022.
 * Jun-2021: Looking forward to giving a keynote at the [SEA DATA](https://sea-data.ml/) workshop at VLDB 2021 this summer!
 * Aug-2020: [For Highly Interactive Apps, Prediction Is Not Enough!](https://medium.com/thewulab/for-responsive-interactive-apps-prediction-is-not-enough-3188bc7b53db) is a blog post to introduce our Khameleon paper.   Haneen also recorded a [short YouTube video summarizing our work](https://www.youtube.com/watch?v=oiU5xytHMm4).
-* [Older News](./oldnews.md)
+* [Older News](./oldnews.html)
