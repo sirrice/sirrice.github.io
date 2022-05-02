@@ -28,26 +28,21 @@
   future: true
   authors: Lana Ramjit, Yiru Chen, Subrata Mitra, Ravi Netravali, Eugene Wu
   conf: VLDB 2022 (in progress)
-- title: 'Calibrated Junction HyperTrees for Data Augmentations'
-  future: true
-  authors: Zachary Huang, Eugene Wu
-  conf: VLDB 2022 (in progress)
 - title: 'SmokedDuck: Fast Lineage in Analytical Databases'
   future: true
   authors: Haneen Mohammed, Charlie Summers, Eugene Wu
   conf: VLDB 2022 (in progress)
-- title: 'How I Stopped Worrying About Training Data Bugs and Started Complaining'
-  future: true
-  authors: Lampros Flokas, Weiuan Wu, Jiannan Wang, Nakul Verma, Eugene Wu
-  conf: DEEM Workshop 2022 (in progress)
-- title: 'Fast Deletion Interventions with Application to Query Explanations'
-  future: true
+
+
+- title: 'FaDE: Answering “Why?” Made Fast'
   authors: Alexander Yao, Lampros Flokas, Eugene Wu
-  conf: VLDB 2022 (in progress)
+  conf: In Review 2023
 - title: 'Centralized Data Market Designs for AutoML'
-  future: true
   authors: Pranav Subramaniam, Zachary Huang, Raul Fernandez, Eugene Wu
-  conf: VLDB 2022 (in progress)
+  conf: In Review 2023
+- title: 'Calibration: A Simple Trick for Fast Interactive Join Analytics'
+  authors: Zachary Huang, Eugene Wu
+  conf: In Review 2023
 - title: 'A Grammar for Hypothesis-Driven Visual Analysis'
   authors: Ashley Suh, Yilan Jiang, Ab Mosca, Eugene Wu, Remco Chang
   url: https://arxiv.org/abs/2204.14267
@@ -55,6 +50,9 @@
   selected: true
   tags:
     - vis
+- title: 'How I Stopped Worrying About Training Data Bugs and Started Complaining'
+  authors: Lampros Flokas, Weiuan Wu, Jiannan Wang, Nakul Verma, Eugene Wu
+  conf: DEEM Workshop 2022 
 - title: 'Interactive Interface Generation in Notebooks'
   authors: Jeffrey Tao, Yiru Chen, Eugene Wu
   conf: SIGMOD 2022 demo 
