@@ -34,6 +34,11 @@
   conf: VLDB 2022 (in progress)
 
 
+- title: 'Extending the View Composition Algebra to Hierarchical Data'
+  authors: Eugene Wu
+  conf: In Review 2023
+  tags:
+    - vis
 - title: 'FaDE: Answering “Why?” Made Fast'
   authors: Alexander Yao, Lampros Flokas, Eugene Wu
   conf: In Review 2023
