@@ -48,6 +48,10 @@
   future: true
   authors: Pranav Subramaniam, Zachary Huang, Raul Fernandez, Eugene Wu
   conf: VLDB 2022 (in progress)
+- title: 'A Grammar for Hypothesis-Driven Visual Analysis'
+  authors: Ashley Suh, Yilan Jiang, Ab Mosca, Eugene Wu, Remco Chang
+  url: https://arxiv.org/abs/2204.14267
+  conf: arXiv 2022
 - title: 'Interactive Interface Generation in Notebooks'
   authors: Jeffrey Tao, Yiru Chen, Eugene Wu
   conf: SIGMOD 2022 demo 

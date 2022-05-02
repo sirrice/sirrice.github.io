@@ -5,19 +5,28 @@
 <!--<link rel="stylesheet" type="text/css" href="./files/css/fonts.css" />-->
 
 <script>
-// publications
-$("#pubs-toggle").click(function() {
-  $(".selected-false").toggle();
-  var btn = $("#pubs-toggle span");
-  if (btn.text() == "Show All") {
-    btn.text("Show Selected");
-    $("#pubs-title").text("All Publications")
-  } else {
-    btn.text("Show All");
-    $("#pubs-title").text("Selected Publications")
+
+
+  function togglepubs(showall) {
+    $(".selected-false").toggle();
+    var btn = $("#pubs-toggle span");
+    if (showall) {
+      btn.text("Show Selected");
+      $("#pubs-title").text("All Publications")
+    } else {
+      btn.text("Show All");
+      $("#pubs-title").text("Selected Publications")
+    }
   }
-})
-$(".selected-false").hide();
+
+  // publications
+  var showall = true;
+  $("#pubs-toggle").click(() => {
+      showall = !showall;
+      togglepubs(showall)
+  })
+  togglepubs(showall)
+//$(".selected-false").hide();
 </script>
 
 
