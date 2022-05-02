@@ -52,6 +52,9 @@
   authors: Ashley Suh, Yilan Jiang, Ab Mosca, Eugene Wu, Remco Chang
   url: https://arxiv.org/abs/2204.14267
   conf: arXiv 2022
+  selected: true
+  tags:
+    - vis
 - title: 'Interactive Interface Generation in Notebooks'
   authors: Jeffrey Tao, Yiru Chen, Eugene Wu
   conf: SIGMOD 2022 demo 
