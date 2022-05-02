@@ -21,7 +21,11 @@
         {% endif %}
 
         <li class="paper selected-{{selected}}" data-selected="{{selected}}" style="{{style}}">
-          <a class="title" href="{{p.url}}">{{p.title}}</a>
+          {% if p.url %} 
+            <a class="title" href="{{p.url}}">{{p.title}}</a>
+          {% else %} 
+            {{p.title}}
+          {% endif %}
             <div class="authors">{{p.authors}}</div>
             <span class="conf">{{{p.conf}}</span>
             {% if p.video %}<a href="{{p.video}}">Talk Video</a>{% endif %}

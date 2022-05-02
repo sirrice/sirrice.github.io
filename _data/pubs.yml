@@ -37,12 +37,21 @@
 - title: 'FaDE: Answering “Why?” Made Fast'
   authors: Alexander Yao, Lampros Flokas, Eugene Wu
   conf: In Review 2023
+  tags:
+    - db
+    - dbexplain
 - title: 'Centralized Data Market Designs for AutoML'
   authors: Pranav Subramaniam, Zachary Huang, Raul Fernandez, Eugene Wu
   conf: In Review 2023
+  tags:
+    - db
+    - ml
 - title: 'Calibration: A Simple Trick for Fast Interactive Join Analytics'
   authors: Zachary Huang, Eugene Wu
   conf: In Review 2023
+  tags:
+    - db
+    - ml
 - title: 'A Grammar for Hypothesis-Driven Visual Analysis'
   authors: Ashley Suh, Yilan Jiang, Ab Mosca, Eugene Wu, Remco Chang
   url: https://arxiv.org/abs/2204.14267
@@ -61,6 +70,7 @@
 - title: 'PI2: Generating Visual Analysis Interfaces From Queries'
   authors: Yiru Chen, Eugene Wu
   selected: true
+  url: https://www.dropbox.com/s/bfs2qclp9slwfvi/pi-sigmod22-camera.pdf?dl=0
   conf: SIGMOD 2022 
   tags:
     - vis
