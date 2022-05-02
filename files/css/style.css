@@ -113,6 +113,10 @@ small#pubs-toggle span:hover {
   cursor: pointer;
 }
 
+.title {
+  font-weight: 600;
+}
+
 .scrolldot {
   fill: grey;
 }

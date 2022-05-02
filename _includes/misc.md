@@ -1,15 +1,15 @@
 #### Phds and PostDocs
 
-[Haneen Mohammed](http://haneensa.github.io/),
-[Yiru Chen](https://ireneruru.github.io/), 
-[Zach Huang](http://www.columbia.edu/~zh2408/),
-[Lampros Flokas](https://dblp.uni-trier.de/pid/185/0725.html),
-Charlie Summers,
+[Haneen Mohammed](http://haneensa.github.io/)   
+[Yiru Chen](https://ireneruru.github.io/)    
+[Zach Huang](http://www.columbia.edu/~zh2408/)   
+[Lampros Flokas](https://dblp.uni-trier.de/pid/185/0725.html)   
+Charlie Summers   
 Jiaxiang "Jerry" Liu
 
 
-[Fotis Psallidas](http://www.cs.columbia.edu/~fotis/) (Microsoft), 
-[Thibault Sellam](http://sellam.me) (Google)
+[Fotis Psallidas](http://www.cs.columbia.edu/~fotis/) (PhD, Microsoft)       
+[Thibault Sellam](http://sellam.me) (postdoc, Google)
 
 
 [See WuLab for full list](https://cudbg.github.io/lab/)
