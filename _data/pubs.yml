@@ -37,6 +37,7 @@
 - title: 'Extending the View Composition Algebra to Hierarchical Data'
   authors: Eugene Wu
   conf: In Review 2023
+  url: https://arxiv.org/abs/2205.01283
   tags:
     - vis
 - title: 'FaDE: Answering “Why?” Made Fast'
