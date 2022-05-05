@@ -70,6 +70,7 @@
   conf: DEEM Workshop 2022 
 - title: 'Interactive Interface Generation in Notebooks'
   authors: Jeffrey Tao, Yiru Chen, Eugene Wu
+  url: https://www.dropbox.com/s/s1p1byz7tlquj5v/pi2-sigmod22demo-camera.pdf?dl=0
   conf: SIGMOD 2022 demo 
   tags:
     - vis
