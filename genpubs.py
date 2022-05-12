@@ -24,6 +24,10 @@ Rahul Khanna
 Thibault Sellam
 Yiliang Shi
 Yiru Chen
+Yilan Jiang
+Alexander Yao
+Charlie Summers
+Charles Summers
 Zhengjie Miao"""
 mine = set([auth.strip().lower() for auth in mine.split("\n")])
 

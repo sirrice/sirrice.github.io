@@ -1,7 +1,7 @@
 <div class="pubs">
   <ol connect="rows">
     {% for p in {{site.data.pubs}} %}
-      {% if p.future == true %}
+      {% if p.hide == true %}
         {% continue %}
       {% endif %}
 
