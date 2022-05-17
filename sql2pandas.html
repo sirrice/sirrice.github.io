@@ -1,0 +1,103 @@
+<html>
+   <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>SQL2pandas</title>
+  </head>
+<body>
+<style>
+textarea, code {
+  width: 80%;
+  height: 10em;
+}
+button {
+  display: block;
+  width: 80%;
+}
+.code {
+  height: 20em;
+}
+</style>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+<h2>Python (run first to add data)</h2>
+  <textarea disabled id="py">
+df = pd.DataFrame(dict(a=range(10), b=range(10)))
+db.register_dataframe("data", df)
+  </textarea>
+  <button id="pythonbtn">Run</button>
+  <code id="pyout"></code>
+</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+  <h2>SQL (then translate sql)</h2>
+  <textarea disabled id="q">
+  </textarea>
+  <button id="sqlbtn">Translate</button>
+</div>
+</div>
+
+  <div class="row">
+    <div class="col-md-12">
+  <h2>Pandas Code</h2>
+  <p>"db" argument is a dictionary from tablename to data frame</p>
+  <textarea class="code" id="pandas">
+
+  </textarea>
+  </div>
+  </div>
+
+</div>
+
+
+</body>
+
+<link rel="stylesheet" type="text/css" href="./files/css/bootstrap.min.css" />
+<script src="./files/js/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/pyodide/v0.20.0/full/pyodide.js"></script>
+<script>
+async function main() {
+
+  let pyodide = await loadPyodide();
+  await pyodide.loadPackage(["micropip", "numpy", "pandas", "python-dateutil", "pytest"])
+
+  await pyodide.loadPackage("pandas")
+  await pyodide.runPythonAsync(`
+ import pandas as pd
+ import io
+ import micropip
+ await micropip.install("./files/python/parsimonious-0.9.0-py3-none-any.whl")
+ await micropip.install('./files/python/sql2pandas-0.0.2-py3-none-any.whl')
+ import sql2pandas
+ db = sql2pandas.Database.db()
+  `)
+  console.log("done loading")
+
+  $("textarea").prop("disabled", false);
+
+    $("#pythonbtn").click(() => {
+        let code = $("#py").val();
+        console.log(code);
+        let ret = pyodide.runPython(code)
+        $("#pyout").html(ret)
+    })
+
+    $("#sqlbtn").click(() => {
+        let q = $("#q").val()
+        console.log(q)
+        let pandascode = pyodide.runPython(` sql2pandas.sql2pandas("""${q}""").code `);
+        $("#pandas").html(pandascode)
+    })
+};
+
+
+
+main();
+</script>
+
+</html>
