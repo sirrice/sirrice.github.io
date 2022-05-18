@@ -39,7 +39,8 @@ Questions about the CS Journalism dual degree?  See the [FAQ](./dualdegree.html)
 
 #### Service
 
-**Organizer/Co-Chair**  SIGMOD Student Research Competition ([2019](https://sigmod2019.org/), [2020](http://sigmod2020.org/sigmod_student_research_competition.shtml)),
+**Organizer/Co-Chair**  ICDE Workshops ([2023](https://icde2023.ics.uci.edu/organizing-committee/)),
+SIGMOD Student Research Competition ([2019](https://sigmod2019.org/), [2020](http://sigmod2020.org/sigmod_student_research_competition.shtml)),
 NYDBDay ([2018](https://nydbday.github.io)),
 HILDA ([2018](http://hilda.io/2018/)),
 SIGMOD NRS ([2017](http://sigmod2017.org/new-researcher-symposium/)),
@@ -52,6 +53,7 @@ North East DB Day ([2016](http://mitdbg.github.io/nedbday/2016))
  SIGMOD ([2017](http://sigmod2017.org/), [2019](https://sigmod2019.org), [2023](https://2023.sigmod.org/)),
  VLDB ([2017](http://www.vldb.org/2017/), 2020),
  VLDB PhD Workshop (2020),
+ SOCC ([2021](http://acmsocc.org/2021/program-committee.html), [2022](http://acmsocc.org/2022/program-committee.html)),
  HILDA ([2016](http://hilda.io/2016/), [2017](http://hilda.io/2017/), [2020](http://hilda.io/2020), [2022](http://hilda.io/2022)),
  SSDBM ([2017](http://ssdbm2017.eecs.northwestern.edu/)),
  HCOMP ([2017](http://www.humancomputation.com/2017/)),
