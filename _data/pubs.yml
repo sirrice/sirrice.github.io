@@ -130,6 +130,7 @@
 - title: 'Complaint-Driven Training Data Debugging at Interactive Speeds'
   authors: Lampros Flokas, Young Wu, Jiannan Wang, Nakul Verma, Eugene Wu
   conf: SIGMOD 2022
+  url: https://www.dropbox.com/s/qrwcyy7ln91492k/rainpp-sigmod22-camera.pdf?dl=0
   selected: true
   tags:
     - mlexplain

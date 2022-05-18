@@ -60,7 +60,7 @@ North East DB Day ([2016](http://mitdbg.github.io/nedbday/2016))
  CLOUDDM ([2016](https://www.computer.org/csdl/proceedings/icdew/2016/2109/00/07495607.pdf))
  DATA4U ([2014](https://sites.google.com/site/data4u2014/))   
  
-**Reviewer**   SIGMOD, VLDB, CIDR, WWW, ICDE, InfoVis, UIST, CHI, TKDE
+**Reviewer**   SIGMOD, VLDB, CIDR, SOCC, WWW, ICDE, VIS, UIST, CHI, TKDE
 
 #### 2014 Job Materials
 
