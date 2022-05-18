@@ -5,51 +5,51 @@
     <title>SQL2pandas</title>
   </head>
 <body>
-<style>
-textarea, code {
-  width: 80%;
-  height: 10em;
-}
-button {
-  display: block;
-  width: 80%;
-}
-.code {
-  height: 20em;
-}
-</style>
-
 
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-<h2>Python (run first to add data)</h2>
-  <textarea disabled id="py">
-df = pd.DataFrame(dict(a=range(10), b=range(10)))
+      <h2>Text boxes disabled until pyodide loads.</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h3>1. Python (run first to add data to db)</h3>
+      <textarea disabled id="py">
+df = pd.DataFrame(dict(
+  a = range(10),
+  b = range(10, 20),
+  c = range(10),
+  d = [1] * 10
+))
 db.register_dataframe("data", df)
-  </textarea>
-  <button id="pythonbtn">Run</button>
-  <code id="pyout"></code>
-</div>
+      </textarea>
+      <button id="pythonbtn">Run</button>
+      <code id="pyout"></code>
+    </div>
   </div>
 
   <div class="row">
     <div class="col-md-12">
-  <h2>SQL (then translate sql)</h2>
-  <textarea disabled id="q">
-  </textarea>
-  <button id="sqlbtn">Translate</button>
-</div>
-</div>
+      <h3>2. SQL (then translate sql)</h3>
+      <textarea disabled id="q">
+SELECT a, sum(b+2) * 2 as c 
+FROM data, (SELECT 1 as x FROM data) AS d2 
+WHERE data.a = d2.x
+GROUP BY a
+      </textarea>
+      <button id="sqlbtn">Translate</button>
+    </div>
+  </div>
 
   <div class="row">
     <div class="col-md-12">
-  <h2>Pandas Code</h2>
-  <p>"db" argument is a dictionary from tablename to data frame</p>
-  <textarea class="code" id="pandas">
+      <h3>Generated Pandas Code</h3>
+      <p>"db" argument is a dictionary from tablename to data frame</p>
+      <textarea class="alert alert-info code" id="pandas">
 
-  </textarea>
-  </div>
+      </textarea>
+    </div>
   </div>
 
 </div>
@@ -72,7 +72,7 @@ async function main() {
  import io
  import micropip
  await micropip.install("./files/python/parsimonious-0.9.0-py3-none-any.whl")
- await micropip.install('./files/python/sql2pandas-0.0.2-py3-none-any.whl')
+ await micropip.install('./files/python/sql2pandas-0.0.3-py3-none-any.whl')
  import sql2pandas
  db = sql2pandas.Database.db()
   `)
@@ -84,11 +84,12 @@ async function main() {
         let code = $("#py").val();
         console.log(code);
         let ret = pyodide.runPython(code)
+        ret = (ret)? ret : "done"
         $("#pyout").html(ret)
     })
 
     $("#sqlbtn").click(() => {
-        let q = $("#q").val()
+        let q = $("#q").val().replace(/\s/g, ' ')
         console.log(q)
         let pandascode = pyodide.runPython(` sql2pandas.sql2pandas("""${q}""").code `);
         $("#pandas").html(pandascode)
@@ -99,5 +100,25 @@ async function main() {
 
 main();
 </script>
+
+<style>
+body, textarea, code {
+  font-size: 12pt;
+}
+textarea, code {
+  width: 80%;
+  height: 10em;
+  font-family: monospace;
+}
+button {
+  display: block;
+  width: 80%;
+}
+.code {
+  height: 20em;
+}
+</style>
+
+
 
 </html>
