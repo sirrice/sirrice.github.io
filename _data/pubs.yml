@@ -94,6 +94,11 @@
 - title: 'How I Stopped Worrying About Training Data Bugs and Started Complaining'
   authors: Lampros Flokas, Weiuan Wu, Jiannan Wang, Nakul Verma, Eugene Wu
   conf: DEEM Workshop 2022 
+  url: https://www.dropbox.com/s/7lhpmkhifxrlt4m/rainvision-deem22-camera.pdf?dl=0
+  tags:
+    - db
+    - ml
+    - mlexplain
 - title: 'Interactive Interface Generation in Notebooks'
   authors: Jeffrey Tao, Yiru Chen, Eugene Wu
   url: https://www.dropbox.com/s/s1p1byz7tlquj5v/pi2-sigmod22demo-camera.pdf?dl=0
