@@ -75,23 +75,27 @@ async function main() {
 
   let pyodide = await loadPyodide();
 
-  $("#msg").text("Loading numpy..")
+  $("#msg").text("(  0%) Loading numpy..")
   await pyodide.loadPackage(["micropip", "numpy"])
 
-  $("#msg").text("Loading pandas..")
+  $("#msg").text("( 20%) Loading pandas..")
   await pyodide.loadPackage(["pandas", "python-dateutil"])
-  $("#msg").text("Loading sql2pandas wheel..")
 
+  $("#msg").text("( 60%) Loading parsimonious wheel..")
   await pyodide.runPythonAsync(`
  import pandas as pd
  import io
  import micropip
  await micropip.install("./files/python/parsimonious-0.9.0-py3-none-any.whl")
+ `)
+
+  $("#msg").text("( 80%) Loading sql2pandas wheel..")
+ await pyodide.runPythonAsync(`
  await micropip.install('./files/python/sql2pandas-0.0.4-py3-none-any.whl')
  import sql2pandas
  db = sql2pandas.Database.db()
   `)
-  $("#msg").text("Ready!")
+  $("#msg").text("(100%) Ready!")
 
   $("textarea").prop("disabled", false);
 
