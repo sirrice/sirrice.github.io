@@ -43,11 +43,6 @@
   url: https://arxiv.org/abs/2205.01263
   tags:
     - vis
-- title: 'A Sensorless Drone-based System for Mapping Indoor 3D Airflow Gradients'
-  authors: Yanchen Liu, Minghui Zhao, Stephen Xia, Eugene Wu, Xiaofan Jiang
-  future: true
-  short: true
-  conf: MobiSys 2022 Demo
 - title: 'Extending the View Composition Algebra to Hierarchical Data'
   authors: Eugene Wu
   future: true
@@ -85,6 +80,18 @@
   selected: true
   tags:
     - vis
+
+
+
+
+- title: 'A Sensorless Drone-based System for Mapping Indoor 3D Airflow Gradients'
+  authors: Yanchen Liu, Minghui Zhao, Stephen Xia, Eugene Wu, Xiaofan Jiang
+  future: true
+  short: true
+  conf: MobiSys 2022 Demo
+  url: #
+  tags:
+    - misc
 - title: 'ConnectorX: Accelerating Data Loading From Databases to Dataframes'
   authors: Xiaoying Wang, Weiyuan Wu, Jinze Wu, Yizhou Chen, Nick Zrymiak, Changbo Qu, Lampros Flokas, George Chow, Jiannan Wang, Tianzheng Wang, Eugene Wu, Qingqing Zhou
   conf: In Revision 2023
