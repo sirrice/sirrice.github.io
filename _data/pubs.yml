@@ -47,7 +47,7 @@
   authors: Yanchen Liu, Minghui Zhao, Stephen Xia, Eugene Wu, Xiaofan Jiang
   future: true
   short: true
-  conf: In Review 2022
+  conf: MobiSys 2022 Demo
 - title: 'Extending the View Composition Algebra to Hierarchical Data'
   authors: Eugene Wu
   future: true
@@ -63,8 +63,8 @@
   tags:
     - db
     - dbexplain
-- title: 'Centralized Data Market Designs for AutoML'
-  authors: Pranav Subramaniam, Zachary Huang, Raul Fernandez, Eugene Wu
+- title: 'Kitana: A Data-as-a-Service Platform'
+  authors: Zachary Huang, Pranav Subramaniam, Raul Fernandez, Eugene Wu
   future: true
   conf: In Review 2023
   tags:
