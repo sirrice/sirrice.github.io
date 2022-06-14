@@ -4,6 +4,7 @@ tags:
 ---
 
 
+* Jun-2022: SIGMOD 2022 is this week!  We are presenting 3 full papers, 1 DEEM workshop paper, 2 demos, and student research competition posters!  We summarize this work in our SIGMOD 22 [Blog post](https://medium.com/@ew2493/wublab-sigmod-2022-8977d14a4d56)!
 * Mar-2022: **PI2** is the first system that generates fully interactive visualization analysis interfaces from queries.   We are excited to present it at SIGMOD 2022!
 * Feb-2022: Excited to have been recommended for tenure at Columbia University!
 * Feb-2022: our paper **[View Composition Algebra for Ad hoc Comparisons](https://arxiv.org/abs/2202.07836)**  was accepted to TVCG 2022 and will be presented at VIS later this year.
