@@ -4,6 +4,7 @@ tags:
 ---
 
 
+* Aug-2022: A nice [Columbia Engineering article about our research to help insure African farmers from droughts and floods](https://www.engineering.columbia.edu/news/using-tech-help-african-farmers-collect-payouts).
 * Jun-2022: SIGMOD 2022 is this week!  We are presenting 3 full papers, 1 DEEM workshop paper, 2 demos, and student research competition posters!  We summarize this work in our SIGMOD 22 [Blog post](https://medium.com/@ew2493/wublab-sigmod-2022-8977d14a4d56)!
 * Mar-2022: **PI2** is the first system that generates fully interactive visualization analysis interfaces from queries.   We are excited to present it at SIGMOD 2022!
 * Feb-2022: Excited to have been recommended for tenure at Columbia University!
