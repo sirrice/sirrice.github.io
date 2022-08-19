@@ -154,8 +154,9 @@
   short: true
   tags:
     - vis
-- title: 'Private Federated Explanation of Inference Queries'
+- title: 'Enabling SQL-based training data debugging for federated learning'
   authors: Young Wu, Yejia Liu, Lampros Flokas, Jiannan Wang, Eugene Wu
+  url: https://arxiv.org/pdf/2108.11884.pdf
   conf: VLDB 2022 
   tags:
     - mlexplain
