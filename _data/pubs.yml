@@ -35,18 +35,24 @@
   authors: Haneen Mohammed, Charlie Summers, Eugene Wu
   conf: In Progress 2023
 
+- title: 'NL2INTERFACE: Interactive Visualization Interface Generation from Natural Language Queries'
+  authors: Yiru Chen, Ryan Li, Austin Mac, Tianbao Xie, Tao Yu, Eugene Wu
+  short: true
+  conf:  VIS nlviz workshop 2022
+  tags: 
+    - vis
 - title: 'How Do Captions Affect Visualization Reading?'
   authors: Shelly Cheng, Hazel Zhu, Eugene Wu
   future: true
   short: true
-  conf: In Review 2022
+  conf: VIS Viscomm 2022
   url: https://arxiv.org/abs/2205.01263
   tags:
     - vis
 - title: 'Extending the View Composition Algebra to Hierarchical Data'
   authors: Eugene Wu
   future: true
-  conf: In Review 2023
+  conf: arXiV 2022
   short: true
   url: https://arxiv.org/abs/2205.01283
   tags:
