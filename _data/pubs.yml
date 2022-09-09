@@ -34,6 +34,11 @@
   future: true
   authors: Haneen Mohammed, Charlie Summers, Eugene Wu
   conf: In Progress 2023
+- title: 'JackBench: A Data Loading Benchmark'
+  hide: true
+  future: true
+  conf: In Review 2023
+
 
 - title: 'NL2INTERFACE: Interactive Visualization Interface Generation from Natural Language Queries'
   authors: Yiru Chen, Ryan Li, Austin Mac, Tianbao Xie, Tao Yu, Eugene Wu
