@@ -1,9 +1,18 @@
+---
+layout: page
+---
+
+
+
 # Research Projects
 
-The following are example projects for prospective undergraduate and masters students.
-Concrete projects are well-defined and a good place to start, while open-ended projects are good candidates for research theses.
 
-Prospective students should read the relevant papers before contacting Professor Wu.
+The following are example projects for prospective **undergraduate and masters** students.
+Concrete projects are well-defined and a good place to start, while open-ended projects are good candidates for research theses.   Alternatively, prospective students are welcome to read some recent papers from the lab and suggest extensions or applications as projects as well.  
+
+
+Open-ended projects are trickier and meant as research projects. Research projects demand the ability to look for answers to your questions.  So, before condacting the professor, read the papers and formulate a high level plan for how to tackle the problem.
+
 
 <!--finish robert's sql stepper/debugger demo-->
 
@@ -11,15 +20,15 @@ Prospective students should read the relevant papers before contacting Professor
 
 [SQL Tutor is a web application](https://cudbg.github.io/sqltutor/) that visualizes how a SQL query is executed step by step in the query plan.   Under the covers it uses data provenance to draw the row-level dependencies in each query operator step.   It currently only works for two canned queries, and we would like it to work for a broader range of SQL queries.
 
-Concrete Project
+### Concrete Projects
 
-* Extend the Python databass engine to emit the appropriate provenance and intermediate results so the query plan can be visualized in SQL Tutor
+* Extend the [Python databass engine](https://github.com/cudbg/databass) to emit the appropriate provenance and intermediate results so the query plan can be visualized in SQL Tutor
 * Make everything run in the browser using [pyodide](https://pyodide.org/en/stable/)
 * Help make SQL Tutor more user friendly
 
-Advanced
+Databass is a slow engine used for educational purposes.   PhD students in the lab have been extending the [Duckdb](https://duckdb.org/) query engine to track lineage.  An advanced project is to work with the PhD students in the lab to extend their system to support SQL Tutor.
 
-* databass is a slow engine used for educational purposes.   PhD students in the lab have been extending the [Duckdb](https://duckdb.org/) query engine to track lineage.  Work with the PhD students in the lab to extend their system to support SQL Tutor.
+**Before contacting the professor**, look at the demo, the databass engine, and be able to explain how the query complier works.
 
 
 ## Automatic Interface Generation
@@ -31,15 +40,27 @@ interfaces from SQL queries and natural language.
 * [NL2Vis workshop paper](https://www.dropbox.com/s/l0hjm0mbv6h1ff0/pinl-nlvisworkshop22-submitted.pdf?dl=0)  
 * [Jupyter Notebook Integration Demo](https://www.dropbox.com/s/s1p1byz7tlquj5v/pi2-sigmod22demo-camera.pdf?dl=0)
 
-Concrete Projects
+### Concrete Projects
 
-* We recently redesigned the front-end interface framework.    Help us port the backend interface generation system to generate specifications for the new front-end framework
+* We recently redesigned the (front-end interface framework)[https://github.com/cudbg/pi-svelte].    Help us port the backend interface generation system to generate specifications for the new front-end framework
 * Help implement vis and interaction components for our front-end framework in Typescript+Svelte.
+* Extend the system to generate interfaces from [dbt projects](https://getdbt.com) as input.  The user optionally chooses dbt models they are interested in, and system synthesizes interactive interface for them.
 
-Open ended projects
+**Before contacting the professor**, you should have experience with Svelte.  Look at the [front-end interface framework](https://github.com/cudbg/pi-svelte), and be able to explain the spec and how the backend, views, and widgets communicate with each other.
+
+
+
+### Open ended projects
 
 * Extend interface generation to support interactions designed for accessibility (e.g., interactions for vision impaired users or for speech only modalities).
-* 
+
+
+
+<!--
+## Provenance Tracking in Streaming Dataflow Systems
+-->
+
+
 
 ## VCA: View Composition Algebra
 
@@ -48,61 +69,75 @@ View composition algebra is a new formalism to support comparison interactions i
 * [TVCG Paper](https://arxiv.org/pdf/2202.07836.pdf)
 * [Website/demo](https://viewcompositionalgebra.github.io)
 
-Concrete projects
+### Concrete projects
+
+Improve the library 
 
 * Help refactor the VCA library, and convert to typescript
 * Transition from our custom knex.js based query library to something more used ([Ibis](https://ibis-project.org/docs/3.2.0/), [polysql](https://github.com/jeremiah-shaulov/polysql), etc)
+
+Make the library useful
+
 * Integrate VCA into a existing visualization library or system (openset, vega-lite, LookerML, etc) 
 * Use transformers to translate natural language comparison statements into VCA statements, so users can compare visualized data using natural language.  NL -> VCA.  Compare things on the screen with NL, translate to selections/views and VCA operations
 
-Open ended projects
+**Before contacting the professor**, look through the VCA library code and be able to explain how a View is modeled and how  statistical composition works.
 
-* Extend the formalism and library to support
-  * hierarchical data 
-  * graph/network data
-  * scientific data
-  * general SQL queries/data transform graphs.  
-* Explore integrating [design guidelines](https://graphics.cs.wisc.edu/GleicherAssets/Talks/2017_10_VisComp-given.pdf)  into the formalism
-* Explore applying techniques from data integration (matching, type inference, etc) to comparison
+### Open ended projects
 
+Extend the formalism and library to support
+
+* hierarchical data 
+* graph/network data
+* scientific data
+* general SQL queries/data transform graphs.  
+
+Explore integrating [design guidelines](https://graphics.cs.wisc.edu/GleicherAssets/Talks/2017_10_VisComp-given.pdf)  into the formalism
+
+Explore applying techniques from data integration (matching, type inference, etc) to improve comparison of complex data types or complex data flows
 
 
 ## Could This Be Bad?
 
-This is an open ended research project.  Inspired by https://twitter.com/planetscaledata/status/1551607869585235968
+This is an open ended research project, inspired by [https://twitter.com/planetscaledata/status/1551607869585235968](https://twitter.com/planetscaledata/status/1551607869585235968)
+
 
 Can we develop a system that warns users if an action in the database may have bad ramifications in the future?   One way to think about it:
 
-    P(bad things | actions in the past) =
-    P(bad things | actions)P(actions | query log)
+      P(bad things | actions in the past) =
+      P(bad things | actions)P(actions | query log)
 
 What we care about is most likely:
 
-    P(bad things | actions)P(actions | query log) - P(bad things)
+      P(bad things | actions)P(actions | query log) - P(bad things)
 
-* log shows likelihood of access/query operations
-* also suggest what bad things are "probably OK"
+Where log shows likelihood of access/query operations.  It also could suggest what bad things are "probably OK"
 
 We can categorize/model "bad things", and assess them based on whether
 they make a set of "Tasks" "worse".
 
 * Tasks ~= past queries/workload from some set of users
 
-Worse could mean:
+Worse could mean many things!
 
-* Not runnable:
-  * lost data
-  * changed schema
-  * changed semantics
-  * changed concurrecy/recoverability/etc levels
-  * changed access controls
-* Incorrect data:
-  * violate (past?) constraints
-  * "fairness" type stuff
-* Slower qs (handled by PDD and estimators, but maybe not exposed in a good way)
-  * queries slower
-  * users slower
-  * apps slower
-  * IPs slower
+Not runnable:
+
+* lost data
+* changed schema
+* changed semantics
+* changed concurrecy/recoverability/etc levels
+* changed access controls
+
+Incorrect data:
+
+* violate (past?) constraints
+* "fairness" type stuff
+
+Slower qs (handled by PDD and estimators, but maybe not exposed in a good way)
+
+* queries slower
+* users slower
+* apps slower
+* IPs slower
 
 
