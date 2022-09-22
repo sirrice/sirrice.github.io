@@ -23,17 +23,20 @@ Eugene Wu has received the VLDB 2018 10-year test of time award, best-of-confere
   <a href="https://medium.com/thewulab">Blog</a>
 </p>
 <p>
-  We are recruiting
-  <a href="./apply.html">PhDs + Postdocs</a>, and
-  <a href="https://ewuuu.wufoo.com/forms/z1mh8vwi1q2p3tp/">Interns + UGrad + Masters</a>!
+  <a href="./statement">Overview of My Research and Teaching</a>
 </p>
 </div>
 
 
-<div class="applyheading" style="text-align: left; ">
-  <a href="./statement">Overview of My Research and Teaching</a>
-</div>
+<!--
+<div class="applyheading" style="text-align: left; "> </div>
+-->
 
+<p>
+  <b>Joining The Lab</b>   
+  <br/>PhDs and Postdocs email me and include "bananas" in the subject line.   
+  <br/>Interns + UGrad + Masters <a href="./tasks">read the list of projects looking for help</a>.
+</p>
 
 
 
