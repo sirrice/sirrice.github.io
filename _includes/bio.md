@@ -35,7 +35,7 @@ Eugene Wu has received the VLDB 2018 10-year test of time award, best-of-confere
 <p>
   <b>Joining The Lab</b>   
   <br/>PhDs and Postdocs email me and include "bananas" in the subject line.   
-  <br/>Interns + UGrad + Masters <a href="./tasks">read the list of projects looking for help</a>.
+  <br/>Interns + UGrad + Masters <a href="./tasks.html">read the list of projects looking for help</a>.
 </p>
 
 
