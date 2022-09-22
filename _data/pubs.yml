@@ -44,6 +44,7 @@
   authors: Yiru Chen, Ryan Li, Austin Mac, Tianbao Xie, Tao Yu, Eugene Wu
   short: true
   conf:  VIS nlviz workshop 2022
+  url: https://arxiv.org/abs/2209.08834
   tags: 
     - vis
 - title: 'How Do Captions Affect Visualization Reading?'
@@ -100,7 +101,7 @@
   future: true
   short: true
   conf: MobiSys 2022 Demo
-  url: #
+  url: https://dl.acm.org/doi/pdf/10.1145/3498361.3538671
   tags:
     - misc
 - title: 'ConnectorX: Accelerating Data Loading From Databases to Dataframes'
