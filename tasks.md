@@ -14,6 +14,8 @@ Concrete projects are well-defined and a good place to start, while open-ended p
 Open-ended projects are trickier and meant as research projects. Research projects demand the ability to look for answers to your questions.  So, before condacting the professor, read the papers and formulate a high level plan for how to tackle the problem.
 
 
+If interested, contact the professor with a description of the project you are interested in, your understanding of the papers/relevant material, and your availability -- hours per week, and intended semester(s) of commitment.
+
 <!--finish robert's sql stepper/debugger demo-->
 
 ## SQL Tutor
@@ -56,9 +58,23 @@ interfaces from SQL queries and natural language.
 
 
 
-<!--
-## Provenance Tracking in Streaming Dataflow Systems
--->
+## Efficient Provenance Tracking 
+
+Our group works on efficient systems for provenance tracking in high performance data analysis engines.  We are developing program analysis techniques to recommend how to instrument a piece of data analytics code in order to efficiently caption nad query its data provenance.  
+
+We are in the middle of writing up the techniques.  In the mean time, you should read the precursor to the work to learn about data provenance and instrumentation and then talk to professor wu.   
+
+* [Smoke paper](https://arxiv.org/abs/1801.07237)
+* [Provenance in Interactive Vis](https://arxiv.org/abs/1801.07237)
+
+
+**Before contacting the professor**, you should read the papers, have experience reading and modifying system software (e.g., networking, databases, OS, etc), and have working knoledge of C++ or Rust.
+
+### Open ended projects
+
+* Help us implement and harden the program analysis techniques
+* Apply the program analysis techniques to another vectorized columnar data system, like [DataFusion](https://docs.rs/datafusion/latest/datafusion/), [Monetdb](https://en.wikipedia.org/wiki/MonetDB), .
+* Explore the trade-off and synergies between [logical query rewrites](https://ieeexplore.ieee.org/abstract/document/4812401/) for provenance and physical instrumentation in streaming dataflow systems like [differential dataflow](https://timelydataflow.github.io/differential-dataflow/)/[materialized](https://materialized.io).   You can get pretty far by simply performing logical rewrites of the dataflow operators without modifying the implementation of the dataflow system.
 
 
 
