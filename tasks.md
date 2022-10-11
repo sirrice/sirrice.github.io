@@ -58,6 +58,7 @@ interfaces from SQL queries and natural language.
 
 
 
+
 ## Efficient Provenance Tracking 
 
 Our group works on efficient systems for provenance tracking in high performance data analysis engines.  We are developing program analysis techniques to recommend how to instrument a piece of data analytics code in order to efficiently caption nad query its data provenance.  
@@ -75,6 +76,16 @@ We are in the middle of writing up the techniques.  In the mean time, you should
 * Help us implement and harden the program analysis techniques
 * Apply the program analysis techniques to another vectorized columnar data system, like [DataFusion](https://docs.rs/datafusion/latest/datafusion/), [Monetdb](https://en.wikipedia.org/wiki/MonetDB), .
 * Explore the trade-off and synergies between [logical query rewrites](https://ieeexplore.ieee.org/abstract/document/4812401/) for provenance and physical instrumentation in streaming dataflow systems like [differential dataflow](https://timelydataflow.github.io/differential-dataflow/)/[materialized](https://materialized.io).   You can get pretty far by simply performing logical rewrites of the dataflow operators without modifying the implementation of the dataflow system.
+
+## Super Fast Query Explanations
+
+Query explanations generate predicates over an input table that explain why the results of a query look wrong.   Generating these explanations are very useful ([there's a billion dollar company trying to do this](https://sisudata.com/blog/bringing-decision-intelligence-to-google-cloud)) but super slow.  
+
+We have ongoing work that uses provenance, parallelization, and vectorization to brute-force evaluate millions of explanations a second.  Help us build this library out and release an open source package that anyone can use. 
+
+* [Scorpion Paper](http://sirrice.github.io/files/papers/scorpion-vldb13.pdf)
+
+**Before contacting the professor**, you should read the paper, and have some systems background (e.g., OS or computer architecture class) and motivation to learn C++, GPU acceleration, parallelization.
 
 
 
