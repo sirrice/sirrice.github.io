@@ -80,7 +80,8 @@
 - title: 'Calibration: A Simple Trick for Fast Interactive Join Analytics'
   authors: Zachary Huang, Eugene Wu
   future: true
-  conf: In Review 2023
+  conf: arXiV 2022
+  url: https://arxiv.org/abs/2210.03851
   tags:
     - db
     - ml
