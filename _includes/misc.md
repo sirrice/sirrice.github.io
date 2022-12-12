@@ -3,11 +3,11 @@
 [Haneen Mohammed](http://haneensa.github.io/)   
 [Yiru Chen](https://ireneruru.github.io/)    
 [Zach Huang](http://www.columbia.edu/~zh2408/)   
-[Lampros Flokas](https://dblp.uni-trier.de/pid/185/0725.html)   
 Charlie Summers   
-Jiaxiang "Jerry" Liu
+Jiaxiang "Jerry" Liu  
 
 
+[Lampros Flokas](https://dblp.uni-trier.de/pid/185/0725.html)  (PhD, Meta)     
 [Fotis Psallidas](http://www.cs.columbia.edu/~fotis/) (PhD, Microsoft)       
 [Thibault Sellam](http://sellam.me) (postdoc, Google)
 
@@ -20,10 +20,12 @@ Current Student?  See if [Professor Verma's FAQ page answers your questions](htt
 
 Questions about the CS Journalism dual degree?  See the [FAQ](./dualdegree.html)
 
+<!--
 #### Applying To the Lab
 
 * [PhDs + Postdocs](./apply.html), 
 * [Interns + Undergrads + Masters](https://ewuuu.wufoo.com/forms/z1mh8vwi1q2p3tp/)
+-->
 
 
 
