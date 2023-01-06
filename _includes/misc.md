@@ -4,7 +4,7 @@
 [Yiru Chen](https://ireneruru.github.io/)    
 [Zach Huang](http://www.columbia.edu/~zh2408/)   
 Charlie Summers   
-Jiaxiang "Jerry" Liu  
+[Jiaxiang "Jerry" Liu](https://jerrrrryl.github.io/)    
 
 
 [Lampros Flokas](https://dblp.uni-trier.de/pid/185/0725.html)  (PhD, Meta)     
