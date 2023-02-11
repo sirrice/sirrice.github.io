@@ -91,22 +91,26 @@ We have ongoing work that uses provenance, parallelization, and vectorization to
 
 ## VCA: View Composition Algebra
 
-View composition algebra is a new formalism to support comparison interactions in data visualization interfaces.
+View Composition Algebra is a new type of visualization interaction that allows users to drag and compare data in charts easily.   We have developed a library for composing SQL queries and visualizations.
+
 
 * [TVCG Paper](https://arxiv.org/pdf/2202.07836.pdf)
 * [Website/demo](https://viewcompositionalgebra.github.io)
 
 ### Concrete projects
 
+Integrate VCA into the [Rilldata visualization system](https://github.com/rilldata/rill-developer).   
+
+* The goal is to be able to compare any piece of data visualized in any chart in Rilldata, with any other.   
+* Students should be comfortable hacking on Rilldata, which is in Svelte, and manipulating SQL queries.  
+
+
 Improve the library 
 
 * Help refactor the VCA library, and convert to typescript
-* Transition from our custom knex.js based query library to something more used ([Ibis](https://ibis-project.org/docs/3.2.0/), [polysql](https://github.com/jeremiah-shaulov/polysql), etc)
+* Transition from our custom knex.js based query library to something more widely used ([Ibis](https://ibis-project.org/docs/3.2.0/), [polysql](https://github.com/jeremiah-shaulov/polysql), etc)
 
-Make the library useful
-
-* Integrate VCA into a existing visualization library or system (openset, vega-lite, LookerML, etc) 
-* Use transformers to translate natural language comparison statements into VCA statements, so users can compare visualized data using natural language.  NL -> VCA.  Compare things on the screen with NL, translate to selections/views and VCA operations
+Use transformers to translate natural language comparison statements into VCA statements, so users can compare visualized data using natural language.  NL -> VCA.  Compare things on the screen with NL, translate to selections/views and VCA operations
 
 **Before contacting the professor**, look through the VCA library code and be able to explain how a View is modeled and how  statistical composition works.
 
@@ -124,6 +128,7 @@ Explore integrating [design guidelines](https://graphics.cs.wisc.edu/GleicherAss
 Explore applying techniques from data integration (matching, type inference, etc) to improve comparison of complex data types or complex data flows
 
 
+<!--
 ## Could This Be Bad?
 
 This is an open ended research project, inspired by [https://twitter.com/planetscaledata/status/1551607869585235968](https://twitter.com/planetscaledata/status/1551607869585235968)
@@ -167,4 +172,4 @@ Slower qs (handled by PDD and estimators, but maybe not exposed in a good way)
 * apps slower
 * IPs slower
 
-
+-->
