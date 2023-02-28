@@ -38,6 +38,7 @@ ninjas:
     name: Jade
   - img: kitana.png
     name: Kitana
+    desc: In Revision
   - img: mileena.png
     name: Mileena
   - img: noobsaibot.png
