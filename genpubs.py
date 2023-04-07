@@ -24,7 +24,11 @@ Rahul Khanna
 Thibault Sellam
 Yiliang Shi
 Yiru Chen
+Jeffrey Tao
+Pavan Kalyan
+Jiaxiang Liu
 Yilan Jiang
+Zezhou Huang
 Alexander Yao
 Charlie Summers
 Charles Summers
@@ -74,6 +78,7 @@ def format_text_auths(auths):
 
 
 def print_pub(pub):
+  if not pub: return
   try:
     auths = pub.get("authors", "")
     auths = [auth.strip() for auth in auths.split(",")]
@@ -164,7 +169,8 @@ TA  - %s\r
 def print_latex(pub, i, b_year):
   year = b_year and get_year(pub) or ""
   pub = print_pub(pub)
-  return "\\smallskip %s& $[%d]$ \\smallskip %s\\\\" % (year, i, pub)
+  if pub:
+    return "\\smallskip %s& $[%d]$ \\smallskip %s\\\\" % (year, i, pub)
 
 
 
@@ -256,7 +262,7 @@ def main(pubfname, b, a, m):
 
   print "\n\n"
   print "&\\section{Short Papers, Technical Reports, and Demos}\\\\"
-  for pub in filter(lambda pub: pub.get("short"), data):
+  for pub in filter(lambda pub: not pub.get("future") and pub.get("short"), data):
     year = get_year(pub)
     print print_latex(pub, i+1, prev_year != year)
     prev_year = year

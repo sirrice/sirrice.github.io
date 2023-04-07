@@ -34,12 +34,59 @@
   future: true
   authors: Haneen Mohammed, Charlie Summers, Eugene Wu
   conf: In Progress 2023
-- title: 'JackBench: A Data Loading Benchmark'
-  hide: true
+- title: "JoinBoost: Grow Trees Over Normalized Data Using Only SQL "
+  authors: Zezhou Huang, Rathijit Sen, Jiaxiang Liu, Eugene Wu
   future: true
   conf: In Review 2023
+- title: "Saibot: A Differentially Private Data Search Platform"
+  authors: Zezhou Huang, Jiaxiang Liu, Daniel Alabi, Raul Castro Fernandez, Eugene Wu
+  future: true
+  conf: In Review 2023
+- title: "Random Forests over Normalized Data in CPU-GPU DBMSes"
+  authors: Zezhou Huang, Pavan Kalyan, Rathijit Sen, Eugene Wu
+  future: true
+  short: true
+  conf: In Review 2023
+- title: "Analysis Errors Over Semantic Layers and How To Avoid Them"
+  authors: Zezhou Huang, Pavan Kalyan, Eugene Wu
+  future: true
+  short: true
+  conf: In Progress 2023
+- title: "Demonstration of Kitana: Interactive and Private Data Augmentation Search for AutoML"
+  authors: Jiaxiang Liu, Zezhou Huang, Eugene Wu
+  short: true
+  future: true
+  conf: In Progress 2023
+- title: "Comparison Visualization Under Data-induced Channels"
+  authors: Yilan Jiang, Cindy Xiong, Steven Franconeri, Eugene Wu
+  future: true
+  short: true
+  conf: In Progress 2023
+- title: "Data Interface Grammar: An Abstraction for Interactive Visualization Interfaces"
+  authors: Yiru Chen, Jeffrey Tao, Eugene Wu
+  future: true
+  short: true
+  conf: In Progress 2023
+- title: "A Hypothesis-Based Framework for Evaluating Visualization and Visual Analytics Systems"
+  authors: Ashley Suh, Ab Mosca, Eugene Wu, Remco Chang
+  future: true
+  conf: In Review 2023
+- title: 'FaDE: Answering "Why?" Made Fast'
+  authors: Alexander Yao, Lampros Flokas, Eugene Wu
+  hid: true
+  future: true
+  conf: In Progress 2023
+  tags:
+    - db
+    - dbexplain
 
 
+- title: "OM3: An Ordered Multi-level Min-Max Representation for Interactive Progressive Visualization of Time Series"
+  authors: Yunhai Wang, Yuchun Wang, Xin Chen, Yue Zhao, Fan Zhang, Eugene Wu, Chi-Wing Fu, Xiaohui Yu
+  conf: SIGMOD 2023
+- title: "Pollock: A Data Loading Benchmark"
+  authors: Gerardo Vitagliano, Mazhar Hameed, Lan Jiang, Lucas Reisener, Eugene Wu, Felix Naumann
+  conf: VLDB 2023
 - title: 'NL2INTERFACE: Interactive Visualization Interface Generation from Natural Language Queries'
   authors: Yiru Chen, Ryan Li, Austin Mac, Tianbao Xie, Tao Yu, Eugene Wu
   short: true
@@ -49,7 +96,6 @@
     - vis
 - title: 'How Do Captions Affect Visualization Reading?'
   authors: Shelly Cheng, Hazel Zhu, Eugene Wu
-  future: true
   short: true
   conf: VIS Viscomm 2022
   url: https://arxiv.org/abs/2205.01263
@@ -57,19 +103,11 @@
     - vis
 - title: 'Extending the View Composition Algebra to Hierarchical Data'
   authors: Eugene Wu
-  future: true
   conf: arXiV 2022
   short: true
   url: https://arxiv.org/abs/2205.01283
   tags:
     - vis
-- title: 'FaDE: Answering "Why?" Made Fast'
-  authors: Alexander Yao, Lampros Flokas, Eugene Wu
-  future: true
-  conf: In Review 2023
-  tags:
-    - db
-    - dbexplain
 - title: 'Kitana: A Data-as-a-Service Platform'
   authors: Zachary Huang, Pranav Subramaniam, Raul Fernandez, Eugene Wu
   future: true
@@ -80,7 +118,7 @@
 - title: 'Calibration: A Simple Trick for Fast Interactive Join Analytics'
   authors: Zachary Huang, Eugene Wu
   future: true
-  conf: arXiV 2022
+  conf: In Review 2023
   url: https://arxiv.org/abs/2210.03851
   tags:
     - db
@@ -88,7 +126,6 @@
 - title: 'A Grammar for Hypothesis-Driven Visual Analysis'
   authors: Ashley Suh, Yilan Jiang, Ab Mosca, Eugene Wu, Remco Chang
   url: https://arxiv.org/abs/2204.14267
-  future: true
   conf: ArXiV 2022
   selected: true
   tags:
@@ -99,7 +136,6 @@
 
 - title: 'A Sensorless Drone-based System for Mapping Indoor 3D Airflow Gradients'
   authors: Yanchen Liu, Minghui Zhao, Stephen Xia, Eugene Wu, Xiaofan Jiang
-  future: true
   short: true
   conf: MobiSys 2022 Demo
   url: https://dl.acm.org/doi/pdf/10.1145/3498361.3538671
@@ -108,7 +144,6 @@
 - title: 'ConnectorX: Accelerating Data Loading From Databases to Dataframes'
   authors: Xiaoying Wang, Weiyuan Wu, Jinze Wu, Yizhou Chen, Nick Zrymiak, Changbo Qu, Lampros Flokas, George Chow, Jiannan Wang, Tianzheng Wang, Eugene Wu, Qingqing Zhou
   conf: VLDB 2023
-  future: true
   tags:
     - db
 - title: 'How I Stopped Worrying About Training Data Bugs and Started Complaining'
