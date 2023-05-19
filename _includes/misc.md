@@ -5,6 +5,7 @@
 [Zach Huang](http://www.columbia.edu/~zh2408/)   
 Charlie Summers   
 [Jiaxiang "Jerry" Liu](https://jerrrrryl.github.io/)    
+[Haonan "Peter" Wang](https://www.linkedin.com/in/haonan-wang-3a5955237?trk=people-guest_people_search-card)
 
 
 [Lampros Flokas](https://dblp.uni-trier.de/pid/185/0725.html)  (PhD, Meta)     
