@@ -4,6 +4,7 @@ tags:
 ---
 
 
+* Dec-2022: Zachary recieved the Columbia Data Science Institute's Avanessian PhD fellowship!
 * Sep-2022: IEEE VIS 2022 is next month!  Excited to present our work on [generating fully interactive interface from natural language questions](https://arxiv.org/abs/2209.08834) at the [nlviz workshop](https://nlvizworkshop2022.com/), our [recommendations for how to write captions for data visualizations](https://arxiv.org/abs/2205.01263) at the viscomm workshop, and our [new formalism and interaction design for ad hoc comparisons](https://viewcompositionalgebra.github.io) at the main conference!
 * Aug-2022: A nice [Columbia Engineering article about our research to help insure African farmers from droughts and floods](https://www.engineering.columbia.edu/news/using-tech-help-african-farmers-collect-payouts).
 * Jun-2022: SIGMOD 2022 is this week!  We are presenting 3 full papers, 1 DEEM workshop paper, 2 demos, and student research competition posters!  We summarize this work in our SIGMOD 22 [Blog post](https://medium.com/@ew2493/wublab-sigmod-2022-8977d14a4d56)!
