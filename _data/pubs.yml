@@ -20,7 +20,7 @@
 #
 # Main tags are
 #
-#   crowd, vis, ml, dbexplain, mlexplain, db, clean
+#   crowd, vis, ml, dbexplain, mlexplain, db, clean, dp
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
@@ -38,58 +38,86 @@
   authors: Zezhou Huang, Rathijit Sen, Jiaxiang Liu, Eugene Wu
   future: true
   conf: In Review 2023
+  hide: true
+  tags:
+    - ml
+    - db
 - title: "Saibot: A Differentially Private Data Search Platform"
   authors: Zezhou Huang, Jiaxiang Liu, Daniel Alabi, Raul Castro Fernandez, Eugene Wu
   future: true
+  hide: true
   conf: In Review 2023
+  tags:
+    - dp
+    - ml
+    - db
 - title: "Demonstration of Kitana: Interactive and Private Data Augmentation Search for AutoML"
   authors: Jiaxiang Liu, Zezhou Huang, Eugene Wu
   short: true
+  hide: true
   future: true
   conf: In Progress 2023
 - title: "Comparison Visualization Under Data-induced Channels"
   authors: Yilan Jiang, Cindy Xiong, Steven Franconeri, Eugene Wu
   future: true
+  hide: true
   short: true
   conf: In Progress 2023
 - title: "A Hypothesis-Based Framework for Evaluating Visualization and Visual Analytics Systems"
   authors: Ashley Suh, Ab Mosca, Eugene Wu, Remco Chang
   future: true
+  hide: true
   conf: In Review 2023
+  tags:
+    - vis
 - title: 'FaDE: Answering "Why?" Made Fast'
   authors: Alexander Yao, Lampros Flokas, Eugene Wu
-  hid: true
+  hide: true
   future: true
   conf: In Progress 2023
   tags:
     - db
     - dbexplain
 
+
 - title: "Data Interface Grammar: An Abstraction for Interactive Visualization Interfaces"
   authors: Yiru Chen, Jeffrey Tao, Eugene Wu
   short: true
   conf: HILDA at SIGMOD 2023
+  tags:
+    - vis
+    - db
 - title: "Random Forests over Normalized Data in CPU-GPU DBMSes"
   authors: Zezhou Huang, Pavan Kalyan, Rathijit Sen, Eugene Wu
-  future: true
   short: true
   conf: DAMON at SIGMOD 2023
+  tags:
+    - ml
+    - db
 - title: "Analysis Errors Over Semantic Layers and How To Avoid Them"
   authors: Zezhou Huang, Pavan Kalyan, Eugene Wu
-  future: true
   short: true
   conf: HILDA at SIGMOD 2023
+  tags:
+    - db
 - title: "Teaching Data Science by Visualizing Data Table Transformations: Pandas Tutor for Python, Tidy Data Tutor for R, and SQL Tutor"
   authors: Sam Lau, Sean Kross, Eugene Wu, Philip J Guo
   conf: DataEd at SIGMOD 2023
   short: true
   url: https://www.dropbox.com/s/ibp4j6e3r6dykdd/sqltutor-dataed23-cr.pdf?dl=0
+  tags:
+    - ed
+    - vis
 - title: "OM3: An Ordered Multi-level Min-Max Representation for Interactive Progressive Visualization of Time Series"
   authors: Yunhai Wang, Yuchun Wang, Xin Chen, Yue Zhao, Fan Zhang, Eugene Wu, Chi-Wing Fu, Xiaohui Yu
   conf: SIGMOD 2023
-- title: "Pollock: A Data Loading Benchmark"
+  tags:
+    - vis
+- title: 'Pollock: A Data Loading Benchmark'
   authors: Gerardo Vitagliano, Mazhar Hameed, Lan Jiang, Lucas Reisener, Eugene Wu, Felix Naumann
   conf: VLDB 2023
+  tags:
+    - misc
 - title: 'NL2INTERFACE: Interactive Visualization Interface Generation from Natural Language Queries'
   authors: Yiru Chen, Ryan Li, Austin Mac, Tianbao Xie, Tao Yu, Eugene Wu
   short: true
