@@ -20,7 +20,7 @@
 #
 # Main tags are
 #
-#   crowd, vis, ml, dbexplain, mlexplain, db, clean, dp
+#   crowd, vis, ml, dbexplain, mlexplain, db, clean
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
@@ -38,38 +38,24 @@
   authors: Zezhou Huang, Rathijit Sen, Jiaxiang Liu, Eugene Wu
   future: true
   conf: In Review 2023
-  hide: true
-  tags:
-    - ml
-    - db
 - title: "Saibot: A Differentially Private Data Search Platform"
   authors: Zezhou Huang, Jiaxiang Liu, Daniel Alabi, Raul Castro Fernandez, Eugene Wu
   future: true
-  hide: true
   conf: In Review 2023
-  tags:
-    - dp
-    - ml
-    - db
 - title: "Demonstration of Kitana: Interactive and Private Data Augmentation Search for AutoML"
   authors: Jiaxiang Liu, Zezhou Huang, Eugene Wu
   short: true
-  hide: true
   future: true
   conf: In Progress 2023
 - title: "Comparison Visualization Under Data-induced Channels"
   authors: Yilan Jiang, Cindy Xiong, Steven Franconeri, Eugene Wu
   future: true
-  hide: true
   short: true
   conf: In Progress 2023
 - title: "A Hypothesis-Based Framework for Evaluating Visualization and Visual Analytics Systems"
   authors: Ashley Suh, Ab Mosca, Eugene Wu, Remco Chang
   future: true
-  hide: true
   conf: In Review 2023
-  tags:
-    - vis
 - title: 'FaDE: Answering "Why?" Made Fast'
   authors: Alexander Yao, Lampros Flokas, Eugene Wu
   hide: true
@@ -78,35 +64,71 @@
   tags:
     - db
     - dbexplain
-
-
-- title: "Data Interface Grammar: An Abstraction for Interactive Visualization Interfaces"
-  authors: Yiru Chen, Jeffrey Tao, Eugene Wu
-  short: true
-  conf: HILDA at SIGMOD 2023
+- title: 'Kitana: A Data-as-a-Service Platform'
+  authors: Zachary Huang, Pranav Subramaniam, Raul Fernandez, Eugene Wu
+  future: true
+  hide: true
+  conf: In Review 2023
   tags:
-    - vis
     - db
-- title: "Random Forests over Normalized Data in CPU-GPU DBMSes"
-  authors: Zezhou Huang, Pavan Kalyan, Rathijit Sen, Eugene Wu
-  short: true
-  conf: DAMON at SIGMOD 2023
-  tags:
     - ml
+- title: 'Calibration: A Simple Trick for Fast Interactive Join Analytics'
+  authors: Zachary Huang, Eugene Wu
+  hide: true
+  future: true
+  conf: In Review 2023
+  url: https://arxiv.org/abs/2210.03851
+  tags:
     - db
+    - ml
+
+
+
+
 - title: "Analysis Errors Over Semantic Layers and How To Avoid Them"
   authors: Zezhou Huang, Pavan Kalyan, Eugene Wu
   short: true
   conf: HILDA at SIGMOD 2023
+- title: "Data Interface Grammar: An Abstraction for Interactive Visualization Interfaces"
+  authors: Yiru Chen, Jeffrey Tao, Eugene Wu
+  short: true
+  conf: HILDA at SIGMOD 2023
+- title: "Random Forests over Normalized Data in CPU-GPU DBMSes"
+  authors: Zezhou Huang, Pavan Kalyan, Rathijit Sen, Eugene Wu
+  short: true
+  conf: DaMoN at SIGMOD 2023
   tags:
     - db
-- title: "Teaching Data Science by Visualizing Data Table Transformations: Pandas Tutor for Python, Tidy Data Tutor for R, and SQL Tutor"
-  authors: Sam Lau, Sean Kross, Eugene Wu, Philip J Guo
-  conf: DataEd at SIGMOD 2023
-  short: true
-  url: https://www.dropbox.com/s/ibp4j6e3r6dykdd/sqltutor-dataed23-cr.pdf?dl=0
+    - ml
+- title: "OM3: An Ordered Multi-level Min-Max Representation for Interactive Progressive Visualization of Time Series"
+  authors: Yunhai Wang, Yuchun Wang, Xin Chen, Yue Zhao, Fan Zhang, Eugene Wu, Chi-Wing Fu, Xiaohui Yu
+  conf: SIGMOD 2023
   tags:
-    - ed
+    - vis
+    - db
+- title: "Pollock: A Data Loading Benchmark"
+  authors: Gerardo Vitagliano, Mazhar Hameed, Lan Jiang, Lucas Reisener, Eugene Wu, Felix Naumann
+  conf: VLDB 2023
+- title: 'NL2INTERFACE: Interactive Visualization Interface Generation from Natural Language Queries'
+  authors: Yiru Chen, Ryan Li, Austin Mac, Tianbao Xie, Tao Yu, Eugene Wu
+  short: true
+  conf:  VIS nlviz workshop 2022
+  url: https://arxiv.org/abs/2209.08834
+  tags: 
+    - vis
+- title: 'How Do Captions Affect Visualization Reading?'
+  authors: Shelly Cheng, Hazel Zhu, Eugene Wu
+  short: true
+  conf: VIS Viscomm 2022
+  url: https://arxiv.org/abs/2205.01263
+  tags:
+    - vis
+- title: 'Extending the View Composition Algebra to Hierarchical Data'
+  authors: Eugene Wu
+  conf: arXiV 2022
+  short: true
+  url: https://arxiv.org/abs/2205.01283
+  tags:
     - vis
 - title: "OM3: An Ordered Multi-level Min-Max Representation for Interactive Progressive Visualization of Time Series"
   authors: Yunhai Wang, Yuchun Wang, Xin Chen, Yue Zhao, Fan Zhang, Eugene Wu, Chi-Wing Fu, Xiaohui Yu
@@ -139,21 +161,6 @@
   url: https://arxiv.org/abs/2205.01283
   tags:
     - vis
-- title: 'Kitana: A Data-as-a-Service Platform'
-  authors: Zachary Huang, Pranav Subramaniam, Raul Fernandez, Eugene Wu
-  future: true
-  conf: In Review 2023
-  tags:
-    - db
-    - ml
-- title: 'Calibration: A Simple Trick for Fast Interactive Join Analytics'
-  authors: Zachary Huang, Eugene Wu
-  future: true
-  conf: In Review 2023
-  url: https://arxiv.org/abs/2210.03851
-  tags:
-    - db
-    - ml
 - title: 'A Grammar for Hypothesis-Driven Visual Analysis'
   authors: Ashley Suh, Yilan Jiang, Ab Mosca, Eugene Wu, Remco Chang
   url: https://arxiv.org/abs/2204.14267
@@ -866,37 +873,6 @@
   - db
   title: 'TrajStore: An Adaptive Storage System for Very Large Trajectory Data Sets'
   url: http://sirrice.github.io/files/papers/trajstore-icde10.pdf
-- authors: Eugene Wu, Philippe Cudre-Mauroux, Sam Madden
-  conf: VLDB 2009 demo
-  tags:
-  - db
-  title: Demonstration of the TrajStore System
-  short: true
-  url: http://sirrice.github.io/files/papers/trajstore-vldb09demo.pdf
-- authors: Philippe Cudre-Mauroux, Eugene Wu, Sam Madden
-  conf: CIDR 2009
-  tags:
-  - db
-  title: 'The Case for RodentStore: An Adaptive, Declarative Storage System'
-  citations: 32
-  url: http://www-db.cs.wisc.edu/cidr/cidr2009/Paper_97.pdf
-- authors: Michael Cafarella, Alon Halevy, Daisy Wang, Eugene Wu, Yang Zhang
-  rate: 16.8
-  citations: 737
-  conf: VLDB 2008
-  tags:
-  - db
-  - web
-  title: 'WebTables: Exploring the Power of Tables on the Web'
-  url: http://sirrice.github.io/files/papers/webtables-vldb08.pdf
-- authors: Michael Cafarella, Nodira Khoussainova, Daisy Wang, Eugene Wu, Yang Zhang, Alon Halevy
-  conf: WebDB 2008
-  short: true
-  tags:
-  - db
-  - web
-  title: Uncovering the Relational Web
-  citations: 178
   url: http://sirrice.github.io/files/papers/relweb-webdb08.pdf
 - authors: Daniel Gyllstrom, Eugene Wu, Hee-Jin Chae, Yanlei Diao, Patrick Stahlberg,
     Gordon Anderson
