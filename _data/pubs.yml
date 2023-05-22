@@ -85,14 +85,30 @@
 
 
 
+- title: 'Pollock: A Data Loading Benchmark'
+  authors: Gerardo Vitagliano, Mazhar Hameed, Lan Jiang, Lucas Reisener, Eugene Wu, Felix Naumann
+  conf: VLDB 2023
+  tags:
+    - misc
+- title: 'ConnectorX: Accelerating Data Loading From Databases to Dataframes'
+  authors: Xiaoying Wang, Weiyuan Wu, Jinze Wu, Yizhou Chen, Nick Zrymiak, Changbo Qu, Lampros Flokas, George Chow, Jiannan Wang, Tianzheng Wang, Eugene Wu, Qingqing Zhou
+  conf: VLDB 2023
+  tags:
+    - db
 - title: "Analysis Errors Over Semantic Layers and How To Avoid Them"
   authors: Zezhou Huang, Pavan Kalyan, Eugene Wu
   short: true
   conf: HILDA at SIGMOD 2023
+  tags:
+    - vis
+    - db
 - title: "Data Interface Grammar: An Abstraction for Interactive Visualization Interfaces"
   authors: Yiru Chen, Jeffrey Tao, Eugene Wu
   short: true
   conf: HILDA at SIGMOD 2023
+  tags:
+    - vis
+    - db
 - title: "Random Forests over Normalized Data in CPU-GPU DBMSes"
   authors: Zezhou Huang, Pavan Kalyan, Rathijit Sen, Eugene Wu
   short: true
@@ -106,9 +122,6 @@
   tags:
     - vis
     - db
-- title: "Pollock: A Data Loading Benchmark"
-  authors: Gerardo Vitagliano, Mazhar Hameed, Lan Jiang, Lucas Reisener, Eugene Wu, Felix Naumann
-  conf: VLDB 2023
 - title: 'NL2INTERFACE: Interactive Visualization Interface Generation from Natural Language Queries'
   authors: Yiru Chen, Ryan Li, Austin Mac, Tianbao Xie, Tao Yu, Eugene Wu
   short: true
@@ -130,16 +143,6 @@
   url: https://arxiv.org/abs/2205.01283
   tags:
     - vis
-- title: "OM3: An Ordered Multi-level Min-Max Representation for Interactive Progressive Visualization of Time Series"
-  authors: Yunhai Wang, Yuchun Wang, Xin Chen, Yue Zhao, Fan Zhang, Eugene Wu, Chi-Wing Fu, Xiaohui Yu
-  conf: SIGMOD 2023
-  tags:
-    - vis
-- title: 'Pollock: A Data Loading Benchmark'
-  authors: Gerardo Vitagliano, Mazhar Hameed, Lan Jiang, Lucas Reisener, Eugene Wu, Felix Naumann
-  conf: VLDB 2023
-  tags:
-    - misc
 - title: 'NL2INTERFACE: Interactive Visualization Interface Generation from Natural Language Queries'
   authors: Yiru Chen, Ryan Li, Austin Mac, Tianbao Xie, Tao Yu, Eugene Wu
   short: true
@@ -179,11 +182,6 @@
   url: https://dl.acm.org/doi/pdf/10.1145/3498361.3538671
   tags:
     - misc
-- title: 'ConnectorX: Accelerating Data Loading From Databases to Dataframes'
-  authors: Xiaoying Wang, Weiyuan Wu, Jinze Wu, Yizhou Chen, Nick Zrymiak, Changbo Qu, Lampros Flokas, George Chow, Jiannan Wang, Tianzheng Wang, Eugene Wu, Qingqing Zhou
-  conf: VLDB 2023
-  tags:
-    - db
 - title: 'How I Stopped Worrying About Training Data Bugs and Started Complaining'
   authors: Lampros Flokas, Weiuan Wu, Jiannan Wang, Nakul Verma, Eugene Wu
   conf: DEEM Workshop 2022 
@@ -222,7 +220,7 @@
 - title: 'A Neural Network Solves and Generates Mathematics Problems by Program Synthesis: Calculus, Differential Equations, Linear Algebra, and More'
   authors: Iddo Drori, Sunny Tran, Roman Wang, Newman Cheng, Kevin Liu, Leonard Tang, Elizabeth Ke, Nikhil Singh, Taylor L. Patti, Jayson Lynch, Avi Shporer, Nakul Verma, Eugene Wu, Gilbert Strang
   url: https://arxiv.org/abs/2112.15594
-  conf: PNAS 2022 (in review)
+  conf: PNAS 2022
   tags:
     - ml
 - title: 'Complaint-Driven Training Data Debugging at Interactive Speeds'
