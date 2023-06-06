@@ -99,6 +99,7 @@
   authors: Sam Lau, Sean Kross, Eugene Wu, Philip Guo
   short: true
   conf: DataEd at SIGMOD 2023
+  url: https://www.dropbox.com/s/ibp4j6e3r6dykdd/sqltutor-dataed23-cr.pdf?dl=0
   tags:
     - db
     - vis
