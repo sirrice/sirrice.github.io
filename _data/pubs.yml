@@ -110,10 +110,11 @@
   tags:
     - vis
     - db
-- title: "Data Interface Grammar: An Abstraction for Interactive Visualization Interfaces"
+- title: "DIG: The Data Interface Grammar"
   authors: Yiru Chen, Jeffrey Tao, Eugene Wu
   short: true
   conf: HILDA at SIGMOD 2023
+  url: https://www.dropbox.com/s/bhwikxq8932dsg5/dig-hilda23-cr.pdf?dl=0
   tags:
     - vis
     - db
