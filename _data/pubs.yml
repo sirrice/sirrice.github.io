@@ -34,14 +34,6 @@
   future: true
   authors: Haneen Mohammed, Charlie Summers, Eugene Wu
   conf: In Progress 2023
-- title: "JoinBoost: Grow Trees Over Normalized Data Using Only SQL "
-  authors: Zezhou Huang, Rathijit Sen, Jiaxiang Liu, Eugene Wu
-  future: true
-  conf: In Review 2023
-- title: "Saibot: A Differentially Private Data Search Platform"
-  authors: Zezhou Huang, Jiaxiang Liu, Daniel Alabi, Raul Castro Fernandez, Eugene Wu
-  future: true
-  conf: In Review 2023
 - title: "Demonstration of Kitana: Interactive and Private Data Augmentation Search for AutoML"
   authors: Jiaxiang Liu, Zezhou Huang, Eugene Wu
   short: true
@@ -84,7 +76,18 @@
 
 
 
-
+- title: "JoinBoost: Grow Trees Over Normalized Data Using Only SQL "
+  authors: Zezhou Huang, Rathijit Sen, Jiaxiang Liu, Eugene Wu
+  conf: VLDB 2023
+  tags:
+    - db
+    - ml
+- title: "Saibot: A Differentially Private Data Search Platform"
+  authors: Zezhou Huang, Jiaxiang Liu, Daniel Alabi, Raul Castro Fernandez, Eugene Wu
+  conf: VLDB 2023
+  tags:
+    - db
+    - ml
 - title: 'Pollock: A Data Loading Benchmark'
   authors: Gerardo Vitagliano, Mazhar Hameed, Lan Jiang, Lucas Reisener, Eugene Wu, Felix Naumann
   conf: VLDB 2023
