@@ -98,6 +98,14 @@
   conf: VLDB 2023
   tags:
     - db
+- title: 'Teaching Data Science by Visualizing Data Table Transformations: Pandas Tutor for Python, Tidy Data Tutor for R, and SQL Tutor'
+  authors: Sam Lau, Sean Kross, Eugene Wu, Philip Guo
+  short: true
+  conf: DataEd at SIGMOD 2023
+  url: https://www.dropbox.com/s/ibp4j6e3r6dykdd/sqltutor-dataed23-cr.pdf?dl=0
+  tags:
+    - db
+    - vis
 - title: "Analysis Errors Over Semantic Layers and How To Avoid Them"
   authors: Zezhou Huang, Pavan Kalyan, Eugene Wu
   short: true
@@ -105,10 +113,11 @@
   tags:
     - vis
     - db
-- title: "Data Interface Grammar: An Abstraction for Interactive Visualization Interfaces"
+- title: "DIG: The Data Interface Grammar"
   authors: Yiru Chen, Jeffrey Tao, Eugene Wu
   short: true
   conf: HILDA at SIGMOD 2023
+  url: https://www.dropbox.com/s/bhwikxq8932dsg5/dig-hilda23-cr.pdf?dl=0
   tags:
     - vis
     - db
