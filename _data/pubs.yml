@@ -75,27 +75,37 @@
     - ml
 
 
-
+- title: "The Fast and the Private: Task-based Dataset Search"
+  authors: Zezhou Huang, Jiaxiang Liu, Haonan Wang, Eugene Wu
+  conf: In Review
+  url: https://arxiv.org/pdf/2308.05637.pdf
+  tags:
+    - db
+    - ml
 - title: "JoinBoost: Grow Trees Over Normalized Data Using Only SQL "
   authors: Zezhou Huang, Rathijit Sen, Jiaxiang Liu, Eugene Wu
   conf: VLDB 2023
+  url: https://arxiv.org/abs/2307.00422
   tags:
     - db
     - ml
 - title: "Saibot: A Differentially Private Data Search Platform"
   authors: Zezhou Huang, Jiaxiang Liu, Daniel Alabi, Raul Castro Fernandez, Eugene Wu
   conf: VLDB 2023
+  url: https://arxiv.org/abs/2307.00432
   tags:
     - db
     - ml
 - title: 'Pollock: A Data Loading Benchmark'
   authors: Gerardo Vitagliano, Mazhar Hameed, Lan Jiang, Lucas Reisener, Eugene Wu, Felix Naumann
   conf: VLDB 2023
+  url: https://dl.acm.org/doi/10.14778/3594512.3594518
   tags:
     - misc
 - title: 'ConnectorX: Accelerating Data Loading From Databases to Dataframes'
   authors: Xiaoying Wang, Weiyuan Wu, Jinze Wu, Yizhou Chen, Nick Zrymiak, Changbo Qu, Lampros Flokas, George Chow, Jiannan Wang, Tianzheng Wang, Eugene Wu, Qingqing Zhou
   conf: VLDB 2023
+  url: https://github.com/sfu-db/connector-x
   tags:
     - db
 - title: 'Teaching Data Science by Visualizing Data Table Transformations: Pandas Tutor for Python, Tidy Data Tutor for R, and SQL Tutor'
