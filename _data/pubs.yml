@@ -83,7 +83,13 @@
     - db
     - ml
 
-
+- title: "The Fast and the Private: Task-based Dataset Search"
+  authors: Zezhou Huang, Jiaxiang Liu, Haonan Wang, Eugene Wu
+  conf: In Review
+  url: https://arxiv.org/pdf/2308.05637.pdf
+  tags:
+    - db
+    - ml
 - title: "JoinBoost: Grow Trees Over Normalized Data Using Only SQL "
   authors: Zezhou Huang, Rathijit Sen, Jiaxiang Liu, Eugene Wu
   conf: VLDB 2023
