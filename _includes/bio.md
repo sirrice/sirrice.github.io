@@ -11,7 +11,7 @@ and was a postdoc in the [AMPLab](https://amplab.cs.berkeley.edu).
 [an obit](./obit.html).
 
 
-Eugene Wu has received the VLDB 2018 10-year test of time award, best-of-conference citations at ICDE and VLDB, the SIGMOD 2016 best demo award, the NSF CAREER, and the Google and Amazon faculty awards.  
+Eugene Wu has received the VLDB 2018 10-year test of time award, best-of-conference citations at ICDE and VLDB, the SIGMOD 2016 best demo award, the NSF CAREER, and the Google, Adobe, and Amazon faculty awards.  
 
 <!--by [@mstem](http://partnews.brownbag.me/2012/02/29/interview-matt-stempeck-wants-to-change-the-world-with-tech/),-->
 
@@ -34,8 +34,8 @@ Eugene Wu has received the VLDB 2018 10-year test of time award, best-of-confere
 
 <p>
   <b>Joining The Lab</b>   
-  <br/>PhDs and Postdocs: read recent papers, email me with thoughts on extensions,  and include "bananas" in the subject line.   
-  <br/>Interns + UGrad + Masters <a href="./tasks.html">read the list of projects looking for help</a>.
+  <br/>PhDs and Postdocs: read recent papers, email me with thoughts on extensions/project ideas. Include "bananas" in the subject line.   
+  <br/>Interns + UGrad + Masters: please contact and talk to the graduate students in the lab. <!--<a href="./tasks.html">read the list of projects looking for help</a>.-->
 </p>
 
 
