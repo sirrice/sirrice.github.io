@@ -80,6 +80,7 @@
   authors: Zezhou Huang, Jiaxiang Liu, Haonan Wang, Eugene Wu
   conf: In Review
   url: https://arxiv.org/pdf/2308.05637.pdf
+  selected: true
   tags:
     - db
     - ml
@@ -87,6 +88,7 @@
   authors: Zezhou Huang, Rathijit Sen, Jiaxiang Liu, Eugene Wu
   conf: VLDB 2023
   url: https://arxiv.org/abs/2307.00422
+  selected: true
   tags:
     - db
     - ml
@@ -129,6 +131,7 @@
   authors: Yiru Chen, Jeffrey Tao, Eugene Wu
   short: true
   conf: HILDA at SIGMOD 2023
+  selected: true
   url: https://www.dropbox.com/s/bhwikxq8932dsg5/dig-hilda23-cr.pdf?dl=0
   tags:
     - vis
@@ -194,7 +197,6 @@
   authors: Ashley Suh, Yilan Jiang, Ab Mosca, Eugene Wu, Remco Chang
   url: https://arxiv.org/abs/2204.14267
   conf: ArXiV 2022
-  selected: true
   tags:
     - vis
 
