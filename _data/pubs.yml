@@ -60,6 +60,7 @@
   authors: Zachary Huang, Pranav Subramaniam, Raul Fernandez, Eugene Wu
   future: true
   hide: true
+  url: https://arxiv.org/abs/2305.10419
   conf: In Review 2023
   tags:
     - db
@@ -894,8 +895,13 @@
   title: 'TrajStore: An Adaptive Storage System for Very Large Trajectory Data Sets'
   url: http://sirrice.github.io/files/papers/trajstore-icde10.pdf
   url: http://sirrice.github.io/files/papers/relweb-webdb08.pdf
-- authors: Daniel Gyllstrom, Eugene Wu, Hee-Jin Chae, Yanlei Diao, Patrick Stahlberg,
-    Gordon Anderson
+- authors: Michael Cafarella, Alon Halevy, Daisy Wang, Eugene Wu, Yang Zhang
+  title: Webtables, exploring the power of tables on the web
+  conf: VLDB 2008
+  url: https://dl.acm.org/doi/pdf/10.14778/1453856.1453916
+  tags:
+    - db
+- authors: Daniel Gyllstrom, Eugene Wu, Hee-Jin Chae, Yanlei Diao, Patrick Stahlberg, Gordon Anderson
   conf: CIDR 2007
   tags:
   - db
