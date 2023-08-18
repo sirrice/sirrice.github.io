@@ -120,6 +120,7 @@
 - title: "Analysis Errors Over Semantic Layers and How To Avoid Them"
   authors: Zezhou Huang, Pavan Kalyan, Eugene Wu
   short: true
+  url: https://arxiv.org/pdf/2307.00417.pdf
   conf: HILDA at SIGMOD 2023
   tags:
     - vis
@@ -136,12 +137,14 @@
   authors: Zezhou Huang, Pavan Kalyan, Rathijit Sen, Eugene Wu
   short: true
   conf: DaMoN at SIGMOD 2023
+  url: https://dl.acm.org/doi/10.1145/3592980.3595318
   tags:
     - db
     - ml
 - title: "OM3: An Ordered Multi-level Min-Max Representation for Interactive Progressive Visualization of Time Series"
   authors: Yunhai Wang, Yuchun Wang, Xin Chen, Yue Zhao, Fan Zhang, Eugene Wu, Chi-Wing Fu, Xiaohui Yu
   conf: SIGMOD 2023
+  url: https://dl.acm.org/doi/10.1145/3589290
   tags:
     - vis
     - db
