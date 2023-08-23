@@ -65,17 +65,14 @@
   tags:
     - db
     - ml
-- title: 'Calibration: A Simple Trick for Fast Interactive Join Analytics'
+
+- title: 'Lightweight Materialization for Fast Dashboards Over Joins '
   authors: Zachary Huang, Eugene Wu
-  hide: true
-  future: true
-  conf: In Review 2023
+  conf: SIGMOD 2024
   url: https://arxiv.org/abs/2210.03851
   tags:
     - db
     - ml
-
-
 - title: "The Fast and the Private: Task-based Dataset Search"
   authors: Zezhou Huang, Jiaxiang Liu, Haonan Wang, Eugene Wu
   conf: In Review
