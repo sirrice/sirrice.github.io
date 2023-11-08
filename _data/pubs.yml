@@ -42,6 +42,7 @@
 - title: "Comparison Visualization Under Data-induced Channels"
   authors: Yilan Jiang, Cindy Xiong, Steven Franconeri, Eugene Wu
   future: true
+  hide: true
   short: true
   conf: In Progress 2023
 - title: "A Hypothesis-Based Framework for Evaluating Visualization and Visual Analytics Systems"
@@ -59,7 +60,6 @@
 - title: 'Kitana: A Data-as-a-Service Platform'
   authors: Zachary Huang, Pranav Subramaniam, Raul Fernandez, Eugene Wu
   future: true
-  hide: true
   url: https://arxiv.org/abs/2305.10419
   conf: In Review 2023
   tags:
@@ -73,9 +73,17 @@
   tags:
     - db
     - ml
+- title: "Data Ambiguity Strikes Back: How Documentation Improves GPT's Text-to-SQL"
+  authors: Zezhou Huang, Pavan Kalyan, Eugene Wu
+  conf: Table Representation Learning Workshop at NeurIPS 2023
+  short: true
+  url: https://openreview.net/pdf?id=FflKTuIRTD
+  tags:
+    - db
+    - ml
 - title: "The Fast and the Private: Task-based Dataset Search"
   authors: Zezhou Huang, Jiaxiang Liu, Haonan Wang, Eugene Wu
-  conf: In Review
+  conf: CIDR 2024
   url: https://arxiv.org/pdf/2308.05637.pdf
   selected: true
   tags:
@@ -108,6 +116,9 @@
   url: https://github.com/sfu-db/connector-x
   tags:
     - db
+- title: 'SmokedDuck Demonstration: SQLStepper'
+  authors: Haneen Mohammed, Charlie Summers, Sughosh Kaushik, Eugene Wu
+  conf: SIGMOD Demo 2023
 - title: 'Teaching Data Science by Visualizing Data Table Transformations: Pandas Tutor for Python, Tidy Data Tutor for R, and SQL Tutor'
   authors: Sam Lau, Sean Kross, Eugene Wu, Philip Guo
   short: true
