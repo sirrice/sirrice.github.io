@@ -17,13 +17,13 @@ Eugene Wu has received the VLDB 2018 10-year test of time award, best-of-confere
 
 <div style="margin-top: 1em;font-size: 12pt; ">
 <p>
-  The WuLab 
+  <a href="https://medium.com/thewulab">The WuLab Blog</a> 
   <!--<a href="http://cudbg.github.io/lab">Website</a>
   & -->
-  <a href="https://medium.com/thewulab">Blog</a>
+
 </p>
 <p>
-  <a href="./statement">Overview of My Research and Teaching</a>
+  <a href="./statement">Research Overview (circa 2022)</a>
 </p>
 </div>
 
@@ -34,7 +34,7 @@ Eugene Wu has received the VLDB 2018 10-year test of time award, best-of-confere
 
 <p>
   <b>Joining The Lab</b>   
-  <br/>PhDs and Postdocs: email me thoughts on extensions/project ideas, include "bananas" in subject line.   
+  <br/>PhDs + Postdocs: read a selected publication, share thoughts/extensions, include "bananas" in subject line.   
   <br/>Interns + UGrad + Masters: please contact and talk to the graduate students in the lab. <!--<a href="./tasks.html">read the list of projects looking for help</a>.-->
 </p>
 

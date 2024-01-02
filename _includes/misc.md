@@ -13,9 +13,11 @@ Charlie Summers
 [Thibault Sellam](http://sellam.me) (postdoc, Google)
 
 
+<!--
 [See WuLab for full list](https://cudbg.github.io/lab/)
+-->
 
-#### Masters Question
+#### Masters Questions
 
 Current Student?  See if [Professor Verma's FAQ page answers your questions](http://www.cs.columbia.edu/~verma/advising.html).
 

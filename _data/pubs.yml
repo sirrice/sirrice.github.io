@@ -262,7 +262,6 @@
   authors: Lampros Flokas, Young Wu, Jiannan Wang, Nakul Verma, Eugene Wu
   conf: SIGMOD 2022
   url: https://www.dropbox.com/s/qrwcyy7ln91492k/rainpp-sigmod22-camera.pdf?dl=0
-  selected: true
   tags:
     - mlexplain
     - dbexplain
@@ -656,7 +655,6 @@
 - authors: Daniel Alabi, Eugene Wu
   conf: HILDA 2016
   short: true
-  selected: true
   tags:
   - vis
   title: 'PFunk-H: Approximate Query Processing using Perceptual Models'
