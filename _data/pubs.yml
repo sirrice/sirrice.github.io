@@ -93,7 +93,6 @@
   authors: Zezhou Huang, Rathijit Sen, Jiaxiang Liu, Eugene Wu
   conf: VLDB 2023
   url: https://arxiv.org/abs/2307.00422
-  selected: true
   tags:
     - db
     - ml
@@ -281,7 +280,6 @@
   tags:
     - mlexplain
 - title: 'Explaining SQL-ML Queries with Bayesian Optimization'
-  selected: true
   url: https://arxiv.org/pdf/2102.05308.pdf
   authors: Brandon Lockhard, Jiannan Wang, Eugene Wu
   conf: VLDB 2021
@@ -315,7 +313,6 @@
     - clean
     - mlexplain
     - dbexplain
-  selected: true
 - title: 'Facilitating Exploration with Interaction Snapshots under High Latency'
   authors: Yifan Wu, Remco Chang, Joe Hellerstein, Eugene Wu
   conf: InfoVIS (short paper) 2020
@@ -375,7 +372,6 @@
   authors: Yiru Chen, Eugene Wu
   conf: Intelligent Process Automation (IPA) 2020
   url: https://arxiv.org/abs/2001.01902
-  selected: true
   tags:
     - vis
     - db
@@ -391,7 +387,6 @@
   citations: 12
   url: https://arxiv.org/abs/1904.11827
   authors: Sanjay Krishnan, Eugene Wu
-  selected: true
   conf: ArXiv 2019
   short: true
   tags:
@@ -401,7 +396,6 @@
 - title: 'Towards Democratizing Relational Data Visualization'
   url: https://www.dropbox.com/s/rrl5wavo6xuw7nc/tutorial-vis-sigmod19.pdf?dl=0
   authors: Nan Tang, Eugene Wu, Guoliang Li
-  selected: true
   conf: SIGMOD 2019 Tutorial
   tags:
     - vis
@@ -411,7 +405,6 @@
   conf: SIGMOD 2019
   rate: 20
   url: https://arxiv.org/abs/1904.02344
-  selected: true
   tags:
     - vis
     - db
@@ -494,7 +487,6 @@
   title: 'Leveraging Quality Prediction Models for Automatic Writing Feedback'
   conf: ICWSM 2018
   url: https://www.dropbox.com/s/38cb4rz7vl2ni9g/dialectic-icwsm18-cr.pdf?dl=0
-  selected: true
   rate: 20
   tags:
   - mlexplain
@@ -635,7 +627,6 @@
 - authors: Eugene Wu, Fotis Psallidas, Zhengjie Miao, Haoci Zhang, Laura Rettig, Yifan
     Wu, Thibault Sellam
   conf: CIDR 2017
-  selected: true
   tags:
   - vis
   title: Combining Design and Performance in a Data Visualization Management System
@@ -650,7 +641,6 @@
   url: https://www.dropbox.com/s/yeojaciedsktp77/cidr17abstract.pdf?dl=0
 - authors: Xiaolan Wang, Alexandra Meliou, Eugene Wu
   conf: SIGMOD 2017
-  selected: true
   tags:
   - dbexplain
   title: 'QFix: Diagnosing errors through query histories'
@@ -832,7 +822,6 @@
   url: http://sirrice.github.io/files/papers/scorpion-vldb13.pdf
 - authors: Eugene Wu, Samuel Madden, Michael Stonebraker
   conf: ICDE 2013 (Best-of)
-  selected: true
   tags:
   - db
   - vis
@@ -887,7 +876,6 @@
 - authors: Carlo Curino, Evan Jones, Raluca Popa, Nirmesh Malviya, Eugene Wu, Sam
     Madden, Hari Balakrishnan, Nickolai Zeldovich
   conf: CIDR 2011
-  selected: true
   citations: 484
   tags:
   - db

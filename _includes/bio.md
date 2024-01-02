@@ -18,8 +18,8 @@ Eugene Wu has received the VLDB 2018 10-year test of time award, best-of-confere
 <div style="margin-top: 1em;font-size: 12pt; ">
 <p>
   The WuLab 
-  <a href="http://cudbg.github.io/lab">Website</a>
-  & 
+  <!--<a href="http://cudbg.github.io/lab">Website</a>
+  & -->
   <a href="https://medium.com/thewulab">Blog</a>
 </p>
 <p>
