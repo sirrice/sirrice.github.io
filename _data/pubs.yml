@@ -49,11 +49,11 @@
   authors: Ashley Suh, Ab Mosca, Eugene Wu, Remco Chang
   future: true
   conf: In Review 2023
-- title: 'FaDE: Answering "Why?" Made Fast'
-  authors: Alexander Yao, Lampros Flokas, Eugene Wu
+- title: 'FaDE: More Than a Million What-ifs Per Second'
+  authors: Haneen Mohammed, Alexander Yao, Lampros Flokas, Charlie Summers, Hongbin Zhong, Gramit Chan, Surata Mitra, Eugene Wu
   hide: true
   future: true
-  conf: In Progress 2023
+  conf: In Review 2024
   tags:
     - db
     - dbexplain
@@ -66,6 +66,28 @@
     - db
     - ml
 
+
+
+- title: 'spade: Synthesizing Data Quality Assertions for Large Language Model Pipelines'
+  authors: Shreya Shankar, Haotian Li, Parth Asawa, Madelon Hulsebos, Yiming Lin, J.D. Zamfirescu-Pereira, Harrison Chase, Will Fu-Hinthorn, Aditya G. Parameswaran, Eugene Wu
+  conf: VLDB 2025
+  tags:
+    - db
+    - ml
+- title: 'Cocoon: Semantic Table Profiling Using Large Language Models'
+  authors: Zachary Huang, Eugene Wu
+  conf: HILDA Workshop at SIGMOD 2024
+  url: https://www.dropbox.com/scl/fi/ki7ntcbty7xkily0jlcqt/cocoon-profiler-hilda24.pdf?rlkey=94hoco96xgbdjo13cxjzxk3jh&dl=0
+  tags:
+    - db
+    - ml
+- title: 'SET: Searching Effective Supervised Learning Augmentations in Large Tabular Data Repositories'
+  authors: Jerry Liu, Zachary Huang, Eugene Wu
+  conf: GUIDEAI Workshop at SIGMOD 2024
+  url: https://www.dropbox.com/scl/fi/61djqidstld7r64zp70rb/kitana-SET-guideai24.pdf?rlkey=uogmb42ma4ok2u1kdvohiv689&dl=0
+  tags:
+    - db
+    - ml
 - title: 'Lightweight Materialization for Fast Dashboards Over Joins '
   authors: Zachary Huang, Eugene Wu
   conf: SIGMOD 2024
