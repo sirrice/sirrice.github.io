@@ -229,8 +229,12 @@
   conf: ArXiV 2022
   tags:
     - vis
-
-
+- title: 'Design-Specific Transformations in Visualization'
+  authors: Eugene Wu, Remco Chang
+  url: https://www.dropbox.com/scl/fi/bw01ux9j9lanqths89d2n/compvis-2attrs-beliv-submitted.pdf?rlkey=nq6a8u9suyoewmwoc42j67xa1&dl=0
+  short: true
+  tags:
+    - vis
 
 
 - title: 'A Sensorless Drone-based System for Mapping Indoor 3D Airflow Gradients'
