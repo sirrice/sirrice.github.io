@@ -34,6 +34,7 @@ Eugene Wu has received the VLDB 2018 10-year test of time award, best-of-confere
 
 <p>
   <b>Joining The Lab</b>   
+  <br/><b>I'm looking for a student to work at the intersection of LLM agents and data systems.   Applicants should have taken courses in both areas and/or have experience in both areas.</b>
   <br/>PhDs + Postdocs: read a selected publication, share thoughts/extensions, include "bananas" in subject line.   
   <br/>Interns + UGrad + Masters: please contact and talk to the graduate students in the lab. <!--<a href="./tasks.html">read the list of projects looking for help</a>.-->
 </p>
