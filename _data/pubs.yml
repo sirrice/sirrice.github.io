@@ -68,15 +68,31 @@
 
 
 
+- title: 'Database Theory + X: Database Visualization'
+  authors: Eugene Wu
+  url: https://www.dropbox.com/scl/fi/6r1vaia3tzbo1dwp9yqme/mgg-icdt25-submitted.pdf?rlkey=ttbddaqypbrvydzu87mnanmf8&st=m7glvjmw&dl=0
+  conf: In Review 2025
+  tags:
+    - vis
+    - db
 - title: 'Design-Specific Transformations in Visualization'
   authors: Eugene Wu, Remco Chang
   url: https://arxiv.org/abs/2407.06404
   conf: ArXiV 2024
   tags:
     - vis
+- title: 'Transform Table to Database Using Large Language Models'
+  authors: Zezhou Huang, Jia Guo, Eugene Wu
+  conf: Tabular Data Analysis (TaDA) Workshop at VLDB2024
+  short: true
+  url: https://www.dropbox.com/scl/fi/4yn3sp337m71jmb846in0/cocoon-integrate-tada24-cr.pdf?rlkey=0lkxsgsxnm0v2bg2nmhknrty2&st=sfm637c6&dl=0
+  tags:
+    - db
+    - ml
 - title: 'spade: Synthesizing Data Quality Assertions for Large Language Model Pipelines'
   authors: Shreya Shankar, Haotian Li, Parth Asawa, Madelon Hulsebos, Yiming Lin, J.D. Zamfirescu-Pereira, Harrison Chase, Will Fu-Hinthorn, Aditya G. Parameswaran, Eugene Wu
   conf: VLDB 2025
+  url: https://arxiv.org/abs/2401.03038
   tags:
     - db
     - ml
