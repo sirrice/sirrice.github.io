@@ -34,7 +34,8 @@ Eugene Wu has received the VLDB 2018 10-year test of time award, best-of-confere
 
 <p>
   <b>Joining The Lab</b>   
-  <br/>PhDs and Postdocs: read recent papers, email me with thoughts on extensions,  and include "bananas" in the subject line.   
+  <br/>PhDs: get to understand the lab's work and provide evidence you can conduct research in the lab.   Include "bananas" in the subject line.
+  <br/>Postdocs: share thoughts on how you can best make use of my expertise.  Include "satsuma" in the subject line.   
   <br/>Interns + UGrad + Masters <a href="./tasks.html">read the list of projects looking for help</a>.
 </p>
 
