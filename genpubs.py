@@ -5,6 +5,7 @@ import sys
 
 mine = """Daniel Alabi
 Fotis Psallidas
+Pavan Kalyan
 Zachary Huang
 Lana Ramjit
 Lampros Flokas
@@ -208,12 +209,12 @@ def main(pubfname, b, a, m):
 
   with open(pubfname, "r") as f:
     try:
-      data = yaml.load(f)
+      data = yaml.load(f, Loader=yaml.FullLoader)
     except Exception as e:
       print(e)
       return
 
-  data = filter(get_year, data)
+  data = list(filter(get_year, data))
   data.sort(key=get_year, reverse=True)
 
   # TODO: print future, full, then short papers.
@@ -222,7 +223,7 @@ def main(pubfname, b, a, m):
   if bibtex:
     for pub in data:
       try:
-        print print_bibtex(pub, i)
+        print(print_bibtex(pub, i))
         i += 1
       except:
         print >>sys.stderr, pub
@@ -231,10 +232,10 @@ def main(pubfname, b, a, m):
   if medline:
     for pub in data:
       try:
-        print print_medline(pub, i)
+        print(print_medline(pub, i))
         i += 1
       except:
-        print >>sys.stderr, pub
+        print(pub, file=sys.stderr)
     return
 
 
@@ -242,29 +243,29 @@ def main(pubfname, b, a, m):
   prev_year = None
   i = 0
   if a:
-    print "\n\n"
-    print "&\\section{In Progress or In Review}\\\\"
+    print("\n\n")
+    print("&\\section{In Progress or In Review}\\\\")
     for pub in filter(lambda pub: pub.get("future"), data):
       year = get_year(pub)
-      print print_latex(pub, i+1, prev_year != year)
+      print(print_latex(pub, i+1, prev_year != year))
       prev_year = year
       i += 1
 
 
-  print "\n\n"
-  print "&\\section{Full Publications}\\\\"
+  print("\n\n")
+  print("&\\section{Full Publications}\\\\")
   for pub in filter(lambda pub: not pub.get("future") and not pub.get("short"), data):
     year = get_year(pub)
-    print print_latex(pub, i+1, prev_year != year)
+    print(print_latex(pub, i+1, prev_year != year))
     prev_year = year
     i += 1
 
 
-  print "\n\n"
-  print "&\\section{Short Papers, Technical Reports, and Demos}\\\\"
+  print("\n\n")
+  print("&\\section{Short Papers, Technical Reports, and Demos}\\\\")
   for pub in filter(lambda pub: not pub.get("future") and pub.get("short"), data):
     year = get_year(pub)
-    print print_latex(pub, i+1, prev_year != year)
+    print(print_latex(pub, i+1, prev_year != year))
     prev_year = year
     i += 1
 

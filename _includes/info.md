@@ -21,6 +21,9 @@ NSF
 [2008295](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2008295&HistoricalAwards=false),
 [2106197](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2106197&HistoricalAwards=false),
 [2103794](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2103794&HistoricalAwards=false),
+[2312991](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2312991&HistoricalAwards=false),
 [Amazon](http://www.cs.columbia.edu/2018/with-amazon-research-award-eugene-wu-will-add-interactivity-and-adversarial-generation-to-entity-matching/),
 [Google](http://www.cs.columbia.edu/2018/peter-allen-and-eugene-wu-selected-for-google-faculty-research-awards/),
+Adobe,
+[CAIT](https://cait.engineering.columbia.edu/news/columbia-center-ai-technology-announces-four-new-faculty-research-awards),
 [Columbia SIRS](https://portal.seas.columbia.edu/funding/sirs/pastprojects.php)

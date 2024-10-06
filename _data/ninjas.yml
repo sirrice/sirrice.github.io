@@ -36,12 +36,17 @@ ninjas:
     name: Reptile
   - img: jade.png
     name: Jade
+    desc: In Progress
   - img: kitana.png
     name: Kitana
-    desc: In Revision
+    desc: In Review
+    url: https://arxiv.org/abs/2305.10419
   - img: mileena.png
     name: Mileena
+    desc: CIDR 2024
+    url: https://arxiv.org/pdf/2308.05637.pdf
   - img: noobsaibot.png
     name: Noob Saibot
-    desc: In Revision
+    desc: VLDB 2023
+    url: https://arxiv.org/abs/2307.00432
 
