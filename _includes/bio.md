@@ -1,4 +1,5 @@
-Eugene Wu is broadly interested in technologies that help users play with
+Eugene Wu is an associate professor of computer science at Columbia University.
+He is broadly interested in technologies that help users play with
 their data.  His goal is for users at all technical
 levels to effectively and quickly make sense of their information.
 He is interested in solutions that ultimately improve the interface between
