@@ -48,7 +48,14 @@
 - title: "A Hypothesis-Based Framework for Evaluating Visualization and Visual Analytics Systems"
   authors: Ashley Suh, Ab Mosca, Eugene Wu, Remco Chang
   future: true
+  hide: true
   conf: In Review 2023
+- title: 'Data-Centric Text-to-SQL with Large Language Models'
+  authors: Shuo Zhang, Zachary Huang, Eugene Wu
+  conf: In Submission
+  hide: true
+
+
 - title: 'FaDE: More Than a Million What-ifs Per Second'
   authors: Haneen Mohammed, Alexander Yao, Lampros Flokas, Charlie Summers, Hongbin Zhong, Gramit Chan, Surata Mitra, Eugene Wu
   hide: true
@@ -65,19 +72,6 @@
   tags:
     - db
     - ml
-- title: 'Database Theory + X: Database Visualization'
-  authors: Eugene Wu
-  conf: In Submission
-  url: https://www.dropbox.com/scl/fi/6r1vaia3tzbo1dwp9yqme/mgg-icdt25-submitted.pdf?rlkey=ttbddaqypbrvydzu87mnanmf8&st=efa3233n&dl=0
-  hide: true
-  tags:
-    - vis
-- title: 'Data-Centric Text-to-SQL with Large Langueg Models'
-  authors: Shuo Zhang, Zachary Huang, Eugene Wu
-  conf: In Submission
-  hide: true
-
-
 - title: 'Database Theory + X: Database Visualization'
   authors: Eugene Wu
   url: https://www.dropbox.com/scl/fi/6r1vaia3tzbo1dwp9yqme/mgg-icdt25-submitted.pdf?rlkey=ttbddaqypbrvydzu87mnanmf8&st=m7glvjmw&dl=0
