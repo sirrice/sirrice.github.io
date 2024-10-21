@@ -20,11 +20,11 @@
 #
 # Main tags are
 #
-#   crowd, vis, ml, dbexplain, mlexplain, db, clean
+#   crowd, vis, ml, ci, datasearch dbexplain, mlexplain, db, clean
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
-- title: 'Physical Visualization Design'
+- title: 'Jade: Design Independence Via Physical Visualization Design'
   hide: true
   future: true
   authors: Lana Ramjit, Yiru Chen, Subrata Mitra, Ravi Netravali, Eugene Wu
@@ -56,6 +56,28 @@
   hide: true
 
 
+- title: 'Suna: Scalable Causal Confounder Discovery over Relational Data'
+  url: https://www.dropbox.com/scl/fi/8bgj3sjiume23eqeevdp2/suna-sigmod25-submission.pdf?rlkey=ghxyu7lgbz2sr8162noiuuxq9&dl=0
+  conf: In Review 2025
+  authors: Jiaxiang Liu, Eugene Wu
+  selected: true
+  tags:
+    - db
+    - ml
+    - datasearch
+    - ci
+- title: 'Jade: Design Independence Via Physical Visualization Design'
+  url: https://www.dropbox.com/scl/fi/d2xg8wb4uonijra1tuccp/pvd-sigmod25-submission.pdf?rlkey=lj9g98q8tku0a961maxofe8x2&dl=0 
+  conf: In Review 2025
+  authors: Yiru Chen, Xuyeng Li, Jeff Tao, Lana Ramjit, Ravi Netravali, Subrata Mitra, Aditya Parameswaran, Javad Ghaderi, Dan Rubenstein, Eugene Wu
+  selected: true
+  tags:
+    - vis
+    - db
+- title: 'Where Does Database Research Go From Here?'
+  url: https://wp.sigmod.org/?p=3801
+  conf: SIGMOD Blog 2024
+  short: true
 - title: 'FaDE: More Than a Million What-ifs Per Second'
   authors: Haneen Mohammed, Alexander Yao, Lampros Flokas, Charlie Summers, Hongbin Zhong, Gramit Chan, Surata Mitra, Eugene Wu
   hide: true
@@ -72,6 +94,7 @@
   tags:
     - db
     - ml
+    - datasearch
 - title: 'Database Theory + X: Database Visualization'
   authors: Eugene Wu
   url: https://www.dropbox.com/scl/fi/6r1vaia3tzbo1dwp9yqme/mgg-icdt25-submitted.pdf?rlkey=ttbddaqypbrvydzu87mnanmf8&st=m7glvjmw&dl=0
@@ -86,6 +109,21 @@
   conf: ArXiV 2024
   tags:
     - vis
+- title: 'Data-Centric Text-to-SQL with Large Language Models'
+  authors: Zezhou Huang, Shuo Zhang, Kechen Liu, Eugene Wu
+  url: https://openreview.net/pdf?id=gDKIjZcg93
+  conf: Table Representation Learning at NeurIPS 2024
+  tags:
+    - db
+    - cleaning
+    - ml
+- title: 'DynoClass: A Dynamic Table-Class Detection System Without the Need for Predefined Ontologies'
+  authors: Haonan Wang, Kechen Liu, Jiaxiang Liu, Eugene Wu
+  url: https://openreview.net/pdf?id=r45TbawHl8
+  conf: Table Representation Learning at NeurIPS 2024
+  tags:
+    - db
+    - datasearch
 - title: 'Transform Table to Database Using Large Language Models'
   authors: Zezhou Huang, Jia Guo, Eugene Wu
   conf: Tabular Data Analysis (TaDA) Workshop at VLDB2024
@@ -115,6 +153,7 @@
   tags:
     - db
     - ml
+    - datasearch
 - title: 'Lightweight Materialization for Fast Dashboards Over Joins '
   authors: Zachary Huang, Eugene Wu
   conf: SIGMOD 2024
@@ -139,6 +178,7 @@
   tags:
     - db
     - ml
+    - datasearch
 - title: "JoinBoost: Grow Trees Over Normalized Data Using Only SQL "
   authors: Zezhou Huang, Rathijit Sen, Jiaxiang Liu, Eugene Wu
   conf: VLDB 2023
@@ -153,6 +193,7 @@
   tags:
     - db
     - ml
+    - datasearch
 - title: 'Pollock: A Data Loading Benchmark'
   authors: Gerardo Vitagliano, Mazhar Hameed, Lan Jiang, Lucas Reisener, Eugene Wu, Felix Naumann
   conf: VLDB 2023
@@ -529,7 +570,6 @@
     - vis
 - authors: Fotis Psallidas, Eugene Wu
   title: 'Provenance in Interactive Visualizations'
-  selected: true
   conf: HILDA 2018
   short: true
   url: https://www.dropbox.com/s/fkp5hk1gp4lrg9h/smoke-hilda18.pdf?dl=0
@@ -574,14 +614,14 @@
   tags:
   - ml
   - mlexplain
-#- authors: Eugene Wu
-#  title: 'A "Probabilistic" Model of Research'
-#  conf: Blog Post 2018
-#  short: true
-#  url: http://researchsetup.github.io/researchmodel
-#  selected: true
-#  tags:
-#  - db
+- authors: Eugene Wu
+  title: 'A "Probabilistic" Model of Research'
+  conf: Blog Post 2018
+  short: true
+  url: http://researchsetup.github.io/researchmodel
+  selected: true
+  tags:
+  - db
 - authors: Fotis Psallidas, Eugene Wu
   title: 'Smoke: Fine-grained Lineage at Interactive Speeds'
   citations: 43
