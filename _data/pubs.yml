@@ -78,6 +78,9 @@
   url: https://wp.sigmod.org/?p=3801
   conf: SIGMOD Blog 2024
   short: true
+  authors: Eugene Wu
+  tags:
+    - blog
 - title: 'FaDE: More Than a Million What-ifs Per Second'
   authors: Haneen Mohammed, Alexander Yao, Lampros Flokas, Charlie Summers, Hongbin Zhong, Gramit Chan, Surata Mitra, Eugene Wu
   hide: true
@@ -601,7 +604,8 @@
   url: http://researchsetup.github.io/researchmodel
   selected: true
   tags:
-  - db
+    - blog
+    - db
 - authors: Fotis Psallidas, Eugene Wu
   title: 'Smoke: Fine-grained Lineage at Interactive Speeds'
   citations: 43
