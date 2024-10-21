@@ -20,15 +20,10 @@
 #
 # Main tags are
 #
-#   crowd, vis, ml, ci, datasearch dbexplain, mlexplain, db, clean
+#   crowd, vis, ml, llm, ci, datasearch dbexplain, mlexplain, db, clean
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
-- title: 'Jade: Design Independence Via Physical Visualization Design'
-  hide: true
-  future: true
-  authors: Lana Ramjit, Yiru Chen, Subrata Mitra, Ravi Netravali, Eugene Wu
-  conf: In Progress 2023
 - title: 'SmokedDuck: Fast Lineage in Analytical Databases'
   hide: true
   future: true
@@ -50,10 +45,8 @@
   future: true
   hide: true
   conf: In Review 2023
-- title: 'Data-Centric Text-to-SQL with Large Language Models'
-  authors: Shuo Zhang, Zachary Huang, Eugene Wu
-  conf: In Submission
-  hide: true
+
+
 
 
 - title: 'Suna: Scalable Causal Confounder Discovery over Relational Data'
@@ -74,6 +67,13 @@
   tags:
     - vis
     - db
+- title: 'DocETL: Agentic Query Rewriting and Evaluation for Complex Document Processing'
+  url: https://arxiv.org/abs/2410.12189
+  authors: Shreya Shankar, Aditya Parameswaran, Eugene Wu
+  conf: arXiv 2024
+  tags:
+    - db
+    - llm
 - title: 'Where Does Database Research Go From Here?'
   url: https://wp.sigmod.org/?p=3801
   conf: SIGMOD Blog 2024
@@ -116,7 +116,7 @@
   tags:
     - db
     - cleaning
-    - ml
+    - llm
 - title: 'DynoClass: A Dynamic Table-Class Detection System Without the Need for Predefined Ontologies'
   authors: Haonan Wang, Kechen Liu, Jiaxiang Liu, Eugene Wu
   url: https://openreview.net/pdf?id=r45TbawHl8
@@ -124,6 +124,7 @@
   tags:
     - db
     - datasearch
+    - llm
 - title: 'Transform Table to Database Using Large Language Models'
   authors: Zezhou Huang, Jia Guo, Eugene Wu
   conf: Tabular Data Analysis (TaDA) Workshop at VLDB2024
@@ -131,20 +132,21 @@
   url: https://www.dropbox.com/scl/fi/4yn3sp337m71jmb846in0/cocoon-integrate-tada24-cr.pdf?rlkey=0lkxsgsxnm0v2bg2nmhknrty2&st=sfm637c6&dl=0
   tags:
     - db
-    - ml
+    - llm
 - title: 'spade: Synthesizing Data Quality Assertions for Large Language Model Pipelines'
   authors: Shreya Shankar, Haotian Li, Parth Asawa, Madelon Hulsebos, Yiming Lin, J.D. Zamfirescu-Pereira, Harrison Chase, Will Fu-Hinthorn, Aditya G. Parameswaran, Eugene Wu
   conf: VLDB 2025
   url: https://arxiv.org/abs/2401.03038
   tags:
     - db
-    - ml
+    - llm
 - title: 'Cocoon: Semantic Table Profiling Using Large Language Models'
   authors: Zachary Huang, Eugene Wu
   conf: HILDA Workshop at SIGMOD 2024
   url: https://www.dropbox.com/scl/fi/ki7ntcbty7xkily0jlcqt/cocoon-profiler-hilda24.pdf?rlkey=94hoco96xgbdjo13cxjzxk3jh&dl=0
   tags:
     - db
+    - llm
     - ml
 - title: 'SET: Searching Effective Supervised Learning Augmentations in Large Tabular Data Repositories'
   authors: Jerry Liu, Zachary Huang, Eugene Wu
@@ -168,7 +170,7 @@
   url: https://openreview.net/pdf?id=FflKTuIRTD
   tags:
     - db
-    - ml
+    - llm
 - title: "The Fast and the Private: Task-based Dataset Search"
   authors: Zezhou Huang, Jiaxiang Liu, Haonan Wang, Eugene Wu
   conf: CIDR 2024
@@ -209,6 +211,8 @@
 - title: 'SmokedDuck Demonstration: SQLStepper'
   authors: Haneen Mohammed, Charlie Summers, Sughosh Kaushik, Eugene Wu
   conf: SIGMOD Demo 2023
+  tags:
+    - db
 - title: 'Teaching Data Science by Visualizing Data Table Transformations: Pandas Tutor for Python, Tidy Data Tutor for R, and SQL Tutor'
   authors: Sam Lau, Sean Kross, Eugene Wu, Philip Guo
   short: true
@@ -256,27 +260,7 @@
   url: https://arxiv.org/abs/2209.08834
   tags: 
     - vis
-- title: 'How Do Captions Affect Visualization Reading?'
-  authors: Shelly Cheng, Hazel Zhu, Eugene Wu
-  short: true
-  conf: VIS Viscomm 2022
-  url: https://arxiv.org/abs/2205.01263
-  tags:
-    - vis
-- title: 'Extending the View Composition Algebra to Hierarchical Data'
-  authors: Eugene Wu
-  conf: arXiV 2022
-  short: true
-  url: https://arxiv.org/abs/2205.01283
-  tags:
-    - vis
-- title: 'NL2INTERFACE: Interactive Visualization Interface Generation from Natural Language Queries'
-  authors: Yiru Chen, Ryan Li, Austin Mac, Tianbao Xie, Tao Yu, Eugene Wu
-  short: true
-  conf:  VIS nlviz workshop 2022
-  url: https://arxiv.org/abs/2209.08834
-  tags: 
-    - vis
+    - llm
 - title: 'How Do Captions Affect Visualization Reading?'
   authors: Shelly Cheng, Hazel Zhu, Eugene Wu
   short: true
@@ -297,14 +281,6 @@
   conf: ArXiV 2022
   tags:
     - vis
-- title: 'Design-Specific Transformations in Visualization'
-  authors: Eugene Wu, Remco Chang
-  url: https://www.dropbox.com/scl/fi/bw01ux9j9lanqths89d2n/compvis-2attrs-beliv-submitted.pdf?rlkey=nq6a8u9suyoewmwoc42j67xa1&dl=0
-  short: true
-  tags:
-    - vis
-
-
 - title: 'A Sensorless Drone-based System for Mapping Indoor 3D Airflow Gradients'
   authors: Yanchen Liu, Minghui Zhao, Stephen Xia, Eugene Wu, Xiaofan Jiang
   short: true
