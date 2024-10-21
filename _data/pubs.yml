@@ -181,6 +181,10 @@
     - db
     - ml
     - datasearch
+- title: 'Anemoi: A Low-cost Sensorless Indoor Drone System for Automatic Mapping of 3D Airflow Fields'
+  authors: Stephen Xia, Minghui Zhao, Charuvahan Adhivarahan, Kaiyuan Hou, Yuyang Chen, Jingping Nie, Eugene Wu, Karthik Dantu, Xiaofan Jiang
+  conf: MobiCom 2023
+  url: https://dl.acm.org/doi/pdf/10.1145/3570361.3613292
 - title: "JoinBoost: Grow Trees Over Normalized Data Using Only SQL "
   authors: Zezhou Huang, Rathijit Sen, Jiaxiang Liu, Eugene Wu
   conf: VLDB 2023
