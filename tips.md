@@ -37,6 +37,7 @@ their lab's research impact as compared to other applicants.
 The statement of purpose is not about your life story, or a list of what you have done, or how my research area interests you.
 It is to quickly provide evidence that you will be the best at conducting research _in the faculty's lab_.
 
+Further implications and how they apply to a PhD application is left as an exercise to the reader.
 
 ## Some basic tips
 
@@ -45,4 +46,3 @@ It is to quickly provide evidence that you will be the best at conducting resear
 * Questions about the lab?  Ask the faculty's PhD students.
 
 
-Further implications and how they apply to a PhD application is left as an exercise to the reader.
