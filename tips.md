@@ -8,8 +8,8 @@ layout: page
 
 The PhD admissions process at top CS departments is highly competitive.
 I think it is helpful to understand the PhD admissions process from the faculty's perspective,
-and what is prioritized.   This is from my perspective of what I see and may not be representative.
-It assumes a department where students are admitted by specific faculty rather than to the department as a whole.  
+and what is prioritized.   It assumes a department where students are admitted by specific faculty rather than to the department as a whole.
+This is from my perspective based on what I see. It may not be representative and you may disagree.
 
 ## Axioms
 
@@ -28,20 +28,20 @@ It assumes a department where students are admitted by specific faculty rather t
 ## Basic implications:
 
 * A faculty member has a shrinking amount of time to read applications
-* The PhD application is a competition.
-* The PhD is an investment: maximize research given a fixed cost.
+* The PhD application is a **competition**.
+* The PhD is an investment to maximize research impact given a fixed cost.
 
 Thus, the purpose of the application is to quickly convince the faculty that you will maximize
-their lab's research impact as compared to other applicants
+their lab's research impact as compared to other applicants.
 
-The statement of purpose is not about your life story or a list of what you have done.
+The statement of purpose is not about your life story, or a list of what you have done, or how my research area interests you.
 It is to quickly provide evidence that you will be the best at conducting research _in the faculty's lab_.
 
 
 ## Some basic tips
 
 * Understand _some_ research project in the lab.   Have something to say about it
-*  See <a href="https://www.youtube.com/playlist?list=PLe9dkYfBBHFkJUmqluDocwGuxaZ3y5Zkm">youtube videos</a> of how to approach the application.
+* Understand [how to approach the application](https://www.youtube.com/playlist?list=PLe9dkYfBBHFkJUmqluDocwGuxaZ3y5Zkm)
 * Questions about the lab?  Ask the faculty's PhD students.
 
 
