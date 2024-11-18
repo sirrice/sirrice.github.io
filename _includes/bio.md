@@ -36,8 +36,8 @@ Eugene Wu has received the VLDB 2018 10-year test of time award, best-of-confere
 <p>
   <b>Joining The Lab</b>   
   <br/><b>I'm looking for a student to work at the intersection of LLM agents and data systems (I don't want to _use_ LLMs as much as develop infrastructure _for_ agents), or database and HCI.   Applicants should have taken courses in both areas and/or have experience in both areas.</b>
-  <br/>PhDs: read the lab's work and provide evidence you can conduct research in the lab.   Include "bananas" in the subject line.  See <a href="https://www.youtube.com/playlist?list=PLe9dkYfBBHFkJUmqluDocwGuxaZ3y5Zkm">youtube videos</a> of how to approach the application.
-  <br/>Postdocs: share thoughts on how you can best make use of my expertise.  Include "satsuma" in the subject line.   
+  <br/>PhDs: read the lab's work and provide evidence you can conduct research in the lab.  Include "bananas" in the subject line.    Strongly suggest [reading the tips page](./tips).
+  <br/>Postdocs: share thoughts on how you can best make use of my expertise.  Include "satsuma" in the subject line.   [PhD tips mostly apply too](./tips).
   <br/>Interns + UGrad + Masters: <a href="https://forms.gle/4TJRZubQ6Ary3zd47">Fill out this form</a>
 </p>
 
