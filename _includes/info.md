@@ -4,7 +4,7 @@
 [421 Mudd, 500 W 120th St](./files/images/map.png)    
 Twitter: [@sirrice](https://twitter.com/sirrice)   
 Github: [sirrice](http://github.com/sirrice), [cudbg](http://github.com/cudbg)   
-OH: Thurs 12-1PM EST 421 Mudd    
+OH: Tues 10-11AM EST 421 Mudd    
 [CV](./files/statement/cv.pdf)
 
 
@@ -27,3 +27,17 @@ NSF
 Adobe,
 [CAIT](https://cait.engineering.columbia.edu/news/columbia-center-ai-technology-announces-four-new-faculty-research-awards),
 [Columbia SIRS](https://portal.seas.columbia.edu/funding/sirs/pastprojects.php)
+
+
+
+
+[The WuLab Blog](https://medium.com/thewulab)    
+
+
+[Research Overview (circa 2022)](./statement)
+
+<!--
+<div style="margin-top: 1em;font-size: 12pt; ">
+</div>
+-->
+

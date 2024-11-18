@@ -16,30 +16,17 @@ Eugene Wu has received the VLDB 2018 10-year test of time award, best-of-confere
 
 <!--by [@mstem](http://partnews.brownbag.me/2012/02/29/interview-matt-stempeck-wants-to-change-the-world-with-tech/),-->
 
-<div style="margin-top: 1em;font-size: 12pt; ">
-<p>
-  <a href="https://medium.com/thewulab">The WuLab Blog</a> 
-  <!--<a href="http://cudbg.github.io/lab">Website</a>
-  & -->
-
-</p>
-<p>
-  <a href="./statement">Research Overview (circa 2022)</a>
-</p>
-</div>
-
 
 <!--
 <div class="applyheading" style="text-align: left; "> </div>
 -->
 
-<p>
-  <b>Joining The Lab</b>   
-  <br/><b>I'm looking for a student to work at the intersection of LLM agents and data systems (I don't want to _use_ LLMs as much as develop infrastructure _for_ agents), or database and HCI.   Applicants should have taken courses in both areas and/or have experience in both areas.</b>
-  <br/>PhDs: read the lab's work and provide evidence you can conduct research in the lab.  Include "bananas" in the subject line.    Strongly suggest [reading the tips page](./tips).
-  <br/>Postdocs: share thoughts on how you can best make use of my expertise.  Include "satsuma" in the subject line.   [PhD tips mostly apply too](./tips).
-  <br/>Interns + UGrad + Masters: <a href="https://forms.gle/4TJRZubQ6Ary3zd47">Fill out this form</a>
-</p>
+<h4 style="margin-top:2em; margin-bottom: 0em;">Joining The Lab</h4>   
+**I'm recruiting at the intersection of database and HCI, or LLM agents and data systems (less to _use_ LLMs, more to develop infrastructure _for_ agents).   Applicants should have taken courses in both areas and/or have experience in both areas.**
+
+* **PhDs**: read the lab's work and provide evidence you can conduct research in the lab.  Include "bananas" in the subject line.    Strongly suggest [reading the tips page](./tips).
+* **Postdocs**: share thoughts on how you can best make use of my expertise.  Include "satsuma" in the subject line.   [PhD tips mostly apply too](./tips).
+* **Interns + UGrad + Masters**: <a href="https://forms.gle/4TJRZubQ6Ary3zd47">Fill out this form</a>
 
 
 
