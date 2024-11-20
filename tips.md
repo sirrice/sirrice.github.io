@@ -1,10 +1,10 @@
 ---
 layout: page
+tagline: <a href="http://eugenewu.net">Eugene Wu's Website</a>
 ---
 
 
-
-# A Goal-oriented PhD Application
+# The PhD Application from a Faculty's Perspective
 
 
 The PhD admissions process at top CS departments is highly competitive.
@@ -13,17 +13,8 @@ and what is prioritized.   It assumes a department where students are admitted b
 This is from my perspective based on what I see. It may not be representative and you may disagree.
 
 
-<p>
-<a href="https://bsky.app/intent/compose?text=Writing%20the%20PhD%20application%20from%20a%20faculty%27s%20perspective%20%20by%20%40ewuuu.bsky.social%0Ahttp%3A%2F%2Feugenewu.net%2Ftips.html" target="_blank" style="display: inline">
-  <i class="fa-brands fa-bluesky"></i>
-  <img alt="Favicon" width="15pt" height="15pt" class="icon-md" src="https://www.google.com/s2/favicons?domain=https://docs.bsky.app&amp;sz=32"/>
-  Share on Bluesky
-</a>
-<a href="https://twitter.com/intent/tweet?text=Writing%20the%20PhD%20application%20from%20a%20faculty%27s%20perspective%20%20by%20%40ewuuu.bsky.social%0Ahttp%3A%2F%2Feugenewu.net%2Ftips.html" target="_blank" style="display: inline; margin-left: .5em;">
- <i class="fab fa-x-twitter"></i>
-  Share on X
-</a>
-</p>
+<p id='social'> </p>
+<script>makesocial('social', "Writing the PhD application from a faculty's perspective by @ewuuu.bsky.social http://eugenewu.net/tips.html")</script>
 
 ## Axioms
 
@@ -41,15 +32,15 @@ This is from my perspective based on what I see. It may not be representative an
 
 ## Basic implications:
 
-* A faculty member has a shrinking amount of time to read applications
+* Every year, a faculty member has less time per application.
 * The PhD application is a **competition**.
-* The PhD is an investment to maximize research impact given a fixed cost.
+* The PhD is an investment to maximize research impact given fixed $$ and finite time.
 
 Thus, the purpose of the application is to quickly convince the faculty that you will maximize
 their lab's research impact as compared to other applicants.
 
-The statement of purpose is not about your life story, or a list of what you have done, or how my research area interests you.
-It is to quickly provide evidence that you will be the best at conducting research _in the faculty's lab_.
+The statement of purpose is not about your life story, or a list of what you have done, or how are generally interested in the faculty's research area.
+It is to quickly provide concrete evidence that you will be the best at conducting research _in the faculty's lab_ under _their definition of impact_.
 
 Further implications and how they apply to a PhD application is left as an exercise to the reader.
 

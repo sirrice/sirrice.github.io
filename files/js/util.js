@@ -22,6 +22,25 @@ Function.prototype.inherits = function(parent) {
 
 
 
+function makesocial(elid, text) {
+  let el = document.getElementById(elid);
+  text = encodeURIComponent(text);
+  let html = `<a href="https://bsky.app/intent/compose?text=${text}" target="_blank" style="display: inline">
+  <i class="fa-brands fa-bluesky"></i>
+  <img alt="Favicon" width="15pt" height="15pt" class="icon-md" src="https://www.google.com/s2/favicons?domain=https://docs.bsky.app&amp;sz=32"/>
+  Share on Bluesky
+</a>
+<a href="https://twitter.com/intent/tweet?text=${text}" target="_blank" style="display: inline; margin-left: .5em;">
+ <i class="fab fa-x-twitter"></i>
+  Share on X
+</a>`
+  el.innerHTML = html;
+
+}
+
+
+
+
 
 
 function Util() {};
