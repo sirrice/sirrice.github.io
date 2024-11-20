@@ -3,7 +3,7 @@ layout: page
 ---
 
 
-# A Goal-oriented PhD Application
+# The PhD Application from a Faculty's Perspective
 
 
 The PhD admissions process at top CS departments is highly competitive.
@@ -27,7 +27,7 @@ This is from my perspective based on what I see. It may not be representative an
 
 ## Basic implications:
 
-* A faculty member has a shrinking amount of time to read applications
+* Every year, a faculty member has less time per application.
 * The PhD application is a **competition**.
 * The PhD is an investment to maximize research impact given a fixed cost.
 
