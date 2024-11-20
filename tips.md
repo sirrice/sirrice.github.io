@@ -3,6 +3,7 @@ layout: page
 ---
 
 
+
 # A Goal-oriented PhD Application
 
 
@@ -10,6 +11,19 @@ The PhD admissions process at top CS departments is highly competitive.
 I think it is helpful to understand the PhD admissions process from the faculty's perspective,
 and what is prioritized.   It assumes a department where students are admitted by specific faculty rather than to the department as a whole.
 This is from my perspective based on what I see. It may not be representative and you may disagree.
+
+
+<p>
+<a href="https://bsky.app/intent/compose?text=Writing%20the%20PhD%20application%20from%20a%20faculty%27s%20perspective%20%20by%20%40ewuuu.bsky.social%0Ahttp%3A%2F%2Feugenewu.net%2Ftips.html" target="_blank" style="display: inline">
+  <i class="fa-brands fa-bluesky"></i>
+  <img alt="Favicon" width="15pt" height="15pt" class="icon-md" src="https://www.google.com/s2/favicons?domain=https://docs.bsky.app&amp;sz=32"/>
+  Share on Bluesky
+</a>
+<a href="https://twitter.com/intent/tweet?text=Writing%20the%20PhD%20application%20from%20a%20faculty%27s%20perspective%20%20by%20%40ewuuu.bsky.social%0Ahttp%3A%2F%2Feugenewu.net%2Ftips.html" target="_blank" style="display: inline; margin-left: .5em;">
+ <i class="fab fa-x-twitter"></i>
+  Share on X
+</a>
+</p>
 
 ## Axioms
 
