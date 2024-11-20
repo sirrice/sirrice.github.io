@@ -1,5 +1,6 @@
 ---
 layout: page
+tagline: <a href="http://eugenewu.net">Eugene Wu's Website</a>
 ---
 
 
@@ -29,13 +30,13 @@ This is from my perspective based on what I see. It may not be representative an
 
 * Every year, a faculty member has less time per application.
 * The PhD application is a **competition**.
-* The PhD is an investment to maximize research impact given a fixed cost.
+* The PhD is an investment to maximize research impact given fixed $$ and finite time.
 
 Thus, the purpose of the application is to quickly convince the faculty that you will maximize
 their lab's research impact as compared to other applicants.
 
-The statement of purpose is not about your life story, or a list of what you have done, or how my research area interests you.
-It is to quickly provide evidence that you will be the best at conducting research _in the faculty's lab_.
+The statement of purpose is not about your life story, or a list of what you have done, or how are generally interested in the faculty's research area.
+It is to quickly provide concrete evidence that you will be the best at conducting research _in the faculty's lab_ under _their definition of impact_.
 
 Further implications and how they apply to a PhD application is left as an exercise to the reader.
 
