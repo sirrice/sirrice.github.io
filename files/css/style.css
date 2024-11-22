@@ -284,17 +284,33 @@ input:checked + .slider:before {
 }
 
 
+.image-container {
+  width: 100%; 
+  max-width: 225px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  transition: opacity 0.3s ease; /* Optional: Smooth transition */
+}
+
+
 #mypic {
-  width: 225px;
-  height: 225px;
-  background-image: url(../images/me.jpg);
-  background-image:url(../images/mesquare.png);
-  background-image:url(../images/me_faculty2.png);
+  width: 100%;
+  height: auto;
+  min-height: 225px;
+  max-width: 225px;
+  margin-left: auto;
+  margin-right: auto;
   background-image:url(../images/me_headshot.png);
-  background-size: 225px;
+  background-size: cover; /* Ensure the image covers the entire area */
   background-repeat: no-repeat;
-  background-position: 0;
+  /*background-position: 0;*/
   display: inline-block;
+  background-position: center; /* Center the image */
 }
 
 #mypic:hover {
