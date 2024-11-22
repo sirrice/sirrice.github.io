@@ -28,6 +28,11 @@ function setColor(idx) {
     background-color: ${color};
   }
 
+  .tagbtn:hover {
+    background-color: ${lightenHexColor(color, 80)};
+    color: ${color};
+    border: 1px solid ${color};
+  }
 
   `;
 

@@ -30,13 +30,11 @@
     let tag = $(this).data("tag");
     toggletag(tag);
     $(".tagbtn")
-      .removeClass("btn-secondary")
       .removeClass("tagbtn-selected")
       .removeClass("btn-outline-secondary")
       .addClass("btn-outline-secondary")
     $(this)
       .removeClass("btn-outline-secondary")
-      .addClass("btn-secondary")
       .addClass("tagbtn-selected")
     $("#pubs-title").text(`${tag} Publications`)
 
@@ -89,6 +87,7 @@
 
 <style id="colorcss"></style>
 <script src="./files/js/colors.js"></script>
+
 
 <div id="chars"> </div>
 <script src="./files/js/matrix.js"></script>
