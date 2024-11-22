@@ -20,7 +20,7 @@
           {% assign style = "display: block" %}
         {% endif %}
 
-        <li class="paper selected-{{selected}}" data-selected="{{selected}}" style="{{style}}">
+        <li class="paper selected-{{selected}} {% for tag in p.tags %} tag-{{tag}}{%endfor%}" data-selected="{{selected}}" style="{{style}}" >
           {% if p.url %} 
           <a class="title" href="{{p.url}}">{{p.title}}</a>
           {% else %} 

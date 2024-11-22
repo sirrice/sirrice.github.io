@@ -21,12 +21,41 @@
   }
 
   // publications
-  var showall = true;
-  $("#pubs-toggle").click(() => {
-      showall = !showall;
-      togglepubs(showall)
+  //var showall = true;
+  //$("#pubs-toggle").click(() => {
+  //    showall = !showall;
+  //    togglepubs(showall)
+  //})
+
+  $(".tagbtn").on('click', function() {
+    let tag = $(this).data("tag");
+    toggletag(tag);
+    $(".tagbtn")
+      .removeClass("btn-secondary")
+      .removeClass("btn-outline-secondary")
+      .addClass("btn-outline-secondary")
+    $(this)
+      .removeClass("btn-outline-secondary")
+      .addClass("btn-secondary")
+    $("#pubs-title").text(`${tag} Publications`)
+
+    console.log(this)
   })
-  togglepubs(showall)
+
+  function toggletag(tag) {
+    let q = ".paper"
+    if (tag == "all") {}
+    else if (tag == "selected") {
+      q = ".selected-true"
+    } else {
+      q = `.tag-${tag}`
+    }
+    $(".paper").hide()
+    $(q).show()
+  }
+
+  toggletag("all")
+  //togglepubs(showall)
 //$(".selected-false").hide();
 </script>
 
