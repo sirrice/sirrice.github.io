@@ -20,7 +20,17 @@ function setColor(idx) {
     color: white;
     background-color: ${color};
   }
+  #goCrayBtn.slider {
+    background-color: ${color};
+  }
+
+  #goCrayBtn input:checked + .slider {
+    background-color: ${color};
+  }
+
+
   `;
+
   colorcssel.innerHTML = css;
   window.color = color;
   //$("h1,h2,h3,h4,h5,a,.scrolldot").css({
@@ -86,9 +96,14 @@ function randColor() {
 
 function toggleCray() {
   goCray = !goCray;
-  $("#goCrayBtn").toggleClass("on", goCray);
+  console.log("togglecray", goCray)
+  //$("#goCrayBtn").toggleClass("on", goCray);
   randColor();
 }
+
+$("#goCrayBtn input[type=checkbox]").change(function() {
+  toggleCray();
+})
 
 
 function lightenHexColor(hex, percent) {

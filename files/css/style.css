@@ -127,25 +127,91 @@ small#pubs-toggle span:hover {
 
 
 
+
+
+
+
 #goCrayBtn {
-  height: 20px;
-  width: 40px;
   position:fixed;  
   font-family: courier; 
   top: 5px; 
   left: 5px;
   cursor: pointer;
-  background-image:url(../images/switch.png);
-  background-size: contain;
 }
-#goCrayBtn.on {
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  filter: FlipH;
-  -ms-filter: "FlipH";
+.toggle-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
 }
+
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 2em;   /* Made proportional to height */
+  height: 1em;  /* As requested */
+}
+
+.toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 1em;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: .8em;     /* Proportional to container */
+  width: .8em;      /* Keep circle perfect */
+  left: 0.1em;       /* Small gap from edge */
+  bottom: 0.1em;     /* Small gap from edge */
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(1em);  /* Adjusted for new size */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #signature {
   background-image:url(../images/signature.png);
@@ -267,6 +333,11 @@ small#pubs-toggle span:hover {
   .header div {
   }
 }
+
+
+
+
+
 
 
 

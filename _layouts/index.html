@@ -9,7 +9,17 @@
 
   <!--<img src="{{ "/files/images/cudbg.png" | relative_url }}" id="cudbg"/>-->
 
-<div id="goCrayBtn" onclick="toggleCray()"> </div>
+  <!--<div id="goCrayBtn" onclick="toggleCray()"> </div>-->
+
+<div class="toggle-container" id="goCrayBtn">
+  <label class="toggle">
+    <input type="checkbox">
+    <span class="slider"></span>
+  </label>
+</div>
+
+
+
 {% include header.html %}
 <br/>
 {% include body.html %}
