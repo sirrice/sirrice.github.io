@@ -103,6 +103,11 @@ function toggleCray() {
 
 $("#goCrayBtn input[type=checkbox]").change(function() {
   toggleCray();
+  if($(this).is(':checked')) {
+    matrixify.start()
+  } else {
+    matrixify.end()
+  }
 })
 
 

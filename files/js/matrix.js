@@ -1,18 +1,26 @@
 var matrixify = (function() {
+  function truncatefloat(n) {
+    return Math.round(n * 10) / 10;
+  }
+
   function measureCharWidths() {
     var w2c = {};
     var c2w = {};
+    var htmls = [];
     for (var i = 0; i < chars.length; i++) {
       var c = chars[i];
-      document.getElementById("chars").innerHTML += "<span id='"+c+"'>" + c + "</span>";
-      setTimeout(function() { 
-        var w = $("#"+c).width();
-        w2c[w] = w2c[w] || [];
-        w2c[w].push(c);
+      htmls.push(`<span id='char-${i}'>${c}</span>`)
+    }
+    document.getElementById("chars").innerHTML += htmls.join("");
+    setTimeout(function() { 
+      for (var i = 0; i < chars.length; i++) {
+        c = chars[i];
+        var w = $(`#char-${i}`)[0].getBoundingClientRect().width;
+        var wint = truncatefloat(w);
+        (w2c[wint] ||= []).push(c)
         c2w[c] = w;
-      }, 150);
-    };
-    setTimeout(function(){
+      }
+      mappings = {w2c: w2c, c2w: c2w};
       console.log(JSON.stringify({w2c: w2c, c2w: c2w}));
     }, 500);
   }
@@ -29,11 +37,9 @@ var matrixify = (function() {
   var nums  = "1234567890";
   var lower = "abcdefghijklmnopqrstuvwxyz";
   var upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  var chars = nums + lower + upper;
+  var symbols = ".,'/\\!@#$%^&*()[{]}-_=+?|`~\""
+  var chars = nums + lower + upper + symbols;
 
-  var randChar = function() {
-    return chars[getRandomInt(chars.length)];
-  }
   var randChars = function(baseStr) {
     var s = Array.apply(null, Array(baseStr.length));
     for (var i = 0; i < baseStr.length; i++) {
@@ -42,7 +48,7 @@ var matrixify = (function() {
       if (w === undefined) {
         // do nothing
       } else if (!/\s/.test(baseStr[i])) {
-        var cands = mappings.w2c[w];
+        var cands = mappings.w2c[truncatefloat(w)];
         s[i] = cands[getRandomInt(cands.length)];
       }
     };
@@ -50,7 +56,7 @@ var matrixify = (function() {
   }
 
 
-  var mappings = {"w2c":{"3":["i"],"4":["f","j","l","I","J"],"5":["t"],"6":["c","r","s","z"],"7":["k","v","x","y","F","L"],"8":["1","2","3","4","5","6","7","8","9","0","a","e","g","n","p","E","K","R","S","T","V","X","Y","Z"],"9":["b","d","h","o","q","u","A","B","C","P"],"10":["D","H","O","U"],"11":["w","G","N","Q"],"13":["m","M","W"]},"c2w":{"0":8,"1":8,"2":8,"3":8,"4":8,"5":8,"6":8,"7":8,"8":8,"9":8,"a":8,"b":9,"c":6,"d":9,"e":8,"f":4,"g":8,"h":9,"i":3,"j":4,"k":7,"l":4,"m":13,"n":8,"o":9,"p":8,"q":9,"r":6,"s":6,"t":5,"u":9,"v":7,"w":11,"x":7,"y":7,"z":6,"A":9,"B":9,"C":9,"D":10,"E":8,"F":7,"G":11,"H":10,"I":4,"J":4,"K":8,"L":7,"M":13,"N":11,"O":10,"P":9,"Q":11,"R":8,"S":8,"T":8,"U":10,"V":8,"W":13,"X":8,"Y":8,"Z":8}};
+  var mappings = {"w2c":{"4":["i","j","l","I"],"5":["f"],"6":["r","t"],"7":["1"],"8":["k","s","v","x","y","z","J"],"9":["2","7","a","c","e","g","h","n","o","p","q","u","E","F","L"],"10":["3","4","5","6","8","9","0","b","d","A","B","K","P","R","S","T","V","Y","Z"],"11":["C","D","U","X"],"12":["w","G","H","N","O","Q"],"14":["m","M"],"15":["W"]},"c2w":{"0":10,"1":7,"2":9,"3":10,"4":10,"5":10,"6":10,"7":9,"8":10,"9":10,"a":9,"b":10,"c":9,"d":10,"e":9,"f":5,"g":9,"h":9,"i":4,"j":4,"k":8,"l":4,"m":14,"n":9,"o":9,"p":9,"q":9,"r":6,"s":8,"t":6,"u":9,"v":8,"w":12,"x":8,"y":8,"z":8,"A":10,"B":10,"C":11,"D":11,"E":9,"F":9,"G":12,"H":12,"I":4,"J":8,"K":10,"L":9,"M":14,"N":12,"O":12,"P":10,"Q":12,"R":10,"S":10,"T":10,"U":11,"V":10,"W":15,"X":11,"Y":10,"Z":10}}
 
   var run = function() {
     var nodes = getTextNodes("body");
@@ -81,10 +87,28 @@ var matrixify = (function() {
       rate *= 1.07;
       run();
       setTimeout(doit, wait);
-     } else {
-       document.cookie = "visited=true;max-age=315360000";
-       revert();
-     }
+    } else {
+      revert();
+      start = null;
+      wait = 1;
+      rate = 1.01;
+   }
+  }
+
+  var keeprunning = true;
+  doit.start = function() {
+    keeprunning = true;
+    runit()
+  }
+  doit.end = function () {
+    keeprunning = false;
+    revert()
+  }
+
+  function runit() {
+    if (!keeprunning) return;
+    run()
+    setTimeout(runit, 100)
   }
   
   doit.reset = function() {
@@ -94,13 +118,15 @@ var matrixify = (function() {
   }
   doit.reset = revert;
   doit.measureCharWidths = measureCharWidths;
+  doit.chars = chars;
 
+  measureCharWidths();
   return doit;
 })()
 
 
 
-if (!/visited=true/.test(document.cookie)) {
-  //matrixify();
-}
-
+//
+//if (!/visited=true/.test(document.cookie)) {
+//  matrixify();
+//}

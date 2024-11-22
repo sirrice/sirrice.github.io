@@ -35,6 +35,7 @@ h4 {
 
 .bordered {
  padding: 1.5em;
+ border: 2px solid grey;
 }
 
 p {
