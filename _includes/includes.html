@@ -2,7 +2,6 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="./files/css/style.css" />
 <script src="./files/js/jquery.js"></script>
-<script src="./files/js/colors.js"></script>
 <!--<link rel="stylesheet" type="text/css" href="./files/css/fonts.css" />-->
 
 <script>
@@ -32,11 +31,13 @@
     toggletag(tag);
     $(".tagbtn")
       .removeClass("btn-secondary")
+      .removeClass("tagbtn-selected")
       .removeClass("btn-outline-secondary")
       .addClass("btn-outline-secondary")
     $(this)
       .removeClass("btn-outline-secondary")
       .addClass("btn-secondary")
+      .addClass("tagbtn-selected")
     $("#pubs-title").text(`${tag} Publications`)
 
     console.log(this)
@@ -83,5 +84,13 @@
 </script>
 
 
+<!--
+<div id="chars"> </div>
+<script src="./files/js/matrix.js"></script>
+-->
 
+
+
+<style id="colorcss"></style>
+<script src="./files/js/colors.js"></script>
 

@@ -1,22 +1,47 @@
 function setColor(idx) {
+  if (colorcssel == null)
+    colorcssel = $("#colorcss")[0];
   var color = "#" + colors[idx % colors.length];
+  var lighter = lightenHexColor(color, 96);
+  let css = `
+  h1,h2,h3,h4,h5,a,.scrolldot {
+    color: ${color};
+    fill: ${color};
+  }
+  .bordered {
+    border: 2px solid ${color};
+    background-color: ${lighter};
+  }
+  .tagbtn {
+    color: ${color};
+    border: 1px solid ${color};
+  }
+  .tagbtn-selected {
+    color: white;
+    background-color: ${color};
+  }
+  `;
+  colorcssel.innerHTML = css;
   window.color = color;
-  $("h1,h2,h3,h4,h5,a,.scrolldot").css({
-    color: color,
-    fill: color
-  });
-  $(".bordered").css({
-    border: `2px solid ${color}`,
-    'background-color': lightenHexColor(color, 97)
-  });
+  //$("h1,h2,h3,h4,h5,a,.scrolldot").css({
+  //  color: color,
+  //  fill: color
+  //});
+  //$(".bordered").css({
+  //  border: `2px solid ${color}`,
+  //  'background-color': lightenHexColor(color, 97)
+  //});
+
 
 }
+let colorcssel = null;
 window.setColor = setColor;
 
-var colors = ["1054B2", "f77950", "3187FF", "13ab26", "c66ae0", "FF3D3B", "e61431", "ff0000", "0faf8d"];
+const colors = ["1054B2", "f77950", "3187FF", "13ab26", "c66ae0", "FF3D3B", "e61431", "ff0000", "0faf8d"];
 var hue = Math.floor(Math.random() * 200) + 100; // hue = 201;
 var hue = Math.floor(Math.random() * 300);
-var color = "hsla(" + hue + ", 73%, 52%, 0.7)";
+//var color = "hsla(" + hue + ", 73%, 52%, 0.7)";
+var color;
 setColor(Math.floor(Math.random()*colors.length));
 
 var goCray = false;
@@ -26,10 +51,11 @@ function randColor() {
   if (h4s == null) {
       h4s = $("h4,a");
   }
+  let css = ``
 
   if (goCray) {
     var idx = Math.floor(Math.random()*colors.length);
-    var _color = '#' + colors[idx % colors.length];
+    //var _color = '#' + colors[idx % colors.length];
     setColor(idx);
     if (1 || bold) {
       //h4s.css("text-decoration", "underline overline");
