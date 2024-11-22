@@ -1,3 +1,11 @@
+#### WuLab Info
+
+[The WuLab Blog](https://medium.com/thewulab)       
+[Research Overview (circa 2022)](./statement)
+
+
+
+
 #### Phds and PostDocs
 
 [Haneen Mohammed](http://haneensa.github.io/)   
@@ -11,6 +19,26 @@ Charlie Summers
 [Lampros Flokas](https://dblp.uni-trier.de/pid/185/0725.html)  (PhD, Meta)     
 [Fotis Psallidas](http://www.cs.columbia.edu/~fotis/) (PhD, Microsoft)       
 [Thibault Sellam](http://sellam.me) (postdoc, Google)
+
+
+#### Support
+
+NSF
+[1527765](http://perceptvis.github.io/),
+[1564049](https://nsfdeclarativevis.github.io/NSFDeclarativeVis/),
+[1845638 (CAREER)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1845638&HistoricalAwards=false),
+[1740305](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1740305&HistoricalAwards=false),
+[2008295](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2008295&HistoricalAwards=false),
+[2106197](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2106197&HistoricalAwards=false),
+[2103794](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2103794&HistoricalAwards=false),
+[2312991](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2312991&HistoricalAwards=false),
+[Amazon](http://www.cs.columbia.edu/2018/with-amazon-research-award-eugene-wu-will-add-interactivity-and-adversarial-generation-to-entity-matching/),
+[Google](http://www.cs.columbia.edu/2018/peter-allen-and-eugene-wu-selected-for-google-faculty-research-awards/),
+Adobe,
+[CAIT](https://cait.engineering.columbia.edu/news/columbia-center-ai-technology-announces-four-new-faculty-research-awards),
+[Columbia SIRS](https://portal.seas.columbia.edu/funding/sirs/pastprojects.php)
+
+
 
 
 <!--
@@ -34,7 +62,7 @@ Questions about the CS Journalism dual degree?  See the [FAQ](./dualdegree.html)
 
 #### Teaching
 
-* [Intro to DB](http://w4111.github.io) S19, F18, F16, F15
+* [Intro to DB](http://w4111.github.io) F24, F22, S19, F18, F16, F15
 * [Systems for Human Data Interaction](https://columbiaviz.github.io/) F21 S20 S17
 * [Database Research Topics](https://w6113.github.io) F20 S19
 * [Big Data Systems](http://w4121.github.io/) S18, S17, S16
@@ -52,7 +80,7 @@ SIGMOD NRS ([2017](http://sigmod2017.org/new-researcher-symposium/)),
 SIGMOD Travel Award (2015, 2016),
 North East DB Day ([2016](http://mitdbg.github.io/nedbday/2016))   
 
-**Area Chair**   ICDE ([2017](http://icde2017.sdsc.edu/)), VLDB ([2021](https://vldb.org/2021/), [2022](https://vldb.org/2022/)), SIGMOD ([2025](https://2025.sigmod.org/index.shtml))    
+**Associate Editor**   ICDE ([2017](http://icde2017.sdsc.edu/)), VLDB ([2021](https://vldb.org/2021/), [2022](https://vldb.org/2022/)), SIGMOD ([2025](https://2025.sigmod.org/index.shtml), 2026)    
 
 **Program Committee**   WWW ([2017](http://www.www2017.com.au/)),
  SIGMOD ([2017](http://sigmod2017.org/), [2019](https://sigmod2019.org), [2023](https://2023.sigmod.org/)),

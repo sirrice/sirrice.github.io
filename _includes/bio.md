@@ -21,13 +21,6 @@ Eugene Wu has received the VLDB 2018 10-year test of time award, best-of-confere
 <div class="applyheading" style="text-align: left; "> </div>
 -->
 
-<h4 style="margin-top:2em; margin-bottom: 0em;">Joining The Lab</h4>   
-**I'm recruiting at the intersection of database and HCI, or LLM agents and data systems (less to _use_ LLMs, more to develop infrastructure _for_ agents).   Applicants should have taken courses in both areas and/or have experience in both areas.**
-
-* **PhDs**: read the lab's work and provide evidence you can conduct research in the lab.  Include "bananas" in the subject line.    Strongly suggest reading [The PhD Application from a Faculty's Perspective](./tips.html).
-* **Postdocs**: share thoughts on how you can best make use of my expertise.  Include "satsuma" in the subject line.   Strongly suggest reading [The PhD Application from a Faculty's Perspective](./tips.html), as it mostly applies too.
-* **Interns + UGrad + Masters**: <a href="https://forms.gle/4TJRZubQ6Ary3zd47">Fill out this form</a>
-
 
 
 <!--advised by the esteemed [Sam Madden](http://db.lcs.mit.edu/madden/) and 
