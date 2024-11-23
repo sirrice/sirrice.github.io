@@ -327,12 +327,15 @@ input:checked + .slider:before {
 
 }
 
-@media  (max-width:1300px) {
+@media  (max-width:900px) {
+  . {
+    font-size: larger;
+  }
 }
 
 
 
-@media  (max-width:979px) {
+@media  (max-width:576px) {
   html,body {
     font-size: 20pt;
   }

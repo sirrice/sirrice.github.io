@@ -1,6 +1,6 @@
 var matrixify = (function() {
   function truncatefloat(n) {
-    return Math.round(n * 10) / 10;
+    return Math.round(n * 150) / 150;
   }
 
   function measureCharWidths() {
@@ -18,10 +18,9 @@ var matrixify = (function() {
         var w = $(`#char-${i}`)[0].getBoundingClientRect().width;
         var wint = truncatefloat(w);
         (w2c[wint] ||= []).push(c)
-        c2w[c] = w;
+        c2w[c] = wint;
       }
       mappings = {w2c: w2c, c2w: c2w};
-      console.log(JSON.stringify({w2c: w2c, c2w: c2w}));
     }, 500);
   }
 
@@ -61,6 +60,9 @@ var matrixify = (function() {
   var run = function() {
     var nodes = getTextNodes("body");
     nodes.forEach(function(n) {
+      const p = n.parentNode;
+      const tag = p.tagName.toLowerCase();
+      if (tag == 'style' || tag == 'script') return;
       if (n.origContent === undefined) {
         n.origContent = n.textContent;
       }

@@ -2,9 +2,11 @@ function setColor(idx) {
   if (colorcssel == null)
     colorcssel = $("#colorcss")[0];
   var color = "#" + colors[idx % colors.length];
+  console.log(color)
   var lighter = lightenHexColor(color, 96);
   let css = `
-  h1,h2,h3,h4,h5,a,.scrolldot {
+  h1,h2,h3,h5,.scrolldot {
+    background: none;
     color: ${color};
     fill: ${color};
   }
@@ -32,71 +34,39 @@ function setColor(idx) {
     background-color: ${lightenHexColor(color, 80)};
     color: ${color};
     border: 1px solid ${color};
-  }
+  } `;
 
-  `;
 
+  css += (goCray)
+    ? `
+    h4,a { 
+      background: ${color}; 
+      color: white; fill: white; } `
+    : `
+    h4,a { 
+      background: none; 
+      color: ${color}; 
+      fill: ${color}; }`;
   colorcssel.innerHTML = css;
   window.color = color;
-  //$("h1,h2,h3,h4,h5,a,.scrolldot").css({
-  //  color: color,
-  //  fill: color
-  //});
-  //$(".bordered").css({
-  //  border: `2px solid ${color}`,
-  //  'background-color': lightenHexColor(color, 97)
-  //});
-
-
 }
+
 let colorcssel = null;
 window.setColor = setColor;
 
 const colors = ["1054B2", "f77950", "3187FF", "13ab26", "c66ae0", "FF3D3B", "e61431", "ff0000", "0faf8d"];
-var hue = Math.floor(Math.random() * 200) + 100; // hue = 201;
-var hue = Math.floor(Math.random() * 300);
-//var color = "hsla(" + hue + ", 73%, 52%, 0.7)";
 var color;
 setColor(Math.floor(Math.random()*colors.length));
 
 var goCray = false;
 var bold = false;
-var h4s = null;
+var craycssel = null;
 function randColor() {
-  if (h4s == null) {
-      h4s = $("h4,a");
-  }
-  let css = ``
-
-  if (goCray) {
-    var idx = Math.floor(Math.random()*colors.length);
-    //var _color = '#' + colors[idx % colors.length];
-    setColor(idx);
-    if (1 || bold) {
-      //h4s.css("text-decoration", "underline overline");
-      h4s.css({
-        background: color,
-        color: 'white',
-        fill: 'white'
-      });
-    } else {
-      //h4s.css("text-decoration", "none");
-      h4s.css({
-        background: 'none',
-        color: color,
-        fill: color
-      });
-    }
-    bold = !bold;
+  craycssel ||= $("#craycss")[0];
+  var idx = Math.floor(Math.random()*colors.length);
+  setColor(idx);
+  if (goCray)
     setTimeout(randColor, Math.random() * 100 + 100);
-  } else {
-    //h4s.css("text-decoration", "none");
-    h4s.css({
-      background: 'none',
-      color: color,
-      fill: color
-    });
-  }
 };
 
 function toggleCray() {
