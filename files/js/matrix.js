@@ -1,6 +1,6 @@
 var matrixify = (function() {
   function truncatefloat(n) {
-    return Math.round(n * 150) / 150;
+    return Math.round(n * 100) / 100;
   }
 
   function measureCharWidths() {
@@ -33,11 +33,7 @@ var matrixify = (function() {
   function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
   }
-  var nums  = "1234567890";
-  var lower = "abcdefghijklmnopqrstuvwxyz";
-  var upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  var symbols = ".,'/\\!@#$%^&*()[{]}-_=+?|`~\""
-  var chars = nums + lower + upper + symbols;
+  const chars = Array.from({ length: 200 }, (_, i) => String.fromCharCode(i)).join('');
 
   var randChars = function(baseStr) {
     var s = Array.apply(null, Array(baseStr.length));
