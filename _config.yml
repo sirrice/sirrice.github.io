@@ -30,3 +30,12 @@ theme: minima
 exclude:
   - Gemfile
   - Gemfile.lock
+gems:
+  - jekyll-index-pages
+index_pages:
+  posts:
+    title: Post Listing Page Title
+    excerpt: Post listing page excerpt
+    per_page: 20
+    permalink: /blog/
+    layout: blog

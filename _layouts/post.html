@@ -1,11 +1,11 @@
 <html>
-<head>
+   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eugene Wu</title>
+  </head>
 <body>
-
-
 
 <div id="links">
   <a class="btn btn-primary" href="{{ "/" | relative_url }}">eugenewu.net</a>
@@ -13,21 +13,22 @@
 </div>
 
 
-<h1>
-  <span id="logo" >{{page.logo}}</span>
-  <span id="tagline">{{page.tagline}}</span>
-  <div style="clear=both;width:100%;">&nbsp;</div>
-</h1>
 
+<h4>
+  <div style="color: gray; ">{{page.date|date: "%m/%d/%y"}} </div> 
+  {{page.title}}
+</h4>
 {{content}}
 
 </body>
 
-<link rel="stylesheet" type="text/css" href="{{page.urlprefix}}./files/css/page.css" />
+
+<link rel="stylesheet" type="text/css" href="{{ "/files/css/page.css" | relative_url }}" />
 
 <style>
 html { background: {{page.color}}; }
-#logo, h2 { color: {{page.color}}; }
+h1 #logo, h2 { float: none; color: {{page.color}}; }
+h1 { margin-bottom: 12pt; }
 a { color: {{page.color}}; }
 a:hover { color: white; background: {{page.color}}; }
 #links { position: relative; top: -2em }
@@ -35,8 +36,13 @@ a:hover { color: white; background: {{page.color}}; }
 
 </html>
 
-<script>
-</script>
+
+
+
+
+
+
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112401455-2"></script>
 <script>

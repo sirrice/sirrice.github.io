@@ -16,6 +16,9 @@ gem "minima"
 
 gem "kramdown"
 
+gem "jekyll-index-pages"
+
+
 #gem "webrick"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
