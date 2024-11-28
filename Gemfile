@@ -15,6 +15,7 @@ gem "jekyll"
 gem "minima"
 
 gem "kramdown"
+gem "kramdown-parser-gfm"
 
 gem "jekyll-index-pages"
 

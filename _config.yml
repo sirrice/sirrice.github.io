@@ -32,6 +32,8 @@ exclude:
   - Gemfile.lock
 gems:
   - jekyll-index-pages
+lang: en
+locale: en
 index_pages:
   posts:
     title: Post Listing Page Title
