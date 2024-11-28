@@ -3,5 +3,5 @@ I'm recruiting at the intersection of database and HCI, or LLM agents and data s
 Strongly suggest PhD (and Postdoc) applicants read [The PhD Application from a Faculty's Perspective](./tips.html).
 
 * **PhDs**: read lab's work, provide evidence you can conduct research in the lab, include "bananas" in the subject line.    
-* **Postdocs**: share thoughts on how you can best make use of my expertise, include "satsuma" in the subject line.   
+* **Postdocs**: how you can best make use of my expertise?  what's a project we could work on? Include "satsuma" in the subject line.   
 * **Interns + UGrad + Masters**: <a href="https://forms.gle/4TJRZubQ6Ary3zd47">Fill out this form</a>
