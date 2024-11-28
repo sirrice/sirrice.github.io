@@ -63,6 +63,7 @@ Questions about the CS Journalism dual degree?  See the [FAQ](./dualdegree.html)
 #### Teaching
 
 * [Intro to DB](http://w4111.github.io) F24, F22, S19, F18, F16, F15
+* [Agents Made Real](https://w6113.github.io) S25
 * [Systems for Human Data Interaction](https://columbiaviz.github.io/) F21 S20 S17
 * [Database Research Topics](https://w6113.github.io) F20 S19
 * [Big Data Systems](http://w4121.github.io/) S18, S17, S16
