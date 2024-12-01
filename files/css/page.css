@@ -120,18 +120,31 @@ li {
 }
 */
 
-@media  (max-width:1300px) {
+@media  (max-width:900px) {
+  html, body {
+    font-size: 18pt;
+    line-height: 20pt;
+  }
 }
 
 
 
-@media  (max-width:900px) {
+@media  (max-width:576px) {
+  html, body {
+    font-size: 20pt;
+    font-size: 22pt;
+  }
+
+  h1 {
+    font-size: 22pt;
+  }
   h4 {
     margin-top: 2em;
-    font-size: 14pt;
+    font-size: 22pt;
+    margin-bottom: 1em;
   }
   .stitle {
-    text-align: left;
+    font-size: 22pt;
   }
   .header div {
   }
