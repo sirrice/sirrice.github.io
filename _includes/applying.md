@@ -1,6 +1,6 @@
 <h4 style="margin-top:0em; margin-bottom: 0em;">Joining The Lab</h4>   
 I'm recruiting at the intersection of database and HCI, or LLM agents and data systems (less to _use_ LLMs, more to develop infrastructure _for_ agents).   Applicants should have taken courses in both areas and/or have experience in both areas.
-Strongly suggest PhD (and Postdoc) applicants read [The PhD Application from a Faculty's Perspective](./tips.html).
+Strongly suggest PhD (and Postdoc) applicants read [The PhD Application from a Faculty's Perspective]({{"/general/2024/11/28/phdtips.html" | relative_url}})
 
 * **PhDs**: read lab's work, provide evidence you can conduct research in the lab, include "bananas" in the subject line.    
 * **Postdocs**: how you can best make use of my expertise?  what's a project we could work on? Include "satsuma" in the subject line.   
