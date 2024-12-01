@@ -6,7 +6,8 @@ Twitter: [@sirrice](https://twitter.com/sirrice)
 BSky: [@eugenewu.net](https://bsky.app/profile/eugenewu.net)    
 Github: [sirrice](http://github.com/sirrice), [cudbg](http://github.com/cudbg)   
 OH: Tues 10-11AM EST 421 Mudd    
-[CV](./files/statement/cv.pdf)
+[CV](./files/statement/cv.pdf)    
+[Blog](./blog.html)
 
 
 Co-Chair: [Data, Media & Society](http://datascienceinstitute.github.io)    

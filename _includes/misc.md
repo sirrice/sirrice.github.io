@@ -1,6 +1,6 @@
 #### WuLab Info
 
-[The WuLab Blog](https://medium.com/thewulab)       
+[The WuLab Blog](https://medium.com/thewulab) (until 2023)       
 [Research Overview (circa 2022)](./statement)
 
 
