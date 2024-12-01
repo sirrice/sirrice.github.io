@@ -94,36 +94,10 @@ b, strong {
 
 
 
-.pubs {
-  font-family: "Open Sans";
-  line-height: 15pt;
-}
-
-
-
-.pubs .authors {
-  font-size: smaller;
-  color: gray;
-}
-.pubs .conf {
-  /*text-transform: uppercase;*/
-  font-size: smaller;
-}
-
-/*ul, ol {
-  list-style-position: outside;
-  list-style-type: none;
-  padding: 0px;
-}
-li {
-  margin-bottom: 1em;
-}
-*/
-
 @media  (max-width:900px) {
   html, body {
     font-size: 18pt;
-    line-height: 20pt;
+    line-height: 1.25em;
   }
 }
 
@@ -132,7 +106,7 @@ li {
 @media  (max-width:576px) {
   html, body {
     font-size: 20pt;
-    font-size: 22pt;
+    line-height: 1.25em;
   }
 
   h1 {
