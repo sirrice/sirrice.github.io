@@ -39,5 +39,5 @@ index_pages:
     title: Post Listing Page Title
     excerpt: Post listing page excerpt
     per_page: 20
-    permalink: /blog/
+    permalink: /blog/:slug
     layout: blog
