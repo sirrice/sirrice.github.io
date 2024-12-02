@@ -18,6 +18,8 @@ gem "kramdown"
 gem "kramdown-parser-gfm"
 
 gem "jekyll-index-pages"
+gem 'i18n', '~> 1.8'
+
 
 
 #gem "webrick"

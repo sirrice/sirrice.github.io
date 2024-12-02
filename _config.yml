@@ -33,7 +33,8 @@ exclude:
 gems:
   - jekyll-index-pages
 lang: en
-locale: en
+locale: "en"
+plugins: []
 index_pages:
   posts:
     title: Post Listing Page Title
@@ -41,3 +42,5 @@ index_pages:
     per_page: 20
     permalink: /blog/:slug
     layout: blog
+exclude:
+  - vendor
