@@ -34,7 +34,9 @@ function setColor(idx) {
     background-color: ${lightenHexColor(color, 80)};
     color: ${color};
     border: 1px solid ${color};
-  } `;
+  } 
+
+`;
 
 
   css += (goCray)
@@ -47,6 +49,13 @@ function setColor(idx) {
       background: none; 
       color: ${color}; 
       fill: ${color}; }`;
+  css += `
+  a:hover {
+    background: ${color};
+    color: white;
+    fill: white;
+  }`
+
   colorcssel.innerHTML = css;
   window.color = color;
 }
