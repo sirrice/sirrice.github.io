@@ -4,7 +4,7 @@ I am broadly interested in problems where academic research has a [competitive a
 <ul class="apply">
   <li><strong>Intersection of Data managament and HCI</strong>: what is the <a href="https://arxiv.org/abs/2407.06404">boundary between vis</a> and <a href="https://www.dropbox.com/scl/fi/6r1vaia3tzbo1dwp9yqme/mgg-icdt25-submitted.pdf?rlkey=ttbddaqypbrvydzu87mnanmf8&amp;st=m7glvjmw&amp;dl=0">data management</a>, and how can data systems <a href="https://www.dropbox.com/scl/fi/d2xg8wb4uonijra1tuccp/pvd-sigmod25-submission.pdf?rlkey=lj9g98q8tku0a961maxofe8x2&amp;dl=0">enable new</a> <a href="https://www.dropbox.com/s/io5hpu5rn4tl9m5/smoke-sigmod18demo-cr.pdf?dl=0">interface</a>  <a href="https://www.dropbox.com/s/bhwikxq8932dsg5/dig-hilda23-cr.pdf?dl=0">capabilities</a>?</li>
   <li><strong>Data systems to support LLM Agents</strong>: we are <a href="https://columbia-dap-lab.github.io/">building a new lab</a> around this.</li>
-  <li><strong>Task-based Dataset Search</strong>: how can access to millions of existing tables enhance causal, predictive, or decision making tasks?  See <a href="https://arxiv.org/pdf/2308.05637.pdf">our CIDR24 paper</a></li>
+  <li><strong>Task-based Dataset Search</strong>: how can access to millions of existing tables <a href="https://www.dropbox.com/scl/fi/8bgj3sjiume23eqeevdp2/suna-sigmod25-submission.pdf?rlkey=ghxyu7lgbz2sr8162noiuuxq9&dl=0">enhance causal</a>, <a href="https://arxiv.org/pdf/2308.05637.pdf">predictive, or decision making</a> tasks?</li>
 </ul>
 
 <!--
