@@ -62,7 +62,7 @@
 - title: 'Jade: Design Independence Via Physical Visualization Design'
   url: https://www.dropbox.com/scl/fi/d2xg8wb4uonijra1tuccp/pvd-sigmod25-submission.pdf?rlkey=lj9g98q8tku0a961maxofe8x2&dl=0 
   conf: In Review 2025
-  authors: Yiru Chen, Xuyeng Li, Jeff Tao, Lana Ramjit, Ravi Netravali, Subrata Mitra, Aditya Parameswaran, Javad Ghaderi, Dan Rubenstein, Eugene Wu
+  authors: Yiru Chen, Xupeng Li, Jeff Tao, Lana Ramjit, Ravi Netravali, Subrata Mitra, Aditya Parameswaran, Javad Ghaderi, Dan Rubenstein, Eugene Wu
   selected: true
   tags:
     - vis
