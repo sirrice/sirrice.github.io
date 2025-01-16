@@ -15,7 +15,7 @@ I am broadly interested in problems where academic research has a [competitive a
 
 
 
-I strongly suggest PhD (and Postdoc) applicants read [The PhD Application from a Faculty's Perspective]({{"/general/2024/11/28/phdtips.html" | relative_url}})
+I strongly suggest PhD (and Postdoc) applicants read [The PhD Application from a Faculty's Perspective]({{"./general/2024/11/28/phdtips.html" | relative_url}})
 
 <ul class="apply">
   <li><strong>PhDs</strong>: read lab’s work, provide evidence you can conduct research in the lab, include “bananas” in the subject line.</li>
