@@ -93,7 +93,7 @@
   authors: Zachary Huang, Pranav Subramaniam, Raul Fernandez, Eugene Wu
   future: true
   url: https://arxiv.org/abs/2305.10419
-  conf: In Review 2023
+  conf: In Review 2025
   tags:
     - db
     - ml
@@ -109,7 +109,7 @@
 - title: 'Design-Specific Transformations in Visualization'
   authors: Eugene Wu, Remco Chang
   url: https://arxiv.org/abs/2407.06404
-  conf: ArXiV 2024
+  conf: BELIV workshop at IEEE VIS 2024
   tags:
     - vis
 - title: 'Data-Centric Text-to-SQL with Large Language Models'

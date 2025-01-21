@@ -5,7 +5,7 @@
 Twitter: [@sirrice](https://twitter.com/sirrice)     
 BSky: [@eugenewu.net](https://bsky.app/profile/eugenewu.net)    
 Github: [sirrice](http://github.com/sirrice), [cudbg](http://github.com/cudbg)   
-OH: Mon 12:45-1:45PM EST 421 Mudd    
+OH: Thurs 11:30AM EST 421 Mudd
 [CV](./files/statement/cv.pdf)    
 [Blog](./blog.html)
 
