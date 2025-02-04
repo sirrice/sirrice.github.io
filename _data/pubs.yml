@@ -59,9 +59,9 @@
     - ml
     - datasearch
     - ci
-- title: 'Jade: Design Independence Via Physical Visualization Design'
+- title: 'Physical Visualization Design: Decoupling Interface and System Design'
   url: https://www.dropbox.com/scl/fi/d2xg8wb4uonijra1tuccp/pvd-sigmod25-submission.pdf?rlkey=lj9g98q8tku0a961maxofe8x2&dl=0 
-  conf: In Review 2025
+  conf: SIGMOD 2025
   authors: Yiru Chen, Xupeng Li, Jeff Tao, Lana Ramjit, Ravi Netravali, Subrata Mitra, Aditya Parameswaran, Javad Ghaderi, Dan Rubenstein, Eugene Wu
   selected: true
   tags:
@@ -70,7 +70,7 @@
 - title: 'DocETL: Agentic Query Rewriting and Evaluation for Complex Document Processing'
   url: https://arxiv.org/abs/2410.12189
   authors: Shreya Shankar, Aditya Parameswaran, Eugene Wu
-  conf: arXiv 2024
+  conf: VLDB 2025
   tags:
     - db
     - llm
@@ -85,7 +85,7 @@
   authors: Haneen Mohammed, Alexander Yao, Lampros Flokas, Charlie Summers, Hongbin Zhong, Gramit Chan, Surata Mitra, Eugene Wu
   hide: true
   future: true
-  conf: In Review 2024
+  conf: VLDB 2025
   tags:
     - db
     - dbexplain
