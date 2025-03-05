@@ -50,15 +50,23 @@
 
 
 - title: 'Suna: Scalable Causal Confounder Discovery over Relational Data'
-  url: https://www.dropbox.com/scl/fi/8bgj3sjiume23eqeevdp2/suna-sigmod25-submission.pdf?rlkey=ghxyu7lgbz2sr8162noiuuxq9&dl=0
+  url: https://www.dropbox.com/scl/fi/oqr84we82yvl3a1qpwo0n/suna-vldb25-submitted.pdf?rlkey=uz3ztnvfsk953kjj9vs6h4tzb&dl=0
   conf: In Review 2025
-  authors: Jiaxiang Liu, Eugene Wu
+  authors: Jiaxiang Liu, Siyuan Xia, Daniel Alabi, Eugene Wu
   selected: true
   tags:
     - db
     - ml
     - datasearch
     - ci
+- title: 'Panel: Where Does Database Research Go From Here?'
+  authors: Eugene Wu, Raul Castro Fernandez
+  conf: SIGMOD 2025 panel
+- title: 'Tutorial: Privacy and Security in Distributed Data Markets'
+  authors: Daniel Alabi, Sainyam Galhotra, Shagufta Mehnaz, Zeyu Song, Eugene Wu
+  url: https://dacesresearch.org/tutorials/sigmod2025/
+  short: true
+  conf: SIGMOD 2025 tutorial
 - title: 'Physical Visualization Design: Decoupling Interface and System Design'
   url: https://www.dropbox.com/scl/fi/d2xg8wb4uonijra1tuccp/pvd-sigmod25-submission.pdf?rlkey=lj9g98q8tku0a961maxofe8x2&dl=0 
   conf: SIGMOD 2025
@@ -67,6 +75,15 @@
   tags:
     - vis
     - db
+- title: 'FaDE: More Than a Million What-ifs Per Second'
+  authors: Haneen Mohammed, Alexander Yao, Lampros Flokas, Charlie Summers, Hongbin Zhong, Gramit Chan, Surata Mitra, Eugene Wu
+  hide: true
+  future: true
+  conf: VLDB 2025
+  url: 
+  tags:
+    - db
+    - dbexplain
 - title: 'DocETL: Agentic Query Rewriting and Evaluation for Complex Document Processing'
   url: https://arxiv.org/abs/2410.12189
   authors: Shreya Shankar, Aditya Parameswaran, Eugene Wu
@@ -81,14 +98,6 @@
   authors: Eugene Wu
   tags:
     - blog
-- title: 'FaDE: More Than a Million What-ifs Per Second'
-  authors: Haneen Mohammed, Alexander Yao, Lampros Flokas, Charlie Summers, Hongbin Zhong, Gramit Chan, Surata Mitra, Eugene Wu
-  hide: true
-  future: true
-  conf: VLDB 2025
-  tags:
-    - db
-    - dbexplain
 - title: 'Kitana: A Data-as-a-Service Platform'
   authors: Zachary Huang, Pranav Subramaniam, Raul Fernandez, Eugene Wu
   future: true
