@@ -107,10 +107,10 @@
     - db
     - ml
     - datasearch
-- title: 'Database Theory + X: Database Visualization'
+- title: 'Database Theory in Action: Database Visualization'
   authors: Eugene Wu
-  url: https://arxiv.org/abs/2412.04101
-  conf: ICDT Database Theory + X 2025
+  url: https://drops.dagstuhl.de/storage/00lipics/lipics-vol328-icdt2025/LIPIcs.ICDT.2025.35/LIPIcs.ICDT.2025.35.pdf
+  conf: ICDT Database Theory in Action 2025
   selected: true
   tags:
     - vis
