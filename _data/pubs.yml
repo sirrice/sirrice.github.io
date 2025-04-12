@@ -77,10 +77,8 @@
     - db
 - title: 'FaDE: More Than a Million What-ifs Per Second'
   authors: Haneen Mohammed, Alexander Yao, Lampros Flokas, Charlie Summers, Hongbin Zhong, Gramit Chan, Surata Mitra, Eugene Wu
-  hide: true
-  future: true
   conf: VLDB 2025
-  url: 
+  url: https://www.dropbox.com/scl/fi/1qmuf1gkhchy3b30h9hu7/fade-vldb25-submitted.pdf?rlkey=pmy3sp7ge4qqsd34z2yv6ov3p&st=9ajsousr&dl=0
   tags:
     - db
     - dbexplain
