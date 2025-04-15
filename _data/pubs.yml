@@ -53,7 +53,7 @@
   authors: Eugene Wu, Xiang Yu Tuang, Antonio Li, Vareesh Bainwala
   conf: arXiV 2025
   selected: true
-  url: https://www.dropbox.com/scl/fi/6cxjziyl93zt6dr2j5arc/mgg-vldb25-submitted.pdf?rlkey=htooenrewb8k9bgv2mmiahoeu&st=4joby7fe&dl=0
+  url: https://arxiv.org/abs/2504.08979
   tags:
     - db
     - vis
@@ -70,6 +70,7 @@
 - title: 'Panel: Where Does Database Research Go From Here?'
   authors: Eugene Wu, Raul Castro Fernandez
   conf: SIGMOD 2025 panel
+  url: https://arxiv.org/abs/2504.08948
 - title: 'Tutorial: Privacy and Security in Distributed Data Markets'
   authors: Daniel Alabi, Sainyam Galhotra, Shagufta Mehnaz, Zeyu Song, Eugene Wu
   url: https://dacesresearch.org/tutorials/sigmod2025/
@@ -97,7 +98,7 @@
   tags:
     - db
     - llm
-- title: 'Where Does Database Research Go From Here?'
+- title: 'Blog Post: Where Does Database Research Go From Here?'
   url: https://wp.sigmod.org/?p=3801
   conf: SIGMOD Blog 2024
   short: true
