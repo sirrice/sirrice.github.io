@@ -73,7 +73,8 @@
   url: https://arxiv.org/abs/2504.08948
 - title: 'Tutorial: Privacy and Security in Distributed Data Markets'
   authors: Daniel Alabi, Sainyam Galhotra, Shagufta Mehnaz, Zeyu Song, Eugene Wu
-  url: https://dacesresearch.org/tutorials/sigmod2025/
+  url: https://eprint.iacr.org/2025/724
+  code: https://dacesresearch.org/tutorials/sigmod2025/
   short: true
   conf: SIGMOD 2025 tutorial
 - title: 'Physical Visualization Design: Decoupling Interface and System Design'
