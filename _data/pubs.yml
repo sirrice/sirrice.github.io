@@ -88,17 +88,15 @@
   future: true
   tags:
     - db
+
+
+
 - title: Towards a Framework for Optimizing Hierarchical Text Segmentation using LLMs
   authors: Lampros Flokas, Jeffrey Cao, Yujian Xu, Eugene Wu, Xu Chu, Cong Yu
-  conf: In Review DEEM at SIGMOD 2025
-  hide: true
-  future: true
+  conf: DEEM at SIGMOD 2025
   tags:
     - db
     - llm
-
-
-
 - title: "Prompt Editor: A Taxonomy-driven System for Guided LLM Prompt Development in Enterprise Settings"
   authors: Jeffery Cao, Lampros Flokas, Yujian Xu, Eugene Wu, Xu Chu, Cong Yu
   short: true
@@ -108,7 +106,7 @@
     - llm
 - title: Data Cleaning Using Large Language Models
   authors: Shuo Zhang, Zezhou Huang, Eugene Wu
-  url: https://www.dropbox.com/scl/fi/5abz3z48jx3gnrwe86qrx/datacleanwllm-dais25.pdf?rlkey=9mzvk9vi95hn2utbu9ecfj72x&dl=0
+  url: "https://www.dropbox.com/scl/fi/5abz3z48jx3gnrwe86qrx/datacleanwllm-dais25.pdf?rlkey=9mzvk9vi95hn2utbu9ecfj72x&dl=0"
   conf: DAIS Workshop at ICDE 2025
   short: true
   tags:
@@ -123,7 +121,7 @@
     - db
     - vis
 - title: 'Suna: Scalable Causal Confounder Discovery over Relational Data'
-  url: https://www.dropbox.com/scl/fi/oqr84we82yvl3a1qpwo0n/suna-vldb25-submitted.pdf?rlkey=uz3ztnvfsk953kjj9vs6h4tzb&dl=0
+  url: "https://www.dropbox.com/scl/fi/oqr84we82yvl3a1qpwo0n/suna-vldb25-submitted.pdf?rlkey=uz3ztnvfsk953kjj9vs6h4tzb&dl=0"
   conf: In Review 2025
   authors: Jiaxiang Liu, Siyuan Xia, Daniel Alabi, Eugene Wu
   selected: true
@@ -136,6 +134,7 @@
   authors: Eugene Wu, Raul Castro Fernandez
   conf: SIGMOD 2025 panel
   url: https://arxiv.org/abs/2504.08948
+  short: true
   tags:
     - db
 - title: 'Tutorial: Privacy and Security in Distributed Data Markets'
