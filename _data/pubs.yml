@@ -47,14 +47,6 @@
   conf: In Review 2023
   tags:
     - vis
-- title: Steering Semantic Data Processing With DocWrangler
-  authors: Shreya Shankar, Bhavya Chopra, Mawil Hasan, Stephen Lee, Bjoern Hartmann, Joseph Hellerstein, Aditya Parameswaran, Eugene Wu
-  future: true
-  hide: true
-  conf: In Review 2025
-  tags:
-    - db
-    - llm
 - title: Visual Decoding Operators
   authors: Sheng Long, Matthew Kay, Alex Kale, Remco Chang, Eugene Wu
   future: true
@@ -91,6 +83,13 @@
 
 
 
+- title: Steering Semantic Data Processing With DocWrangler
+  authors: Shreya Shankar, Bhavya Chopra, Mawil Hasan, Stephen Lee, Bjoern Hartmann, Joseph Hellerstein, Aditya Parameswaran, Eugene Wu
+  url: https://arxiv.org/abs/2504.14764
+  conf: ArXiv 2025
+  tags:
+    - db
+    - llm
 - title: Towards a Framework for Optimizing Hierarchical Text Segmentation using LLMs
   authors: Lampros Flokas, Jeffrey Cao, Yujian Xu, Eugene Wu, Xu Chu, Cong Yu
   conf: DEEM at SIGMOD 2025
