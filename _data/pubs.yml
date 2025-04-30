@@ -45,10 +45,73 @@
   future: true
   hide: true
   conf: In Review 2023
+  tags:
+    - vis
+- title: Steering Semantic Data Processing With DocWrangler
+  authors: Shreya Shankar, Bhavya Chopra, Mawil Hasan, Stephen Lee, Bjoern Hartmann, Joseph Hellerstein, Aditya Parameswaran, Eugene Wu
+  future: true
+  hide: true
+  conf: In Review 2025
+  tags:
+    - db
+    - llm
+- title: Visual Decoding Operators
+  authors: Sheng Long, Matthew Kay, Alex Kale, Remco Chang, Eugene Wu
+  future: true
+  hide: true
+  short: true
+  conf: In Review 2025
+  tags:
+    - vis
+- title: "Lineage Capture Trade-offs: A Case Study in DuckDB"
+  authors: Haneen Mohammed, Eugene Wu
+  conf: ProvWeek at SIGMOD 2025
+  hide: true
+  future: true
+  short: true
+  tags:
+    - db
+- title: "DEMO: Fast Hypothetical Update Evaluation"
+  authors: Haneen Hohammed, Alexander Yao, Charlie Summers, Hongbin Zhong, Gramit Yeuk-Yin Chan, Subrata Mitra, Lampros Flokas, Eugene Wu
+  conf: In Review ProvWeek at SIGMOD 2025
+  short: true
+  hide: true
+  future: true
+  tags:
+    - db
+    - vis
+- title: Compression for High-Performance Lineage
+  authors: Xiaoyu Han, Haneen Mohammed, Charlie Summers, Eugene Wu
+  conf: In Review ProvWeek at SIGMOD 2025
+  short: true
+  hide: true
+  future: true
+  tags:
+    - db
 
 
 
-
+- title: Towards a Framework for Optimizing Hierarchical Text Segmentation using LLMs
+  authors: Lampros Flokas, Jeffrey Cao, Yujian Xu, Eugene Wu, Xu Chu, Cong Yu
+  conf: DEEM at SIGMOD 2025
+  tags:
+    - db
+    - llm
+- title: "Prompt Editor: A Taxonomy-driven System for Guided LLM Prompt Development in Enterprise Settings"
+  authors: Jeffery Cao, Lampros Flokas, Yujian Xu, Eugene Wu, Xu Chu, Cong Yu
+  short: true
+  conf: SIGMOD Demo 2025
+  tags:
+    - db
+    - llm
+- title: Data Cleaning Using Large Language Models
+  authors: Shuo Zhang, Zezhou Huang, Eugene Wu
+  url: "https://www.dropbox.com/scl/fi/5abz3z48jx3gnrwe86qrx/datacleanwllm-dais25.pdf?rlkey=9mzvk9vi95hn2utbu9ecfj72x&dl=0"
+  conf: DAIS Workshop at ICDE 2025
+  short: true
+  tags:
+    - db
+    - llm
 - title: 'A Formalism and Library for Database Visualization'
   authors: Eugene Wu, Xiang Yu Tuang, Antonio Li, Vareesh Bainwala
   conf: arXiV 2025
@@ -58,7 +121,7 @@
     - db
     - vis
 - title: 'Suna: Scalable Causal Confounder Discovery over Relational Data'
-  url: https://www.dropbox.com/scl/fi/oqr84we82yvl3a1qpwo0n/suna-vldb25-submitted.pdf?rlkey=uz3ztnvfsk953kjj9vs6h4tzb&dl=0
+  url: "https://www.dropbox.com/scl/fi/oqr84we82yvl3a1qpwo0n/suna-vldb25-submitted.pdf?rlkey=uz3ztnvfsk953kjj9vs6h4tzb&dl=0"
   conf: In Review 2025
   authors: Jiaxiang Liu, Siyuan Xia, Daniel Alabi, Eugene Wu
   selected: true
@@ -71,12 +134,17 @@
   authors: Eugene Wu, Raul Castro Fernandez
   conf: SIGMOD 2025 panel
   url: https://arxiv.org/abs/2504.08948
+  short: true
+  tags:
+    - db
 - title: 'Tutorial: Privacy and Security in Distributed Data Markets'
   authors: Daniel Alabi, Sainyam Galhotra, Shagufta Mehnaz, Zeyu Song, Eugene Wu
   url: https://eprint.iacr.org/2025/724
   code: https://dacesresearch.org/tutorials/sigmod2025/
   short: true
   conf: SIGMOD 2025 tutorial
+  tags:
+    - db
 - title: 'Physical Visualization Design: Decoupling Interface and System Design'
   url: https://www.dropbox.com/scl/fi/d2xg8wb4uonijra1tuccp/pvd-sigmod25-submission.pdf?rlkey=lj9g98q8tku0a961maxofe8x2&dl=0 
   conf: SIGMOD 2025
