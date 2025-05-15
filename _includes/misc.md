@@ -8,14 +8,17 @@
 
 #### Phds and PostDocs
 
+[Reya Vir](https://reyavir.wixsite.com/home)    
+[Chenxi Huang](https://chenxi-huang.com/)    
+[Elaine Ran](https://www.linkedin.com/in/elaine-ang-57077694/)    
 [Haneen Mohammed](http://haneensa.github.io/)   
-[Yiru Chen](https://ireneruru.github.io/)    
-[Zach Huang](http://www.columbia.edu/~zh2408/)   
-Charlie Summers   
+[Charlie Summers](https://www.linkedin.com/in/charliesummers/)    
 [Jiaxiang "Jerry" Liu](https://jerrrrryl.github.io/)    
 [Haonan "Peter" Wang](https://www.linkedin.com/in/haonan-wang-3a5955237?trk=people-guest_people_search-card)
 
 
+[Zach Huang](http://www.columbia.edu/~zh2408/)  (PhD, Microsoft AI Frontiers)     
+[Yiru Chen](https://ireneruru.github.io/)  (PhD, Adobe)    
 [Lampros Flokas](https://dblp.uni-trier.de/pid/185/0725.html)  (PhD, Meta)     
 [Fotis Psallidas](http://www.cs.columbia.edu/~fotis/) (PhD, Microsoft)       
 [Thibault Sellam](http://sellam.me) (postdoc, Google)
@@ -36,7 +39,8 @@ NSF
 [Google](http://www.cs.columbia.edu/2018/peter-allen-and-eugene-wu-selected-for-google-faculty-research-awards/),
 Adobe,
 [CAIT](https://cait.engineering.columbia.edu/news/columbia-center-ai-technology-announces-four-new-faculty-research-awards),
-[Columbia SIRS](https://portal.seas.columbia.edu/funding/sirs/pastprojects.php)
+[Columbia SIRS](https://portal.seas.columbia.edu/funding/sirs/pastprojects.php),
+Intellect Design 
 
 
 
