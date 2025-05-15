@@ -10,7 +10,7 @@
 
 [Reya Vir](https://reyavir.wixsite.com/home)    
 [Chenxi Huang](https://chenxi-huang.com/)    
-[Elaine Ran](https://www.linkedin.com/in/elaine-ang-57077694/)    
+[Elaine Ang](https://www.linkedin.com/in/elaine-ang-57077694/)    
 [Haneen Mohammed](http://haneensa.github.io/)   
 [Charlie Summers](https://www.linkedin.com/in/charliesummers/)    
 [Jiaxiang "Jerry" Liu](https://jerrrrryl.github.io/)    
