@@ -62,7 +62,6 @@
 - title: "Lineage Capture Trade-offs: A Case Study in DuckDB"
   authors: Haneen Mohammed, Eugene Wu
   conf: ProvWeek at SIGMOD 2025
-  hide: true
   future: true
   short: true
   tags:
@@ -72,7 +71,6 @@
   conf: ProvWeek at SIGMOD 2025
   short: true
   hide: true
-  future: true
   tags:
     - db
     - vis
@@ -80,8 +78,7 @@
   authors: Xiaoyu Han, Haneen Mohammed, Charlie Summers, Eugene Wu
   conf: ProvWeek at SIGMOD 2025
   short: true
-  hide: true
-  future: true
+  slides: "https://drive.google.com/file/d/2lHwmCBr3WVu1vHHnQuq8qAq3EcCrVWo3/view?usp=sharing"
   tags:
     - db
 - title: Steering Semantic Data Processing With DocWrangler
