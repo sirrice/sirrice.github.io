@@ -62,15 +62,15 @@
 - title: "Lineage Capture Trade-offs: A Case Study in DuckDB"
   authors: Haneen Mohammed, Eugene Wu
   conf: ProvWeek at SIGMOD 2025
-  future: true
+  url: https://www.dropbox.com/scl/fi/7hb9n66yjghwrc15sw5pu/smokedduck-compare-provweek25-submitted.pdf?rlkey=8ab4yhzey4twi1s9f0vx8hkeq&dl=0
   short: true
   tags:
     - db
 - title: "DEMO: Fast Hypothetical Update Evaluation"
   authors: Haneen Hohammed, Alexander Yao, Charlie Summers, Hongbin Zhong, Gramit Yeuk-Yin Chan, Subrata Mitra, Lampros Flokas, Eugene Wu
   conf: ProvWeek at SIGMOD 2025
+  url: https://www.dropbox.com/scl/fi/bbzogkhy29d9tmvbakhf4/fade-sigmod25demo-submitted.pdf?rlkey=7snc6nm0kcvxntyd8donw3vfl&dl=0
   short: true
-  hide: true
   tags:
     - db
     - vis
@@ -78,6 +78,7 @@
   authors: Xiaoyu Han, Haneen Mohammed, Charlie Summers, Eugene Wu
   conf: ProvWeek at SIGMOD 2025
   short: true
+  url: https://www.dropbox.com/scl/fi/umu70z0bd932po25h9oh1/smokedduck-compression-provweek25-submitted.pdf?rlkey=zv1smphre33ak9jgxk2z583ju&dl=0
   slides: "https://drive.google.com/file/d/2lHwmCBr3WVu1vHHnQuq8qAq3EcCrVWo3/view?usp=sharing"
   tags:
     - db
