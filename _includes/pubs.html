@@ -33,6 +33,10 @@
             {% if p.code %}<a href="{{p.code}}">Code</a>{% endif %}
             {% if p.slides %}<a href="{{p.slides}}">Slides</a>{% endif %}
             {% if p.comments %}<span><b>{{p.comments}}</b></span>{% endif %}
+          {% if p.award %}
+            <div class="title">{{p.award}}</div>
+          {% endif %}
+
 
         </li>
 

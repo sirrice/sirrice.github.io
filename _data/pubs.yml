@@ -2,6 +2,7 @@
 #
 # - authors: eugene wu, super man
 #   conf: SIGMOD 2016
+#   award: 
 #   tags:
 #   - vis
 #   title: Title of the paper
@@ -12,6 +13,8 @@
 #   slides: URL to slides
 #   code: URL to code/github
 #   comments: any comments
+#   video:
+#   blog:
 #   selected: true
 #   short: true
 #   key: bibtex key
@@ -79,7 +82,7 @@
   conf: ProvWeek at SIGMOD 2025
   short: true
   url: https://www.dropbox.com/scl/fi/umu70z0bd932po25h9oh1/smokedduck-compression-provweek25-submitted.pdf?rlkey=zv1smphre33ak9jgxk2z583ju&dl=0
-  slides: "https://drive.google.com/file/d/2lHwmCBr3WVu1vHHnQuq8qAq3EcCrVWo3/view?usp=sharing"
+  video: "https://drive.google.com/file/d/2lHwmCBr3WVu1vHHnQuq8qAq3EcCrVWo3/view?usp=sharing"
   tags:
     - db
 - title: Steering Semantic Data Processing With DocWrangler
@@ -92,6 +95,8 @@
 - title: Towards a Framework for Optimizing Hierarchical Text Segmentation using LLMs
   authors: Lampros Flokas, Jeffrey Cao, Yujian Xu, Eugene Wu, Xu Chu, Cong Yu
   conf: DEEM at SIGMOD 2025
+  url: https://www.dropbox.com/scl/fi/cb9y2a95ihjh9kap36w93/celonis-deem25-hierseg-submitted.pdf?rlkey=k9op1ydiizm0bxsrfbbr3f5h4&dl=0
+  award: Best Paper Award!
   tags:
     - db
     - llm
@@ -99,6 +104,8 @@
   authors: Jeffery Cao, Lampros Flokas, Yujian Xu, Eugene Wu, Xu Chu, Cong Yu
   short: true
   conf: SIGMOD Demo 2025
+  award: Best Industry Demo Award!
+  url: https://www.dropbox.com/scl/fi/l6x3xq5puskaso5aw6y6u/promptimprover-sigmoddemo25-submitted.pdf?rlkey=4rgl9s48yzc5dhsizx9u5o9gs&dl=0
   tags:
     - db
     - llm
@@ -137,8 +144,8 @@
     - db
 - title: 'Tutorial: Privacy and Security in Distributed Data Markets'
   authors: Daniel Alabi, Sainyam Galhotra, Shagufta Mehnaz, Zeyu Song, Eugene Wu
-  url: https://eprint.iacr.org/2025/724
-  code: https://dacesresearch.org/tutorials/sigmod2025/
+  url: https://dacesresearch.org/tutorials/sigmod2025
+  slides: https://dacesresearch.org/tutorials/sigmod2025/parts1to5.pdf 
   short: true
   conf: SIGMOD 2025 tutorial
   tags:
