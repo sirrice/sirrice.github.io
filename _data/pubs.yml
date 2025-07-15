@@ -126,10 +126,11 @@
     - db
     - vis
 - title: 'Suna: Scalable Causal Confounder Discovery over Relational Data'
-  url: "https://www.dropbox.com/scl/fi/oqr84we82yvl3a1qpwo0n/suna-vldb25-submitted.pdf?rlkey=uz3ztnvfsk953kjj9vs6h4tzb&dl=0"
+  url: "https://github.com/cudbg/Suna/blob/main/Suna_tech_report.pdf"
   conf: VLDB 2025
   authors: Jiaxiang Liu, Siyuan Xia, Daniel Alabi, Eugene Wu
   selected: true
+  website: https://github.com/cudbg/Suna
   tags:
     - db
     - ml
