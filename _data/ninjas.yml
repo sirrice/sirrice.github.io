@@ -36,10 +36,11 @@ ninjas:
     name: Reptile
   - img: jade.png
     name: Jade
-    desc: In Progress
+    desc: SIGMOD 2025
+    url: https://www.dropbox.com/scl/fi/1tevjqwenoq9x8anf6x5s/pvd-sigmod25-cr.pdf?rlkey=0jz9c2fop4v1n7u43egzng4u2&dl=0
   - img: kitana.png
     name: Kitana
-    desc: In Review
+    desc: ArXiV 2025
     url: https://arxiv.org/abs/2305.10419
   - img: mileena.png
     name: Mileena
