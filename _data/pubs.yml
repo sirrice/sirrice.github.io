@@ -62,6 +62,13 @@
 
 
 
+- title: "Multi-Relational Algebra for Multi-Granular Data Analytics"
+  authors: Xi Wu, Eugene Wu, Zichen Zhu, Fengan Li, Jeffrey F. Naughton
+  conf: ArXiv 2025
+  url: https://arxiv.org/abs/2311.04824
+  tags:
+    - vis
+    - db
 - title: "Lineage Capture Trade-offs: A Case Study in DuckDB"
   authors: Haneen Mohammed, Eugene Wu
   conf: ProvWeek at SIGMOD 2025
