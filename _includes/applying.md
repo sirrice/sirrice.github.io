@@ -3,7 +3,7 @@ I am broadly interested in problems where academic research has a [competitive a
 
 <ul class="apply">
   <li><strong>Intersection of Data management and HCI</strong>: what is the <a href="https://arxiv.org/abs/2407.06404">boundary between vis</a> and <a href="https://www.dropbox.com/scl/fi/6r1vaia3tzbo1dwp9yqme/mgg-icdt25-submitted.pdf?rlkey=ttbddaqypbrvydzu87mnanmf8&amp;st=m7glvjmw&amp;dl=0">data management</a>, and how can data systems <a href="https://www.dropbox.com/scl/fi/d2xg8wb4uonijra1tuccp/pvd-sigmod25-submission.pdf?rlkey=lj9g98q8tku0a961maxofe8x2&amp;dl=0">enable new</a> <a href="https://www.dropbox.com/s/io5hpu5rn4tl9m5/smoke-sigmod18demo-cr.pdf?dl=0">interface</a>  <a href="https://www.dropbox.com/s/bhwikxq8932dsg5/dig-hilda23-cr.pdf?dl=0">capabilities</a>?</li>
-  <li><strong>Data systems to support LLM Agents</strong>: we are <a href="https://columbia-dap-lab.github.io/">building a new lab</a> around this.</li>
+  <li><strong>Data systems to support LLM Agents</strong>: we are <a href="https://dap.cs.columbia.edu">building a new lab</a> around this.</li>
   <li><strong>Task-based Dataset Search</strong>: how can access to millions of existing tables <a href="https://www.dropbox.com/scl/fi/oqr84we82yvl3a1qpwo0n/suna-vldb25-submitted.pdf?rlkey=uz3ztnvfsk953kjj9vs6h4tzb&dl=0">enhance causal</a>, <a href="https://arxiv.org/pdf/2308.05637.pdf">predictive, or decision making</a> tasks?</li>
 </ul>
 
@@ -20,7 +20,7 @@ I strongly suggest PhD (and Postdoc) applicants read [The PhD Application from a
 <ul class="apply">
   <li><strong>PhDs</strong>: read lab’s work, provide evidence you can conduct research in the lab, include “bananas” in the subject line.</li>
   <li><strong>Postdocs</strong>: how you can best make use of my expertise?  what’s a project we could work on? Include “satsuma” in the subject line.</li>
-  <li><strong>Interns + UGrad + Masters</strong>: <a href="https://forms.gle/4TJRZubQ6Ary3zd47">Fill out this form</a></li>
+  <li><strong>Interns + UGrad + Masters</strong>: <a href="https://forms.gle/4TJRZubQ6Ary3zd47">Fill out this form</a>.  Unfortunately, due to time constraints, your best bet is to find and talk to a grad student in the lab instead of emailing me directly.</li>
 </ul>
 <!--
 * **PhDs**: read lab's work, provide evidence you can conduct research in the lab, include "bananas" in the subject line.    
