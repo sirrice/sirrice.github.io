@@ -79,7 +79,7 @@
 - title: "DEMO: Fast Hypothetical Update Evaluation"
   authors: Haneen Hohammed, Alexander Yao, Charlie Summers, Hongbin Zhong, Gramit Yeuk-Yin Chan, Subrata Mitra, Lampros Flokas, Eugene Wu
   conf: ProvWeek at SIGMOD 2025
-  url: https://www.dropbox.com/scl/fi/bbzogkhy29d9tmvbakhf4/fade-sigmod25demo-submitted.pdf?rlkey=7snc6nm0kcvxntyd8donw3vfl&dl=0
+  url: https://www.dropbox.com/scl/fi/g9n1934x3v2skdmky7rr7/fade-vldb25-cr.pdf?rlkey=goplr3um7xyxqb9bow56v4sgy&dl=0
   short: true
   tags:
     - db
@@ -133,7 +133,7 @@
     - db
     - vis
 - title: 'Suna: Scalable Causal Confounder Discovery over Relational Data'
-  url: "https://github.com/cudbg/Suna/blob/main/Suna_tech_report.pdf"
+  url: "https://www.dropbox.com/scl/fi/695hsoo5oqzwtxjm7by42/suna-vldb25-cr.pdf?rlkey=zkswarx3wyb4y5bjefz9ovbez&dl=0"
   conf: VLDB 2025
   authors: Jiaxiang Liu, Siyuan Xia, Daniel Alabi, Eugene Wu
   selected: true
