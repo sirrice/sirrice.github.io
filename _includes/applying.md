@@ -1,11 +1,18 @@
-<h4 style="margin-top:0em; margin-bottom: 0em;">Joining The Lab</h4>   
-I am broadly interested in problems where academic research has a [competitive advantage](https://wp.sigmod.org/?p=3801).  Currently, I'm working on three classes of projects:
+<h4 style="margin-top:0em; margin-bottom: 0em;">Joining</h4>   
+
+
+<a hrf="https://dap.cs.columbia.edu"><img style="height:1.25em; margin-top: -.125em" src="https://daplab.cs.columbia.edu/files/images/daplab_logo_horiz.png"/></a> My focus is on projects in the new **[Data, Agents, Processes Lab](https://dap.cs.columbia.edu)**: operating and data systems to support agent automation in practice, and the applications they can enable.  A new class of [visual analytic systems](https://arxiv.org/abs/2504.08979) is one part of it.
+
+
+I am broadly interested in problems where academic research has a [competitive advantage](https://wp.sigmod.org/?p=3801).  
+
+<!--Currently, I'm working on three classes of projects:
 
 <ul class="apply">
   <li><strong>Intersection of Data management and HCI</strong>: what is the <a href="https://arxiv.org/abs/2407.06404">boundary between vis</a> and <a href="https://www.dropbox.com/scl/fi/6r1vaia3tzbo1dwp9yqme/mgg-icdt25-submitted.pdf?rlkey=ttbddaqypbrvydzu87mnanmf8&amp;st=m7glvjmw&amp;dl=0">data management</a>, and how can data systems <a href="https://www.dropbox.com/scl/fi/d2xg8wb4uonijra1tuccp/pvd-sigmod25-submission.pdf?rlkey=lj9g98q8tku0a961maxofe8x2&amp;dl=0">enable new</a> <a href="https://www.dropbox.com/s/io5hpu5rn4tl9m5/smoke-sigmod18demo-cr.pdf?dl=0">interface</a>  <a href="https://www.dropbox.com/s/bhwikxq8932dsg5/dig-hilda23-cr.pdf?dl=0">capabilities</a>?</li>
   <li><strong>Data systems to support LLM Agents</strong>: we are <a href="https://dap.cs.columbia.edu">building a new lab</a> around this.</li>
   <li><strong>Task-based Dataset Search</strong>: how can access to millions of existing tables <a href="https://www.dropbox.com/scl/fi/oqr84we82yvl3a1qpwo0n/suna-vldb25-submitted.pdf?rlkey=uz3ztnvfsk953kjj9vs6h4tzb&dl=0">enhance causal</a>, <a href="https://arxiv.org/pdf/2308.05637.pdf">predictive, or decision making</a> tasks?</li>
-</ul>
+</ul>-->
 
 <!--
 * **Intersection of Data managament and HCI**: what is the [boundary between vis](https://arxiv.org/abs/2407.06404) and [data management](https://www.dropbox.com/scl/fi/6r1vaia3tzbo1dwp9yqme/mgg-icdt25-submitted.pdf?rlkey=ttbddaqypbrvydzu87mnanmf8&st=m7glvjmw&dl=0), and how can data systems [enable new](https://www.dropbox.com/scl/fi/d2xg8wb4uonijra1tuccp/pvd-sigmod25-submission.pdf?rlkey=lj9g98q8tku0a961maxofe8x2&dl=0) [interface](https://www.dropbox.com/s/io5hpu5rn4tl9m5/smoke-sigmod18demo-cr.pdf?dl=0)  [capabilities](https://www.dropbox.com/s/bhwikxq8932dsg5/dig-hilda23-cr.pdf?dl=0)?
@@ -15,11 +22,10 @@ I am broadly interested in problems where academic research has a [competitive a
 
 
 
-I strongly suggest PhD (and Postdoc) applicants read [The PhD Application from a Faculty's Perspective]({{"./general/2024/11/28/phdtips.html" | relative_url}})
-
+Applicants should read [The PhD Application from a Faculty's Perspective]({{"./general/2024/11/28/phdtips.html" | relative_url}})
 <ul class="apply">
-  <li><strong>PhDs</strong>: read lab’s work, provide evidence you can conduct research in the lab, include “bananas” in the subject line.</li>
-  <li><strong>Postdocs</strong>: how you can best make use of my expertise?  what’s a project we could work on? Include “satsuma” in the subject line.</li>
+  <li><strong>PhDs</strong>: read recent work of interest, provide evidence you can conduct research, include “bananas” in the subject line.</li>
+  <li><strong>Postdocs</strong>: how you can best make use of the lab?  what’s a project we could work on? Include “satsuma” in the subject line.</li>
   <li><strong>Interns + UGrad + Masters</strong>: <a href="https://forms.gle/4TJRZubQ6Ary3zd47">Fill out this form</a>.  Unfortunately, due to time constraints, your best bet is to find and talk to a grad student in the lab instead of emailing me directly.</li>
 </ul>
 <!--
