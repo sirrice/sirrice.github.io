@@ -8,6 +8,7 @@
 
 #### Phds and PostDocs
 
+[Yusen Zhang](https://yuszh.com/) (postdoc)      
 [Reya Vir](https://reyavir.wixsite.com/home)    
 [Chenxi Huang](https://chenxi-huang.com/)    
 [Elaine Ang](https://www.linkedin.com/in/elaine-ang-57077694/)    
