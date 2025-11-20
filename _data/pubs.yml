@@ -61,7 +61,14 @@
 
 
 
-
+- title: "A Decade of Systems for Human Data Interaction"
+  authors: Eugene Wu, Yiru Chen, Haneen Mohammed, Zezhou Huang
+  url: https://arxiv.org/abs/2511.15585
+  conf: ArXiV 2025
+  tags:
+    - ai
+    - sys
+    - vis
 - title: "Please Don’t Kill My Vibe: Empowering Agents with Data Flow Control"
   authors: Charlie Summers, Haneen Mohammed, Eugene Wu
   url: https://www.dropbox.com/scl/fi/iz50niican9apygkpx5en/dfc-cidr26-submitted.pdf?rlkey=24fc47k659xixlevtkkrp4nx0&dl=0
