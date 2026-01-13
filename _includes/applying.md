@@ -26,7 +26,7 @@ Applicants should read [The PhD Application from a Faculty's Perspective]({{"./g
 <ul class="apply">
   <li><strong>PhDs</strong>: read recent work of interest, provide evidence you can conduct research, include “bananas” in the subject line.</li>
   <li><strong>Postdocs</strong>: how you can best make use of the lab?  what’s a project we could work on? Include “satsuma” in the subject line.</li>
-  <li><strong>Interns + UGrad + Masters</strong>: <a href="https://forms.gle/4TJRZubQ6Ary3zd47">Fill out this form</a>.  Unfortunately, due to time constraints, your best bet is to find and talk to a grad student in the lab instead of emailing me directly.</li>
+  <li><strong>Interns + UGrad + Masters</strong>: See the <a href="https://dap.cs.columbia.edu">DAPLab webpage</a>.  Due to time constraints, your best bet is to find and talk to a grad student in the lab instead of emailing me directly.</li>
 </ul>
 <!--
 * **PhDs**: read lab's work, provide evidence you can conduct research in the lab, include "bananas" in the subject line.    
