@@ -227,6 +227,7 @@
   authors: Eugene Wu, Remco Chang
   url: https://arxiv.org/abs/2407.06404
   conf: BELIV workshop at IEEE VIS 2024
+  slides: https://www.dropbox.com/scl/fi/pbmg783qp16wklkhlgjrf/2024-10-believ.pdf?rlkey=7wp728akwwpef2qk0sylx41k4&st=fy53r1ub&dl=0
   tags:
     - vis
 - title: 'Data-Centric Text-to-SQL with Large Language Models'
