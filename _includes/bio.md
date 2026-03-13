@@ -1,10 +1,4 @@
-Eugene Wu is an associate professor of computer science at Columbia University.
-He is broadly interested in technologies that help users play with
-their data.  His goal is for users at all technical
-levels to effectively and quickly make sense of their information.
-He is interested in solutions that ultimately improve the interface between
-users and data, and uses techniques borrowed from fields such as data management, 
-systems, crowd sourcing, visualization, and HCI.
+Eugene Wu is an associate professor of computer science at Columbia University and Co-director of the new Data, Agents, and Processes Lab (DAPLab).  He is broadly interested in the foundations of computing infrastructure that are needed in a future where AI agents can safely, reliably, and efficiently automate complex work.  His research spans the computing stack, from visualization and HCI to core data systems. 
 Eugene Wu received his Ph.D. from  [MIT](http://www.csail.mit.edu),
 B.S. from [Cal](http://www.cs.berkeley.edu),
 and was a postdoc in the [AMPLab](https://amplab.cs.berkeley.edu).
@@ -14,6 +8,17 @@ and was a postdoc in the [AMPLab](https://amplab.cs.berkeley.edu).
 
 Eugene Wu has received the VLDB 2018 10-year test of time award, best-of-conference citations at ICDE and VLDB, the SIGMOD 2016 best demo award, the NSF CAREER, and the Google, Adobe, and Amazon faculty awards.  
 
+
+
+<!--
+Eugene Wu is an associate professor of computer science at Columbia University.
+He is broadly interested in technologies that help users play with
+their data.  His goal is for users at all technical
+levels to effectively and quickly make sense of their information.
+He is interested in solutions that ultimately improve the interface between
+users and data, and uses techniques borrowed from fields such as data management, 
+systems, crowd sourcing, visualization, and HCI.
+-->
 <!--by [@mstem](http://partnews.brownbag.me/2012/02/29/interview-matt-stempeck-wants-to-change-the-world-with-tech/),-->
 
 
