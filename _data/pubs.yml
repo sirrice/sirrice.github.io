@@ -59,8 +59,54 @@
   tags:
     - vis
 
-
-
+- title: "Be CARE-ful with Text-to-SQL Benchmarks"
+  authors:
+  conf: Preprint 2026
+  tags:
+    - db
+    - ai
+- title: "LAKEQA: An Exploratory QA Benchmark over a Million-Scale Data Lake"
+  authors:  
+  conf: Preprint 2026
+  tags:
+    - db
+    - ai
+- title: "Agentic Data Environments"
+  authors: Elaine Ang, Chenxi Huang, Georgios Liargkovas, Jerry Liu, Jinhui Liu, Nikos Pagonas, Charlie Summers, Haonan Wang, Jiakai Xu, Tianle Zhou, Yusen Zhang, Zhou Yu, Zhuo Zhang, Tianyi Peng, Kostis Kaffes, Eugene Wu
+  conf: Preprint 2026
+  url: https://www.dropbox.com/scl/fi/fpjui0mjof5uuddw0oee5/agenticdataenvs-ieeedatabull-submitted.pdf?rlkey=4liqw8dkstwzilpn968y2hxbe&dl=0
+  selected: true
+  tags:
+    - ai
+    - sys
+    - position
+- title: "Outrunning LLM Cutoffs: A Live Kernel Crash Resolution Benchmark for All"
+  authors: Chenxi Huang, Alex Mathai, Feiyang Yu, Aleksandr Nogikh, Petros Maniatis, Franjo Ivancic, Eugene Wu, Kostis Kaffes, Junfeng Yang, Baishakhi Ray
+  conf: Preprint 2026
+  tags:
+    - ai
+    - sys
+- title: "BranchBench: Aligning Database Branching with Agentic Demands"
+  authors: Elaine Ang, In Keun Kim, Sam Weldon, Kevin Durand, Kostis Kaffes, Eugene Wu
+  conf: Preprint 2026
+  tags:
+    - ai
+    - db
+- title: "Data Flow Control: Data Safety Policies for AI Agents"
+  authors: Charlie Summers, Eugene Wu
+  conf: Preprint 2026
+  selected: true
+  tags:
+    - ai
+    - db
+- title: "Human-Data Interaction, Exploration, and Visualization in the AI Era: Challenges and Opportunities"
+  authors: Jean-Daniel Fekete, Yifan Hu, Dominik Moritz, Arnab Nandi, Senjuti Basu Roy, Eugene Wu, Nikos Bikakis, George Papastefanatos, Panos K. Chrysanthis, Guoliang Li, Lingyun Yu
+  url: https://arxiv.org/pdf/2603.05542
+  conf: SIGMOD Record 2026
+  tags:
+    - vis
+    - db
+    - ai
 - title: "A Decade of Systems for Human Data Interaction"
   authors: Eugene Wu, Yiru Chen, Haneen Mohammed, Zezhou Huang
   url: https://arxiv.org/abs/2511.15585
