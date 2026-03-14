@@ -67,6 +67,7 @@
     - ai
 - title: "LAKEQA: An Exploratory QA Benchmark over a Million-Scale Data Lake"
   authors:  
+  selected: true
   conf: Preprint 2026
   tags:
     - db
