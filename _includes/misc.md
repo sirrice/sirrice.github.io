@@ -12,6 +12,7 @@
 [Reya Vir](https://reyavir.wixsite.com/home)    
 [Chenxi Huang](https://chenxi-huang.com/)    
 [Elaine Ang](https://www.linkedin.com/in/elaine-ang-57077694/)    
+[Jiakai "Alex" Xu](https://alex-xjk.github.io/)     
 [Haneen Mohammed](http://haneensa.github.io/)   
 [Charlie Summers](https://www.linkedin.com/in/charliesummers/)    
 [Jiaxiang "Jerry" Liu](https://jerrrrryl.github.io/)    
