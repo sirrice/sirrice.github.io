@@ -27,47 +27,51 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
-- title: 'SmokedDuck: Fast Lineage in Analytical Databases'
-  hide: true
-  future: true
-  authors: Haneen Mohammed, Charlie Summers, Eugene Wu
-  conf: In Progress 2023
-- title: "Demonstration of Kitana: Interactive and Private Data Augmentation Search for AutoML"
-  authors: Jiaxiang Liu, Zezhou Huang, Eugene Wu
-  short: true
-  future: true
-  conf: In Progress 2023
-- title: "Comparison Visualization Under Data-induced Channels"
-  authors: Yilan Jiang, Cindy Xiong, Steven Franconeri, Eugene Wu
-  future: true
-  hide: true
-  short: true
-  conf: In Progress 2023
-- title: "A Hypothesis-Based Framework for Evaluating Visualization and Visual Analytics Systems"
-  authors: Ashley Suh, Ab Mosca, Eugene Wu, Remco Chang
-  future: true
-  hide: true
-  conf: In Review 2023
-  tags:
-    - vis
-- title: Visual Decoding Operators
+#- title: 'SmokedDuck: Fast Lineage in Analytical Databases'
+#  hide: true
+#  future: true
+#  authors: Haneen Mohammed, Charlie Summers, Eugene Wu
+#  conf: In Progress 2023
+#- title: "Demonstration of Kitana: Interactive and Private Data Augmentation Search for AutoML"
+#  authors: Jiaxiang Liu, Zezhou Huang, Eugene Wu
+#  short: true
+#  hide: true
+#  future: true
+#  conf: In Progress 2023
+#- title: "Comparison Visualization Under Data-induced Channels"
+#  authors: Yilan Jiang, Cindy Xiong, Steven Franconeri, Eugene Wu
+#  future: true
+#  hide: true
+#  short: true
+#  conf: In Progress 2023
+#- title: "A Hypothesis-Based Framework for Evaluating Visualization and Visual Analytics Systems"
+#  authors: Ashley Suh, Ab Mosca, Eugene Wu, Remco Chang
+#  future: true
+#  hide: true
+#  conf: In Review 2023
+#  tags:
+#    - vis
+#
+- title: "Visual Decoding Operators: Towards a Compositional Theory of Visualization Perception"
   authors: Sheng Long, Matthew Kay, Alex Kale, Remco Chang, Eugene Wu
   future: true
-  hide: true
-  short: true
-  conf: In Review 2025
+  conf: ArXiV 2025
+  url: https://arxiv.org/pdf/2604.02220
   tags:
     - vis
-
 - title: "Be CARE-ful with Text-to-SQL Benchmarks"
-  authors:
+  authors: Haonan Wang, Jiaxiang Liu, Elaine Ang, Reya Vir, Tianle Zhou, Mihir Agarwal, Hongyuan Kang, Yusen Zhang, Eugene Wu
   conf: Preprint 2026
+  show: true
+  future: true
   tags:
     - db
     - ai
 - title: "LAKEQA: An Exploratory QA Benchmark over a Million-Scale Data Lake"
-  authors:  
+  authors: Haonan Wang, Jiaxiang Liu, Yurong Liu, Austin Senna Wijaya, Tianle Zhou, Eden Wu, Yijia Chen, Wanting You, Reya Vir, Daniela Pinto Veizaga, Grace Fan, Yusen Zhang, Juliana Freire, Eugene Wu
   selected: true
+  show: true
+  future: true
   conf: Preprint 2026
   tags:
     - db
@@ -89,12 +93,16 @@
     - sys
 - title: "BranchBench: Aligning Database Branching with Agentic Demands"
   authors: Elaine Ang, In Keun Kim, Sam Weldon, Kevin Durand, Kostis Kaffes, Eugene Wu
+  show: true
+  future: true
   conf: Preprint 2026
   tags:
     - ai
     - db
 - title: "Data Flow Control: Data Safety Policies for AI Agents"
   authors: Charlie Summers, Eugene Wu
+  show: true
+  future: true
   conf: Preprint 2026
   selected: true
   tags:
