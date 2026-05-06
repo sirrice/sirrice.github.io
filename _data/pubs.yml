@@ -60,7 +60,7 @@
   tags:
     - vis
 - title: "Be CARE-ful with Text-to-SQL Benchmarks"
-  authors: Haonan Wang, Jiaxiang Liu, Elaine Ang, Reya Vir, Tianle Zhou, Mihir Agarwal, Hongyuan Kang, Yusen Zhang, Eugene Wu
+  authors: Haonan Wang*, Jiaxiang Liu*, Elaine Ang, Reya Vir, Tianle Zhou, Mihir Agarwal, Hongyuan Kang, Yusen Zhang, Eugene Wu
   conf: Preprint 2026
   show: true
   future: true
@@ -68,7 +68,7 @@
     - db
     - ai
 - title: "LAKEQA: An Exploratory QA Benchmark over a Million-Scale Data Lake"
-  authors: Haonan Wang, Jiaxiang Liu, Yurong Liu, Austin Senna Wijaya, Tianle Zhou, Eden Wu, Yijia Chen, Wanting You, Reya Vir, Daniela Pinto Veizaga, Grace Fan, Yusen Zhang, Juliana Freire, Eugene Wu
+  authors: Haonan Wang*, Jiaxiang Liu*, Yurong Liu, Austin Senna Wijaya, Tianle Zhou, Eden Wu, Yijia Chen, Wanting You, Reya Vir, Daniela Pinto Veizaga, Grace Fan, Yusen Zhang, Juliana Freire, Eugene Wu
   selected: true
   show: true
   future: true

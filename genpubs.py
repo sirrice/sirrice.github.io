@@ -42,8 +42,8 @@ def format_auth(auth):
   parts = auth.split()
   name = []
   for part in parts[:-1]:
-    name.append(part[0] + ".")
-  name.append(parts[-1])
+    name.append(part[0].strip("*") + ".")
+  name.append(parts[-1].strip("*"))
   name = " ".join(name)
   if auth.lower() in mine:
     return "\\underline{\\bf %s}" % name
@@ -56,8 +56,8 @@ def format_text_auth(auth):
   parts = auth.split()
   name = []
   for part in parts[:-1]:
-    name.append(part[0] + ".")
-  name.append(parts[-1])
+    name.append(part[0].strip("*") + ".")
+  name.append(parts[-1].strip("*"))
   name = " ".join(name)
   return name
 
