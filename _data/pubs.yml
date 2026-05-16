@@ -59,6 +59,16 @@
   url: https://arxiv.org/pdf/2604.02220
   tags:
     - vis
+- title: "Data Flow Control: Data Safety Policies for AI Agents"
+  authors: Charlie Summers, Eugene Wu
+  show: true
+  future: true
+  conf: Preprint 2026
+  selected: true
+  tags:
+    - ai
+    - db
+
 - title: "Be CARE-ful with Text-to-SQL Benchmarks"
   authors: Haonan Wang*, Jiaxiang Liu*, Elaine Ang, Reya Vir, Tianle Zhou, Mihir Agarwal, Hongyuan Kang, Yusen Zhang, Eugene Wu
   conf: Preprint 2026
@@ -71,15 +81,14 @@
   authors: Haonan Wang*, Jiaxiang Liu*, Yurong Liu, Austin Senna Wijaya, Tianle Zhou, Eden Wu, Yijia Chen, Wanting You, Reya Vir, Daniela Pinto Veizaga, Grace Fan, Yusen Zhang, Juliana Freire, Eugene Wu
   selected: true
   show: true
-  future: true
-  conf: Preprint 2026
+  conf: ICML 2026
   tags:
     - db
     - ai
 - title: "Agentic Data Environments"
   authors: Elaine Ang, Chenxi Huang, Georgios Liargkovas, Jerry Liu, Jinhui Liu, Nikos Pagonas, Charlie Summers, Haonan Wang, Jiakai Xu, Tianle Zhou, Yusen Zhang, Zhou Yu, Zhuo Zhang, Tianyi Peng, Kostis Kaffes, Eugene Wu
-  conf: Preprint 2026
-  url: https://www.dropbox.com/scl/fi/fpjui0mjof5uuddw0oee5/agenticdataenvs-ieeedatabull-submitted.pdf?rlkey=4liqw8dkstwzilpn968y2hxbe&dl=0
+  conf: IEEE Data Bulletin 2026
+  url: http://sites.computer.org/debull/A26mar/p5.pdf
   selected: true
   tags:
     - ai
@@ -87,7 +96,7 @@
     - position
 - title: "Outrunning LLM Cutoffs: A Live Kernel Crash Resolution Benchmark for All"
   authors: Chenxi Huang, Alex Mathai, Feiyang Yu, Aleksandr Nogikh, Petros Maniatis, Franjo Ivancic, Eugene Wu, Kostis Kaffes, Junfeng Yang, Baishakhi Ray
-  conf: Preprint 2026
+  conf: ICML 2026
   tags:
     - ai
     - sys
@@ -95,19 +104,30 @@
   authors: Elaine Ang, In Keun Kim, Sam Weldon, Kevin Durand, Kostis Kaffes, Eugene Wu
   show: true
   future: true
-  conf: Preprint 2026
+  conf: ArXiv 2026
   tags:
     - ai
     - db
-- title: "Data Flow Control: Data Safety Policies for AI Agents"
-  authors: Charlie Summers, Eugene Wu
-  show: true
-  future: true
-  conf: Preprint 2026
-  selected: true
+- title: "Toward Systems Foundations for Agentic Exploration"
+  authors: Jiakai Xu, Tianle Zhou, Eugene Wu, Kostis Kaffes
+  conf: SAA Workshop at SOSP 2025
+  pub_date: "2025-10-13"
   tags:
     - ai
-    - db
+    - sys
+  url: https://arxiv.org/abs/2510.05556
+- title: "RAISE: Reliable Agent Improvement via Simulated Experience"
+  authors: Sahar Omidi Shayegan, Joshua Meyer, Victor Shih, Sebastian Sosa, Tianyi Peng, Kostis Kaffes, Eugene Wu, Andi Partovi, Mehdi Jamei
+  conf: NeurIPS 2025 (SEA Workshop)
+  pub_date: "2025-12-07"
+  tags:
+    - ai
+    - agents
+    - simulation
+  url: https://openreview.net/forum?id=53oRwdZe6k
+
+
+
 - title: "Human-Data Interaction, Exploration, and Visualization in the AI Era: Challenges and Opportunities"
   authors: Jean-Daniel Fekete, Yifan Hu, Dominik Moritz, Arnab Nandi, Senjuti Basu Roy, Eugene Wu, Nikos Bikakis, George Papastefanatos, Panos K. Chrysanthis, Guoliang Li, Lingyun Yu
   url: https://arxiv.org/pdf/2603.05542
