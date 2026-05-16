@@ -4,6 +4,15 @@ import sys
 
 
 mine = """Daniel Alabi
+Charlie Summers
+Prajwal Raghunath
+Zhibin Shen
+Hardik Gupta
+Eric Choi
+Mayur Kulkarni
+Sally Go
+Peter Yu
+Akriti Agarwal
 Fotis Psallidas
 Pavan Kalyan
 Zachary Huang
@@ -32,7 +41,19 @@ Yilan Jiang
 Zezhou Huang
 Alexander Yao
 Charlie Summers
-Charles Summers
+Jiaxiang Liu
+Elaine Ang
+Reya Vir
+Tianle Zhou
+Mihir Agarwal
+Hongyuan Kang
+Yusen Zhang
+Chenxi Huang
+Jerry Liu
+Jiakai Xu
+In Keun Kim
+Sam Weldon
+Kevin Durand
 Zhengjie Miao"""
 mine = set([auth.strip().lower() for auth in mine.split("\n")])
 

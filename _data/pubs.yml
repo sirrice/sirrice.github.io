@@ -33,7 +33,7 @@
 #  authors: Haneen Mohammed, Charlie Summers, Eugene Wu
 #  conf: In Progress 2023
 #- title: "Demonstration of Kitana: Interactive and Private Data Augmentation Search for AutoML"
-#  authors: Jiaxiang Liu, Zezhou Huang, Eugene Wu
+#  authors: Jerry Liu, Zezhou Huang, Eugene Wu
 #  short: true
 #  hide: true
 #  future: true
@@ -52,10 +52,33 @@
 #  tags:
 #    - vis
 #
+
+- title: "Design-Specific Transformations in Visualization"
+  authors: Alexandra Scott, Manling Yang, Eugene Wu, Remco Chang
+  future: true
+  conf: ArXiV 2026
+  tags:
+    - vis
+
+- title: "Law-Abiding Agents: Demonstrating Safe Tax Preparation with Data Flow Control"
+  authors: Charlie Summers, Prajwal Raghunath, Zhibin Shen, Hardik Gupta, Eric Choi, Mayur Kulkarni, Sally Go, Peter Yu, Akriti Agarwal, Zhuo Zhang, Oliver Kennedy, Eugene Wu
+  future: true
+  short: true
+  conf: In Submission
+  tags:
+    - ai
+    - ml
+    - llm
+    - db
+- title: "Towards a Grammar-Based Theory of Visual Analytics"
+  authors: Alexandra Scott, Manling Yang, Ashley Suh, Eugene Wu, Remco Chang
+  conf: Visualization Viewpoints 2026
+  tags:
+    - vis
 - title: "Visual Decoding Operators: Towards a Compositional Theory of Visualization Perception"
   authors: Sheng Long, Matthew Kay, Alex Kale, Remco Chang, Eugene Wu
   future: true
-  conf: ArXiV 2025
+  conf: ArXiV 2026
   url: https://arxiv.org/pdf/2604.02220
   tags:
     - vis
@@ -67,23 +90,36 @@
   selected: true
   tags:
     - ai
+    - llm
     - db
-
+- title: "Latent Cache Flow: Model-to-Model Communication Without Text"
+  authors: Maximillian Rossi, Prajwal Raghunath, Eugene Wu
+  future: true 
+  short: true
+  conf: In Submission 2026
+  selected: true
+  tags:
+    - ai
+    - llm
+    - ml
+    - agents
 - title: "Be CARE-ful with Text-to-SQL Benchmarks"
-  authors: Haonan Wang*, Jiaxiang Liu*, Elaine Ang, Reya Vir, Tianle Zhou, Mihir Agarwal, Hongyuan Kang, Yusen Zhang, Eugene Wu
+  authors: Haonan Wang*, Jerry Liu*, Elaine Ang, Reya Vir, Tianle Zhou, Mihir Agarwal, Hongyuan Kang, Yusen Zhang, Eugene Wu
   conf: Preprint 2026
   show: true
   future: true
   tags:
     - db
+    - llm
     - ai
 - title: "LAKEQA: An Exploratory QA Benchmark over a Million-Scale Data Lake"
-  authors: Haonan Wang*, Jiaxiang Liu*, Yurong Liu, Austin Senna Wijaya, Tianle Zhou, Eden Wu, Yijia Chen, Wanting You, Reya Vir, Daniela Pinto Veizaga, Grace Fan, Yusen Zhang, Juliana Freire, Eugene Wu
+  authors: Haonan Wang*, Jerry Liu*, Yurong Liu, Austin Senna Wijaya, Tianle Zhou, Eden Wu, Yijia Chen, Wanting You, Reya Vir, Daniela Pinto Veizaga, Grace Fan, Yusen Zhang, Juliana Freire, Eugene Wu
   selected: true
   show: true
   conf: ICML 2026
   tags:
     - db
+    - llm
     - ai
 - title: "Agentic Data Environments"
   authors: Elaine Ang, Chenxi Huang, Georgios Liargkovas, Jerry Liu, Jinhui Liu, Nikos Pagonas, Charlie Summers, Haonan Wang, Jiakai Xu, Tianle Zhou, Yusen Zhang, Zhou Yu, Zhuo Zhang, Tianyi Peng, Kostis Kaffes, Eugene Wu
@@ -92,6 +128,7 @@
   selected: true
   tags:
     - ai
+    - llm
     - sys
     - position
 - title: "Outrunning LLM Cutoffs: A Live Kernel Crash Resolution Benchmark for All"
@@ -99,6 +136,7 @@
   conf: ICML 2026
   tags:
     - ai
+    - llm
     - sys
 - title: "BranchBench: Aligning Database Branching with Agentic Demands"
   authors: Elaine Ang, In Keun Kim, Sam Weldon, Kevin Durand, Kostis Kaffes, Eugene Wu
@@ -107,6 +145,7 @@
   conf: ArXiv 2026
   tags:
     - ai
+    - llm
     - db
 - title: "Toward Systems Foundations for Agentic Exploration"
   authors: Jiakai Xu, Tianle Zhou, Eugene Wu, Kostis Kaffes
@@ -114,6 +153,7 @@
   pub_date: "2025-10-13"
   tags:
     - ai
+    - llm
     - sys
   url: https://arxiv.org/abs/2510.05556
 - title: "RAISE: Reliable Agent Improvement via Simulated Experience"
@@ -122,6 +162,7 @@
   pub_date: "2025-12-07"
   tags:
     - ai
+    - llm
     - agents
     - simulation
   url: https://openreview.net/forum?id=53oRwdZe6k
@@ -143,6 +184,7 @@
   conf: Information Systems Special Issue on Human-In-the-Loop Data Analytics 2026
   tags:
     - ai
+    - llm
     - sys
     - vis
 - title: "Please Don’t Kill My Vibe: Empowering Agents with Data Flow Control"
@@ -154,6 +196,7 @@
   tags:
     - ai
     - sys
+    - llm
     - agent-debug
 - title: "Multi-Relational Algebra for Multi-Granular Data Analytics"
   authors: Xi Wu, Eugene Wu, Zichen Zhu, Fengan Li, Jeffrey F. Naughton
@@ -228,7 +271,7 @@
 - title: 'Suna: Scalable Causal Confounder Discovery over Relational Data'
   url: "https://www.dropbox.com/scl/fi/695hsoo5oqzwtxjm7by42/suna-vldb25-cr.pdf?rlkey=zkswarx3wyb4y5bjefz9ovbez&dl=0"
   conf: VLDB 2025
-  authors: Jiaxiang Liu, Siyuan Xia, Daniel Alabi, Eugene Wu
+  authors: Jerry Liu, Siyuan Xia, Daniel Alabi, Eugene Wu
   selected: true
   website: https://github.com/cudbg/Suna
   tags:
@@ -298,10 +341,11 @@
   tags:
     - vis
     - db
-- title: 'Design-Specific Transformations in Visualization'
+- title: 'Design-Specific Transformations in Visualization (short)'
   authors: Eugene Wu, Remco Chang
   url: https://arxiv.org/abs/2407.06404
   conf: BELIV workshop at IEEE VIS 2024
+  short: true
   slides: https://www.dropbox.com/scl/fi/pbmg783qp16wklkhlgjrf/2024-10-believ.pdf?rlkey=7wp728akwwpef2qk0sylx41k4&st=fy53r1ub&dl=0
   tags:
     - vis
@@ -314,7 +358,7 @@
     - cleaning
     - llm
 - title: 'DynoClass: A Dynamic Table-Class Detection System Without the Need for Predefined Ontologies'
-  authors: Haonan Wang, Kechen Liu, Jiaxiang Liu, Eugene Wu
+  authors: Haonan Wang, Kechen Liu, Jerry Liu, Eugene Wu
   url: https://openreview.net/pdf?id=r45TbawHl8
   conf: Table Representation Learning at NeurIPS 2024
   tags:
@@ -368,7 +412,7 @@
     - db
     - llm
 - title: "The Fast and the Private: Task-based Dataset Search"
-  authors: Zezhou Huang, Jiaxiang Liu, Haonan Wang, Eugene Wu
+  authors: Zezhou Huang, Jerry Liu, Haonan Wang, Eugene Wu
   conf: CIDR 2024
   url: https://arxiv.org/pdf/2308.05637.pdf
   slides: https://www.dropbox.com/scl/fi/y24uesql0j0t74tn02hd9/2024-01-CIDR-Mileena.pdf?rlkey=qiwk8n0ef0ggg2p2xa3aa8z0z&dl=0
@@ -382,14 +426,14 @@
   conf: MobiCom 2023
   url: https://dl.acm.org/doi/pdf/10.1145/3570361.3613292
 - title: "JoinBoost: Grow Trees Over Normalized Data Using Only SQL "
-  authors: Zezhou Huang, Rathijit Sen, Jiaxiang Liu, Eugene Wu
+  authors: Zezhou Huang, Rathijit Sen, Jerry Liu, Eugene Wu
   conf: VLDB 2023
   url: https://arxiv.org/abs/2307.00422
   tags:
     - db
     - ml
 - title: "Saibot: A Differentially Private Data Search Platform"
-  authors: Zezhou Huang, Jiaxiang Liu, Daniel Alabi, Raul Castro Fernandez, Eugene Wu
+  authors: Zezhou Huang, Jerry Liu, Daniel Alabi, Raul Castro Fernandez, Eugene Wu
   conf: VLDB 2023
   url: https://arxiv.org/abs/2307.00432
   tags:
