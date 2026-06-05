@@ -53,6 +53,18 @@
 #    - vis
 #
 
+- title: "Data Flow Control: Data Safety Policies for AI Agents"
+  authors: Charlie Summers, Eugene Wu
+  url: https://arxiv.org/abs/2606.05679
+  conf: ArXiV 2026
+  selected: true
+  show: true
+  tags:
+    - ai
+    - ml
+    - llm
+    - db
+
 - title: "Design-Specific Transformations in Visualization"
   authors: Alexandra Scott, Manling Yang, Eugene Wu, Remco Chang
   future: true
@@ -82,16 +94,6 @@
   url: https://arxiv.org/pdf/2604.02220
   tags:
     - vis
-- title: "Data Flow Control: Data Safety Policies for AI Agents"
-  authors: Charlie Summers, Eugene Wu
-  show: true
-  future: true
-  conf: Preprint 2026
-  selected: true
-  tags:
-    - ai
-    - llm
-    - db
 - title: "Latent Cache Flow: Model-to-Model Communication Without Text"
   authors: Maximillian Rossi, Prajwal Raghunath, Eugene Wu
   future: true 
