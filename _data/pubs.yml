@@ -119,6 +119,7 @@
   selected: true
   show: true
   conf: ICML 2026
+  url: https://arxiv.org/abs/2606.10460
   tags:
     - db
     - llm
