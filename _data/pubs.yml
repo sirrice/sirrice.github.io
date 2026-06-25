@@ -171,6 +171,10 @@
     - simulation
   url: https://openreview.net/forum?id=53oRwdZe6k
 
+- title: "Visualization-Oriented Progressive Time Series Transformation"
+  authors: Xin Chen, Lingyu Zhang, Huaiwei Bao, Wei Lu, Eugene Wu, Xiaohui Yu, Yunhai Wang
+  url: https://dl.acm.org/doi/10.1145/3769841
+  conf: SIGMOD 2025
 
 
 - title: "Human-Data Interaction, Exploration, and Visualization in the AI Era: Challenges and Opportunities"
