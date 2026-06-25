@@ -175,6 +175,7 @@
   authors: Xin Chen, Lingyu Zhang, Huaiwei Bao, Wei Lu, Eugene Wu, Xiaohui Yu, Yunhai Wang
   url: https://dl.acm.org/doi/10.1145/3769841
   conf: SIGMOD 2025
+  show: true
 
 
 - title: "Human-Data Interaction, Exploration, and Visualization in the AI Era: Challenges and Opportunities"
