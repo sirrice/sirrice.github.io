@@ -65,6 +65,18 @@
     - llm
     - db
 
+- title: "SANA: What Matters for QA Agents over Massive Data Lakes?"
+  authors: Austin Senna Wijaya, Jiaxiang Liu, Haonan Wang, Eugene Wu
+  conf: arXiv 2026
+  pub_date: "2026-06-01"
+  url: https://arxiv.org/abs/2606.13904
+  tags:
+    - ai
+    - sys
+    - bench
+    - datasearch
+
+
 - title: "Design-Specific Transformations in Visualization"
   authors: Alexandra Scott, Manling Yang, Eugene Wu, Remco Chang
   future: true
@@ -98,7 +110,7 @@
   authors: Maximillian Rossi, Prajwal Raghunath, Eugene Wu
   future: true 
   short: true
-  conf: In Submission 2026
+  conf: AdaptFM Workshop at ICML 2026
   selected: true
   tags:
     - ai
@@ -124,6 +136,8 @@
     - db
     - llm
     - ai
+    - datasearch
+
 - title: "Agentic Data Environments"
   authors: Elaine Ang, Chenxi Huang, Georgios Liargkovas, Jerry Liu, Jinhui Liu, Nikos Pagonas, Charlie Summers, Haonan Wang, Jiakai Xu, Tianle Zhou, Yusen Zhang, Zhou Yu, Zhuo Zhang, Tianyi Peng, Kostis Kaffes, Eugene Wu
   conf: IEEE Data Bulletin 2026
@@ -151,6 +165,18 @@
     - ai
     - llm
     - db
+
+- title: "BranchBench: An Extensible Benchmark for Agentic Database Branching"
+  authors: Elaine Ang, Kostis Kaffes, Eugene Wu
+  conf: CAIS Workshop 2026
+  url: https://bauplanlabs.github.io/SAO-workshop/papers/37.pdf
+  pub_date: "2026-07-01"
+  tags:
+    - ai
+    - sys
+    - bench
+
+
 - title: "Toward Systems Foundations for Agentic Exploration"
   authors: Jiakai Xu, Tianle Zhou, Eugene Wu, Kostis Kaffes
   conf: SAA Workshop at SOSP 2025
