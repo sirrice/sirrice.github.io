@@ -65,6 +65,43 @@
     - llm
     - db
 
+- title: "FlowCheck: Helping End-users Specify and Verify Intent in Vibe-Coded Web Apps"
+  authors: Reya Vir, Lydia Chilton, Zhuo Zhang, Eugene Wu
+  conf: In Review
+  future: true
+  url: https://www.dropbox.com/scl/fi/b5ur6pu7m59ktorrza8hu/flowcheck-lmpl26-submitted.pdf?rlkey=96bk53yfnk4mmk44ujs2dq0f0&dl=0
+  tags:
+    - ai
+    - llm
+
+- title: "Passes Alone, Fails Together: Benchmarking Semantic Coordination in Parallel LLM-Agent Development"
+  authors: Haocheng Xia, Eugene Wu, Yongjoo Park
+  conf: EXPRESS 2026
+  short: true
+  tags:
+    - ai
+    - llm
+    - agents
+
+- title: "SANA: What Matters for QA Agents over Massive Data Lakes?"
+  authors: Austin Senna Wijaya, Jiaxiang Liu, Haonan Wang, Eugene Wu
+  url: https://arxiv.org/abs/2606.13904
+  conf: VLDB DashSys Workshop 2026
+  short: true
+  tags:
+    - ai
+    - llm
+    - db
+
+- title: "ShapeGrid: A Color-Encoded Grid for Quantifying Scatter Plot Similarity"
+  authors: Akshay Lal, Eugene Wu
+  url: https://diglib.eg.org/items/312e1032-d319-4ad5-854b-8c0586087312
+  conf: EuroVis Poster 2026
+  short: true
+  award: Best Poster Award
+  tags:
+    - vis
+
 - title: "Design-Specific Transformations in Visualization"
   authors: Alexandra Scott, Manling Yang, Eugene Wu, Remco Chang
   future: true
@@ -85,21 +122,22 @@
 - title: "Towards a Grammar-Based Theory of Visual Analytics"
   authors: Alexandra Scott, Manling Yang, Ashley Suh, Eugene Wu, Remco Chang
   conf: Visualization Viewpoints 2026
+  url: https://www.dropbox.com/scl/fi/7epbqmpymoo5oy4ryovgl/visgrammar-visviewpoints26-cr.pdf?rlkey=2cvz1kxjbt6ttamg0c15co4v9&dl=0
   tags:
     - vis
 - title: "Visual Decoding Operators: Towards a Compositional Theory of Visualization Perception"
   authors: Sheng Long, Matthew Kay, Alex Kale, Remco Chang, Eugene Wu
-  future: true
-  conf: ArXiV 2026
+  conf: IEEE VIS 2026
   url: https://arxiv.org/pdf/2604.02220
   tags:
     - vis
 - title: "Latent Cache Flow: Model-to-Model Communication Without Text"
   authors: Maximillian Rossi, Prajwal Raghunath, Eugene Wu
-  future: true 
+  future: true
   short: true
   conf: In Submission 2026
   selected: true
+  url: https://arxiv.org/abs/2605.22863
   tags:
     - ai
     - llm
@@ -136,6 +174,7 @@
 - title: "Outrunning LLM Cutoffs: A Live Kernel Crash Resolution Benchmark for All"
   authors: Chenxi Huang, Alex Mathai, Feiyang Yu, Aleksandr Nogikh, Petros Maniatis, Franjo Ivancic, Eugene Wu, Kostis Kaffes, Junfeng Yang, Baishakhi Ray
   conf: ICML 2026
+  url: https://arxiv.org/abs/2602.02690
   tags:
     - ai
     - llm
