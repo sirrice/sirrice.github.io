@@ -4,6 +4,7 @@ import sys
 
 
 mine = """Daniel Alabi
+Austin Senna Wijaya
 Charlie Summers
 Prajwal Raghunath
 Zhibin Shen
@@ -43,6 +44,10 @@ Alexander Yao
 Charlie Summers
 Jiaxiang Liu
 Elaine Ang
+Maximillian Rossi
+Max Rossi
+Mihir Agarwal
+Hongyuan Kang
 Reya Vir
 Tianle Zhou
 Mihir Agarwal
@@ -52,6 +57,11 @@ Chenxi Huang
 Jerry Liu
 Jiakai Xu
 In Keun Kim
+Haonan Wang
+Peter Wang
+Xiang Yu Tuang
+Antonio Li
+Vareesh Bainwala
 Sam Weldon
 Kevin Durand
 Zhengjie Miao"""
@@ -66,7 +76,7 @@ def format_auth(auth):
     name.append(part[0].strip("*") + ".")
   name.append(parts[-1].strip("*"))
   name = " ".join(name)
-  if auth.lower() in mine:
+  if auth.lower().strip().strip("*") in mine:
     return "\\underline{\\bf %s}" % name
   if auth.lower() == "eugene wu":
     return "\\underline{%s}" % name
