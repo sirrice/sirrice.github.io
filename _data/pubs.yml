@@ -76,7 +76,7 @@
 
 - title: "Passes Alone, Fails Together: Benchmarking Semantic Coordination in Parallel LLM-Agent Development"
   authors: Haocheng Xia, Eugene Wu, Yongjoo Park
-  conf: EXPRESS 2026
+  conf: SPLASH EXPRESS Workshop 2026
   short: true
   tags:
     - ai
