@@ -67,8 +67,7 @@
 
 - title: "FlowCheck: Helping End-users Specify and Verify Intent in Vibe-Coded Web Apps"
   authors: Reya Vir, Lydia Chilton, Zhuo Zhang, Eugene Wu
-  conf: In Review
-  future: true
+  conf: LMPL Workshop at SPLASH 2026
   url: https://www.dropbox.com/scl/fi/b5ur6pu7m59ktorrza8hu/flowcheck-lmpl26-submitted.pdf?rlkey=96bk53yfnk4mmk44ujs2dq0f0&dl=0
   tags:
     - ai
