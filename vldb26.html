@@ -354,6 +354,7 @@ kbd {
         <div class="keyboard-guide" aria-label="Keyboard shortcuts">
           <span><kbd>J</kbd><kbd>K</kbd> move</span>
           <span><kbd>X</kbd> toggle</span>
+          <span><kbd>V</kbd> open</span>
         </div>
         <div class="saved-state"><span class="status-dot"></span>Saved in browser + URL</div>
       </div>
@@ -473,11 +474,15 @@ kbd {
       updateSelectionHash();
     }
 
-    function makePaperLink(paper, compact) {
+    function paperDestination(paper) {
+      if (paper.paperUrl) return paper.paperUrl;
       const lastAuthor = paper.authors[paper.authors.length - 1] || "";
-      const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(`"${paper.title}" "${lastAuthor}"`)}`;
+      return `https://www.google.com/search?q=${encodeURIComponent(`"${paper.title}" "${lastAuthor}"`)}`;
+    }
+
+    function makePaperLink(paper, compact) {
       const link = element("a", compact ? "" : "paper-link", compact ? paper.title : `${paper.paperUrl ? (paper.paperSource === "arXiv" ? "arXiv" : "PDF") : "Search"} ↗`);
-      link.href = paper.paperUrl || searchUrl;
+      link.href = paperDestination(paper);
       link.target = "_blank";
       link.rel = "noreferrer";
       link.title = paper.paperUrl ? `Open ${paper.paperSource || "paper"}` : "Search Google by title and last author";
@@ -704,6 +709,9 @@ kbd {
       } else if (key === "x") {
         event.preventDefault();
         togglePaper(papers[activeIndex].stableId);
+      } else if (key === "v") {
+        event.preventDefault();
+        window.open(paperDestination(papers[activeIndex]), "_blank", "noopener,noreferrer");
       }
     });
 
