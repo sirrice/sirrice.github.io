@@ -472,16 +472,13 @@ kbd {
     }
 
     function makePaperLink(paper, compact) {
-      if (!paper.paperUrl) {
-        const pending = element("span", compact ? "" : "paper-link pending", compact ? paper.title : "Link pending");
-        pending.title = "A public paper link has not been added yet";
-        return pending;
-      }
-      const link = element("a", compact ? "" : "paper-link", compact ? paper.title : `${paper.paperSource === "arXiv" ? "arXiv" : "PDF"} ↗`);
-      link.href = paper.paperUrl;
+      const lastAuthor = paper.authors[paper.authors.length - 1] || "";
+      const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(`"${paper.title}" "${lastAuthor}"`)}`;
+      const link = element("a", compact ? "" : "paper-link", compact ? paper.title : `${paper.paperUrl ? (paper.paperSource === "arXiv" ? "arXiv" : "PDF") : "Search"} ↗`);
+      link.href = paper.paperUrl || searchUrl;
       link.target = "_blank";
       link.rel = "noreferrer";
-      link.title = `Open ${paper.paperSource || "paper"}`;
+      link.title = paper.paperUrl ? `Open ${paper.paperSource || "paper"}` : "Search Google by title and last author";
       if (compact) {
         const arrow = element("span", "", " ↗");
         arrow.setAttribute("aria-hidden", "true");
