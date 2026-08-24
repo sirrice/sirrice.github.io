@@ -68,6 +68,31 @@ button { color: inherit; }
 
 .keyboard-guide { display: flex; gap: 20px; color: #cbd5de; font-size: 12px; }
 .keyboard-guide span { display: flex; align-items: center; gap: 5px; }
+.selection-import { display: flex; align-items: center; gap: 5px; min-width: 0; }
+.selection-import input {
+  width: 210px;
+  min-width: 80px;
+  padding: 6px 8px;
+  border: 1px solid #66798b;
+  border-radius: 4px;
+  outline: none;
+  color: white;
+  background: #263b50;
+  font: 11px/1.1 ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+.selection-import input::placeholder { color: #9fb0bf; }
+.selection-import input:focus { border-color: var(--focus); box-shadow: 0 0 0 2px rgba(245,215,110,.2); }
+.selection-import button {
+  padding: 6px 8px;
+  border: 1px solid #718597;
+  border-radius: 4px;
+  color: white;
+  background: #314a61;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 700;
+}
+.selection-import button:hover { border-color: white; }
 kbd {
   min-width: 23px;
   padding: 4px 6px;
@@ -261,6 +286,8 @@ kbd {
   .workspace { grid-template-columns: minmax(340px, .9fr) minmax(0, 1.1fr); }
   .keyboard-guide span { font-size: 0; }
   .keyboard-guide kbd { font-size: 11px; }
+  .selection-import input { width: 150px; }
+  .saved-state { font-size: 0; }
 }
 
 @media (max-width: 820px) {
@@ -270,6 +297,8 @@ kbd {
   .header-pane { height: 52px; padding: 0 10px; gap: 8px; }
   .header-calendar { padding-left: 4px; }
   .calendar-title, .saved-state { display: none; }
+  .keyboard-guide { display: none; }
+  .selection-import input { width: 135px; }
   .brand-mark { width: 38px; height: 38px; }
   .title-block h1 { font-size: 20px; }
   .workspace { height: auto; display: block; overflow: visible; }
@@ -281,7 +310,7 @@ kbd {
 }
 
 @media (max-width: 520px) {
-  .brand-mark, .eyebrow { display: none; }
+  .brand-mark, .eyebrow, .title-block { display: none; }
   .keyboard-guide { gap: 5px; }
   .keyboard-guide kbd:nth-child(2) { display: none; }
   .selection-controls { max-width: 150px; }
@@ -314,6 +343,12 @@ kbd {
           <p class="eyebrow">Live schedule</p>
           <h2 id="calendar-heading">Calendar</h2>
         </div>
+        <form class="selection-import" id="selection-import">
+          <label class="sr-only" for="paper-id-import">Paper IDs or shared URL</label>
+          <input id="paper-id-import" type="text" placeholder=".p-9cf48e2b7a8f…" title="Copy this selection fragment, or edit it and set the selection" aria-describedby="import-status">
+          <button type="submit">Set</button>
+          <span class="sr-only" id="import-status" aria-live="polite"></span>
+        </form>
         <div class="keyboard-guide" aria-label="Keyboard shortcuts">
           <span><kbd>J</kbd><kbd>K</kbd> move</span>
           <span><kbd>X</kbd> toggle</span>
@@ -346,6 +381,10 @@ kbd {
     const selectedCount = document.getElementById("selected-count");
     const paperCount = document.getElementById("paper-count");
     const selectionStatus = document.getElementById("selection-status");
+    const importForm = document.getElementById("selection-import");
+    const importInput = document.getElementById("paper-id-import");
+    const importStatus = document.getElementById("import-status");
+    const validStableIds = new Set(papers.map((paper) => paper.stableId));
 
     function element(tag, className, text) {
       const node = document.createElement(tag);
@@ -362,6 +401,11 @@ kbd {
       if (text.includes("interactive") || text.includes("debug")) return "orange";
       if (text.includes("pipeline") || text.includes("preparation")) return "rose";
       return "slate";
+    }
+
+    function paperIdsFromText(text) {
+      return [...new Set((text.match(/p-[0-9a-f]{12}/gi) || []).map((id) => id.toLowerCase()))]
+        .filter((id) => validStableIds.has(id));
     }
 
     function encodeSelection() {
@@ -528,6 +572,8 @@ kbd {
       selectedCount.textContent = String(checked.size);
       paperCount.textContent = String(papers.length);
       selectionStatus.textContent = `${checked.size} of ${papers.length} papers checked.`;
+      const encoded = encodeSelection();
+      importInput.value = encoded ? `.${encoded}` : "";
     }
 
     function togglePaper(id) {
@@ -625,6 +671,25 @@ kbd {
 
     document.getElementById("check-all").addEventListener("click", selectAll);
     document.getElementById("clear-all").addEventListener("click", clearAll);
+    importForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      if (!importInput.value.trim()) {
+        clearAll();
+        importStatus.textContent = "Selection cleared";
+        return;
+      }
+      const ids = paperIdsFromText(importInput.value);
+      if (!ids.length) {
+        importStatus.textContent = "No valid paper IDs found";
+        return;
+      }
+      checked = new Set(ids);
+      saveState();
+      updateRows();
+      updateCounts();
+      renderCalendar();
+      importStatus.textContent = `Set selection to ${ids.length} paper${ids.length === 1 ? "" : "s"}`;
+    });
     window.addEventListener("keydown", (event) => {
       const target = event.target;
       if (target?.isContentEditable || ["INPUT", "TEXTAREA", "SELECT"].includes(target?.tagName)) return;
