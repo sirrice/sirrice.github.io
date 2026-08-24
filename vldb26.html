@@ -407,7 +407,9 @@ kbd {
     }
 
     function paperIdsFromText(text) {
-      return [...new Set((text.match(/p-[0-9a-f]{12}/gi) || []).map((id) => id.toLowerCase()))]
+      const encodedSelection = text.match(/(?:^|[?#&])papers=([^&#\s]*)/i)?.[1];
+      const selectionText = encodedSelection ? decodeURIComponent(encodedSelection) : text;
+      return [...new Set((selectionText.match(/p-[0-9a-f]{12}/gi) || []).map((id) => id.toLowerCase()))]
         .filter((id) => validStableIds.has(id));
     }
 
@@ -427,10 +429,17 @@ kbd {
       );
     }
 
+    function activeIndexFromHash() {
+      const activeId = new URLSearchParams(location.hash.slice(1)).get("active");
+      const index = papers.findIndex((paper) => paper.stableId === activeId);
+      return index >= 0 ? index : 0;
+    }
+
     function updateSelectionHash() {
       const params = new URLSearchParams(location.hash.slice(1));
       params.delete("sel");
       params.set("papers", encodeSelection());
+      params.set("active", papers[activeIndex].stableId);
       const next = `${location.pathname}${location.search}#${params.toString()}`;
       try {
         history.replaceState(null, "", next);
@@ -562,6 +571,7 @@ kbd {
         row.setAttribute("aria-selected", String(active));
       });
       document.querySelector(`[data-paper-index="${activeIndex}"]`)?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      updateSelectionHash();
     }
 
     function updateRows() {
@@ -716,6 +726,7 @@ kbd {
     });
 
     loadState();
+    activeIndex = activeIndexFromHash();
     buildPaperList();
     updateCounts();
     renderCalendar();
