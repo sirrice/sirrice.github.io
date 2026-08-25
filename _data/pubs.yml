@@ -53,6 +53,17 @@
 #    - vis
 #
 
+- title: "Environment Steering: Using Data Flow Control to Improve Agent Utility and Safety"
+  authors: Charlie Summers, Prajwal Raghunath, Aaditya Pai, Mayur Kulkarni, Zhuo Zhang, Oliver Kennedy, Eugene Wu
+  conf: In Review 2026
+  selected: true
+  show: true
+  tags:
+    - ai
+    - ml
+    - llm
+    - db
+
 - title: "Data Flow Control: Data Safety Policies for AI Agents"
   authors: Charlie Summers, Eugene Wu
   url: https://arxiv.org/abs/2606.05679
