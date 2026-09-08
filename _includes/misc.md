@@ -127,6 +127,8 @@ North East DB Day ([2016](http://mitdbg.github.io/nedbday/2016))
 
 [Mortal Kombat Papers](./ninjas.html)
 
+[Slide with Notes Creator](./slidenotes.html)
+
 #### Some Interesting Links
 
 * [I made tea](http://www.telescopictext.com/)
