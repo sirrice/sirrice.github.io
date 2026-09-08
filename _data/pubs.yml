@@ -182,6 +182,7 @@
   authors: Elaine Ang, Chenxi Huang, Georgios Liargkovas, Jerry Liu, Jinhui Liu, Nikos Pagonas, Charlie Summers, Haonan Wang, Jiakai Xu, Tianle Zhou, Yusen Zhang, Zhou Yu, Zhuo Zhang, Tianyi Peng, Kostis Kaffes, Eugene Wu
   conf: IEEE Data Bulletin 2026
   url: http://sites.computer.org/debull/A26mar/p5.pdf
+  slides: ./talks/2026-09-agentic-data-envs.html
   selected: true
   tags:
     - ai

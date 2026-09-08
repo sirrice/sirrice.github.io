@@ -22,7 +22,7 @@ I am broadly interested in problems where academic research has a [competitive a
 
 
 
-Applicants should read [The PhD Application from a Faculty's Perspective]({{"./general/2024/11/28/phdtips.html" | relative_url}})
+Applicants should read [The PhD Application from a Faculty's Perspective]({{"./general/2024/11/28/phdtips.html" | relative_url}}).  Don't contact me if you plan to use an LLM to create your email.
 <ul class="apply">
   <li><strong>PhDs</strong>: read recent work of interest, provide evidence you can conduct research, include “bananas” in the subject line.</li>
   <li><strong>Postdocs</strong>: how you can best make use of the lab?  what’s a project we could work on? Include “satsuma” in the subject line.</li>
