@@ -12,8 +12,9 @@ OH: Thurs 11:30AM EST 421 Mudd
 
 Co-Chair: [Data, Media & Society](http://datascienceinstitute.github.io)    
 Co-Director: [DAPLab](https://columbia-dap-lab.github.io)   
+Board: [Society of Fellow and Heyman Center](https://sofheyman.org/)    
 Advisor:  [CS+Journalism MS Dual Degree](http://www.cs.columbia.edu/education/ms/journalism/)    
-Member: Columbia [DAPLab](https://dap.cs.columbia.edu), [DB](http://cudbg.github.io/), [CS](http://www.cs.columbia.edu/), [DSI](http://datascience.columbia.edu/), [CAIL](https://cail.columbia.edu/)
+Member: [DB](http://cudbg.github.io/), [CS](http://www.cs.columbia.edu/), [DSI](http://datascience.columbia.edu/), [CAIL](https://cail.columbia.edu/)
 
 
 
