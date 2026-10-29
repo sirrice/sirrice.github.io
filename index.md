@@ -3,6 +3,7 @@ layout: index
 tags: 
 ---
 
+* Oct-2026: Annotated slides for my talk on [Environment Steering](https://eugenewu.net/talks/2026-fall-microsoft-eval-workshop-notes.html) at the 2026 Microsoft AI Agent Evaluation Workshop. 
 * Sep-2026: Annotated slides for my keynote on [Early Thoughts on Agentic Data Environments](https://eugenewu.net/talks/2026-09-agentic-data-envs.html), presented at the 2026 NOVAS and DashSys VLDB Workshops.
 * July-2025: Columbia data management had a [strong showing at SIGMOD 2025](https://eugenewu.net/general/2025/07/01/sigmod.html) with a test-of-time award, best demo award, best paper award at DEEM, 5 papers, a keynote, a workshop, a tutorial, and a panel!
 * Nov-2023: Excited to present our vision of [Task-based Dataset Search](https://arxiv.org/pdf/2308.05637.pdf) at [CIDR 2024](https://www.cidrdb.org/cidr2024/program.html) in January and  [our vision about using documentation to tackle data ambiguity](https://openreview.net/pdf?id=FflKTuIRTD) at the Table Representation Learning Workshop at NeurIPS 2023.
